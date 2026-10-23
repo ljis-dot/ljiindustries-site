@@ -1,0 +1,43 @@
+# LJI Industries LLC
+
+> Practical AI consulting for small businesses and solo operators, plus Briefed, a daily AI news edition with per-story source verification (beta waitlist).
+
+Website: https://ljiindustries.com/
+Contact: info@ljiindustries.com (email to book a 60-minute Starter Session or join the Briefed waitlist)
+
+## Services
+- AI Strategy & Readiness Assessment: A clear look at your operations, tools, and data to find where AI fits, what to skip, and a prioritized roadmap you can act on.
+- Workflow Automation: Connect the apps you already use so data entry, follow-ups, scheduling, and reporting happen automatically, with a human in the loop where it matters.
+- AI Assistant & Chatbot Setup: Internal assistants trained on your own documents, or a website chatbot that answers common questions and hands off to your team.
+- Staff Training & Workshops: Hands-on sessions that get your team confident with everyday AI tools: better prompts, real use cases from your work, and what not to paste in.
+- Data & Document Organization: Clean up shared drives, standardize files and naming, and structure your knowledge so both people and AI tools can find the right answer fast.
+- AI Policy & Privacy Guardrails: A plain-language AI use policy, approved-tool list, and data-handling rules so your team can use AI without exposing customer or business information.
+- Marketing & Content with AI: Set up repeatable, on-brand workflows for social posts, newsletters, product descriptions, and local SEO, with human review built in.
+- Customer-Support Automation: Triage inboxes, draft replies, and build a help-center knowledge base so customers get faster answers and your team handles the tricky ones.
+- Ongoing Advisory Retainer: A standing monthly check-in to tune what's working, evaluate new tools, and answer questions as they come up, without hiring full-time.
+- AI Tool Selection & Vendor Review: Unbiased comparison of AI software and add-ons for your needs, including cost, privacy terms, and lock-in, before you sign up.
+- Reporting & Business Insights: Turn spreadsheets, sales, and booking data into simple dashboards and automated weekly summaries you can actually read.
+- Proposal, Quote & Admin Drafting: Templates and AI helpers for estimates, proposals, SOPs, and job documentation, so paperwork stops eating evenings.
+
+## How engagements work
+- Discover: book a Starter Session to review your business, tools, and slow tasks.
+- Plan: receive a short written plan with prioritized quick wins, effort, and risks.
+- Build & train: implement chosen solutions and train your team.
+- Support & improve: optional monthly advisory.
+
+## Briefed
+Briefed is a daily news edition with the receipts: each story comes with source verification. It is heading into a free beta; email info@ljiindustries.com to join the waitlist.
+
+## FAQ
+- Q: Do I need to be technical to work with you?
+  A: No. Sessions are in plain English, and everything we set up comes with simple instructions and training for your team.
+- Q: What kinds of businesses do you work with?
+  A: Small businesses and solo operators across industries: service businesses, professional practices, retail, trades, nonprofits, and more. If your team spends time on repetitive admin, there's usually something worth automating.
+- Q: What happens in the Starter Session?
+  A: We spend 60 minutes reviewing your workflows and tools, identify 2–3 realistic quick wins, and flag any risks. You'll receive a short written action plan afterward.
+- Q: Is my business data safe?
+  A: Privacy is part of every recommendation. We favor tools with clear data-protection terms, avoid putting sensitive data where it doesn't belong, and can help you write an AI use policy for your team.
+- Q: Which AI tools do you use?
+  A: Whatever fits your business and budget. Often that means getting more out of tools you already pay for before adding anything new. Recommendations are vendor-neutral.
+- Q: When will Briefed be available?
+  A: Briefed is heading into a free beta. Join the waitlist above and we'll email you when spots open.
