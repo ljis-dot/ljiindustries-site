@@ -1,0 +1,31 @@
+# Briefed daily build. ON THE briefed-page BRANCH ONLY; not active on main until approved.
+# Trigger: the morning job commits editions/YYYY-MM-DD.json (schema v1, audio.url pointing at the
+# GitHub Release briefed-YYYY-MM-DD). This rebuilds /briefed/ and commits the generated pages.
+name: briefed-build
+on:
+  push:
+    branches: [briefed-page]
+    paths: ["editions/**", "tools/build_briefed.py"]
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency: { group: briefed-build, cancel-in-progress: false }
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Check audio URLs
+        run: |
+          for f in editions/*.json; do
+            u=$(python3 -c "import json,sys;a=json.load(open('$f')).get('audio') or {};print(a.get('url',''))")
+            [ -z "$u" ] || curl -sfIL "$u" >/dev/null || { echo "::error::audio URL unreachable in $f: $u"; exit 1; }
+          done
+      - run: python3 tools/build_briefed.py
+      - name: Commit generated pages
+        run: |
+          git config user.name "briefed-bot"; git config user.email "info@ljiindustries.com"
+          git add briefed sitemap.xml
+          git diff --cached --quiet || git commit -m "Briefed: rebuild pages" && git push

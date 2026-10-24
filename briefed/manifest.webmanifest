@@ -1,0 +1,23 @@
+{
+  "name": "Briefed",
+  "short_name": "Briefed",
+  "description": "The facts on the day's stories, with links to the original reporting.",
+  "start_url": "/briefed/",
+  "scope": "/briefed/",
+  "display": "standalone",
+  "theme_color": "#1d4ed8",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
