@@ -1,3 +1,4 @@
+# TEMPLATE ONLY (not active). Move to .github/workflows/ once a token with Workflows permission (or Levi in the GitHub UI) adds it.
 # Briefed daily build. ON THE briefed-page BRANCH ONLY; not active on main until approved.
 # Trigger: the morning job commits editions/YYYY-MM-DD.json (schema v1, audio.url pointing at the
 # GitHub Release briefed-YYYY-MM-DD). This rebuilds /briefed/ and commits the generated pages.
