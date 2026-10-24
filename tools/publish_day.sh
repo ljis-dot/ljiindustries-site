@@ -20,7 +20,7 @@ AUDIO_URL="https://github.com/$OWNER_REPO/releases/download/$TAG/Briefed-$DAY-fu
 if [ $DRY = 1 ]; then
   WORK="$(mktemp -d)"; (cd "$REPO_DIR" && git archive HEAD) | tar -x -C "$WORK"
   cp "$REPO_DIR/tools/"*.py "$WORK/tools/"   # test uncommitted tool changes too
-  log "DRY RUN in $WORK (would create release $TAG and upload 2 assets)"
+  log "DRY RUN in $WORK (would create/reuse release $TAG and upload MP3, chapters, and web MP4 + poster if present)"
 else
   : "${LJI_SITE_GITHUB_TOKEN:?LJI_SITE_GITHUB_TOKEN not set}"
   WORK="$REPO_DIR"
@@ -34,11 +34,13 @@ else
       | python3 -c "import json,sys;d=json.load(sys.stdin);print(d.get('id') or '')")
     [ -n "$RID" ] || { echo "release create failed" >&2; exit 4; }; log "created release $TAG ($RID)"
   else log "release $TAG exists ($RID)"; fi
-  for f in "$MP3" "$CH"; do
+  ASSETS=("$MP3" "$CH")
+  for f in "$SRC/v2/Briefed-$DAY-web.mp4" "$SRC/v2/Briefed-$DAY-poster.jpg"; do [ -s "$f" ] && ASSETS+=("$f"); done
+  for f in "${ASSETS[@]}"; do
     n=$(basename "$f")
     old=$(gh_api "$API/releases/$RID/assets?per_page=100" | python3 -c "import json,sys;print(next((str(a['id']) for a in json.load(sys.stdin) if a['name']=='$n'),''))")
     [ -n "$old" ] && gh_api -X DELETE "$API/releases/assets/$old" >/dev/null && log "replaced old asset $n"
-    ct=$([[ $n == *.mp3 ]] && echo audio/mpeg || echo application/json)
+    case "$n" in *.mp3) ct=audio/mpeg;; *.mp4) ct=video/mp4;; *.jpg) ct=image/jpeg;; *) ct=application/json;; esac
     code=$(curl -sS -o /dev/null -w '%{http_code}' -H "Authorization: Bearer $LJI_SITE_GITHUB_TOKEN" -H "Content-Type: $ct" --data-binary @"$f" \
       "https://uploads.github.com/repos/$OWNER_REPO/releases/$RID/assets?name=$n")
     [ "$code" = 201 ] || { echo "upload $n failed: HTTP $code" >&2; exit 5; }; log "uploaded $n"
@@ -47,7 +49,7 @@ else
 fi
 
 # --- convert + build ---
-python3 "$WORK/tools/make_edition.py" "$DAY" "$WORK/editions/$DAY.json" --audio-url "$AUDIO_URL"
+python3 "$WORK/tools/make_edition.py" "$DAY" "$WORK/editions/$DAY.json" --audio-url "$AUDIO_URL" --release-base "https://github.com/$OWNER_REPO/releases/download/$TAG"
 (cd "$WORK" && python3 tools/build_briefed.py)
 
 if [ $DRY = 1 ]; then

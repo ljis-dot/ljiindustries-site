@@ -87,10 +87,26 @@ def main():
     ed = {"schemaVersion": 1, "date": day, "generatedAt": ch.get("edition", {}).get("generatedAt", day), "stories": stories}
     if audio_url:
         ed["audio"] = {"url": audio_url, "durationSeconds": ch.get("durationSeconds"), "aiVoices": True, "chapters": chapters}
+    # optional video: v2/Briefed-<day>-web.mp4 + v2/Briefed-<day>-poster.jpg + v2/video-chapters.json
+    vbase = sys.argv[sys.argv.index("--release-base") + 1].rstrip("/") if "--release-base" in sys.argv else None
+    vmp4 = os.path.join(base, "v2", f"Briefed-{day}-web.mp4")
+    vch = os.path.join(base, "v2", "video-chapters.json")
+    if vbase and os.path.exists(vmp4) and os.path.exists(vch):
+        vc = json.load(open(vch))["chapters"]
+        ids = {s["id"] for s in stories}
+        for c in vc:
+            if c.get("kind") == "story" and c["id"] not in ids: warn.append(f"video chapter {c['id']} matches no story")
+        vchap = [{"storyId": c["id"] if c.get("kind") == "story" else None,
+                  "title": "Intro" if c.get("kind") == "intro" else "Close" if c.get("kind") == "close" else titles.get(c["id"], c["id"]),
+                  "start": round(c["start"], 3), "end": round(c["end"], 3)} for c in vc]
+        video = {"url": f"{vbase}/Briefed-{day}-web.mp4", "durationSeconds": round(vc[-1]["end"], 3), "aiVoices": True, "chapters": vchap}
+        if os.path.exists(os.path.join(base, "v2", f"Briefed-{day}-poster.jpg")):
+            video["poster"] = f"{vbase}/Briefed-{day}-poster.jpg"
+        ed["video"] = video
     os.makedirs(os.path.dirname(os.path.abspath(out)), exist_ok=True)
     json.dump(ed, open(out, "w"), indent=1, ensure_ascii=False)
     for w in warn: print("WARN:", w, file=sys.stderr)
-    print(f"wrote {out}: {len(stories)} stories, {len(chapters)} chapters, audio={'yes' if audio_url else 'no'}")
+    print(f"wrote {out}: {len(stories)} stories, {len(chapters)} chapters, audio={'yes' if audio_url else 'no'}, video={'yes' if ed.get('video') else 'no'}")
 
 if __name__ == "__main__":
     main()

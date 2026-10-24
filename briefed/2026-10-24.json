@@ -153,5 +153,55 @@
     "end": 115.401
    }
   ]
+ },
+ "video": {
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-10-24/Briefed-2026-10-24-web.mp4",
+  "durationSeconds": 115.401,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": null,
+    "title": "Intro",
+    "start": 0.0,
+    "end": 10.329
+   },
+   {
+    "storyId": "iran-plots-us-personnel",
+    "title": "DNI warns of advanced Iran plots vs. Americans",
+    "start": 10.329,
+    "end": 29.108
+   },
+   {
+    "storyId": "four-corners-floods-pm",
+    "title": "Record San Juan River crest; more rain ahead",
+    "start": 29.108,
+    "end": 51.74
+   },
+   {
+    "storyId": "spr-lake-charles",
+    "title": "SPR loan steadies Louisiana refinery",
+    "start": 51.74,
+    "end": 70.205
+   },
+   {
+    "storyId": "u-visa-staged-robberies",
+    "title": "2 years for staged-robbery visa fraud",
+    "start": 70.205,
+    "end": 85.484
+   },
+   {
+    "storyId": "starlink-ukraine-restored",
+    "title": "Starlink restored in Ukraine; Musk alleges violation",
+    "start": 85.484,
+    "end": 105.856
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 105.856,
+    "end": 115.401
+   }
+  ],
+  "poster": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-10-24/Briefed-2026-10-24-poster.jpg"
  }
 }

@@ -150,47 +150,73 @@ def story_card(s, n, chap):
   {listen}
 </article>'''
 
-def player(ed):
-    a = ed.get("audio")
-    if not a or not a.get("url"): return "", ""
-    items = []
-    for c in a["chapters"]:
-        items.append(f'<li><button type="button" data-start="{c["start"]:.3f}" data-story="{e(c.get("storyId") or "")}"><span class="t">{fmt_t(c["start"])}</span> {e(c["title"])}</button></li>')
-    html_ = f'''<section class="b-player card" aria-label="Listen to today's edition">
-  <div class="b-player-top"><strong>Listen to the edition</strong> <span class="b-ai" title="Audio narrated by AI-generated voices from Briefed's written edition.">AI-voiced</span> <span class="b-dur">{fmt_t(a.get("durationSeconds", 0))}</span></div>
-  <audio id="b-audio" controls preload="metadata" src="{e(a["url"])}"></audio>
-  <p class="b-disclose">Audio narrated by AI-generated voices from Briefed's written edition.</p>
-  <ol class="b-chapters">{"".join(items)}</ol>
-</section>'''
-    js = '''<script>
-(function(){var au=document.getElementById('b-audio');if(!au)return;
-function go(t){au.currentTime=t;var p=au.play();if(p&&p.catch)p.catch(function(){});}
-document.querySelectorAll('[data-start]').forEach(function(b){b.addEventListener('click',function(){go(parseFloat(b.dataset.start));});});
-var marks=[].slice.call(document.querySelectorAll('.b-chapters button')).map(function(b){return{t:parseFloat(b.dataset.start),id:b.dataset.story,el:b};});
-au.addEventListener('timeupdate',function(){var cur=null;marks.forEach(function(m){if(au.currentTime>=m.t-0.05)cur=m;});
-marks.forEach(function(m){m.el.classList.toggle('on',m===cur);});
-document.querySelectorAll('.b-story').forEach(function(s){s.classList.toggle('playing',!!cur&&cur.id===s.dataset.story);});});
-})();
-</script>'''
-    return html_, js
+def short_date(d):
+    y, m, dd = map(int, d.split("-"))
+    return date(y, m, dd).strftime("%a, %b %-d, %Y")
 
-def edition_body(ed, is_latest):
-    chaps = chapter_map(ed)
+def media_chapters(ed):
+    v = ed.get("video") or {}
+    if v.get("url") and v.get("chapters"): return v["chapters"]
+    return (ed.get("audio") or {}).get("chapters", [])
+
+AI_TITLE = "Narrated by AI-generated voices from Briefed's written edition."
+
+def player(ed):
+    """Compact media block. Video (if present) on top with a synced story panel; else a one-line audio player."""
+    v, a = ed.get("video") or {}, ed.get("audio") or {}
+    has_video = bool(v.get("url"))
+    if not has_video and not a.get("url"): return "", ""
+    chaps = media_chapters(ed)
+    items = "".join('<li><button type="button" data-start="%.3f" data-end="%.3f" data-story="%s"><span class="t">%s</span> %s</button></li>'
+                    % (c["start"], c.get("end") or 0, e(c.get("storyId") or ""), fmt_t(c["start"]), e(c["title"])) for c in chaps)
+    dur = (v if has_video else a).get("durationSeconds") or 0
+    toggle = ('<details class="b-chap"><summary>Chapters (%d)</summary><ol class="b-chapters">%s</ol></details>' % (len(chaps), items)) if chaps else ""
+    ai = '<span class="b-ai" title="%s">AI-voiced</span>' % e(AI_TITLE)
+    if has_video:
+        poster = ' poster="%s"' % e(v["poster"]) if v.get("poster") else ""
+        media = ('<div class="b-video-wrap"><video id="b-media" class="b-video" controls playsinline preload="metadata"%s src="%s"></video></div>\n'
+                 '<div class="b-mbar">%s<span class="b-mlabel">Video edition &middot; %s</span>%s</div>\n'
+                 '<div id="b-panel" class="b-panel" aria-live="polite" hidden></div>') % (poster, e(v["url"]), ai, fmt_t(dur), toggle)
+    else:
+        media = ('<audio id="b-media" preload="metadata" src="%s"></audio>\n'
+                 '<noscript><audio controls preload="none" src="%s"></audio></noscript>\n'
+                 '<div class="b-mbar"><button type="button" class="b-play" id="b-play" aria-label="Play">&#9654;</button>'
+                 '<input type="range" id="b-seek" class="b-seek" min="0" max="%.1f" step="0.1" value="0" aria-label="Seek">'
+                 '<span class="b-time" id="b-time">0:00 / %s</span>%s%s</div>') % (e(a["url"]), e(a["url"]), dur, fmt_t(dur), ai, toggle)
+    html_ = '<section class="b-player card%s" aria-label="Listen to or watch the edition">\n%s\n</section>' % (" b-has-video" if has_video else "", media)
+    return html_, "<script>" + open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "briefed_player.js")).read() + "</script>"
+
+BADGES = {"cleared": ("Cleared", "ok"), "sourced": ("Sourced", "ok"), "reported-only": ("Reported only", "warn")}
+
+def panel_data(ed):
+    out = {}
+    for i, s in enumerate(ed["stories"]):
+        bd = BADGES.get(s.get("status"), (s.get("status", "").title(), "warn"))
+        kick = ("Lead story · " if i == 0 else "") + ("World" if s.get("region") == "foreign" else "U.S.") + ((" · " + s["location"]) if s.get("location") else "")
+        out[s["id"]] = {"headline": s["headline"], "summary": s.get("summary"), "why": s.get("whyItMattersToUS"), "statusNote": s.get("statusNote"),
+                        "badge": bd[0], "badgeClass": bd[1], "kicker": kick, "outlets": s.get("outlets", []), "officialSources": s.get("officialSources", [])}
+    return json.dumps({"stories": out}).replace("</", "<\\/")
+
+def daynav(prev_day, next_day):
+    if not prev_day and not next_day: return ""  # only one edition: hide the row
+    pv = ('<a class="b-pn" href="/briefed/%s/" rel="prev">&larr; Previous day</a>' % prev_day) if prev_day else '<span class="b-pn off" aria-disabled="true">&larr; Previous day</span>'
+    nx = ('<a class="b-pn" href="/briefed/%s/" rel="next">Next day &rarr;</a>' % next_day) if next_day else '<span class="b-pn off" aria-disabled="true">Next day &rarr;</span>'
+    return '<nav class="b-daynav" aria-label="Edition by day">%s%s</nav>' % (pv, nx)
+
+def edition_body(ed, is_latest, prev_day=None, next_day=None):
+    chaps = {c["storyId"]: c for c in media_chapters(ed) if c.get("storyId")}
     pl, js = player(ed)
     cards = "\n".join(story_card(s, i, chaps.get(s["id"])) for i, s in enumerate(ed["stories"]))
-    label = "Today's edition" if is_latest else "Edition"
-    return f'''<section class="b-hero"><div class="wrap b-narrow">
-  <span class="eyebrow">Briefed · {label}</span>
-  <h1>{e(long_date(ed["date"]))}</h1>
-  <p class="lead">The facts on things that really happened, with links to the original reporting and the official sources.</p>
-  <p class="b-sub"><a href="/briefed/archive/">Past editions</a> · <a href="/briefed/about/">About Briefed</a> · <a href="/briefed/{ed["date"]}.json">JSON</a></p>
-</div></section>
-<section class="b-main"><div class="wrap b-narrow">
-{pl}
-{cards}
-<p class="b-fine">Headlines and summaries are written by Briefed. Each story links to the original reporting; we do not republish article text.</p>
-</div></section>
-{js}'''
+    d = ed["date"]
+    return ('<section class="b-top"><div class="wrap b-narrow">\n'
+      '<div class="b-topline"><h1 class="b-h1"><span class="eyebrow">Briefed &middot; %s</span> <time datetime="%s">%s</time></h1>'
+      '<span class="b-links"><a href="/briefed/archive/">Archive</a><a href="/briefed/about/">About</a><a href="/briefed/%s.json">JSON</a></span></div>\n'
+      '<p class="b-tag">Just the facts, with sources.</p>\n%s\n</div></section>\n'
+      '<section class="b-main"><div class="wrap b-narrow">\n%s\n%s\n%s\n'
+      '<p class="b-fine">Headlines and summaries are written by Briefed. Each story links to the original reporting; we do not republish article text.</p>\n'
+      '</div></section>\n<script type="application/json" id="b-data">%s</script>\n%s') % (
+      "Today" if is_latest else "Edition", d, e(short_date(d)), d, daynav(prev_day, next_day), pl, cards, daynav(prev_day, next_day), panel_data(ed), js)
+
 
 def jsonld_ed(ed, url):
     return {"@context": "https://schema.org", "@type": "ItemList", "name": f"Briefed: {long_date(ed['date'])}",
@@ -248,7 +274,7 @@ a.b-chip:hover{border-color:var(--brand);text-decoration:none;color:var(--brand)
 .b-listen span{color:var(--muted);font-weight:600;margin-left:4px}
 .b-listen:hover,.b-story.playing .b-listen{background:var(--brand);color:#fff}
 .b-story.playing .b-listen span{color:#dbeafe}
-.b-player{position:sticky;top:76px;z-index:20;margin-top:8px}
+.b-player{position:sticky;top:76px;z-index:20;margin-top:4px;padding:10px 12px}
 .b-player-top{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 .b-ai{display:inline-block;font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:2px 8px;border-radius:6px;background:var(--brand);color:#fff}
 .b-dur{color:var(--muted);font-size:.9rem;margin-left:auto}
@@ -265,7 +291,37 @@ a.b-chip:hover{border-color:var(--brand);text-decoration:none;color:var(--brand)
 .b-arch li a:hover{border-color:var(--brand);text-decoration:none}
 .b-arch .d{display:block;font-weight:700;color:var(--brand)}
 .b-about p{margin-top:10px;color:var(--ink2);font-size:1.05rem}
-@media (max-width:640px){.b-player{position:static;padding:14px}.b-chapters{max-height:140px}.card{padding:16px}.b-hero{padding:28px 0 4px}}
+.b-top{padding:14px 0 4px}
+.b-topline{display:flex;align-items:baseline;justify-content:space-between;gap:6px 14px;flex-wrap:wrap}
+.b-h1{font-size:1.05rem;font-weight:800;letter-spacing:-.01em;margin:0;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.b-h1 .eyebrow{margin:0;font-size:.72rem}
+.b-links{display:flex;gap:12px;font-size:.85rem}
+.b-tag{color:var(--muted);font-size:.88rem;margin-top:2px}
+.b-daynav{display:flex;justify-content:space-between;gap:8px;margin-top:8px;font-size:.88rem}
+.b-main .b-daynav{margin-top:20px}
+.b-pn{padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:#fff;font-weight:600;min-height:36px;display:inline-flex;align-items:center}
+a.b-pn:hover{border-color:var(--brand);text-decoration:none}
+.b-pn.off{color:var(--muted);opacity:.45}
+.b-main{padding:8px 0 48px}
+.b-mbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.b-play{width:40px;height:40px;flex:0 0 40px;border-radius:50%;border:0;background:var(--brand);color:#fff;font-size:.95rem;cursor:pointer;line-height:1}
+.b-play:hover{background:var(--brand2)}
+.b-seek{flex:1 1 120px;min-width:90px;accent-color:var(--brand);height:28px}
+.b-time{font-size:.82rem;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
+.b-mlabel{font-size:.85rem;color:var(--muted)}
+.b-chap{font-size:.85rem;border:0!important;padding:0!important;margin:0!important;background:none!important;box-shadow:none!important}
+.b-chap summary{cursor:pointer;color:var(--brand);font-weight:700;list-style:none;padding:5px 10px;border:1px solid var(--line);border-radius:999px}
+.b-chap summary::-webkit-details-marker{display:none}
+.b-chap summary::after{content:" ▾";transform:none!important;position:static!important;font-size:inherit;color:inherit;margin:0!important}
+.b-chap[open] summary::after{content:" ▴"}
+.b-chap[open]{flex-basis:100%}
+.b-player.b-has-video{position:static}
+.b-video-wrap{margin-bottom:8px;border-radius:10px;overflow:hidden;background:#000}
+.b-video{display:block;width:100%;max-height:60vh;aspect-ratio:16/9;background:#000}
+.b-panel{margin-top:10px;padding:12px 14px;border:1px solid var(--line);border-left:4px solid var(--brand);border-radius:10px;background:var(--soft)}
+.b-panel .b-head{font-size:1.1rem}
+@media (max-width:640px){.b-player{top:68px;padding:8px 10px}.b-links{gap:10px;font-size:.82rem}.b-chapters{max-height:140px}.card{padding:16px}}
+@media (max-width:640px){.b-hero{padding:28px 0 4px}}
 @media (min-width:900px){.b-player{top:84px}}
 '''
 
@@ -274,7 +330,7 @@ def write(path, text):
     open(path, "w", encoding="utf-8").write(text)
 
 def public_json(ed):
-    keep = ["schemaVersion", "date", "generatedAt", "stories", "audio"]
+    keep = ["schemaVersion", "date", "generatedAt", "stories", "audio", "video"]
     return {k: ed[k] for k in keep if k in ed}
 
 def build(root, editions, preview=False):
@@ -295,11 +351,11 @@ def build(root, editions, preview=False):
     for i, ed in enumerate(editions):
         url = f"/briefed/{ed['date']}/"
         desc = f"Briefed for {long_date(ed['date'])}: " + "; ".join(s["headline"] for s in ed["stories"][:3])
-        write(os.path.join(out, ed["date"], "index.html"), page(f"Briefed: {long_date(ed['date'])}", desc[:300], url, edition_body(ed, i == 0), jsonld_ed(ed, url)))
+        write(os.path.join(out, ed["date"], "index.html"), page(f"Briefed: {long_date(ed['date'])}", desc[:300], url, edition_body(ed, i == 0, editions[i + 1]["date"] if i + 1 < len(editions) else None, editions[i - 1]["date"] if i > 0 else None), jsonld_ed(ed, url)))
         write(os.path.join(out, f"{ed['date']}.json"), json.dumps(public_json(ed), indent=1))
     if editions:
         latest = editions[0]
-        write(os.path.join(out, "index.html"), page("Briefed: today's edition | LJI Industries", f"Briefed for {long_date(latest['date'])}: the facts on the day's stories, with links to the original reporting and official sources.", f"/briefed/{latest['date']}/", edition_body(latest, True), jsonld_ed(latest, "/briefed/")))
+        write(os.path.join(out, "index.html"), page("Briefed: today's edition | LJI Industries", f"Briefed for {long_date(latest['date'])}: the facts on the day's stories, with links to the original reporting and official sources.", f"/briefed/{latest['date']}/", edition_body(latest, True, editions[1]["date"] if len(editions) > 1 else None, None), jsonld_ed(latest, "/briefed/")))
         write(os.path.join(out, "latest.json"), json.dumps(public_json(latest), indent=1))
     else:
         write(os.path.join(out, "index.html"), page("Briefed: daily edition | LJI Industries", "Briefed's first US-focused daily edition arrives Sunday, October 25, 2026.", "/briefed/", EMPTY))
