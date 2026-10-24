@@ -9,7 +9,7 @@ No dependencies. Shared look: the CSS is copied from index.html's <style> at bui
 import argparse, html, json, os, re, shutil, sys
 from datetime import date
 
-LAUNCH = "2026-10-25"
+LAUNCH = "2026-10-24"  # first published day (Levi, 2026-10-24 review edition)
 SITE = "https://ljiindustries.com"
 FORBIDDEN = [re.compile(p, re.I) for p in [r"\$\s?\d+\s?(/mo|per month|a month)", r"\bpricing\b", r"\bsubscribe now\b"]]
 MAX_FOREIGN = 2
@@ -303,7 +303,7 @@ def build(root, editions, preview=False):
         write(os.path.join(out, "latest.json"), json.dumps(public_json(latest), indent=1))
     else:
         write(os.path.join(out, "index.html"), page("Briefed: daily edition | LJI Industries", "Briefed's first US-focused daily edition arrives Sunday, October 25, 2026.", "/briefed/", EMPTY))
-        write(os.path.join(out, "latest.json"), json.dumps({"schemaVersion": 1, "date": None, "message": "First edition arrives 2026-10-25."}))
+        write(os.path.join(out, "latest.json"), json.dumps({"schemaVersion": 1, "date": None, "message": "First edition arrives soon."}))
     idx = [{"date": x["date"], "lead": x["stories"][0]["headline"] if x["stories"] else None, "url": f"/briefed/{x['date']}/", "json": f"/briefed/{x['date']}.json", "hasAudio": bool(x.get("audio"))} for x in editions]
     write(os.path.join(out, "index.json"), json.dumps({"schemaVersion": 1, "editions": idx}, indent=1))
     # archive
