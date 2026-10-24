@@ -8,6 +8,9 @@
 <link rel="canonical" href="https://ljiindustries.com/">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/icon-512.png" type="image/png" sizes="512x512">
 <meta name="theme-color" content="#1d4ed8">
 <meta property="og:type" content="website"><meta property="og:site_name" content="LJI Industries">
 <meta property="og:title" content="LJI Industries LLC | Practical AI Consulting for Small Businesses">
@@ -262,7 +265,7 @@
 <style>
 :root{
   --ink:#0f172a; --ink2:#334155; --muted:#64748b; --line:#e2e8f0; --bg:#ffffff; --soft:#f8fafc;
-  --brand:#1d4ed8; --brand2:#0ea5e9; --accent:#f59e0b; --dark:#0b1220; --radius:14px;
+  --brand:#1d4ed8; --brand2:#1e40af; --accent:#f59e0b; --dark:#0b1220; --radius:14px;
   --shadow:0 1px 2px rgba(15,23,42,.06),0 8px 24px rgba(15,23,42,.06);
 }
 *{box-sizing:border-box;margin:0;padding:0}
@@ -293,7 +296,9 @@ header.nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.9);back
 .nav .wrap{display:flex;align-items:center;justify-content:space-between;height:68px}
 .logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:1.1rem;color:var(--ink)}
 .logo:hover{text-decoration:none}
-.logo-mark{width:34px;height:34px;border-radius:9px;background:linear-gradient(135deg,var(--brand),var(--brand2));color:#fff;display:grid;place-items:center;font-size:.8rem;font-weight:800;letter-spacing:.02em}
+.logo-lockup{height:46px;width:auto;display:block}
+.logo-icon{width:34px;height:34px;border-radius:9px;display:block}
+.logo-mark{width:34px;height:34px;border-radius:9px;background:var(--brand);color:#fff;display:grid;place-items:center;font-size:.8rem;font-weight:800;letter-spacing:.02em}
 .logo small{display:block;font-size:.68rem;font-weight:600;color:var(--muted);letter-spacing:.08em;text-transform:uppercase}
 .nav-links{display:flex;gap:26px;align-items:center;list-style:none}
 .nav-links a{color:var(--ink2);font-weight:600;font-size:.94rem}
@@ -302,7 +307,7 @@ header.nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.9);back
 
 /* Hero */
 .hero{padding:96px 0 88px;background:
-  radial-gradient(900px 400px at 85% -10%,rgba(14,165,233,.14),transparent 60%),
+  radial-gradient(900px 400px at 85% -10%,rgba(59,130,246,.10),transparent 60%),
   radial-gradient(700px 380px at -10% 10%,rgba(29,78,216,.10),transparent 60%)}
 .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center}
 .hero p.lead{margin:20px 0 30px}
@@ -338,7 +343,7 @@ header.nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.9);back
 
 /* Briefed */
 .briefed{background:var(--dark);color:#e2e8f0;position:relative;overflow:hidden}
-.briefed::after{content:"";position:absolute;inset:auto -200px -260px auto;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(14,165,233,.25),transparent 65%)}
+.briefed::after{content:"";position:absolute;inset:auto -200px -260px auto;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(59,130,246,.22),transparent 65%)}
 .briefed .eyebrow{color:#7dd3fc}
 .briefed h2{color:#fff}
 .briefed .lead{color:#cbd5e1}
@@ -375,7 +380,7 @@ details[open] summary::after{transform:rotate(45deg)}
 details p{padding:0 0 18px;color:var(--ink2)}
 
 /* Contact / footer */
-.contact{background:linear-gradient(135deg,#1d4ed8,#0ea5e9);color:#fff;text-align:center}
+.contact{background:linear-gradient(135deg,#1d4ed8,#1e40af);color:#fff;text-align:center}
 .contact h2{color:#fff}
 .contact .lead{color:#e0f2fe;margin:0 auto 26px}
 .contact .btn-primary{background:#fff;color:var(--brand)}
@@ -412,8 +417,7 @@ footer .logo{color:#fff}
 <header class="nav">
   <div class="wrap">
     <a href="#top" class="logo" aria-label="LJI Industries home">
-      <span class="logo-mark">LJI</span>
-      <span>LJI Industries<small>Practical AI for small business</small></span>
+      <img class="logo-lockup" src="/logo-lockup.svg" alt="LJI Industries, practical AI for small business" width="218" height="46">
     </a>
     <button class="menu-btn" aria-label="Open menu" aria-expanded="false" onclick="var n=document.getElementById('nav');n.classList.toggle('open');this.setAttribute('aria-expanded',n.classList.contains('open'))">&#9776;</button>
     <ul class="nav-links" id="nav">
@@ -637,7 +641,7 @@ footer .logo{color:#fff}
   <div class="wrap">
     <div class="foot-grid">
       <div>
-        <a href="#top" class="logo"><span class="logo-mark">LJI</span><span>LJI Industries LLC</span></a>
+        <a href="#top" class="logo"><img class="logo-icon" src="/favicon.svg" alt="" width="34" height="34"><span>LJI Industries LLC</span></a>
         <p style="margin-top:12px;max-width:320px">Practical AI consulting for small businesses. Makers of Briefed.</p>
       </div>
       <div>
