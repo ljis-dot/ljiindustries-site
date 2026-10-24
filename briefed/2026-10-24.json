@@ -4,6 +4,23 @@
  "generatedAt": "2026-10-24T17:30:00-04:00",
  "stories": [
   {
+   "id": "iran-plots-us-personnel",
+   "region": "us",
+   "location": "DC",
+   "headline": "DNI memo: Iranian plots against Americans have reached 'advanced stages'",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "investing.com",
+     "url": "https://www.investing.com/news/commodities-news/iran-has-ramped-up-efforts-to-target-us-personnel-intelligence-memo-warns-4970887"
+    }
+   ],
+   "officialSources": [
+    "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html"
+   ],
+   "summary": "Director of National Intelligence Jay Clayton warned Secretary of State Marco Rubio in an Oct. 23 memo that Iran has stepped up efforts to target US personnel, Reuters reported. The State Department has updated travel advisories for more than a dozen Gulf and Middle East countries."
+  },
+  {
    "id": "four-corners-floods-pm",
    "region": "us",
    "location": "NM",
@@ -27,23 +44,6 @@
     "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=PSR&wwa=flood+warning"
    ],
    "summary": "The San Juan River crested at Farmington, N.M., above its 1909 record, after about 20 more overnight rescues in San Juan County. Power is out in Shiprock, evacuated areas remain closed, and officials warn rivers may rise again with more rain."
-  },
-  {
-   "id": "iran-plots-us-personnel",
-   "region": "us",
-   "location": "DC",
-   "headline": "DNI memo: Iranian plots against Americans have reached 'advanced stages'",
-   "status": "reported-only",
-   "outlets": [
-    {
-     "name": "investing.com",
-     "url": "https://www.investing.com/news/commodities-news/iran-has-ramped-up-efforts-to-target-us-personnel-intelligence-memo-warns-4970887"
-    }
-   ],
-   "officialSources": [
-    "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html"
-   ],
-   "summary": "Director of National Intelligence Jay Clayton warned Secretary of State Marco Rubio in an Oct. 23 memo that Iran has stepped up efforts to target US personnel, Reuters reported. The State Department has updated travel advisories for more than a dozen Gulf and Middle East countries."
   },
   {
    "id": "spr-lake-charles",
@@ -107,7 +107,7 @@
  ],
  "audio": {
   "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-10-24/Briefed-2026-10-24-full-twohost.mp3",
-  "durationSeconds": 116.088,
+  "durationSeconds": 115.435,
   "aiVoices": true,
   "chapters": [
    {
@@ -117,40 +117,40 @@
     "end": 10.329
    },
    {
-    "storyId": "four-corners-floods-pm",
-    "title": "Record San Juan River crest; more rain ahead",
-    "start": 10.329,
-    "end": 32.961
-   },
-   {
     "storyId": "iran-plots-us-personnel",
     "title": "DNI warns of advanced Iran plots vs. Americans",
-    "start": 32.961,
-    "end": 52.393
+    "start": 10.329,
+    "end": 29.108
+   },
+   {
+    "storyId": "four-corners-floods-pm",
+    "title": "Record San Juan River crest; more rain ahead",
+    "start": 29.108,
+    "end": 51.74
    },
    {
     "storyId": "spr-lake-charles",
     "title": "SPR loan steadies Louisiana refinery",
-    "start": 52.393,
-    "end": 70.858
+    "start": 51.74,
+    "end": 70.205
    },
    {
     "storyId": "u-visa-staged-robberies",
     "title": "2 years for staged-robbery visa fraud",
-    "start": 70.858,
-    "end": 86.137
+    "start": 70.205,
+    "end": 85.484
    },
    {
     "storyId": "starlink-ukraine-restored",
     "title": "Starlink restored in Ukraine; Musk alleges violation",
-    "start": 86.137,
-    "end": 106.509
+    "start": 85.484,
+    "end": 105.856
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 106.509,
-    "end": 116.055
+    "start": 105.856,
+    "end": 115.401
    }
   ]
  }
