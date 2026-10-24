@@ -1,0 +1,157 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-10-24",
+ "generatedAt": "2026-10-24T17:30:00-04:00",
+ "stories": [
+  {
+   "id": "four-corners-floods-pm",
+   "region": "us",
+   "location": "NM",
+   "headline": "San Juan River crests at record in Farmington; more rain could bring a second rise",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/extreme-weather-flooding-rescues-new-mexico-colorado-331f28a33ea85fba70a4cabe13ee91a3"
+    },
+    {
+     "name": "kob.com",
+     "url": "https://www.kob.com/new-mexico/four-corners-busy-with-rescues-and-flooding-fallout-saturday-morning/"
+    },
+    {
+     "name": "navajotimes.com",
+     "url": "https://navajotimes.com/reznews/floods-strand-families-force-rescues-as-san-juan-river-nears-major-flood-stage/"
+    }
+   ],
+   "officialSources": [
+    "https://forecast.weather.gov/wwamap/wwatxtget.php?cwa=PSR&wwa=flood+warning"
+   ],
+   "summary": "The San Juan River crested at Farmington, N.M., above its 1909 record, after about 20 more overnight rescues in San Juan County. Power is out in Shiprock, evacuated areas remain closed, and officials warn rivers may rise again with more rain."
+  },
+  {
+   "id": "iran-plots-us-personnel",
+   "region": "us",
+   "location": "DC",
+   "headline": "DNI memo: Iranian plots against Americans have reached 'advanced stages'",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "investing.com",
+     "url": "https://www.investing.com/news/commodities-news/iran-has-ramped-up-efforts-to-target-us-personnel-intelligence-memo-warns-4970887"
+    }
+   ],
+   "officialSources": [
+    "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html"
+   ],
+   "summary": "Director of National Intelligence Jay Clayton warned Secretary of State Marco Rubio in an Oct. 23 memo that Iran has stepped up efforts to target US personnel, Reuters reported. The State Department has updated travel advisories for more than a dozen Gulf and Middle East countries."
+  },
+  {
+   "id": "spr-lake-charles",
+   "region": "us",
+   "location": "LA",
+   "headline": "Energy Dept. lends up to 400,000 barrels of SPR crude to Louisiana refinery",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "marketwatch.com",
+     "url": "https://www.marketwatch.com/story/energy-department-authorizes-spr-release-to-deal-with-supply-issues-at-phillips-66-lake-charles-refinery-opis-3920948b"
+    },
+    {
+     "name": "pgjonline.com",
+     "url": "https://pgjonline.com/news/2026/october/doe-authorizes-400-000-bbl-spr-exchange-to-offset-crude-delivery-disruption-at-phillips-66-lake-charles-refinery"
+    }
+   ],
+   "officialSources": [
+    "https://www.energy.gov/articles/energy-department-authorizes-strategic-petroleum-reserve-exchange-support-fuel-supply",
+    "https://www.energy.gov/articles/energy-department-authorizes-strategic-petroleum-reserve-exchange-support-fuel-supply"
+   ],
+   "summary": "The Energy Department authorized an emergency exchange of up to 400,000 barrels from the Strategic Petroleum Reserve's West Hackberry site to Phillips 66's Lake Charles refinery after a crude delivery disruption. The oil must be returned with premium barrels, which DOE says comes at no extra cost to taxpayers."
+  },
+  {
+   "id": "u-visa-staged-robberies",
+   "region": "us",
+   "location": "IL",
+   "headline": "Illinois man gets 2 years for staging hundreds of fake robberies for U visa fraud",
+   "status": "sourced",
+   "outlets": [],
+   "officialSources": [
+    "https://www.justice.gov/usao-ndil/pr/suburban-chicago-man-sentenced-two-years-federal-prison-staging-robberies-help-others",
+    "https://www.justice.gov/usao-ndil/pr/suburban-chicago-man-sentenced-two-years-federal-prison-staging-robberies-help-others"
+   ],
+   "summary": "Parth Nayi, 29, of Woodridge, Ill., was sentenced to two years and fined $50,000 for organizing hundreds of staged armed robberies nationwide so fake victims could seek U visas. Participants paid him $5,000 to $30,000 each, prosecutors said."
+  },
+  {
+   "id": "starlink-ukraine-restored",
+   "region": "foreign",
+   "location": "Ukraine",
+   "headline": "Ukraine says Starlink back to full speed; Musk says Kyiv broke terms",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/russia-ukraine-war-starlink-drones-a3a0139dfc23365550306dd66fe43daa"
+    },
+    {
+     "name": "investing.com",
+     "url": "https://www.investing.com/news/world-news/ukraine-says-starlink-and-starshield-operating-at-400-kph-after-week-of-throttling-4970757"
+    },
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/24/ukraine-starlink-starshield-service-restored.html"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Ukraine said Starlink and Starshield returned to pre-restriction speeds after more than a week of throttling that disrupted front-line drone operations. Elon Musk said SpaceX closed a 'loophole' because Ukraine's military used the service for offensive drone strikes.",
+   "whyItMattersToUS": "A US company's service to a US-backed ally was cut back, and Reuters reports the throttling order came from inside the White House."
+  }
+ ],
+ "audio": {
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-10-24/Briefed-2026-10-24-full-twohost.mp3",
+  "durationSeconds": 116.088,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": null,
+    "title": "Intro",
+    "start": 0.0,
+    "end": 10.329
+   },
+   {
+    "storyId": "four-corners-floods-pm",
+    "title": "Record San Juan River crest; more rain ahead",
+    "start": 10.329,
+    "end": 32.961
+   },
+   {
+    "storyId": "iran-plots-us-personnel",
+    "title": "DNI warns of advanced Iran plots vs. Americans",
+    "start": 32.961,
+    "end": 52.393
+   },
+   {
+    "storyId": "spr-lake-charles",
+    "title": "SPR loan steadies Louisiana refinery",
+    "start": 52.393,
+    "end": 70.858
+   },
+   {
+    "storyId": "u-visa-staged-robberies",
+    "title": "2 years for staged-robbery visa fraud",
+    "start": 70.858,
+    "end": 86.137
+   },
+   {
+    "storyId": "starlink-ukraine-restored",
+    "title": "Starlink restored in Ukraine; Musk alleges violation",
+    "start": 86.137,
+    "end": 106.509
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 106.509,
+    "end": 116.055
+   }
+  ]
+ }
+}
