@@ -174,9 +174,9 @@ def player(ed):
     ai = '<span class="b-ai" title="%s">AI-voiced</span>' % e(AI_TITLE)
     if has_video:
         poster = ' poster="%s"' % e(v["poster"]) if v.get("poster") else ""
-        media = ('<div class="b-video-wrap"><video id="b-media" class="b-video" controls playsinline preload="metadata"%s src="%s"></video></div>\n'
-                 '<div class="b-mbar">%s<span class="b-mlabel">Video edition &middot; %s</span>%s</div>\n'
-                 '<div id="b-panel" class="b-panel" aria-live="polite" hidden></div>') % (poster, e(v["url"]), ai, fmt_t(dur), toggle)
+        media = ('<div class="b-grid"><div class="b-video-wrap"><video id="b-media" class="b-video" controls playsinline preload="metadata"%s src="%s"></video></div>\n'
+                 '<div id="b-panel" class="b-panel" aria-live="polite"><p class="b-panel-empty">Press play: the story being read shows here.</p></div></div>\n'
+                 '<div class="b-mbar">%s<span class="b-mlabel">Video edition &middot; %s</span>%s</div>') % (poster, e(v["url"]), ai, fmt_t(dur), toggle)
     else:
         media = ('<audio id="b-media" preload="metadata" src="%s"></audio>\n'
                  '<noscript><audio controls preload="none" src="%s"></audio></noscript>\n'
@@ -203,19 +203,25 @@ def daynav(prev_day, next_day):
     nx = ('<a class="b-pn" href="/briefed/%s/" rel="next">Next day &rarr;</a>' % next_day) if next_day else '<span class="b-pn off" aria-disabled="true">Next day &rarr;</span>'
     return '<nav class="b-daynav" aria-label="Edition by day">%s%s</nav>' % (pv, nx)
 
+def daynav_inline(prev_day, next_day):
+    pv = ('<a class="b-pi" href="/briefed/%s/" rel="prev" title="Previous day">&larr; Prev</a>' % prev_day) if prev_day else '<span class="b-pi off" aria-disabled="true" title="No earlier edition">&larr; Prev</span>'
+    nx = ('<a class="b-pi" href="/briefed/%s/" rel="next" title="Next day">Next &rarr;</a>' % next_day) if next_day else '<span class="b-pi off" aria-disabled="true" title="This is the latest edition">Next &rarr;</span>'
+    return pv + nx
+
 def edition_body(ed, is_latest, prev_day=None, next_day=None):
     chaps = {c["storyId"]: c for c in media_chapters(ed) if c.get("storyId")}
     pl, js = player(ed)
     cards = "\n".join(story_card(s, i, chaps.get(s["id"])) for i, s in enumerate(ed["stories"]))
     d = ed["date"]
-    return ('<section class="b-top"><div class="wrap b-narrow">\n'
+    nav = daynav(prev_day, next_day)
+    return ('<div class="b-stick" id="b-stick"><div class="wrap b-narrow">\n'
       '<div class="b-topline"><h1 class="b-h1"><span class="eyebrow">Briefed &middot; %s</span> <time datetime="%s">%s</time></h1>'
-      '<span class="b-links"><a href="/briefed/archive/">Archive</a><a href="/briefed/about/">About</a><a href="/briefed/%s.json">JSON</a></span></div>\n'
-      '<p class="b-tag">Just the facts, with sources.</p>\n%s\n</div></section>\n'
-      '<section class="b-main"><div class="wrap b-narrow">\n%s\n%s\n%s\n'
+      '<span class="b-links">%s<a href="/briefed/archive/">Archive</a><a href="/briefed/about/">About</a></span></div>\n'
+      '%s\n</div></div>\n'
+      '<section class="b-main"><div class="wrap b-narrow">\n<p class="b-tag">Just the facts, with sources. <a href="/briefed/%s.json">JSON</a></p>\n%s\n%s\n'
       '<p class="b-fine">Headlines and summaries are written by Briefed. Each story links to the original reporting; we do not republish article text.</p>\n'
       '</div></section>\n<script type="application/json" id="b-data">%s</script>\n%s') % (
-      "Today" if is_latest else "Edition", d, e(short_date(d)), d, daynav(prev_day, next_day), pl, cards, daynav(prev_day, next_day), panel_data(ed), js)
+      "Today" if is_latest else "Edition", d, e(short_date(d)), daynav_inline(prev_day, next_day), pl, d, cards, nav, panel_data(ed), js)
 
 
 def jsonld_ed(ed, url):
@@ -322,6 +328,53 @@ a.b-pn:hover{border-color:var(--brand);text-decoration:none}
 .b-panel .b-head{font-size:1.1rem}
 @media (max-width:640px){.b-player{top:68px;padding:8px 10px}.b-links{gap:10px;font-size:.82rem}.b-chapters{max-height:140px}.card{padding:16px}}
 @media (max-width:640px){.b-hero{padding:28px 0 4px}}
+/* ---- sticky top block (date line + media + current-story panel) ---- */
+.b-stick{position:sticky;top:68px;z-index:40;background:rgba(255,255,255,.97);backdrop-filter:saturate(180%) blur(8px);border-bottom:1px solid var(--line);padding:8px 0 10px;box-shadow:0 6px 16px rgba(15,23,42,.05)}
+.b-stick .b-topline{margin-bottom:6px}
+.b-stick{max-height:calc(100vh - 80px);overflow-y:auto;overscroll-behavior:contain}
+.b-stick .b-player{position:static;margin:0;padding:8px 10px;box-shadow:none}
+.b-stick .b-links a.b-pi,.b-stick .b-links span.b-pi{font-weight:700}
+.b-pi{font-weight:700}
+.b-pi.off{color:var(--muted);opacity:.45}
+.b-main .b-tag{margin:10px 0 0}
+.b-has-video .b-grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:12px;align-items:start}
+.b-has-video .b-video-wrap{margin:0}
+.b-has-video .b-video{max-height:34vh}
+.b-has-video .b-panel{margin:0;max-height:34vh;overflow:auto}
+.b-panel .b-sum{display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden;font-size:.93rem}
+.b-panel .b-why{font-size:.88rem;padding:6px 10px}
+.b-panel .b-chips{margin-top:8px}
+.b-panel-empty{color:var(--muted);font-size:.92rem}
+.b-stick .b-mbar{margin-top:8px}
+.b-stick .b-chapters{max-height:26vh}
+@media (max-width:899px){
+  .b-has-video .b-grid{grid-template-columns:1fr;gap:6px}
+}
+@media (max-width:640px){
+  .b-stick{max-height:40vh;overflow-y:auto;padding:6px 0 8px}
+  .b-stick .b-player{padding:6px 8px}
+  .b-has-video .b-video{max-height:19vh;width:auto;margin:0 auto}
+  .b-mlabel{display:none}
+  .b-panel-empty{font-size:.8rem}
+  .b-has-video .b-video-wrap{display:flex;justify-content:center}
+  .b-panel{padding:6px 10px}
+  .b-panel .b-sum,.b-panel .b-why,.b-panel .b-chips,.b-panel .b-off,.b-panel .b-note{display:none}
+  .b-panel .b-head{font-size:.95rem;margin:2px 0 0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .b-stick .b-mbar{margin-top:4px;gap:8px}
+  .b-stick.mini .b-has-video .b-video{max-height:14vh}
+  .b-stick.mini .b-topline .b-links a:not(.b-pi){display:none}
+  .b-stick .b-chapters{max-height:18vh}
+  .b-stick .b-topline{flex-wrap:nowrap;margin-bottom:4px}
+  .b-stick .b-h1{font-size:.95rem;white-space:nowrap}
+  .b-stick .b-links{gap:8px;font-size:.8rem;white-space:nowrap}
+  .b-stick.mini .b-h1 .eyebrow,.b-stick.mini .b-mlabel,.b-stick.mini .b-panel .b-meta{display:none}
+  .b-stick.mini .b-panel .b-head{font-size:.9rem}
+}
+@media (min-width:641px){
+  .b-stick.mini .b-has-video .b-video,.b-stick.mini .b-has-video .b-panel{max-height:24vh}
+  .b-stick.mini .b-panel .b-sum{-webkit-line-clamp:3}
+}
+
 @media (min-width:900px){.b-player{top:84px}}
 '''
 
