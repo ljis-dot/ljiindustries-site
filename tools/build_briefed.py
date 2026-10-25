@@ -9,7 +9,7 @@ No dependencies. Shared look: the CSS is copied from index.html's <style> at bui
 import argparse, html, json, os, re, shutil, sys
 from datetime import date
 
-LAUNCH = "2026-10-24"  # first published day (Levi, 2026-10-24 review edition)
+LAUNCH = "2026-10-24"  # first published day (2026-10-24 review edition)
 SITE = "https://ljiindustries.com"
 FORBIDDEN = [re.compile(p, re.I) for p in [r"\$\s?\d+\s?(/mo|per month|a month)", r"\bpricing\b", r"\bsubscribe now\b"]]
 MAX_FOREIGN = 2
@@ -127,6 +127,22 @@ def chapter_map(ed):
     a = ed.get("audio") or {}
     return {c["storyId"]: c for c in a.get("chapters", []) if c.get("storyId")}
 
+def safe_url(u):
+    u = str(u or "").strip()
+    return u if re.match(r"https?://[^\s<>\"']+$", u, re.I) else ""
+
+def first_hand_html(s):
+    """'In their own words': direct, linked quotes from the people involved (firstHand[])."""
+    items = []
+    for q in s.get("firstHand") or []:
+        if not isinstance(q, dict) or not q.get("quote"): continue
+        u = safe_url(q.get("url"))
+        who = " · ".join(e(str(q[k])) for k in ("who", "handle", "role") if q.get(k))
+        date_ = f' · <time datetime="{e(str(q["date"]))}">{e(str(q["date"]))}</time>' if q.get("date") else ""
+        link = f' · <a href="{e(u)}" rel="noopener noreferrer nofollow" target="_blank">Source</a>' if u else ""
+        items.append(f'<figure class="b-fh-item"><blockquote class="b-fh-q">{e(str(q["quote"]))}</blockquote><figcaption class="b-fh-by">{who}{date_}{link}</figcaption></figure>')
+    return f'<div class="b-fh"><p class="b-fh-h">In their own words</p>{"".join(items)}</div>' if items else ""
+
 def story_card(s, n, chap):
     badge = {"cleared": ("Cleared", "ok"), "sourced": ("Sourced", "ok"), "reported-only": ("Reported only", "warn")}.get(s.get("status"), (s.get("statusLabel") or s.get("status", "").title(), "warn"))
     region = "World" if s.get("region") == "foreign" else "U.S."
@@ -145,6 +161,7 @@ def story_card(s, n, chap):
   <div class="b-meta"><span class="eyebrow">{"Lead story · " if n == 0 else ""}{region}{loc}</span><span class="b-badge {badge[1]}">{e(badge[0])}</span></div>
   <h2 class="b-head">{e(s["headline"])}</h2>
   {summ}{why}{note}
+  {first_hand_html(s)}
   <div class="b-chips" aria-label="Original reporting">{outs}</div>
   {offs}
   {listen}
@@ -194,7 +211,8 @@ def panel_data(ed):
         bd = BADGES.get(s.get("status"), (s.get("status", "").title(), "warn"))
         kick = ("Lead story · " if i == 0 else "") + ("World" if s.get("region") == "foreign" else "U.S.") + ((" · " + s["location"]) if s.get("location") else "")
         out[s["id"]] = {"headline": s["headline"], "summary": s.get("summary"), "why": s.get("whyItMattersToUS"), "statusNote": s.get("statusNote"),
-                        "badge": bd[0], "badgeClass": bd[1], "kicker": kick, "outlets": s.get("outlets", []), "officialSources": s.get("officialSources", [])}
+                        "badge": bd[0], "badgeClass": bd[1], "kicker": kick, "outlets": s.get("outlets", []), "officialSources": s.get("officialSources", []),
+                        "firstHand": [{k: q.get(k) for k in ("who", "handle", "role", "date", "quote")} | {"url": safe_url(q.get("url"))} for q in s.get("firstHand") or [] if isinstance(q, dict) and q.get("quote")]}
     return json.dumps({"stories": out}).replace("</", "<\\/")
 
 def daynav(prev_day, next_day):
@@ -276,6 +294,11 @@ BRIEFED_CSS = '''/* Briefed pages: built only on the site's tokens (see site.css
 a.b-chip:hover{border-color:var(--brand);text-decoration:none;color:var(--brand)}
 .b-off{margin-top:8px;font-size:.88rem;color:var(--muted)}
 .b-off a{margin-left:6px}
+.b-fh{margin-top:10px}
+.b-fh-h{font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
+.b-fh-item{margin:0 0 8px}
+.b-fh-q{margin:0;padding:8px 12px;border-left:3px solid var(--brand2);background:var(--soft);border-radius:8px;color:var(--ink2);font-style:italic}
+.b-fh-by{margin-top:4px;font-size:.85rem;color:var(--muted)}
 .b-listen{margin-top:14px;min-height:44px;padding:10px 16px;border-radius:10px;border:2px solid var(--brand);background:#fff;color:var(--brand);font-weight:700;font-size:.95rem;cursor:pointer}
 .b-listen span{color:var(--muted);font-weight:600;margin-left:4px}
 .b-listen:hover,.b-story.playing .b-listen{background:var(--brand);color:#fff}
@@ -358,7 +381,7 @@ a.b-pn:hover{border-color:var(--brand);text-decoration:none}
   .b-panel-empty{font-size:.8rem}
   .b-has-video .b-video-wrap{display:flex;justify-content:center}
   .b-panel{padding:6px 10px}
-  .b-panel .b-sum,.b-panel .b-why,.b-panel .b-chips,.b-panel .b-off,.b-panel .b-note{display:none}
+  .b-panel .b-sum,.b-panel .b-why,.b-panel .b-chips,.b-panel .b-off,.b-panel .b-note,.b-panel .b-fh{display:none}
   .b-panel .b-head{font-size:.95rem;margin:2px 0 0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
   .b-stick .b-mbar{margin-top:4px;gap:8px}
   .b-stick.mini .b-has-video .b-video{max-height:14vh}

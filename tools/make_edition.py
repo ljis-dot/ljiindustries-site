@@ -74,6 +74,9 @@ def main():
                  "outlets": outlets, "officialSources": official}
         summ = s.get("summary") or (summary_from_script(body[sid]) if body.get(sid) else None)
         if summ: story["summary"] = summ
+        fh = [{k: q[k] for k in ("who", "handle", "role", "date", "url", "quote") if q.get(k)} for q in s.get("firstHand") or []
+              if isinstance(q, dict) and q.get("quote") and re.match(r"https?://", q.get("url", ""))]
+        if fh: story["firstHand"] = fh
         why = s.get("whyItMattersToUS") or s.get("usLink")
         if why: story["whyItMattersToUS"] = why
         if region == "foreign" and not why: warn.append(f"{sid}: foreign story without why-it-matters line")

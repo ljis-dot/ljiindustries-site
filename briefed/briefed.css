@@ -24,6 +24,11 @@
 a.b-chip:hover{border-color:var(--brand);text-decoration:none;color:var(--brand)}
 .b-off{margin-top:8px;font-size:.88rem;color:var(--muted)}
 .b-off a{margin-left:6px}
+.b-fh{margin-top:10px}
+.b-fh-h{font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
+.b-fh-item{margin:0 0 8px}
+.b-fh-q{margin:0;padding:8px 12px;border-left:3px solid var(--brand2);background:var(--soft);border-radius:8px;color:var(--ink2);font-style:italic}
+.b-fh-by{margin-top:4px;font-size:.85rem;color:var(--muted)}
 .b-listen{margin-top:14px;min-height:44px;padding:10px 16px;border-radius:10px;border:2px solid var(--brand);background:#fff;color:var(--brand);font-weight:700;font-size:.95rem;cursor:pointer}
 .b-listen span{color:var(--muted);font-weight:600;margin-left:4px}
 .b-listen:hover,.b-story.playing .b-listen{background:var(--brand);color:#fff}
@@ -106,7 +111,7 @@ a.b-pn:hover{border-color:var(--brand);text-decoration:none}
   .b-panel-empty{font-size:.8rem}
   .b-has-video .b-video-wrap{display:flex;justify-content:center}
   .b-panel{padding:6px 10px}
-  .b-panel .b-sum,.b-panel .b-why,.b-panel .b-chips,.b-panel .b-off,.b-panel .b-note{display:none}
+  .b-panel .b-sum,.b-panel .b-why,.b-panel .b-chips,.b-panel .b-off,.b-panel .b-note,.b-panel .b-fh{display:none}
   .b-panel .b-head{font-size:.95rem;margin:2px 0 0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
   .b-stick .b-mbar{margin-top:4px;gap:8px}
   .b-stick.mini .b-has-video .b-video{max-height:14vh}
