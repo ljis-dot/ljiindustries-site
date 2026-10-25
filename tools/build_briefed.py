@@ -9,7 +9,7 @@ No dependencies. Shared look: the CSS is copied from index.html's <style> at bui
 import argparse, html, json, os, re, shutil, sys
 from datetime import date
 
-LAUNCH = "2026-10-24"  # first published day (Levi, 2026-10-24 review edition)
+LAUNCH = "2026-10-24"  # first published day
 SITE = "https://ljiindustries.com"
 FORBIDDEN = [re.compile(p, re.I) for p in [r"\$\s?\d+\s?(/mo|per month|a month)", r"\bpricing\b", r"\bsubscribe now\b"]]
 MAX_FOREIGN = 2
@@ -18,6 +18,12 @@ import hashlib
 NAME_HASHES = {"401c866f250a30540d403f4dd498cf7ace2222bb90eb68a5bff5823fb20dc643"}
 
 e = html.escape
+
+
+def safe_url(u):
+    """Only allow http(s) links from edition data (blocks javascript:/data: hrefs)."""
+    u = str(u or "").strip()
+    return u if re.match(r"(?i)^https?://", u) else "#"
 
 def load_editions(d):
     out = []
@@ -87,6 +93,7 @@ def page(title, desc, canonical, body, jsonld=None, extra_head=""):
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://github.com https://*.githubusercontent.com; media-src 'self' https://github.com https://*.githubusercontent.com; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"><meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{e(title)}</title>
 <meta name="description" content="{e(desc)}">
@@ -134,9 +141,9 @@ def story_card(s, n, chap):
     summ = f'<p class="b-sum">{e(s["summary"])}</p>' if s.get("summary") else ""
     why = f'<p class="b-why"><strong>Why it matters to the US:</strong> {e(s["whyItMattersToUS"])}</p>' if s.get("whyItMattersToUS") else ""
     outs = "".join(
-        (f'<a class="b-chip" href="{e(o["url"])}" rel="noopener nofollow" target="_blank">{e(o["name"])}</a>' if o.get("url") else f'<span class="b-chip">{e(o["name"])}</span>')
+        (f'<a class="b-chip" href="{e(safe_url(o["url"]))}" rel="noopener nofollow" target="_blank">{e(o["name"])}</a>' if o.get("url") else f'<span class="b-chip">{e(o["name"])}</span>')
         for o in s.get("outlets", []))
-    offs = "".join(f'<a href="{e(u)}" rel="noopener nofollow" target="_blank">{e(re.sub(r"^https?://(www\\.)?", "", u).split("/")[0])}</a>' for u in s.get("officialSources", []))
+    offs = "".join(f'<a href="{e(safe_url(u))}" rel="noopener nofollow" target="_blank">{e(re.sub(r"^https?://(www\\.)?", "", u).split("/")[0])}</a>' for u in s.get("officialSources", []))
     offs = f'<p class="b-off">Checked against: {offs}</p>' if offs else ""
     note = f'<p class="b-note">{e(s["statusNote"])}</p>' if s.get("statusNote") else ""
     listen = (f'<button class="b-listen" type="button" data-start="{chap["start"]:.3f}" data-story="{e(s["id"])}" aria-label="Listen to this story, starts at {fmt_t(chap["start"])}">&#9654; Listen <span>{fmt_t(chap["start"])}</span></button>') if chap else ""

@@ -1,1 +1,11 @@
 screenshot-*.png
+
+# never commit local notes / secrets
+dns-before-*.md
+*.local.md
+.env
+.env.*
+*.pem
+*.key
+*token*
+.DS_Store

@@ -10,10 +10,11 @@ if(play){play.addEventListener('click',function(){if(m.paused){go(m.currentTime)
  seek.addEventListener('input',function(){m.currentTime=parseFloat(seek.value);});}
 var marks=[].slice.call(document.querySelectorAll('.b-chapters button')).map(function(b){return{t:parseFloat(b.dataset.start),e:parseFloat(b.dataset.end),id:b.dataset.story,el:b};});
 var panel=document.getElementById('b-panel'),shown;
-function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
+function safeUrl(u){u=String(u||'').trim();return /^https?:\/\//i.test(u)?u:'#';}
 function render(id){if(!panel||id===shown)return;shown=id;var s=data.stories[id];if(!s){panel.innerHTML='<p class="b-panel-empty">'+(id===null&&m.currentTime>1?'Briefed: today\'s edition':'Press play: the story being read shows here.')+'</p>';panel.dataset.story='';return;}
- var chips=(s.outlets||[]).map(function(o){return o.url?'<a class="b-chip" target="_blank" rel="noopener nofollow" href="'+esc(o.url)+'">'+esc(o.name)+'</a>':'<span class="b-chip">'+esc(o.name)+'</span>';}).join('');
- var offs=(s.officialSources||[]).map(function(u){return '<a target="_blank" rel="noopener nofollow" href="'+esc(u)+'">'+esc(u.replace(/^https?:\/\/(www\.)?/,'').split('/')[0])+'</a>';}).join(' ');
+ var chips=(s.outlets||[]).map(function(o){return o.url?'<a class="b-chip" target="_blank" rel="noopener nofollow" href="'+esc(safeUrl(o.url))+'">'+esc(o.name)+'</a>':'<span class="b-chip">'+esc(o.name)+'</span>';}).join('');
+ var offs=(s.officialSources||[]).map(function(u){return '<a target="_blank" rel="noopener nofollow" href="'+esc(safeUrl(u))+'">'+esc(u.replace(/^https?:\/\/(www\.)?/,'').split('/')[0])+'</a>';}).join(' ');
  panel.innerHTML='<div class="b-meta"><span class="eyebrow">'+esc(s.kicker)+'</span><span class="b-badge '+esc(s.badgeClass)+'">'+esc(s.badge)+'</span></div><h2 class="b-head">'+esc(s.headline)+'</h2>'+(s.summary?'<p class="b-sum">'+esc(s.summary)+'</p>':'')+(s.why?'<p class="b-why"><strong>Why it matters to the US:</strong> '+esc(s.why)+'</p>':'')+(s.statusNote?'<p class="b-note">'+esc(s.statusNote)+'</p>':'')+'<div class="b-chips">'+chips+'</div>'+(offs?'<p class="b-off">Checked against: '+offs+'</p>':'');
  panel.hidden=false;panel.dataset.story=id;}
 m.addEventListener('timeupdate',function(){var t=m.currentTime,cur=null;
