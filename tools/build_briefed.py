@@ -216,7 +216,7 @@ def panel_data(ed):
         bd = BADGES.get(s.get("status"), (s.get("status", "").title(), "warn"))
         kick = ("Lead story · " if i == 0 else "") + ("World" if s.get("region") == "foreign" else "U.S.") + ((" · " + s["location"]) if s.get("location") else "")
         out[s["id"]] = {"headline": s["headline"], "summary": s.get("summary"), "why": s.get("whyItMattersToUS"), "statusNote": s.get("statusNote"),
-                        "badge": bd[0], "badgeClass": bd[1], "kicker": kick, "outlets": s.get("outlets", []), "officialSources": s.get("officialSources", [])}
+                        "badge": bd[0], "badgeClass": bd[1], "kicker": kick, "outlets": s.get("outlets", []), "officialSources": s.get("officialSources", []), "firstHand": s.get("firstHand", [])}
     return json.dumps({"stories": out}).replace("</", "<\\/")
 
 def daynav(prev_day, next_day):
