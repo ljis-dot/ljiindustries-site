@@ -100,9 +100,30 @@
      "url": "https://www.cnbc.com/2026/10/24/ukraine-starlink-starshield-service-restored.html"
     }
    ],
-   "officialSources": [],
-   "summary": "Ukraine said Starlink and Starshield returned to pre-restriction speeds after more than a week of throttling that disrupted front-line drone operations. Elon Musk said SpaceX closed a 'loophole' because Ukraine's military used the service for offensive drone strikes.",
-   "whyItMattersToUS": "A US company's service to a US-backed ally was cut back, and Reuters reports the throttling order came from inside the White House."
+   "officialSources": [
+    "https://x.com/elonmusk/status/2114063986744275011",
+    "https://x.com/elonmusk/status/2114153402108449208"
+   ],
+   "summary": "Ukraine said Starlink and Starshield returned to pre-restriction speeds after more than a week of throttling that disrupted front-line drone operations. In his own posts on X, Elon Musk said civilian Starlink was never allowed for offensive drone strikes, and that Starshield, a separate system, is controlled by the US government.",
+   "whyItMattersToUS": "A US company's service to a US-backed ally was cut back, and Reuters reports the throttling order came from inside the White House.",
+   "firstHand": [
+    {
+     "who": "Elon Musk",
+     "handle": "@elonmusk",
+     "role": "CEO, SpaceX",
+     "date": "2026-10-24",
+     "url": "https://x.com/elonmusk/status/2114063986744275011",
+     "quote": "Using Starlink, a civilian commercial service, for offensive drone strikes to kill people has never been allowed, nor should it be. Starshield, a different system, is controlled by the US government. What they decide to do is up to them."
+    },
+    {
+     "who": "Elon Musk",
+     "handle": "@elonmusk",
+     "role": "CEO, SpaceX",
+     "date": "2026-10-24",
+     "url": "https://x.com/elonmusk/status/2114153402108449208",
+     "quote": "Starlink's terms have remained consistent as a civilian system, not a means of killing. Violation of those terms will result in end of service. Starshield use is a decision of the US government."
+    }
+   ]
   }
  ],
  "audio": {

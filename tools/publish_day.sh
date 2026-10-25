@@ -20,7 +20,7 @@ AUDIO_URL="https://github.com/$OWNER_REPO/releases/download/$TAG/Briefed-$DAY-fu
 if [ $DRY = 1 ]; then
   WORK="$(mktemp -d)"; (cd "$REPO_DIR" && git archive HEAD) | tar -x -C "$WORK"
   cp "$REPO_DIR/tools/"*.py "$WORK/tools/"   # test uncommitted tool changes too
-  log "DRY RUN in $WORK (would create/reuse release $TAG and upload MP3, chapters, and web MP4 + poster if present)"
+  log "DRY RUN in $WORK (would create/reuse release $TAG and upload MP3 + chapters; video/poster go to briefed/media/$DAY)"
 else
   : "${LJI_SITE_GITHUB_TOKEN:?LJI_SITE_GITHUB_TOKEN not set}"
   WORK="$REPO_DIR"
@@ -34,8 +34,7 @@ else
       | python3 -c "import json,sys;d=json.load(sys.stdin);print(d.get('id') or '')")
     [ -n "$RID" ] || { echo "release create failed" >&2; exit 4; }; log "created release $TAG ($RID)"
   else log "release $TAG exists ($RID)"; fi
-  ASSETS=("$MP3" "$CH")
-  for f in "$SRC/v2/Briefed-$DAY-web.mp4" "$SRC/v2/Briefed-$DAY-poster.jpg"; do [ -s "$f" ] && ASSETS+=("$f"); done
+  ASSETS=("$MP3" "$CH")   # video + poster are served from the site repo (briefed/media/$DAY), not Releases
   for f in "${ASSETS[@]}"; do
     n=$(basename "$f")
     old=$(gh_api "$API/releases/$RID/assets?per_page=100" | python3 -c "import json,sys;print(next((str(a['id']) for a in json.load(sys.stdin) if a['name']=='$n'),''))")
@@ -48,8 +47,21 @@ else
   curl -sfIL -o /dev/null "$AUDIO_URL" || { echo "audio URL not reachable: $AUDIO_URL" >&2; exit 6; }
 fi
 
+# --- video + poster into the repo: briefed/media/$DAY/ (accepts -web.mp4 or -v2-web.mp4) ---
+MEDIA="$WORK/briefed/media/$DAY"; VSRC=""
+for f in "$SRC/v2/Briefed-$DAY-web.mp4" "$SRC/v2/Briefed-$DAY-v2-web.mp4"; do [ -s "$f" ] && { VSRC="$f"; break; }; done
+# make_edition expects v2/Briefed-$DAY-web.mp4; give it a temp source folder of symlinks
+ESRC="$(mktemp -d)"; mkdir -p "$ESRC/$DAY/v2"
+for f in "$SRC"/* "$SRC"/v2/*; do [ -f "$f" ] && ln -s "$f" "$ESRC/$DAY/${f#$SRC/}"; done
+if [ -n "$VSRC" ]; then
+  mkdir -p "$MEDIA"; cp "$VSRC" "$MEDIA/Briefed-$DAY-web.mp4"
+  ln -sf "$VSRC" "$ESRC/$DAY/v2/Briefed-$DAY-web.mp4"
+  [ -s "$SRC/v2/Briefed-$DAY-poster.jpg" ] && cp "$SRC/v2/Briefed-$DAY-poster.jpg" "$MEDIA/"
+  log "video copied to briefed/media/$DAY/"
+fi
+
 # --- convert + build ---
-python3 "$WORK/tools/make_edition.py" "$DAY" "$WORK/editions/$DAY.json" --audio-url "$AUDIO_URL" --release-base "https://github.com/$OWNER_REPO/releases/download/$TAG"
+BRIEFED_AUDIO_DIR="$ESRC" python3 "$WORK/tools/make_edition.py" "$DAY" "$WORK/editions/$DAY.json" --audio-url "$AUDIO_URL" --release-base "/briefed/media/$DAY"
 (cd "$WORK" && python3 tools/build_briefed.py)
 
 if [ $DRY = 1 ]; then

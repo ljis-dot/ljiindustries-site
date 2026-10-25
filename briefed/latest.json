@@ -28,7 +28,21 @@
     }
    ],
    "officialSources": [],
-   "summary": "Twelve people were injured, 11 by gunfire, near Florida A&M's Bragg Memorial Stadium in Tallahassee on homecoming night; six are minors, the youngest 11. Police Chief Lawrence Revell called it an isolated altercation between two or three people; no arrests have been made."
+   "summary": "Twelve people were injured, 11 by gunfire, near Florida A&M's Bragg Memorial Stadium in Tallahassee on homecoming night; six are minors, the youngest 11. Police Chief Lawrence Revell called it an isolated altercation between two or three people; no arrests have been made.",
+   "firstHand": [
+    {
+     "who": "Lawrence Revell, Tallahassee Police Chief",
+     "role": "Press conference, early Oct. 25",
+     "url": "https://www.tallahassee.com/story/news/breaking/2026/10/24/famu-issues-safety-alert-for-police-activity-near-bragg-stadium/92424984007/",
+     "quote": "an isolated incident between two or three individuals and nothing more than that"
+    },
+    {
+     "who": "Lawrence Revell, Tallahassee Police Chief",
+     "role": "Press conference, early Oct. 25",
+     "url": "https://www.wctv.tv/2026/10/25/tpd-police-presence-perry-street-manatee-street/",
+     "quote": "I stand before you devastated."
+    }
+   ]
   },
   {
    "id": "ny-archdiocese-settlement",
@@ -57,7 +71,15 @@
    "officialSources": [
     "https://thegoodnewsroom.org/archbishop-hicks-shares-update-on-child-victims-act-claims/"
    ],
-   "summary": "The Archdiocese of New York and attorneys for about 1,300 people who say they were abused by clergy agreed to an $800 million settlement, second only to Los Angeles' $880 million. Archbishop Ronald Hicks told priests it is not final until signed, scheduled for the week of Nov. 6."
+   "summary": "The Archdiocese of New York and attorneys for about 1,300 people who say they were abused by clergy agreed to an $800 million settlement, second only to Los Angeles' $880 million. Archbishop Ronald Hicks told priests it is not final until signed, scheduled for the week of Nov. 6.",
+   "firstHand": [
+    {
+     "who": "Archbishop Ronald Hicks",
+     "role": "Email to clergy, Oct. 24",
+     "url": "https://thegoodnewsroom.org/archbishop-hicks-shares-update-on-child-victims-act-claims/",
+     "quote": "While the deal is not yet final \u2013 and won't be until the settlement is signed, now scheduled for the week of November 6th \u2013 we have, in fact, reached an understanding with all of the plaintiffs and their attorneys."
+    }
+   ]
   },
   {
    "id": "audi-georgia-plant",
@@ -80,7 +102,21 @@
     "https://gov.georgia.gov/press-releases/2026-10-24/gov-kemp-audi-ag-selects-georgia-invest-4-billion-first-us-manufacturing",
     "https://www.audi.com/en/press-releases/audi-to-establish-first-us-production-site-in-georgia-investing-4-billion-and-creating-4500-jobs-18420"
    ],
-   "summary": "President Trump announced at a rally in Perry, Ga., that Audi will build its first US plant at the Middle Georgia Megasite in Peach County, investing about $4 billion and creating about 4,500 jobs. The state says full production is expected in 2031 at up to 200,000 SUVs a year."
+   "summary": "President Trump announced at a rally in Perry, Ga., that Audi will build its first US plant at the Middle Georgia Megasite in Peach County, investing about $4 billion and creating about 4,500 jobs. The state says full production is expected in 2031 at up to 200,000 SUVs a year.",
+   "firstHand": [
+    {
+     "who": "Gernot D\u00f6llner, Audi CEO",
+     "role": "Rally in Perry, Ga., Oct. 24",
+     "url": "https://www.cnbc.com/2026/10/24/trump-audi-factory-georgia.html",
+     "quote": "We are planning to bring our biggest and most premium SUVs, and produce them here in Macon, Georgia."
+    },
+    {
+     "who": "Gov. Brian Kemp",
+     "role": "Governor's press release, Oct. 24",
+     "url": "https://gov.georgia.gov/press-releases/2026-10-24/gov-kemp-audi-ag-selects-georgia-invest-4-billion-first-us-manufacturing",
+     "quote": "We are proud that Audi has selected Georgia as the home of their first U.S. manufacturing facility, delivering truly historic investment and jobs to middle Georgia."
+    }
+   ]
   },
   {
    "id": "doj-california-ballots",
@@ -105,7 +141,21 @@
    "officialSources": [
     "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-issues-statement-response-us-department-justice-letter"
    ],
-   "summary": "Justice Department letters dated Oct. 23 gave California county registrars 48 hours to help verify the citizenship of about 20,000 people it calls likely noncitizens and to segregate, not cancel, their mail ballots. State officials say the federal data is unreliable and contains errors."
+   "summary": "Justice Department letters dated Oct. 23 gave California county registrars 48 hours to help verify the citizenship of about 20,000 people it calls likely noncitizens and to segregate, not cancel, their mail ballots. State officials say the federal data is unreliable and contains errors.",
+   "firstHand": [
+    {
+     "who": "Bill Essayli, First Assistant U.S. Attorney (C.D. Cal.)",
+     "role": "Statement reported by AP, Oct. 24",
+     "url": "https://www.cbsnews.com/news/doj-california-counties-set-aside-verify-certain-ballots-noncitizens/",
+     "quote": "Any election official who knowingly processes the ballot of a noncitizen is opening themselves to legal jeopardy."
+    },
+    {
+     "who": "California Secretary of State Shirley N. Weber",
+     "role": "SOS press release, Oct. 14 (responding to an earlier DOJ letter)",
+     "url": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-issues-statement-response-us-department-justice-letter",
+     "quote": "The USDOJ's relentless efforts to unlawfully gain access to states' protected voter data and purge voter rolls serve only to cause chaos and fuel public distrust in our elections."
+    }
+   ]
   },
   {
    "id": "la-health-fraud-takedown",
@@ -123,7 +173,15 @@
     "https://www.justice.gov/opa/pr/los-angeles-health-care-fraud-takedown-results-charges-against-15-defendants-including-6",
     "https://www.justice.gov/opa/pr/los-angeles-health-care-fraud-takedown-results-charges-against-15-defendants-including-6"
    ],
-   "summary": "The Justice Department on Oct. 22 charged 15 defendants, including six medical professionals, in Los Angeles-area schemes it says caused nearly $2 billion in losses. The largest, over $1.6 billion, allegedly lured vulnerable people to California for sham addiction treatment."
+   "summary": "The Justice Department on Oct. 22 charged 15 defendants, including six medical professionals, in Los Angeles-area schemes it says caused nearly $2 billion in losses. The largest, over $1.6 billion, allegedly lured vulnerable people to California for sham addiction treatment.",
+   "firstHand": [
+    {
+     "who": "Colin M. McDonald, Assistant Attorney General",
+     "role": "DOJ press release, Oct. 22",
+     "url": "https://www.justice.gov/opa/pr/los-angeles-health-care-fraud-takedown-results-charges-against-15-defendants-including-6",
+     "quote": "These charges include the largest sober home fraud scheme the Department has ever prosecuted."
+    }
+   ]
   },
   {
    "id": "trump-iran-strike-or-deal",
@@ -147,6 +205,14 @@
    ],
    "officialSources": [],
    "summary": "Speaking to reporters Saturday after voting early in Florida, President Trump said the US could strike Iran 'maybe tomorrow' or reach a 'nice, big, beautiful agreement.' Iran's ambassador to Pakistan said Tehran remains open to talks under the Pakistan-brokered interim deal.",
+   "firstHand": [
+    {
+     "who": "President Donald Trump",
+     "role": "Remarks to reporters, Florida, Oct. 24",
+     "url": "https://www.iranintl.com/en/202610241026",
+     "quote": "There's a possibility I will. There's also a possibility we'll have a nice big beautiful agreement."
+    }
+   ],
    "whyItMattersToUS": "A new strike would put US forces back in active combat, and gas already averages $4.27, about 40% above a year ago."
   }
  ],
