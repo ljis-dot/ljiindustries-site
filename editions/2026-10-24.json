@@ -155,7 +155,7 @@
   ]
  },
  "video": {
-  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-10-24/Briefed-2026-10-24-web.mp4",
+  "url": "/briefed/media/2026-10-24/Briefed-2026-10-24-web.mp4",
   "durationSeconds": 115.401,
   "aiVoices": true,
   "chapters": [
@@ -202,6 +202,6 @@
     "end": 115.401
    }
   ],
-  "poster": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-10-24/Briefed-2026-10-24-poster.jpg"
+  "poster": "/briefed/media/2026-10-24/Briefed-2026-10-24-poster.jpg"
  }
 }

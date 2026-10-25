@@ -1,0 +1,264 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-10-25",
+ "generatedAt": "2026-10-25T07:00:00-04:00",
+ "stories": [
+  {
+   "id": "famu-homecoming-shooting",
+   "region": "us",
+   "location": "FL",
+   "headline": "12 hurt, 6 of them minors, in shooting near FAMU stadium on homecoming night",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/florida-shooting-football-stadium-eece0228b1476cbe0f2a9864c7e4fd4f"
+    },
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/news/us-news/tallahassee-florida-shooting-florida-am-university-rcna605484"
+    },
+    {
+     "name": "tallahassee.com",
+     "url": "https://www.tallahassee.com/story/news/breaking/2026/10/24/famu-issues-safety-alert-for-police-activity-near-bragg-stadium/92424984007/"
+    },
+    {
+     "name": "wctv.tv",
+     "url": "https://www.wctv.tv/2026/10/25/tpd-police-presence-perry-street-manatee-street/"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Twelve people were injured, 11 by gunfire, near Florida A&M's Bragg Memorial Stadium in Tallahassee on homecoming night; six are minors, the youngest 11. Police Chief Lawrence Revell called it an isolated altercation between two or three people; no arrests have been made."
+  },
+  {
+   "id": "ny-archdiocese-settlement",
+   "region": "us",
+   "location": "NY",
+   "headline": "NY archdiocese reaches ~$800M settlement with about 1,300 clergy abuse survivors",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/clergy-abuse-legal-settlement-new-york-archdiocese-fc20b55e4373499a7eb2fb663aeb3599"
+    },
+    {
+     "name": "NPR",
+     "url": "https://www.npr.org/2026/10/24/nx-s1-6015522/new-york-archdiocese-settlement-agreement"
+    },
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/news/religion/new-yorks-archdiocese-survivors-clergy-abuse-800-million-settlement-rcna605461"
+    },
+    {
+     "name": "gothamist.com",
+     "url": "https://gothamist.com/news/ny-archdiocese-will-soon-settle-800m-clergy-sexual-abuse-claims"
+    }
+   ],
+   "officialSources": [
+    "https://thegoodnewsroom.org/archbishop-hicks-shares-update-on-child-victims-act-claims/"
+   ],
+   "summary": "The Archdiocese of New York and attorneys for about 1,300 people who say they were abused by clergy agreed to an $800 million settlement, second only to Los Angeles' $880 million. Archbishop Ronald Hicks told priests it is not final until signed, scheduled for the week of Nov. 6."
+  },
+  {
+   "id": "audi-georgia-plant",
+   "region": "us",
+   "location": "GA",
+   "headline": "Audi picks Georgia for first US plant: ~$4B, 4,500 jobs",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/audi-georgia-trump-manufacturing-auto-plant-c1d49f2437c1d9cf349af399b8abe3a3"
+    },
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/24/trump-audi-factory-georgia.html"
+    }
+   ],
+   "officialSources": [
+    "https://gov.georgia.gov/press-releases/2026-10-24/gov-kemp-audi-ag-selects-georgia-invest-4-billion-first-us-manufacturing",
+    "https://gov.georgia.gov/press-releases/2026-10-24/gov-kemp-audi-ag-selects-georgia-invest-4-billion-first-us-manufacturing",
+    "https://www.audi.com/en/press-releases/audi-to-establish-first-us-production-site-in-georgia-investing-4-billion-and-creating-4500-jobs-18420"
+   ],
+   "summary": "President Trump announced at a rally in Perry, Ga., that Audi will build its first US plant at the Middle Georgia Megasite in Peach County, investing about $4 billion and creating about 4,500 jobs. The state says full production is expected in 2031 at up to 200,000 SUVs a year."
+  },
+  {
+   "id": "doj-california-ballots",
+   "region": "us",
+   "location": "CA",
+   "headline": "DOJ gives California counties 48 hours to set aside ballots of ~20,000 suspected noncitizens",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/california-elections-voter-fraud-noncitizen-voting-trump-c0d91dbb27593bbc29b65cda1a80ee5e"
+    },
+    {
+     "name": "nbcbayarea.com",
+     "url": "https://www.nbcbayarea.com/news/local/doj-california-election-offices-voter-verification/4164083/"
+    },
+    {
+     "name": "streetinsider.com",
+     "url": "https://www.streetinsider.com/Reuters/US+Justice+Dept+demands+California+counties+help+identify+suspected+noncitizen+voters/27229157.html"
+    }
+   ],
+   "officialSources": [
+    "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-issues-statement-response-us-department-justice-letter"
+   ],
+   "summary": "Justice Department letters dated Oct. 23 gave California county registrars 48 hours to help verify the citizenship of about 20,000 people it calls likely noncitizens and to segregate, not cancel, their mail ballots. State officials say the federal data is unreliable and contains errors."
+  },
+  {
+   "id": "la-health-fraud-takedown",
+   "region": "us",
+   "location": "CA",
+   "headline": "15 charged, incl. 6 medical professionals, in nearly $2B LA health care fraud",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/losangeles/news/people-federally-charged-connection-2-billion-fraudulent-healthcare-schemes-doj/"
+    }
+   ],
+   "officialSources": [
+    "https://www.justice.gov/opa/pr/los-angeles-health-care-fraud-takedown-results-charges-against-15-defendants-including-6",
+    "https://www.justice.gov/opa/pr/los-angeles-health-care-fraud-takedown-results-charges-against-15-defendants-including-6"
+   ],
+   "summary": "The Justice Department on Oct. 22 charged 15 defendants, including six medical professionals, in Los Angeles-area schemes it says caused nearly $2 billion in losses. The largest, over $1.6 billion, allegedly lured vulnerable people to California for sham addiction treatment."
+  },
+  {
+   "id": "trump-iran-strike-or-deal",
+   "region": "foreign",
+   "location": "Iran",
+   "headline": "Trump: US could strike Iran 'maybe tomorrow' or reach a 'big, beautiful' deal",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-oil-gas-prices-strait-of-hormuz-midterms/"
+    },
+    {
+     "name": "timesofisrael.com",
+     "url": "https://www.timesofisrael.com/liveblog_entry/trump-says-more-strikes-on-iran-before-midterms-possible-but-deal-also-possible/"
+    },
+    {
+     "name": "aa.com.tr",
+     "url": "https://www.aa.com.tr/en/world/trump-says-us-could-strike-iran-tomorrow-or-reach-big-beautiful-deal/4099883"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Speaking to reporters Saturday after voting early in Florida, President Trump said the US could strike Iran 'maybe tomorrow' or reach a 'nice, big, beautiful agreement.' Iran's ambassador to Pakistan said Tehran remains open to talks under the Pakistan-brokered interim deal.",
+   "whyItMattersToUS": "A new strike would put US forces back in active combat, and gas already averages $4.27, about 40% above a year ago."
+  }
+ ],
+ "audio": {
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-10-25/Briefed-2026-10-25-full-twohost.mp3",
+  "durationSeconds": 129.776,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": null,
+    "title": "Intro",
+    "start": 0.0,
+    "end": 10.329
+   },
+   {
+    "storyId": "famu-homecoming-shooting",
+    "title": "12 hurt in shooting near FAMU",
+    "start": 10.329,
+    "end": 31.368
+   },
+   {
+    "storyId": "ny-archdiocese-settlement",
+    "title": "NY archdiocese: $800M abuse deal",
+    "start": 31.368,
+    "end": 47.6
+   },
+   {
+    "storyId": "audi-georgia-plant",
+    "title": "Audi picks Georgia: $4B plant",
+    "start": 47.6,
+    "end": 64.785
+   },
+   {
+    "storyId": "doj-california-ballots",
+    "title": "DOJ: 48 hrs to set aside CA ballots",
+    "start": 64.785,
+    "end": 80.064
+   },
+   {
+    "storyId": "la-health-fraud-takedown",
+    "title": "15 charged in ~$2B LA fraud",
+    "start": 80.064,
+    "end": 96.282
+   },
+   {
+    "storyId": "trump-iran-strike-or-deal",
+    "title": "Trump: Iran strike 'maybe tomorrow'",
+    "start": 96.282,
+    "end": 120.181
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 120.181,
+    "end": 129.727
+   }
+  ]
+ },
+ "video": {
+  "url": "/briefed/media/2026-10-25/Briefed-2026-10-25-web.mp4",
+  "durationSeconds": 129.727,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": null,
+    "title": "Intro",
+    "start": 0.0,
+    "end": 10.329
+   },
+   {
+    "storyId": "famu-homecoming-shooting",
+    "title": "12 hurt in shooting near FAMU",
+    "start": 10.329,
+    "end": 31.368
+   },
+   {
+    "storyId": "ny-archdiocese-settlement",
+    "title": "NY archdiocese: $800M abuse deal",
+    "start": 31.368,
+    "end": 47.6
+   },
+   {
+    "storyId": "audi-georgia-plant",
+    "title": "Audi picks Georgia: $4B plant",
+    "start": 47.6,
+    "end": 64.785
+   },
+   {
+    "storyId": "doj-california-ballots",
+    "title": "DOJ: 48 hrs to set aside CA ballots",
+    "start": 64.785,
+    "end": 80.064
+   },
+   {
+    "storyId": "la-health-fraud-takedown",
+    "title": "15 charged in ~$2B LA fraud",
+    "start": 80.064,
+    "end": 96.282
+   },
+   {
+    "storyId": "trump-iran-strike-or-deal",
+    "title": "Trump: Iran strike 'maybe tomorrow'",
+    "start": 96.282,
+    "end": 120.181
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 120.181,
+    "end": 129.727
+   }
+  ],
+  "poster": "/briefed/media/2026-10-25/Briefed-2026-10-25-poster.jpg"
+ }
+}
