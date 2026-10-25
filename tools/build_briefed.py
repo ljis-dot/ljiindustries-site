@@ -134,6 +134,20 @@ def chapter_map(ed):
     a = ed.get("audio") or {}
     return {c["storyId"]: c for c in a.get("chapters", []) if c.get("storyId")}
 
+def first_hand(s):
+    items = []
+    for q in s.get("firstHand") or []:
+        by = " · ".join(e(str(q[k]), quote=True) for k in ("who", "handle", "role") if q.get(k))
+        if q.get("date"):
+            d = e(str(q["date"]), quote=True)
+            by += f' · <time datetime="{d}">{d}</time>'
+        u = str(q.get("url") or "").strip()
+        if re.match(r"(?i)^https?://", u):
+            by += f' · <a href="{e(u, quote=True)}" rel="noopener noreferrer nofollow" target="_blank">Source</a>'
+        items.append(f'<figure class="b-fh-item"><blockquote class="b-fh-q">{e(str(q.get("quote") or ""), quote=True)}</blockquote><figcaption class="b-fh-by">{by}</figcaption></figure>')
+    return f'<div class="b-fh"><p class="b-fh-h">In their own words</p>{"".join(items)}</div>' if items else ""
+
+
 def story_card(s, n, chap):
     badge = {"cleared": ("Cleared", "ok"), "sourced": ("Sourced", "ok"), "reported-only": ("Reported only", "warn")}.get(s.get("status"), (s.get("statusLabel") or s.get("status", "").title(), "warn"))
     region = "World" if s.get("region") == "foreign" else "U.S."
@@ -146,12 +160,13 @@ def story_card(s, n, chap):
     offs = "".join(f'<a href="{e(safe_url(u))}" rel="noopener nofollow" target="_blank">{e(re.sub(r"^https?://(www\\.)?", "", u).split("/")[0])}</a>' for u in s.get("officialSources", []))
     offs = f'<p class="b-off">Checked against: {offs}</p>' if offs else ""
     note = f'<p class="b-note">{e(s["statusNote"])}</p>' if s.get("statusNote") else ""
+    fh = first_hand(s)
     listen = (f'<button class="b-listen" type="button" data-start="{chap["start"]:.3f}" data-story="{e(s["id"])}" aria-label="Listen to this story, starts at {fmt_t(chap["start"])}">&#9654; Listen <span>{fmt_t(chap["start"])}</span></button>') if chap else ""
     lead = " b-lead" if n == 0 else ""
     return f'''<article class="b-story card{lead}" id="story-{e(s["id"])}" data-story="{e(s["id"])}">
   <div class="b-meta"><span class="eyebrow">{"Lead story · " if n == 0 else ""}{region}{loc}</span><span class="b-badge {badge[1]}">{e(badge[0])}</span></div>
   <h2 class="b-head">{e(s["headline"])}</h2>
-  {summ}{why}{note}
+  {summ}{why}{note}{fh}
   <div class="b-chips" aria-label="Original reporting">{outs}</div>
   {offs}
   {listen}
@@ -275,6 +290,11 @@ BRIEFED_CSS = '''/* Briefed pages: built only on the site's tokens (see site.css
 .b-sum{color:var(--ink2)}
 .b-why{margin-top:8px;padding:10px 12px;background:var(--soft);border-left:3px solid var(--brand2);border-radius:8px;color:var(--ink2);font-size:.96rem}
 .b-note{margin-top:6px;color:var(--muted);font-size:.9rem}
+.b-fh{margin-top:10px}
+.b-fh-h{font-size:.78rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
+.b-fh-item{margin:0 0 8px;padding:8px 12px;border-left:3px solid var(--brand);background:var(--soft);border-radius:8px}
+.b-fh-q{margin:0;color:var(--ink);font-style:italic}
+.b-fh-by{margin-top:4px;font-size:.84rem;color:var(--muted)}
 .b-badge{font-size:.75rem;font-weight:700;padding:3px 10px;border-radius:999px;white-space:nowrap}
 .b-badge.ok{background:rgba(29,78,216,.1);color:var(--brand2)}
 .b-badge.warn{background:rgba(245,158,11,.15);color:#92400e}
