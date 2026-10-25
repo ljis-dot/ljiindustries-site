@@ -129,3 +129,19 @@ a.b-pn:hover{border-color:var(--brand);text-decoration:none}
 }
 
 @media (min-width:900px){.b-player{top:84px}}
+/* streak line, feedback buttons, about changes, field notes */
+.b-streak{margin-top:10px;font-size:.88rem;color:var(--ink2)}
+.b-streak strong{color:var(--brand)}
+.b-vote{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:12px;padding-top:10px;border-top:1px solid var(--line);font-size:.86rem}
+.b-vote-q{color:var(--muted);font-weight:600}
+.b-vote-b{min-height:36px;padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:#fff;color:var(--ink2);font:inherit;font-weight:600;cursor:pointer}
+.b-vote-b:hover{border-color:var(--brand);color:var(--brand)}
+.b-vote-b.on{background:var(--brand);border-color:var(--brand);color:#fff}
+.b-vote-t{color:var(--muted)}
+.b-panel .b-vote{display:none}
+.b-about-h{font-size:1.2rem;margin-top:22px}
+.b-changes{margin:8px 0 0 20px;display:grid;gap:8px;color:var(--ink2)}
+.n-list{list-style:none;display:grid;gap:14px}
+.n-list time{display:block;font-size:.8rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--brand)}
+.n-list h2{font-size:1.15rem;margin:4px 0 6px}
+.n-list p{color:var(--ink2)}

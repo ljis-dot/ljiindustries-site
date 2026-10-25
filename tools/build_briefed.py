@@ -7,7 +7,7 @@ does not touch the sitemap). Output always goes under <root>/briefed/.
 No dependencies. Shared look: the CSS is copied from index.html's <style> at build time.
 """
 import argparse, html, json, os, re, shutil, sys
-from datetime import date
+from datetime import date, timedelta
 
 LAUNCH = "2026-10-24"  # first published day
 SITE = "https://ljiindustries.com"
@@ -66,6 +66,7 @@ def header(root_rel="/"):
       <li><a href="/briefed/">Today's Briefed</a></li>
       <li><a href="/briefed/archive/">Archive</a></li>
       <li><a href="/briefed/about/">About Briefed</a></li>
+      <li><a href="/notes/">Field notes</a></li>
     </ul>
   </div>
 </header>'''
@@ -78,7 +79,7 @@ FOOTER = '''<footer>
         <p style="margin-top:12px;max-width:320px">Practical AI consulting for small businesses. Makers of Briefed.</p>
       </div>
       <div><h4>Briefed</h4><ul><li><a href="/briefed/">Today's edition</a></li><li><a href="/briefed/archive/">Archive</a></li><li><a href="/briefed/about/">About</a></li></ul></div>
-      <div><h4>Company</h4><ul><li><a href="/#services">Services</a></li><li><a href="/#faq">FAQ</a></li></ul></div>
+      <div><h4>Company</h4><ul><li><a href="/#services">Services</a></li><li><a href="/notes/">Field notes</a></li><li><a href="/#faq">FAQ</a></li></ul></div>
       <div><h4>Contact</h4><ul><li><a href="mailto:info@ljiindustries.com">info@ljiindustries.com</a></li><li>ljiindustries.com</li></ul></div>
     </div>
     <div class="foot-bottom"><span>&copy; <span id="yr">2026</span> LJI Industries LLC. All rights reserved.</span></div>
@@ -170,6 +171,7 @@ def story_card(s, n, chap):
   <div class="b-chips" aria-label="Original reporting">{outs}</div>
   {offs}
   {listen}
+  <div class="b-vote" data-story="{e(s["id"])}"><span class="b-vote-q">Was this useful?</span><button type="button" class="b-vote-b" data-vote="yes" aria-pressed="false">&#128077; Yes</button><button type="button" class="b-vote-b" data-vote="no" aria-pressed="false">&#128078; No</button><span class="b-vote-t" aria-live="polite"></span></div>
 </article>'''
 
 def short_date(d):
@@ -230,7 +232,32 @@ def daynav_inline(prev_day, next_day):
     nx = ('<a class="b-pi" href="/briefed/%s/" rel="next" title="Next day">Next &rarr;</a>' % next_day) if next_day else '<span class="b-pi off" aria-disabled="true" title="This is the latest edition">Next &rarr;</span>'
     return pv + nx
 
-def edition_body(ed, is_latest, prev_day=None, next_day=None):
+def streak_line(ed, all_eds):
+    """'Edition #N - published every morning since <start>' from the actual edition files.
+    N = position of this edition among all published editions (oldest = #1);
+    start = first day of the unbroken daily run that ends at this edition."""
+    days = sorted({x["date"] for x in all_eds})
+    if ed["date"] not in days: return ""
+    i = days.index(ed["date"]); j = i
+    while j > 0 and date.fromisoformat(days[j - 1]) == date.fromisoformat(days[j]) - timedelta(days=1): j -= 1
+    start = date.fromisoformat(days[j]).strftime("%b %-d, %Y")
+    run = "published every morning since %s" % start if i > j else "first published %s" % start
+    return '<p class="b-streak"><strong>Edition #%d</strong> &middot; %s</p>' % (i + 1, run)
+
+VOTE_JS = r"""<script>(function(){
+/* Static site: votes are stored only in this browser (localStorage). No personal data is sent anywhere.
+   To collect votes later, set ENDPOINT to a form/worker URL (and allow it in the CSP connect-src). */
+var ENDPOINT='';var KEY='briefed-votes-v1';var ed=(document.querySelector('[data-edition]')||{}).getAttribute?document.querySelector('[data-edition]').getAttribute('data-edition'):'';
+function load(){try{return JSON.parse(localStorage.getItem(KEY))||{};}catch(e){return {};}}
+function save(v){try{localStorage.setItem(KEY,JSON.stringify(v));}catch(e){}}
+function send(id,vote){if(!ENDPOINT)return;try{var b=JSON.stringify({edition:ed,story:id,vote:vote});if(navigator.sendBeacon){navigator.sendBeacon(ENDPOINT,new Blob([b],{type:'application/json'}));}else{fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:b,keepalive:true});}}catch(e){}}
+function paint(box,vote){box.querySelectorAll('.b-vote-b').forEach(function(b){var on=b.dataset.vote===vote;b.classList.toggle('on',on);b.setAttribute('aria-pressed',on?'true':'false');});var t=box.querySelector('.b-vote-t');if(t)t.textContent=vote?'Thanks for the feedback.':'';}
+var votes=load();
+document.querySelectorAll('.b-vote').forEach(function(box){var id=ed+'/'+box.dataset.story;paint(box,votes[id]);
+ box.querySelectorAll('.b-vote-b').forEach(function(b){b.addEventListener('click',function(){var v=load();if(v[id]===b.dataset.vote)return;v[id]=b.dataset.vote;save(v);paint(box,b.dataset.vote);send(box.dataset.story,b.dataset.vote);});});});
+})();</script>"""
+
+def edition_body(ed, is_latest, prev_day=None, next_day=None, all_eds=()):
     chaps = {c["storyId"]: c for c in media_chapters(ed) if c.get("storyId")}
     pl, js = player(ed)
     cards = "\n".join(story_card(s, i, chaps.get(s["id"])) for i, s in enumerate(ed["stories"]))
@@ -240,10 +267,10 @@ def edition_body(ed, is_latest, prev_day=None, next_day=None):
       '<div class="b-topline"><h1 class="b-h1"><span class="eyebrow">Briefed &middot; %s</span> <time datetime="%s">%s</time></h1>'
       '<span class="b-links">%s<a href="/briefed/archive/">Archive</a><a href="/briefed/about/">About</a></span></div>\n'
       '%s\n</div></div>\n'
-      '<section class="b-main"><div class="wrap b-narrow">\n<p class="b-tag">Just the facts, with sources. <a href="/briefed/%s.json">JSON</a></p>\n%s\n%s\n'
+      '<section class="b-main"><div class="wrap b-narrow">\n%s<p class="b-tag" data-edition="%s">Just the facts, with sources. <a href="/briefed/%s.json">JSON</a></p>\n%s\n%s\n'
       '<p class="b-fine">Headlines and summaries are written by Briefed. Each story links to the original reporting; we do not republish article text.</p>\n'
-      '</div></section>\n<script type="application/json" id="b-data">%s</script>\n%s') % (
-      "Today" if is_latest else "Edition", d, e(short_date(d)), daynav_inline(prev_day, next_day), pl, d, cards, nav, panel_data(ed), js)
+      '</div></section>\n<script type="application/json" id="b-data">%s</script>\n%s%s') % (
+      "Today" if is_latest else "Edition", d, e(short_date(d)), daynav_inline(prev_day, next_day), pl, streak_line(ed, all_eds), d, d, cards, nav, panel_data(ed), js, VOTE_JS)
 
 
 def jsonld_ed(ed, url):
@@ -269,6 +296,13 @@ ABOUT = '''<section class="b-hero"><div class="wrap b-narrow">
   <p>Briefed strips out the extra opinion and gives you the facts on things that really happened.</p>
   <p>Every story links to the original reporting and the official sources, so you can check it yourself.</p>
   <p>The audio is AI-voiced from the written edition. <span class="b-ai">AI-voiced</span></p>
+  <h2 class="b-about-h">What changed recently</h2>
+  <ul class="b-changes">
+    <li><strong>Oct 25, 2026:</strong> I switched Briefed to a US-focused edition. The lead story is always a domestic one, and world news only makes the cut when I can say why it matters here.</li>
+    <li><strong>Oct 25, 2026:</strong> I added "In their own words": firsthand quotes from the people involved, each linked to its source.</li>
+    <li><strong>Oct 25, 2026:</strong> I tightened the top of each edition. The date, the player and the story being read now stay pinned while you scroll, on phone and desktop.</li>
+    <li><strong>Oct 25, 2026:</strong> Each edition now shows its edition number, and every story has a one-tap "Was this useful?" button so I can learn what to keep doing.</li>
+  </ul>
   <p class="b-sub"><a href="/briefed/">Read today's edition</a> · <a href="/briefed/archive/">Past editions</a></p>
 </div></div></section>'''
 
@@ -403,7 +437,39 @@ a.b-pn:hover{border-color:var(--brand);text-decoration:none}
 }
 
 @media (min-width:900px){.b-player{top:84px}}
+/* streak line, feedback buttons, about changes, field notes */
+.b-streak{margin-top:10px;font-size:.88rem;color:var(--ink2)}
+.b-streak strong{color:var(--brand)}
+.b-vote{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:12px;padding-top:10px;border-top:1px solid var(--line);font-size:.86rem}
+.b-vote-q{color:var(--muted);font-weight:600}
+.b-vote-b{min-height:36px;padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:#fff;color:var(--ink2);font:inherit;font-weight:600;cursor:pointer}
+.b-vote-b:hover{border-color:var(--brand);color:var(--brand)}
+.b-vote-b.on{background:var(--brand);border-color:var(--brand);color:#fff}
+.b-vote-t{color:var(--muted)}
+.b-panel .b-vote{display:none}
+.b-about-h{font-size:1.2rem;margin-top:22px}
+.b-changes{margin:8px 0 0 20px;display:grid;gap:8px;color:var(--ink2)}
+.n-list{list-style:none;display:grid;gap:14px}
+.n-list time{display:block;font-size:.8rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--brand)}
+.n-list h2{font-size:1.15rem;margin:4px 0 6px}
+.n-list p{color:var(--ink2)}
 '''
+
+NOTES = [
+    ("2026-10-25", "A narrower focus made a clearer product",
+     "Briefed's first US-focused edition went out this morning. Choosing one audience made every edition easier to read and easier to judge: a story either matters to an American reader or it waits."),
+    ("2026-10-25", "Lead with what's closest to home",
+     "We made one rule non-negotiable: the lead story is always domestic. Readers open the edition to the news that affects them first, and world stories earn their spot with a clear reason."),
+    ("2026-10-25", "Let people speak for themselves, and keep the controls in reach",
+     "Stories now carry firsthand quotes from the people involved, linked to the source, so readers can see what was actually said. We also tightened the top of the page: the player stays pinned while you scroll, on phone and desktop."),
+]
+
+def notes_body():
+    items = "".join('<li class="card"><time datetime="%s">%s</time><h2>%s</h2><p>%s</p></li>' % (d, e(long_date(d)), e(t), e(b)) for d, t, b in NOTES)
+    return ('<section class="b-hero"><div class="wrap b-narrow"><span class="eyebrow">Field notes</span><h1>What we are learning</h1>'
+            '<p class="lead">Short, dated notes from shipping every day: what changed and what it did for readers.</p></div></section>'
+            '<section class="b-main"><div class="wrap b-narrow"><ol class="n-list">%s</ol>'
+            '<p class="b-sub">Questions or ideas? <a href="mailto:info@ljiindustries.com">info@ljiindustries.com</a></p></div></section>') % items
 
 def write(path, text):
     os.makedirs(os.path.dirname(path), exist_ok=True)
@@ -431,11 +497,11 @@ def build(root, editions, preview=False):
     for i, ed in enumerate(editions):
         url = f"/briefed/{ed['date']}/"
         desc = f"Briefed for {long_date(ed['date'])}: " + "; ".join(s["headline"] for s in ed["stories"][:3])
-        write(os.path.join(out, ed["date"], "index.html"), page(f"Briefed: {long_date(ed['date'])}", desc[:300], url, edition_body(ed, i == 0, editions[i + 1]["date"] if i + 1 < len(editions) else None, editions[i - 1]["date"] if i > 0 else None), jsonld_ed(ed, url)))
+        write(os.path.join(out, ed["date"], "index.html"), page(f"Briefed: {long_date(ed['date'])}", desc[:300], url, edition_body(ed, i == 0, editions[i + 1]["date"] if i + 1 < len(editions) else None, editions[i - 1]["date"] if i > 0 else None, editions), jsonld_ed(ed, url)))
         write(os.path.join(out, f"{ed['date']}.json"), json.dumps(public_json(ed), indent=1))
     if editions:
         latest = editions[0]
-        write(os.path.join(out, "index.html"), page("Briefed: today's edition | LJI Industries", f"Briefed for {long_date(latest['date'])}: the facts on the day's stories, with links to the original reporting and official sources.", f"/briefed/{latest['date']}/", edition_body(latest, True, editions[1]["date"] if len(editions) > 1 else None, None), jsonld_ed(latest, "/briefed/")))
+        write(os.path.join(out, "index.html"), page("Briefed: today's edition | LJI Industries", f"Briefed for {long_date(latest['date'])}: the facts on the day's stories, with links to the original reporting and official sources.", f"/briefed/{latest['date']}/", edition_body(latest, True, editions[1]["date"] if len(editions) > 1 else None, None, editions), jsonld_ed(latest, "/briefed/")))
         write(os.path.join(out, "latest.json"), json.dumps(public_json(latest), indent=1))
     else:
         write(os.path.join(out, "index.html"), page("Briefed: daily edition | LJI Industries", "Briefed's first US-focused daily edition arrives Sunday, October 25, 2026.", "/briefed/", EMPTY))
@@ -455,6 +521,7 @@ def build(root, editions, preview=False):
     body = f'<section class="b-hero"><div class="wrap b-narrow"><span class="eyebrow">Briefed · Archive</span><h1>Past editions</h1></div></section><section class="b-main"><div class="wrap b-narrow b-arch">{lists}</div></section>'
     write(os.path.join(out, "archive", "index.html"), page("Briefed archive: past editions | LJI Industries", "Every Briefed daily edition by date.", "/briefed/archive/", body))
     write(os.path.join(out, "about", "index.html"), page("About Briefed | LJI Industries", "Why Briefed exists: the facts on things that really happened, with links to the original reporting and official sources.", "/briefed/about/", ABOUT))
+    write(os.path.join(root, "notes", "index.html"), page("Field notes | LJI Industries", "Short, dated lessons from shipping every day at LJI Industries.", "/notes/", notes_body()))
     if not preview:
         sitemap(root, editions)
     return editions
@@ -462,9 +529,9 @@ def build(root, editions, preview=False):
 def sitemap(root, editions):
     p = os.path.join(root, "sitemap.xml")
     s = open(p).read()
-    s = re.sub(r"\s*<url><loc>https://ljiindustries.com/briefed/[^<]*</loc>.*?</url>", "", s)
+    s = re.sub(r"\s*<url><loc>https://ljiindustries.com/(?:briefed|notes)/[^<]*</loc>.*?</url>", "", s)
     today = editions[0]["date"] if editions else "2026-10-24"
-    urls = [("/briefed/", today), ("/briefed/archive/", today), ("/briefed/about/", "2026-10-24")] + [(f"/briefed/{x['date']}/", x["date"]) for x in editions]
+    urls = [("/briefed/", today), ("/briefed/archive/", today), ("/briefed/about/", today), ("/notes/", "2026-10-25")] + [(f"/briefed/{x['date']}/", x["date"]) for x in editions]
     add = "".join(f"\n  <url><loc>{SITE}{u}</loc><lastmod>{d}</lastmod></url>" for u, d in urls)
     s = s.replace("\n</urlset>", add + "\n</urlset>")
     open(p, "w").write(s)
