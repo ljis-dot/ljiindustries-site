@@ -198,8 +198,7 @@ def player(ed):
     ai = '<span class="b-ai" title="%s">AI-voiced</span>' % e(AI_TITLE)
     if has_video:
         poster = ' poster="%s"' % e(v["poster"]) if v.get("poster") else ""
-        media = ('<div class="b-grid"><div class="b-video-wrap"><video id="b-media" class="b-video" controls playsinline preload="metadata"%s src="%s"></video></div>\n'
-                 '<div id="b-panel" class="b-panel" aria-live="polite"><p class="b-panel-empty">Press play: the story being read shows here.</p></div></div>\n'
+        media = ('<div class="b-grid"><div class="b-video-wrap"><video id="b-media" class="b-video" controls playsinline preload="metadata"%s src="%s"></video></div></div>\n'
                  '<div class="b-mbar">%s<span class="b-mlabel">Video edition &middot; %s</span>%s</div>') % (poster, e(v["url"]), ai, fmt_t(dur), toggle)
     else:
         media = ('<audio id="b-media" preload="metadata" src="%s"></audio>\n'
@@ -398,7 +397,7 @@ a.b-pn:hover{border-color:var(--brand);text-decoration:none}
 .b-pi{font-weight:700}
 .b-pi.off{color:var(--muted);opacity:.45}
 .b-main .b-tag{margin:10px 0 0}
-.b-has-video .b-grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:12px;align-items:start}
+.b-has-video .b-grid{display:block}
 .b-has-video .b-video-wrap{margin:0}
 .b-has-video .b-video{max-height:34vh}
 .b-has-video .b-panel{margin:0;max-height:34vh;overflow:auto}
