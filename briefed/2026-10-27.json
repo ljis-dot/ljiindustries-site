@@ -1,0 +1,367 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-10-27",
+ "generatedAt": "2026-10-27T07:00:00-04:00",
+ "stories": [
+  {
+   "id": "comey-third-charge",
+   "region": "us",
+   "location": "DC",
+   "headline": "DOJ charges James Comey a third time over a 2016 leak via criminal information",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/comey-trump-fbi-director-prosecution-8479bdbf1bcdeeae313b453a3cd0c544"
+    },
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/politics/justice-department/former-fbi-james-comey-charged-third-time-trump-national-security-rcna342963"
+    },
+    {
+     "name": "Washington Post",
+     "url": "https://www.washingtonpost.com/national-security/2026/10/26/justice-dept-charges-james-comey-ex-fbi-director-third-time/"
+    },
+    {
+     "name": "The Hill",
+     "url": "https://thehill.com/regulation/court-battles/6173552-james-comey-doj-charges-third-time/"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Unsealed Monday: DOJ charged former FBI Director James Comey on Oct. 5 by criminal information \u2014 not a grand jury indictment \u2014 with transmitting national defense information and conspiracy tied to an Oct. 2016 New York Times story. His lawyers say it is past the 10-year limit; two earlier U.S. attorney's offices declined. Comey called it \"an appalling abuse of the Department of Justice.\" A prior case was dismissed; he was indicted in North Carolina April 28 over an '8647' post.",
+   "firstHand": [
+    {
+     "who": "James Comey, former FBI Director",
+     "role": "Substack video, Oct. 26 (reported by NBC)",
+     "url": "https://www.nbcnews.com/politics/justice-department/former-fbi-james-comey-charged-third-time-trump-national-security-rcna342963",
+     "quote": "Well, they're back again. It would almost be funny if it weren't such an appalling abuse of the Department of Justice, one that we cannot become numb to."
+    }
+   ]
+  },
+  {
+   "id": "california-ballots-9th",
+   "region": "us",
+   "location": "CA",
+   "headline": "9th Circuit 2-1 won't block counting ~20,000 disputed California ballots",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/california-noncitizen-voting-justice-department-lawsuit-ed14390afb8af8fde1c2d0f6a90a0761"
+    },
+    {
+     "name": "Politico",
+     "url": "https://www.politico.com/news/2026/10/26/california-election-ballots-justice-department-ruling"
+    }
+   ],
+   "officialSources": [
+    "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/10/26/26-7070.pdf",
+    "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/10/26/26-7070.pdf"
+   ],
+   "summary": "A Ninth Circuit panel, 2-1, dismissed the DOJ's emergency appeal seeking to set aside about 20,000 California mail ballots tied to people the government labeled likely noncitizens. Judges Bennett (Trump appointee) and Sanchez (Biden appointee) held that DOJ did not give the district court adequate time to rule; Judge Bumatay dissented. The order is not on the merits. A district hearing was set for today."
+  },
+  {
+   "id": "anthropic-ipo-s1",
+   "region": "us",
+   "location": "CA",
+   "headline": "Anthropic files S-1 for Nasdaq IPO under ticker ANT; no price or size yet",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "anthropic.com",
+     "url": "https://www.anthropic.com/news/s1-sec"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/anthropic-ipo-shares-public-ca2f4c282bef3201a392e59e3df2300c"
+    },
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html"
+    },
+    {
+     "name": "Reuters",
+     "url": "https://www.reuters.com/technology/anthropic-files-ipo-2026-10-26/"
+    }
+   ],
+   "officialSources": [
+    "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+    "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+    "https://www.anthropic.com/news/s1-sec"
+   ],
+   "summary": "Anthropic filed a Form S-1 with the SEC for a proposed IPO of Class A common stock, intending to list on Nasdaq Global Select under ticker ANT. Share count and price range are not yet set. AP reports it could be the biggest IPO ever. The filing lands in Federal Reserve decision week."
+  },
+  {
+   "id": "washington-ballots-doj",
+   "region": "us",
+   "location": "WA",
+   "headline": "DOJ asks Washington to set aside ballots of ~400 voters it says may be noncitizens",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/washington-noncitizen-voting-63c17a3eadc9ed232fbd897afbd29b9d"
+    },
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/politics/2026-election/doj-asks-washington-state-set-400-ballots-voters-says-may-noncitizens-rcna605836"
+    },
+    {
+     "name": "pbs.org",
+     "url": "https://www.pbs.org/newshour/politics/trump-administration-asks-washington-state-to-set-aside-ballots-from-400-voters-it-says-may-be-noncitizens"
+    }
+   ],
+   "officialSources": [
+    "https://www.sos.wa.gov/about-office/news/2026/statement-about-washingtons-safe-and-secure-elections",
+    "https://www.sos.wa.gov/about-office/news/2026/statement-about-washingtons-safe-and-secure-elections"
+   ],
+   "summary": "The Justice Department asked Washington state to set aside ballots from about 400 registered voters it alleges may be noncitizens. The Secretary of State's office said it is reviewing the request and will respond only if it follows due process."
+  },
+  {
+   "id": "famu-homecoming-arrest",
+   "region": "us",
+   "location": "FL",
+   "headline": "15-year-old Anthony Rivers III arrested in FAMU homecoming shooting; 11 attempted-murder counts",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/florida-am-shooting-arrest-tallahassee-e91b8d7e82eb8dee7a38df18771d0adf"
+    },
+    {
+     "name": "tallahassee.com",
+     "url": "https://www.tallahassee.com/story/news/local/2026/10/26/police-arrest-15-year-old-boy-in-tallahassee-mass-shooting/92440573007/"
+    },
+    {
+     "name": "news.wfsu.org",
+     "url": "https://news.wfsu.org/wfsu-local-news/2026-10-26/tallahassee-have-arrested-a-teen-in-saturdays-mass-shooting-near-famu"
+    },
+    {
+     "name": "talgov.com",
+     "url": "https://www.talgov.com/Main/News/6100"
+    }
+   ],
+   "officialSources": [
+    "https://www.talgov.com/Main/News/6100"
+   ],
+   "summary": "Anthony Rivers III, 15, faces 11 counts of attempted second-degree murder and will be charged as an adult in the Oct. 24 shooting near FAMU's Bragg Stadium after homecoming. Twelve people were hurt, including six minors; one remains critical. Follow-up to the Oct. 25 story."
+  },
+  {
+   "id": "congress-powder-letters",
+   "region": "us",
+   "location": "IL",
+   "headline": "Quincy, Ill. man charged with mailing hoax white-powder letters to four Illinois members of Congress",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/congress-letters-suspicious-powder-arrest-3bae6cfc887d22e5c2f5ef3644e83ee2"
+    },
+    {
+     "name": "rollcall.com",
+     "url": "https://rollcall.com/2026/10/26/four-hoax-letters-to-congress-draw-federal-charges/"
+    },
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/chicago/news/quincy-illinois-man-charged-sending-white-powder-members-of-congress/"
+    },
+    {
+     "name": "The Hill",
+     "url": "https://thehill.com/regulation/court-battles/6173379-illinois-man-congress-white-substance-mail/"
+    }
+   ],
+   "officialSources": [],
+   "summary": "A Quincy, Illinois man was charged with mailing hoax white-powder letters to four Illinois members of Congress. He told the FBI the substance was salt; testing was negative. He was not charged in connection with dozens of other letters."
+  },
+  {
+   "id": "oleshky-ceasefire",
+   "region": "foreign",
+   "location": "Ukraine",
+   "headline": "Melania Trump-brokered Oleshky ceasefire begins; White House page still says Oct. 29",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/russia-ukraine-war-trump-f26143c32e4673686381d0ff87225720"
+    },
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/world/ukraine/ceasefire-brokered-melania-trump-comes-effect-russian-occupied-town-br-rcna605667"
+    }
+   ],
+   "officialSources": [
+    "https://www.whitehouse.gov/briefings-statements/2026/10/first-lady-melania-trump-secures-ceasefire-between-russia-and-ukraine-localized-to-oleshky/",
+    "https://www.whitehouse.gov/briefings-statements/2026/10/first-lady-melania-trump-secures-ceasefire-between-russia-and-ukraine-localized-to-oleshky/"
+   ],
+   "summary": "A local humanitarian ceasefire around Oleshky in Ukraine's Kherson region, brokered by Melania Trump, began at 3 a.m. Oct. 27 per AP and Ukraine's ombudsman. A White House statement still lists a start of Oct. 29. Russian strikes still killed three in Kyiv and Kharkiv.",
+   "firstHand": [
+    {
+     "who": "Melania Trump, First Lady of the United States",
+     "role": "White House statement, Oct. 23",
+     "url": "https://www.whitehouse.gov/briefings-statements/2026/10/first-lady-melania-trump-secures-ceasefire-between-russia-and-ukraine-localized-to-oleshky/",
+     "quote": "The situation in Oleshky is dire. Oleshky is a front-line war city on the brink of disaster."
+    }
+   ],
+   "whyItMattersToUS": "A U.S.-brokered local deal ahead of U.S.-led Russia-Ukraine peace talks expected next month."
+  },
+  {
+   "id": "israel-election-netanyahu",
+   "region": "foreign",
+   "location": "Israel",
+   "headline": "Israelis vote in parliamentary election; Netanyahu touts Trump endorsement, hints at Iran strikes",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/israel-election-netanyahu-results-explainer-3b38fd7c304ac2a68281a891cbfe6063"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/trump-israel-netanyahu-reelection-prime-minister-ba88cdd728422d51e837231b2efbea81"
+    },
+    {
+     "name": "al-monitor.com",
+     "url": "https://www.al-monitor.com/originals/2026/10/netanyahu-touts-trump-endorsement-eve-vote-suggests-they-may-restart-war-iran"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Israelis are voting in a parliamentary election; results and coalition talks may take weeks. Netanyahu is touting President Trump's endorsement and hinting at restarting strikes on Iran. This is a general election, not a Knesset confidence vote.",
+   "whyItMattersToUS": "Israel is a key U.S. partner in the eight-month Iran war."
+  }
+ ],
+ "audio": {
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-10-27/Briefed-2026-10-27-full-twohost.mp3",
+  "durationSeconds": 149.734,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": null,
+    "title": "Intro",
+    "start": 0.0,
+    "end": 11.985
+   },
+   {
+    "storyId": "comey-third-charge",
+    "title": "Comey charged a 3rd time",
+    "start": 11.985,
+    "end": 34.604
+   },
+   {
+    "storyId": "california-ballots-9th",
+    "title": "9th Cir. won't block CA ballots",
+    "start": 34.604,
+    "end": 47.636
+   },
+   {
+    "storyId": "anthropic-ipo-s1",
+    "title": "Anthropic files IPO (ANT)",
+    "start": 47.636,
+    "end": 60.981
+   },
+   {
+    "storyId": "washington-ballots-doj",
+    "title": "DOJ targets ~400 WA ballots",
+    "start": 60.981,
+    "end": 72.393
+   },
+   {
+    "storyId": "famu-homecoming-arrest",
+    "title": "Teen arrested in FAMU shooting",
+    "start": 72.393,
+    "end": 88.939
+   },
+   {
+    "storyId": "congress-powder-letters",
+    "title": "Hoax powder letters charged",
+    "start": 88.939,
+    "end": 102.911
+   },
+   {
+    "storyId": "oleshky-ceasefire",
+    "title": "Oleshky ceasefire begins",
+    "start": 102.911,
+    "end": 124.563
+   },
+   {
+    "storyId": "israel-election-netanyahu",
+    "title": "Israel votes; Netanyahu touts Trump",
+    "start": 124.563,
+    "end": 141.095
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 141.095,
+    "end": 149.701
+   }
+  ]
+ },
+ "video": {
+  "url": "/briefed/media/2026-10-27/Briefed-2026-10-27-web.mp4",
+  "durationSeconds": 149.701,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": null,
+    "title": "Intro",
+    "start": 0.0,
+    "end": 11.985
+   },
+   {
+    "storyId": "comey-third-charge",
+    "title": "Comey charged a 3rd time",
+    "start": 11.985,
+    "end": 34.604
+   },
+   {
+    "storyId": "california-ballots-9th",
+    "title": "9th Cir. won't block CA ballots",
+    "start": 34.604,
+    "end": 47.636
+   },
+   {
+    "storyId": "anthropic-ipo-s1",
+    "title": "Anthropic files IPO (ANT)",
+    "start": 47.636,
+    "end": 60.981
+   },
+   {
+    "storyId": "washington-ballots-doj",
+    "title": "DOJ targets ~400 WA ballots",
+    "start": 60.981,
+    "end": 72.393
+   },
+   {
+    "storyId": "famu-homecoming-arrest",
+    "title": "Teen arrested in FAMU shooting",
+    "start": 72.393,
+    "end": 88.939
+   },
+   {
+    "storyId": "congress-powder-letters",
+    "title": "Hoax powder letters charged",
+    "start": 88.939,
+    "end": 102.911
+   },
+   {
+    "storyId": "oleshky-ceasefire",
+    "title": "Oleshky ceasefire begins",
+    "start": 102.911,
+    "end": 124.563
+   },
+   {
+    "storyId": "israel-election-netanyahu",
+    "title": "Israel votes; Netanyahu touts Trump",
+    "start": 124.563,
+    "end": 141.095
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 141.095,
+    "end": 149.701
+   }
+  ],
+  "poster": "/briefed/media/2026-10-27/Briefed-2026-10-27-poster.jpg"
+ }
+}

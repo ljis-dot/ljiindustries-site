@@ -2,6 +2,13 @@
  "schemaVersion": 1,
  "editions": [
   {
+   "date": "2026-10-27",
+   "lead": "DOJ charges James Comey a third time over a 2016 leak via criminal information",
+   "url": "/briefed/2026-10-27/",
+   "json": "/briefed/2026-10-27.json",
+   "hasAudio": true
+  },
+  {
    "date": "2026-10-26",
    "lead": "DOJ sues to block Alaska Senate certification if Sen. Sullivan narrowly loses",
    "url": "/briefed/2026-10-26/",
