@@ -84,7 +84,8 @@ fi
 # --- verify live (up to 10 min) ---
 LONG=$(python3 -c "from datetime import date;print(date.fromisoformat('$DAY').strftime('%A, %B %-d, %Y'))")
 for i in $(seq 1 20); do
-  if curl -sf "https://ljiindustries.com/briefed/?v=$(date +%s)" -H 'Cache-Control: no-cache' | grep -qF "$LONG"; then log "LIVE: ljiindustries.com/briefed shows $LONG"; exit 0; fi
+  PAGE=$(curl -sf "https://ljiindustries.com/briefed/?v=$(date +%s)" -H 'Cache-Control: no-cache' || true)
+  if grep -qF "$LONG" <<<"$PAGE"; then log "LIVE: ljiindustries.com/briefed shows $LONG"; exit 0; fi
   sleep 30
 done
 echo "[publish $DAY] FAILED: /briefed/ did not show '$LONG' within 10 minutes" >&2; exit 7
