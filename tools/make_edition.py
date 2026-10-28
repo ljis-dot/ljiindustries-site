@@ -99,6 +99,9 @@ def main():
     vch = os.path.join(base, "v2", "video-chapters.json")
     if vbase and os.path.exists(vmp4) and os.path.exists(vch):
         vc = json.load(open(vch))["chapters"]
+        # no-intro editions: a short cover still (kind "intro", < 4 s) is folded into the first story so the list starts with the lead
+        if len(vc) > 1 and vc[0].get("kind") == "intro" and vc[0]["end"] - vc[0]["start"] < 4:
+            vc = [dict(vc[1], start=vc[0]["start"])] + vc[2:]
         ids = {s["id"] for s in stories}
         for c in vc:
             if c.get("kind") == "story" and c["id"] not in ids: warn.append(f"video chapter {c['id']} matches no story")

@@ -184,7 +184,8 @@ def og_edition(ed, root):
     d = date.fromisoformat(ed["date"]); lab = d.strftime("%a, %b %-d")
     summ = first_sentence(lead.get("summary") or "")
     if len(summ) > 160: summ = summ[:157].rsplit(" ", 1)[0] + "…"
-    secs = (ed.get("audio") or {}).get("durationSeconds")
+    secs = (ed.get("video") or {}).get("durationSeconds") if (ed.get("video") or {}).get("url") else None
+    secs = secs or (ed.get("audio") or {}).get("durationSeconds")
     tail = f"{len(st)} stories" + (f", about {max(1, round(secs / 60))} min" if secs else "")
     desc = (summ + " " if summ else "") + tail + "."
     import og_card
