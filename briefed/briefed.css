@@ -145,3 +145,12 @@ a.b-pn:hover{border-color:var(--brand);text-decoration:none}
 .n-list time{display:block;font-size:.8rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--brand)}
 .n-list h2{font-size:1.15rem;margin:4px 0 6px}
 .n-list p{color:var(--ink2)}
+/* ---- home-screen app (standalone) header ---- */
+.b-apphead{display:none;position:sticky;top:0;z-index:50;background:rgba(255,255,255,.95);backdrop-filter:saturate(180%) blur(10px);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top)}
+.b-apphead .wrap{display:flex;align-items:center;height:48px}
+.b-apphead a{display:flex;align-items:center;gap:8px;color:var(--ink);text-decoration:none;font-size:1rem}
+.b-apphead img{width:28px;height:28px;border-radius:6px;display:block}
+@media (display-mode: standalone){.nav{display:none}.b-apphead{display:block}.b-stick,.b-player{top:calc(48px + env(safe-area-inset-top))!important}}
+html.b-standalone .nav{display:none}
+html.b-standalone .b-apphead{display:block}
+html.b-standalone .b-stick,html.b-standalone .b-player{top:calc(48px + env(safe-area-inset-top))!important}

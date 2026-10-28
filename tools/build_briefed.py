@@ -71,6 +71,18 @@ def header(root_rel="/"):
   </div>
 </header>'''
 
+BRIEFED_ICONS = '''<link rel="icon" href="/briefed/icons/favicon.ico" sizes="any">
+<link rel="icon" href="/briefed/icons/icon-192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="/briefed/icons/apple-touch-icon.png" sizes="180x180">
+<link rel="manifest" href="/briefed/manifest.webmanifest">
+<script>if(window.navigator.standalone===true||(window.matchMedia&&window.matchMedia('(display-mode: standalone)').matches)){document.documentElement.classList.add('b-standalone');}</script>'''
+LJI_ICONS = '''<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180">'''
+
+def app_header():
+    return '''<header class="b-apphead"><div class="wrap"><a href="/briefed/" aria-label="Briefed home"><img src="/briefed/icons/icon-mark-only-256.png" alt="" width="28" height="28"><span><b>Briefed</b> by LJI Industries</span></a></div></header>'''
+
 FOOTER = '''<footer>
   <div class="wrap">
     <div class="foot-grid">
@@ -89,6 +101,8 @@ FOOTER = '''<footer>
 <script>document.getElementById('yr').textContent=new Date().getFullYear();document.querySelectorAll('#nav a').forEach(function(a){a.addEventListener('click',function(){document.getElementById('nav').classList.remove('open');});});</script>'''
 
 def page(title, desc, canonical, body, jsonld=None, extra_head=""):
+    is_b = canonical.startswith("/briefed")
+    icons = BRIEFED_ICONS if is_b else LJI_ICONS
     ld = f'<script type="application/ld+json">{json.dumps(jsonld)}</script>' if jsonld else ""
     return f'''<!doctype html>
 <html lang="en">
@@ -100,10 +114,7 @@ def page(title, desc, canonical, body, jsonld=None, extra_head=""):
 <meta name="description" content="{e(desc)}">
 <link rel="canonical" href="{SITE}{canonical}">
 <meta name="robots" content="index, follow, max-image-preview:large">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180">
-<link rel="manifest" href="/briefed/manifest.webmanifest">
+{icons}
 <meta name="theme-color" content="#1d4ed8">
 <meta name="apple-mobile-web-app-title" content="Briefed">
 <meta property="og:type" content="website"><meta property="og:site_name" content="LJI Industries">
@@ -115,7 +126,7 @@ def page(title, desc, canonical, body, jsonld=None, extra_head=""):
 {ld}{extra_head}
 </head>
 <body>
-{header()}
+{app_header() if is_b else ""}{header()}
 <main id="top">
 {body}
 </main>
@@ -452,6 +463,15 @@ a.b-pn:hover{border-color:var(--brand);text-decoration:none}
 .n-list time{display:block;font-size:.8rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--brand)}
 .n-list h2{font-size:1.15rem;margin:4px 0 6px}
 .n-list p{color:var(--ink2)}
+/* ---- home-screen app (standalone) header ---- */
+.b-apphead{display:none;position:sticky;top:0;z-index:50;background:rgba(255,255,255,.95);backdrop-filter:saturate(180%) blur(10px);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top)}
+.b-apphead .wrap{display:flex;align-items:center;height:48px}
+.b-apphead a{display:flex;align-items:center;gap:8px;color:var(--ink);text-decoration:none;font-size:1rem}
+.b-apphead img{width:28px;height:28px;border-radius:6px;display:block}
+@media (display-mode: standalone){.nav{display:none}.b-apphead{display:block}.b-stick,.b-player{top:calc(48px + env(safe-area-inset-top))!important}}
+html.b-standalone .nav{display:none}
+html.b-standalone .b-apphead{display:block}
+html.b-standalone .b-stick,html.b-standalone .b-player{top:calc(48px + env(safe-area-inset-top))!important}
 '''
 
 NOTES = [
@@ -488,8 +508,9 @@ def build(root, editions, preview=False):
     write(os.path.join(out, "manifest.webmanifest"), json.dumps({
         "name": "Briefed", "short_name": "Briefed", "description": "The facts on the day's stories, with links to the original reporting.",
         "start_url": "/briefed/", "scope": "/briefed/", "display": "standalone", "theme_color": "#1d4ed8", "background_color": "#ffffff",
-        "icons": [{"src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png"},
-                  {"src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}]}, indent=2))
+        "icons": [{"src": "/briefed/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+                  {"src": "/briefed/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+                  {"src": "/briefed/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}]}, indent=2))
     if not preview:
         editions = [x for x in editions if x["date"] >= LAUNCH]
     editions.sort(key=lambda x: x["date"], reverse=True)
