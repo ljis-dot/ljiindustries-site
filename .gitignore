@@ -9,3 +9,4 @@ dns-before-*.md
 *.key
 *token*
 .DS_Store
+__pycache__/

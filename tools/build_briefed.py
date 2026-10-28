@@ -9,6 +9,7 @@ No dependencies. Shared look: the CSS is copied from index.html's <style> at bui
 import argparse, html, json, os, re, shutil, sys
 from datetime import date, timedelta
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 LAUNCH = "2026-10-24"  # first published day
 SITE = "https://ljiindustries.com"
 FORBIDDEN = [re.compile(p, re.I) for p in [r"\$\s?\d+\s?(/mo|per month|a month)", r"\bpricing\b", r"\bsubscribe now\b"]]
@@ -116,8 +117,9 @@ FOOTER = '''<footer>
 <!-- slot:subscribe (follow/subscribe is OFF for now; render here later) -->
 <script>document.getElementById('yr').textContent=new Date().getFullYear();document.querySelectorAll('#nav a').forEach(function(a){a.addEventListener('click',function(){document.getElementById('nav').classList.remove('open');});});</script>'''
 
-def page(title, desc, canonical, body, jsonld=None, extra_head=""):
+def page(title, desc, canonical, body, jsonld=None, extra_head="", og=None, og_url=None):
     is_b = canonical.startswith("/briefed")
+    ogtags = og_meta(title, desc, og_url or canonical, og, is_b)
     icons = BRIEFED_ICONS if is_b else LJI_ICONS
     ld = f'<script type="application/ld+json">{json.dumps(jsonld)}</script>' if jsonld else ""
     return f'''<!doctype html>
@@ -133,9 +135,7 @@ def page(title, desc, canonical, body, jsonld=None, extra_head=""):
 {icons}
 <meta name="theme-color" content="#1d4ed8">
 <meta name="apple-mobile-web-app-title" content="Briefed">
-<meta property="og:type" content="website"><meta property="og:site_name" content="LJI Industries">
-<meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}">
-<meta property="og:url" content="{SITE}{canonical}"><meta property="og:image" content="{SITE}/og-image.png">
+{ogtags}
 <link rel="stylesheet" href="/briefed/site.css">
 <link rel="stylesheet" href="/briefed/briefed.css">
 <link rel="alternate" type="application/json" href="/briefed/latest.json" title="Briefed latest edition (JSON)">
@@ -150,6 +150,49 @@ def page(title, desc, canonical, body, jsonld=None, extra_head=""):
 </body>
 </html>
 '''
+
+OG_GENERIC = {"image": "/briefed/og/briefed.png", "alt": "Briefed by LJI Industries: the day's news, just the facts, with links to the sources."}
+
+def og_meta(title, desc, url, og, is_b):
+    if not is_b:
+        return (f'<meta property="og:type" content="website"><meta property="og:site_name" content="LJI Industries">\n'
+                f'<meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}">\n'
+                f'<meta property="og:url" content="{SITE}{url}"><meta property="og:image" content="{SITE}/og-image.png">')
+    og = {**OG_GENERIC, "type": "website", "title": title, "desc": desc, **(og or {})}
+    img = SITE + og["image"]
+    return "\n".join([
+        f'<meta property="og:type" content="{og["type"]}"><meta property="og:site_name" content="Briefed">',
+        f'<meta property="og:title" content="{e(og["title"])}"><meta property="og:description" content="{e(og["desc"])}">',
+        f'<meta property="og:url" content="{SITE}{url}">',
+        f'<meta property="og:image" content="{img}"><meta property="og:image:secure_url" content="{img}"><meta property="og:image:type" content="image/png">',
+        f'<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="{e(og["alt"])}">',
+        f'<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(og["title"])}"><meta name="twitter:description" content="{e(og["desc"])}">',
+        f'<meta name="twitter:image" content="{img}"><meta name="twitter:image:alt" content="{e(og["alt"])}">'])
+
+ABBR = {"jan", "feb", "mar", "apr", "jun", "jul", "aug", "sep", "sept", "oct", "nov", "dec", "u.s", "u.k", "mr", "mrs", "ms", "dr", "gov", "sen", "rep", "gen", "st", "jr", "sr", "no", "vs", "inc", "corp", "cir", "d.c", "a.m", "p.m", "lt", "col", "sgt", "dept", "ft"}
+
+def first_sentence(t):
+    t = t.strip()
+    for m in re.finditer(r"[.!?][\"')\]]?\s+(?=[A-Z\"])", t):
+        w = re.findall(r"([A-Za-z.]+)$", t[:m.start()])
+        if w and (w[0].lower().rstrip(".") in ABBR or len(w[0]) == 1): continue
+        return t[:m.end()].strip()
+    return t
+
+def og_edition(ed, root):
+    st = ed["stories"]; lead = st[0] if st else {"headline": "Today's edition", "summary": ""}
+    d = date.fromisoformat(ed["date"]); lab = d.strftime("%a, %b %-d")
+    summ = first_sentence(lead.get("summary") or "")
+    if len(summ) > 160: summ = summ[:157].rsplit(" ", 1)[0] + "…"
+    secs = (ed.get("audio") or {}).get("durationSeconds")
+    tail = f"{len(st)} stories" + (f", about {max(1, round(secs / 60))} min" if secs else "")
+    desc = (summ + " " if summ else "") + tail + "."
+    import og_card
+    og_card.edition_card(os.path.join(root, "briefed", "og", ed["date"] + ".png"), d.strftime("%a, %b %-d, %Y"),
+                         [x["headline"] for x in st[:5]], tail.replace("stories", "stories today"))
+    return {"type": "article", "title": f"Briefed · {lab}: {lead['headline']}", "desc": desc,
+            "image": f"/briefed/og/{ed['date']}.png",
+            "alt": f"Briefed for {d.strftime('%A, %B %-d, %Y')}. Top story: {lead['headline']}"}
 
 def long_date(d):
     y, m, dd = map(int, d.split("-"))
@@ -533,6 +576,8 @@ def build(root, editions, preview=False):
             p = os.path.join(out, sub); shutil.rmtree(p) if os.path.isdir(p) else os.remove(p)
     write(os.path.join(out, "site.css"), "/* generated from /index.html <style>; do not edit */\n" + site_css(root) + "\n")
     write(os.path.join(out, "briefed.css"), BRIEFED_CSS)
+    import og_card
+    og_card.generic_card(os.path.join(out, "og", "briefed.png"))
     write(os.path.join(out, "manifest.webmanifest"), json.dumps({
         "name": "Briefed", "short_name": "Briefed", "description": "The facts on the day's stories, with links to the original reporting.",
         "start_url": "/briefed/", "scope": "/briefed/", "display": "standalone", "theme_color": "#1d4ed8", "background_color": "#ffffff",
@@ -545,11 +590,11 @@ def build(root, editions, preview=False):
     for i, ed in enumerate(editions):
         url = f"/briefed/{ed['date']}/"
         desc = f"Briefed for {long_date(ed['date'])}: " + "; ".join(s["headline"] for s in ed["stories"][:3])
-        write(os.path.join(out, ed["date"], "index.html"), page(f"Briefed: {long_date(ed['date'])}", desc[:300], url, edition_body(ed, i == 0, editions[i + 1]["date"] if i + 1 < len(editions) else None, editions[i - 1]["date"] if i > 0 else None, editions), jsonld_ed(ed, url)))
+        write(os.path.join(out, ed["date"], "index.html"), page(f"Briefed: {long_date(ed['date'])}", desc[:300], url, edition_body(ed, i == 0, editions[i + 1]["date"] if i + 1 < len(editions) else None, editions[i - 1]["date"] if i > 0 else None, editions), jsonld_ed(ed, url), og=og_edition(ed, root)))
         write(os.path.join(out, f"{ed['date']}.json"), json.dumps(public_json(ed), indent=1))
     if editions:
         latest = editions[0]
-        write(os.path.join(out, "index.html"), page("Briefed: today's edition | LJI Industries", f"Briefed for {long_date(latest['date'])}: the facts on the day's stories, with links to the original reporting and official sources.", f"/briefed/{latest['date']}/", edition_body(latest, True, editions[1]["date"] if len(editions) > 1 else None, None, editions), jsonld_ed(latest, "/briefed/")))
+        write(os.path.join(out, "index.html"), page("Briefed: today's edition | LJI Industries", f"Briefed for {long_date(latest['date'])}: the facts on the day's stories, with links to the original reporting and official sources.", f"/briefed/{latest['date']}/", edition_body(latest, True, editions[1]["date"] if len(editions) > 1 else None, None, editions), jsonld_ed(latest, "/briefed/"), og=og_edition(latest, root), og_url="/briefed/"))
         write(os.path.join(out, "latest.json"), json.dumps(public_json(latest), indent=1))
     else:
         write(os.path.join(out, "index.html"), page("Briefed: daily edition | LJI Industries", "Briefed's first US-focused daily edition arrives Sunday, October 25, 2026.", "/briefed/", EMPTY))
