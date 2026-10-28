@@ -38,7 +38,21 @@
       <li><a href="/notes/">Field notes</a></li>
     </ul>
   </div>
-</header>
+</header><div class="b-a2hs" id="b-a2hs" hidden><div class="wrap"><details><summary>&#9432; Add Briefed to your home screen</summary>
+<div class="b-a2hs-steps" data-os="ios">On iPhone or iPad in Safari: tap the Share button <span aria-hidden="true">&#x2191;&#xFE0E;</span>, then <b>Add to Home Screen</b>, then <b>Add</b>.</div>
+<div class="b-a2hs-steps" data-os="android"><span class="b-a2hs-manual">In Chrome: tap the menu <span aria-hidden="true">&#8942;</span>, then <b>Add to Home screen</b> or <b>Install app</b>.</span> <button type="button" class="b-a2hs-install" hidden>Install</button></div>
+</details><button type="button" class="b-a2hs-x" aria-label="Dismiss">&times;</button></div></div>
+<script>(function(){var K="briefed-a2hs-dismissed",el=document.getElementById("b-a2hs");if(!el)return;
+var ua=navigator.userAgent||"",sa=navigator.standalone===true||(window.matchMedia&&matchMedia("(display-mode: standalone)").matches);
+var ios=/iPhone|iPad|iPod/.test(ua)||(/Macintosh/.test(ua)&&navigator.maxTouchPoints>1),iosSafari=ios&&!/CriOS|FxiOS|EdgiOS|OPiOS|GSA\//.test(ua),and=/Android/.test(ua)&&/Chrome\//.test(ua)&&!/EdgA|OPR|SamsungBrowser|Firefox/.test(ua);
+try{if(localStorage.getItem(K))return;}catch(e){}
+if(sa||!(iosSafari||and))return;
+el.querySelectorAll(".b-a2hs-steps").forEach(function(d){d.hidden=d.getAttribute("data-os")!==(iosSafari?"ios":"android");});
+el.hidden=false;var dp=null,btn=el.querySelector(".b-a2hs-install");
+window.addEventListener("beforeinstallprompt",function(ev){ev.preventDefault();dp=ev;btn.hidden=false;});
+btn.addEventListener("click",function(){if(!dp)return;dp.prompt();dp.userChoice.then(function(){dp=null;btn.hidden=true;});});
+window.addEventListener("appinstalled",function(){el.hidden=true;});
+el.querySelector(".b-a2hs-x").addEventListener("click",function(){el.hidden=true;try{localStorage.setItem(K,"1");}catch(e){}});})();</script>
 <main id="top">
 <div class="b-stick" id="b-stick"><div class="wrap b-narrow">
 <div class="b-topline"><h1 class="b-h1"><span class="eyebrow">Briefed &middot; Edition</span> <time datetime="2026-10-24">Sat, Oct 24, 2026</time></h1><span class="b-links"><span class="b-pi off" aria-disabled="true" title="No earlier edition">&larr; Prev</span><a class="b-pi" href="/briefed/2026-10-25/" rel="next" title="Next day">Next &rarr;</a><a href="/briefed/archive/">Archive</a><a href="/briefed/about/">About</a></span></div>

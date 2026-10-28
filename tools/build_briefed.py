@@ -83,6 +83,22 @@ LJI_ICONS = '''<link rel="icon" href="/favicon.svg" type="image/svg+xml">
 def app_header():
     return '''<header class="b-apphead"><div class="wrap"><a href="/briefed/" aria-label="Briefed home"><img src="/briefed/icons/icon-mark-only-256.png" alt="" width="28" height="28"><span><b>Briefed</b> by LJI Industries</span></a></div></header>'''
 
+A2HS = r'''<div class="b-a2hs" id="b-a2hs" hidden><div class="wrap"><details><summary>&#9432; Add Briefed to your home screen</summary>
+<div class="b-a2hs-steps" data-os="ios">On iPhone or iPad in Safari: tap the Share button <span aria-hidden="true">&#x2191;&#xFE0E;</span>, then <b>Add to Home Screen</b>, then <b>Add</b>.</div>
+<div class="b-a2hs-steps" data-os="android"><span class="b-a2hs-manual">In Chrome: tap the menu <span aria-hidden="true">&#8942;</span>, then <b>Add to Home screen</b> or <b>Install app</b>.</span> <button type="button" class="b-a2hs-install" hidden>Install</button></div>
+</details><button type="button" class="b-a2hs-x" aria-label="Dismiss">&times;</button></div></div>
+<script>(function(){var K="briefed-a2hs-dismissed",el=document.getElementById("b-a2hs");if(!el)return;
+var ua=navigator.userAgent||"",sa=navigator.standalone===true||(window.matchMedia&&matchMedia("(display-mode: standalone)").matches);
+var ios=/iPhone|iPad|iPod/.test(ua)||(/Macintosh/.test(ua)&&navigator.maxTouchPoints>1),iosSafari=ios&&!/CriOS|FxiOS|EdgiOS|OPiOS|GSA\//.test(ua),and=/Android/.test(ua)&&/Chrome\//.test(ua)&&!/EdgA|OPR|SamsungBrowser|Firefox/.test(ua);
+try{if(localStorage.getItem(K))return;}catch(e){}
+if(sa||!(iosSafari||and))return;
+el.querySelectorAll(".b-a2hs-steps").forEach(function(d){d.hidden=d.getAttribute("data-os")!==(iosSafari?"ios":"android");});
+el.hidden=false;var dp=null,btn=el.querySelector(".b-a2hs-install");
+window.addEventListener("beforeinstallprompt",function(ev){ev.preventDefault();dp=ev;btn.hidden=false;});
+btn.addEventListener("click",function(){if(!dp)return;dp.prompt();dp.userChoice.then(function(){dp=null;btn.hidden=true;});});
+window.addEventListener("appinstalled",function(){el.hidden=true;});
+el.querySelector(".b-a2hs-x").addEventListener("click",function(){el.hidden=true;try{localStorage.setItem(K,"1");}catch(e){}});})();</script>'''
+
 FOOTER = '''<footer>
   <div class="wrap">
     <div class="foot-grid">
@@ -126,7 +142,7 @@ def page(title, desc, canonical, body, jsonld=None, extra_head=""):
 {ld}{extra_head}
 </head>
 <body>
-{app_header() if is_b else ""}{header()}
+{app_header() if is_b else ""}{header()}{A2HS if is_b else ""}
 <main id="top">
 {body}
 </main>
@@ -472,6 +488,18 @@ a.b-pn:hover{border-color:var(--brand);text-decoration:none}
 html.b-standalone .nav{display:none}
 html.b-standalone .b-apphead{display:block}
 html.b-standalone .b-stick,html.b-standalone .b-player{top:calc(48px + env(safe-area-inset-top))!important}
+/* ---- add-to-home-screen tag (collapsed; steps on tap) ---- */
+.b-a2hs[hidden]{display:none}
+.b-a2hs .wrap{display:flex;align-items:flex-start;gap:6px;padding-top:8px;padding-bottom:2px}
+.b-a2hs details{flex:1;min-width:0;background:none;border:0;border-radius:0;margin:0;padding:0}
+.b-a2hs summary::after{content:none}
+.b-a2hs summary{display:inline-flex;gap:4px;align-items:center;list-style:none;cursor:pointer;font-size:.82rem;font-weight:600;color:var(--brand);background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:4px 10px}
+.b-a2hs summary::-webkit-details-marker{display:none}
+.b-a2hs-steps{margin-top:6px;font-size:.86rem;color:var(--ink2);background:var(--soft);border:1px solid var(--line);border-radius:10px;padding:8px 10px}
+.b-a2hs-install{margin-left:6px;min-height:32px;padding:4px 12px;border-radius:8px;border:0;background:var(--brand);color:#fff;font-weight:700;cursor:pointer}
+.b-a2hs-x{border:0;background:none;color:var(--muted);font-size:1.2rem;line-height:1;padding:4px 6px;cursor:pointer}
+@media (display-mode: standalone){.b-a2hs{display:none!important}}
+html.b-standalone .b-a2hs{display:none!important}
 '''
 
 NOTES = [

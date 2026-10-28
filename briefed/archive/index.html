@@ -38,7 +38,21 @@
       <li><a href="/notes/">Field notes</a></li>
     </ul>
   </div>
-</header>
+</header><div class="b-a2hs" id="b-a2hs" hidden><div class="wrap"><details><summary>&#9432; Add Briefed to your home screen</summary>
+<div class="b-a2hs-steps" data-os="ios">On iPhone or iPad in Safari: tap the Share button <span aria-hidden="true">&#x2191;&#xFE0E;</span>, then <b>Add to Home Screen</b>, then <b>Add</b>.</div>
+<div class="b-a2hs-steps" data-os="android"><span class="b-a2hs-manual">In Chrome: tap the menu <span aria-hidden="true">&#8942;</span>, then <b>Add to Home screen</b> or <b>Install app</b>.</span> <button type="button" class="b-a2hs-install" hidden>Install</button></div>
+</details><button type="button" class="b-a2hs-x" aria-label="Dismiss">&times;</button></div></div>
+<script>(function(){var K="briefed-a2hs-dismissed",el=document.getElementById("b-a2hs");if(!el)return;
+var ua=navigator.userAgent||"",sa=navigator.standalone===true||(window.matchMedia&&matchMedia("(display-mode: standalone)").matches);
+var ios=/iPhone|iPad|iPod/.test(ua)||(/Macintosh/.test(ua)&&navigator.maxTouchPoints>1),iosSafari=ios&&!/CriOS|FxiOS|EdgiOS|OPiOS|GSA\//.test(ua),and=/Android/.test(ua)&&/Chrome\//.test(ua)&&!/EdgA|OPR|SamsungBrowser|Firefox/.test(ua);
+try{if(localStorage.getItem(K))return;}catch(e){}
+if(sa||!(iosSafari||and))return;
+el.querySelectorAll(".b-a2hs-steps").forEach(function(d){d.hidden=d.getAttribute("data-os")!==(iosSafari?"ios":"android");});
+el.hidden=false;var dp=null,btn=el.querySelector(".b-a2hs-install");
+window.addEventListener("beforeinstallprompt",function(ev){ev.preventDefault();dp=ev;btn.hidden=false;});
+btn.addEventListener("click",function(){if(!dp)return;dp.prompt();dp.userChoice.then(function(){dp=null;btn.hidden=true;});});
+window.addEventListener("appinstalled",function(){el.hidden=true;});
+el.querySelector(".b-a2hs-x").addEventListener("click",function(){el.hidden=true;try{localStorage.setItem(K,"1");}catch(e){}});})();</script>
 <main id="top">
 <section class="b-hero"><div class="wrap b-narrow"><span class="eyebrow">Briefed · Archive</span><h1>Past editions</h1></div></section><section class="b-main"><div class="wrap b-narrow b-arch"><h2>October 2026</h2><ul><li><a href="/briefed/2026-10-27/"><span class="d">Tuesday, October 27, 2026 · 🎧</span>DOJ charges James Comey a third time over a 2016 leak via criminal information</a></li><li><a href="/briefed/2026-10-26/"><span class="d">Monday, October 26, 2026 · 🎧</span>DOJ sues to block Alaska Senate certification if Sen. Sullivan narrowly loses</a></li><li><a href="/briefed/2026-10-25/"><span class="d">Sunday, October 25, 2026 · 🎧</span>12 hurt, 6 of them minors, in shooting near FAMU stadium on homecoming night</a></li><li><a href="/briefed/2026-10-24/"><span class="d">Saturday, October 24, 2026 · 🎧</span>DNI memo: Iranian plots against Americans have reached &#x27;advanced stages&#x27;</a></li></ul></div></section>
 </main>
