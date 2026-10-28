@@ -1,367 +1,255 @@
 {
  "schemaVersion": 1,
- "date": "2026-10-27",
- "generatedAt": "2026-10-27T07:00:00-04:00",
+ "date": "2026-10-28",
+ "generatedAt": "2026-10-28T05:57:00-04:00",
  "stories": [
   {
-   "id": "comey-third-charge",
+   "id": "iran-war-cost",
+   "region": "us",
+   "location": "National",
+   "headline": "Iran war has cost the U.S. military $47.1 billion, CENTCOM estimate shows",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/iran-war-cost-centcom-47-billion/"
+    },
+    {
+     "name": "The Hill",
+     "url": "https://thehill.com/policy/defense/6176624-us-iran-war-costs-rise/"
+    }
+   ],
+   "officialSources": [],
+   "summary": "A CENTCOM estimate provided to lawmakers puts the war's cost at $47.1B as of mid-October, up from $37.5B cited three months ago; ~$29B is munitions."
+  },
+  {
+   "id": "hutchinson-no-bill",
    "region": "us",
    "location": "DC",
-   "headline": "DOJ charges James Comey a third time over a 2016 leak via criminal information",
+   "headline": "Grand jury declines to indict Cassidy Hutchinson over Jan. 6 testimony",
    "status": "reported-only",
    "outlets": [
     {
      "name": "Associated Press",
-     "url": "https://apnews.com/article/comey-trump-fbi-director-prosecution-8479bdbf1bcdeeae313b453a3cd0c544"
+     "url": "https://apnews.com/article/cassidy-hutchinson-trump-indictment-65b19759933189cdebb164c5bd80649c"
     },
     {
      "name": "NBC News",
-     "url": "https://www.nbcnews.com/politics/justice-department/former-fbi-james-comey-charged-third-time-trump-national-security-rcna342963"
+     "url": "https://www.nbcnews.com/politics/justice-department/grand-jury-declines-indict-former-trump-aide-cassidy-hutchinson-jan-6-rcna603233"
     },
     {
-     "name": "Washington Post",
-     "url": "https://www.washingtonpost.com/national-security/2026/10/26/justice-dept-charges-james-comey-ex-fbi-director-third-time/"
-    },
-    {
-     "name": "The Hill",
-     "url": "https://thehill.com/regulation/court-battles/6173552-james-comey-doj-charges-third-time/"
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/grand-jury-declines-to-indict-trump-critic-cassidy-hutchinson-over-jan-6-testimony/"
     }
    ],
    "officialSources": [],
-   "summary": "Unsealed Monday: DOJ charged former FBI Director James Comey on Oct. 5 by criminal information \u2014 not a grand jury indictment \u2014 with transmitting national defense information and conspiracy tied to an Oct. 2016 New York Times story. His lawyers say it is past the 10-year limit; two earlier U.S. attorney's offices declined. Comey called it \"an appalling abuse of the Department of Justice.\" A prior case was dismissed; he was indicted in North Carolina April 28 over an '8647' post.",
+   "summary": "A D.C. grand jury returned a no bill on DOJ's proposed indictment of Hutchinson, per sources; DOJ may try again."
+  },
+  {
+   "id": "methane-rule",
+   "region": "us",
+   "location": "TX",
+   "headline": "Trump ends Biden-era methane rule, says it saves $45 billion",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "NPR",
+     "url": "https://www.npr.org/2026/10/28/g-s1-150299/trump-methane-restrictions"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Trump announced at a Lubbock rally that he is terminating the oil-and-gas methane rule; the $45B and 210M-barrel figures are his. EDF calls it a free pass.",
    "firstHand": [
     {
-     "who": "James Comey, former FBI Director",
-     "role": "Substack video, Oct. 26 (reported by NBC)",
-     "url": "https://www.nbcnews.com/politics/justice-department/former-fbi-james-comey-charged-third-time-trump-national-security-rcna342963",
-     "quote": "Well, they're back again. It would almost be funny if it weren't such an appalling abuse of the Department of Justice, one that we cannot become numb to."
+     "who": "Donald Trump",
+     "role": "Lubbock rally, Oct. 27",
+     "url": "https://www.npr.org/2026/10/28/g-s1-150299/trump-methane-restrictions",
+     "quote": "I'm officially terminating Biden's expensive and unnecessary methane regulations to save consumers and energy producers $45 billion in costs"
     }
    ]
   },
   {
-   "id": "california-ballots-9th",
+   "id": "rehab-fraud",
    "region": "us",
    "location": "CA",
-   "headline": "9th Circuit 2-1 won't block counting ~20,000 disputed California ballots",
-   "status": "sourced",
-   "outlets": [
-    {
-     "name": "Associated Press",
-     "url": "https://apnews.com/article/california-noncitizen-voting-justice-department-lawsuit-ed14390afb8af8fde1c2d0f6a90a0761"
-    },
-    {
-     "name": "Politico",
-     "url": "https://www.politico.com/news/2026/10/26/california-election-ballots-justice-department-ruling"
-    }
-   ],
-   "officialSources": [
-    "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/10/26/26-7070.pdf",
-    "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/10/26/26-7070.pdf"
-   ],
-   "summary": "A Ninth Circuit panel, 2-1, dismissed the DOJ's emergency appeal seeking to set aside about 20,000 California mail ballots tied to people the government labeled likely noncitizens. Judges Bennett (Trump appointee) and Sanchez (Biden appointee) held that DOJ did not give the district court adequate time to rule; Judge Bumatay dissented. The order is not on the merits. A district hearing was set for today."
-  },
-  {
-   "id": "anthropic-ipo-s1",
-   "region": "us",
-   "location": "CA",
-   "headline": "Anthropic files S-1 for Nasdaq IPO under ticker ANT; no price or size yet",
-   "status": "sourced",
-   "outlets": [
-    {
-     "name": "anthropic.com",
-     "url": "https://www.anthropic.com/news/s1-sec"
-    },
-    {
-     "name": "Associated Press",
-     "url": "https://apnews.com/article/anthropic-ipo-shares-public-ca2f4c282bef3201a392e59e3df2300c"
-    },
-    {
-     "name": "CNBC",
-     "url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html"
-    },
-    {
-     "name": "Reuters",
-     "url": "https://www.reuters.com/technology/anthropic-files-ipo-2026-10-26/"
-    }
-   ],
-   "officialSources": [
-    "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
-    "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
-    "https://www.anthropic.com/news/s1-sec"
-   ],
-   "summary": "Anthropic filed a Form S-1 with the SEC for a proposed IPO of Class A common stock, intending to list on Nasdaq Global Select under ticker ANT. Share count and price range are not yet set. AP reports it could be the biggest IPO ever. The filing lands in Federal Reserve decision week."
-  },
-  {
-   "id": "washington-ballots-doj",
-   "region": "us",
-   "location": "WA",
-   "headline": "DOJ asks Washington to set aside ballots of ~400 voters it says may be noncitizens",
+   "headline": "DOJ charges L.A. father and son in $1.6 billion sham-rehab scheme",
    "status": "reported-only",
    "outlets": [
     {
-     "name": "Associated Press",
-     "url": "https://apnews.com/article/washington-noncitizen-voting-63c17a3eadc9ed232fbd897afbd29b9d"
+     "name": "courthousenews.com",
+     "url": "https://www.courthousenews.com/father-son-duo-charged-with-1-6-billion-rehab-fraud/"
     },
     {
-     "name": "NBC News",
-     "url": "https://www.nbcnews.com/politics/2026-election/doj-asks-washington-state-set-400-ballots-voters-says-may-noncitizens-rcna605836"
-    },
-    {
-     "name": "pbs.org",
-     "url": "https://www.pbs.org/newshour/politics/trump-administration-asks-washington-state-to-set-aside-ballots-from-400-voters-it-says-may-be-noncitizens"
+     "name": "dailycaller.com",
+     "url": "https://dailycaller.com/2026/10/27/los-angeles-healthcare-fraud-drugging-patients-doj"
     }
    ],
    "officialSources": [
-    "https://www.sos.wa.gov/about-office/news/2026/statement-about-washingtons-safe-and-secure-elections",
-    "https://www.sos.wa.gov/about-office/news/2026/statement-about-washingtons-safe-and-secure-elections"
+    "https://www.justice.gov/usao-cdca/pr/la-health-care-fraud-takedown-results-15-defendants-charged-including-six-medical"
    ],
-   "summary": "The Justice Department asked Washington state to set aside ballots from about 400 registered voters it alleges may be noncitizens. The Secretary of State's office said it is reviewing the request and will respond only if it follows due process."
-  },
-  {
-   "id": "famu-homecoming-arrest",
-   "region": "us",
-   "location": "FL",
-   "headline": "15-year-old Anthony Rivers III arrested in FAMU homecoming shooting; 11 attempted-murder counts",
-   "status": "reported-only",
-   "outlets": [
-    {
-     "name": "Associated Press",
-     "url": "https://apnews.com/article/florida-am-shooting-arrest-tallahassee-e91b8d7e82eb8dee7a38df18771d0adf"
-    },
-    {
-     "name": "tallahassee.com",
-     "url": "https://www.tallahassee.com/story/news/local/2026/10/26/police-arrest-15-year-old-boy-in-tallahassee-mass-shooting/92440573007/"
-    },
-    {
-     "name": "news.wfsu.org",
-     "url": "https://news.wfsu.org/wfsu-local-news/2026-10-26/tallahassee-have-arrested-a-teen-in-saturdays-mass-shooting-near-famu"
-    },
-    {
-     "name": "talgov.com",
-     "url": "https://www.talgov.com/Main/News/6100"
-    }
-   ],
-   "officialSources": [
-    "https://www.talgov.com/Main/News/6100"
-   ],
-   "summary": "Anthony Rivers III, 15, faces 11 counts of attempted second-degree murder and will be charged as an adult in the Oct. 24 shooting near FAMU's Bragg Stadium after homecoming. Twelve people were hurt, including six minors; one remains critical. Follow-up to the Oct. 25 story."
-  },
-  {
-   "id": "congress-powder-letters",
-   "region": "us",
-   "location": "IL",
-   "headline": "Quincy, Ill. man charged with mailing hoax white-powder letters to four Illinois members of Congress",
-   "status": "reported-only",
-   "outlets": [
-    {
-     "name": "Associated Press",
-     "url": "https://apnews.com/article/congress-letters-suspicious-powder-arrest-3bae6cfc887d22e5c2f5ef3644e83ee2"
-    },
-    {
-     "name": "rollcall.com",
-     "url": "https://rollcall.com/2026/10/26/four-hoax-letters-to-congress-draw-federal-charges/"
-    },
-    {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/chicago/news/quincy-illinois-man-charged-sending-white-powder-members-of-congress/"
-    },
-    {
-     "name": "The Hill",
-     "url": "https://thehill.com/regulation/court-battles/6173379-illinois-man-congress-white-substance-mail/"
-    }
-   ],
-   "officialSources": [],
-   "summary": "A Quincy, Illinois man was charged with mailing hoax white-powder letters to four Illinois members of Congress. He told the FBI the substance was salt; testing was negative. He was not charged in connection with dozens of other letters."
-  },
-  {
-   "id": "oleshky-ceasefire",
-   "region": "foreign",
-   "location": "Ukraine",
-   "headline": "Melania Trump-brokered Oleshky ceasefire begins; White House page still says Oct. 29",
-   "status": "reported-only",
-   "outlets": [
-    {
-     "name": "Associated Press",
-     "url": "https://apnews.com/article/russia-ukraine-war-trump-f26143c32e4673686381d0ff87225720"
-    },
-    {
-     "name": "NBC News",
-     "url": "https://www.nbcnews.com/world/ukraine/ceasefire-brokered-melania-trump-comes-effect-russian-occupied-town-br-rcna605667"
-    }
-   ],
-   "officialSources": [
-    "https://www.whitehouse.gov/briefings-statements/2026/10/first-lady-melania-trump-secures-ceasefire-between-russia-and-ukraine-localized-to-oleshky/",
-    "https://www.whitehouse.gov/briefings-statements/2026/10/first-lady-melania-trump-secures-ceasefire-between-russia-and-ukraine-localized-to-oleshky/"
-   ],
-   "summary": "A local humanitarian ceasefire around Oleshky in Ukraine's Kherson region, brokered by Melania Trump, began at 3 a.m. Oct. 27 per AP and Ukraine's ombudsman. A White House statement still lists a start of Oct. 29. Russian strikes still killed three in Kyiv and Kharkiv.",
+   "summary": "Prosecutors allege Nathan and David Young billed $1.6B and drugged patients to keep them in treatment. Charges only; hearing Nov. 5.",
    "firstHand": [
     {
-     "who": "Melania Trump, First Lady of the United States",
-     "role": "White House statement, Oct. 23",
-     "url": "https://www.whitehouse.gov/briefings-statements/2026/10/first-lady-melania-trump-secures-ceasefire-between-russia-and-ukraine-localized-to-oleshky/",
-     "quote": "The situation in Oleshky is dire. Oleshky is a front-line war city on the brink of disaster."
+     "who": "Reuven Cohen, Nathan Young's attorney",
+     "role": "Statement to Courthouse News",
+     "url": "https://www.courthousenews.com/father-son-duo-charged-with-1-6-billion-rehab-fraud/",
+     "quote": "Mr. Young denies the allegations and looks forward to challenging the government's case."
     }
-   ],
-   "whyItMattersToUS": "A U.S.-brokered local deal ahead of U.S.-led Russia-Ukraine peace talks expected next month."
+   ]
   },
   {
-   "id": "israel-election-netanyahu",
+   "id": "cambodia-cruise",
    "region": "foreign",
-   "location": "Israel",
-   "headline": "Israelis vote in parliamentary election; Netanyahu touts Trump endorsement, hints at Iran strikes",
+   "location": "Cambodia",
+   "headline": "About 200 residents, mostly Americans, stranded in Cambodia as cruise ship halts over fuel costs",
    "status": "reported-only",
    "outlets": [
     {
      "name": "Associated Press",
-     "url": "https://apnews.com/article/israel-election-netanyahu-results-explainer-3b38fd7c304ac2a68281a891cbfe6063"
+     "url": "https://apnews.com/article/us-cambodia-cruise-ship-fuel-88fa620415d8e490cbe5a25ca5cb0691"
     },
     {
-     "name": "Associated Press",
-     "url": "https://apnews.com/article/trump-israel-netanyahu-reelection-prime-minister-ba88cdd728422d51e837231b2efbea81"
-    },
-    {
-     "name": "al-monitor.com",
-     "url": "https://www.al-monitor.com/originals/2026/10/netanyahu-touts-trump-endorsement-eve-vote-suggests-they-may-restart-war-iran"
+     "name": "BBC",
+     "url": "https://www.bbc.com/news/articles/cwj342k62exyo"
     }
    ],
    "officialSources": [],
-   "summary": "Israelis are voting in a parliamentary election; results and coalition talks may take weeks. Netanyahu is touting President Trump's endorsement and hinting at restarting strikes on Iran. This is a general election, not a Knesset confidence vote.",
-   "whyItMattersToUS": "Israel is a key U.S. partner in the eight-month Iran war."
+   "summary": "Florida-based Villa Vie Residences suspended the Odyssey's world voyage in Sihanoukville citing a 300%+ fuel cost rise; it covers lodging, not flights home.",
+   "firstHand": [
+    {
+     "who": "Mikael Petterson, Villa Vie founder",
+     "role": "Bloomberg via SMH",
+     "url": "https://www.smh.com.au/world/asia/cruise-passengers-stranded-in-cambodia-after-fuel-becomes-too-expensive-20261028-p6198q.html",
+     "quote": "Company is covering lodging and local transport but not flights out of Cambodia (paraphrase, Bloomberg interview)"
+    }
+   ],
+   "whyItMattersToUS": "Florida-based operator; mostly American residents hit by Iran-war fuel prices."
+  },
+  {
+   "id": "drug-boat-strike",
+   "region": "us",
+   "location": "Eastern Pacific",
+   "headline": "U.S. strike on alleged drug boat in eastern Pacific kills 5, SOUTHCOM says",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "The Guardian",
+     "url": "https://www.theguardian.com/us-news/2026/oct/27/us-military-strike-vessel-eastern-pacific"
+    },
+    {
+     "name": "Fox News",
+     "url": "https://www.foxnews.com/us/us-military-kills-five-eastern-pacific-strike-suspected-drug-trafficking-vessel"
+    }
+   ],
+   "officialSources": [
+    "https://www.southcom.mil/News/PressReleases/Article/4634591/lethal-kinetic-strike-october-27-2026/"
+   ],
+   "summary": "SOUTHCOM says a strike on Oct. 27 killed five; WOLA counts six lethal strikes in four months."
   }
  ],
  "audio": {
-  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-10-27/Briefed-2026-10-27-full-twohost.mp3",
-  "durationSeconds": 149.734,
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-10-28/Briefed-2026-10-28-full-twohost.mp3",
+  "durationSeconds": 135.236,
   "aiVoices": true,
   "chapters": [
    {
     "storyId": null,
     "title": "Intro",
     "start": 0.0,
-    "end": 11.985
+    "end": 12.299
    },
    {
-    "storyId": "comey-third-charge",
-    "title": "Comey charged a 3rd time",
-    "start": 11.985,
-    "end": 34.604
+    "storyId": "iran-war-cost",
+    "title": "Iran war cost hits $47B",
+    "start": 12.299,
+    "end": 31.391
    },
    {
-    "storyId": "california-ballots-9th",
-    "title": "9th Cir. won't block CA ballots",
-    "start": 34.604,
-    "end": 47.636
+    "storyId": "hutchinson-no-bill",
+    "title": "No indictment for Hutchinson",
+    "start": 31.391,
+    "end": 48.263
    },
    {
-    "storyId": "anthropic-ipo-s1",
-    "title": "Anthropic files IPO (ANT)",
-    "start": 47.636,
-    "end": 60.981
+    "storyId": "methane-rule",
+    "title": "Methane rule ended",
+    "start": 48.263,
+    "end": 70.881
    },
    {
-    "storyId": "washington-ballots-doj",
-    "title": "DOJ targets ~400 WA ballots",
-    "start": 60.981,
-    "end": 72.393
+    "storyId": "rehab-fraud",
+    "title": "$1.6B sham-rehab charges",
+    "start": 70.881,
+    "end": 89.347
    },
    {
-    "storyId": "famu-homecoming-arrest",
-    "title": "Teen arrested in FAMU shooting",
-    "start": 72.393,
-    "end": 88.939
+    "storyId": "cambodia-cruise",
+    "title": "Cruise strands ~200 in Cambodia",
+    "start": 89.347,
+    "end": 110.999
    },
    {
-    "storyId": "congress-powder-letters",
-    "title": "Hoax powder letters charged",
-    "start": 88.939,
-    "end": 102.911
-   },
-   {
-    "storyId": "oleshky-ceasefire",
-    "title": "Oleshky ceasefire begins",
-    "start": 102.911,
-    "end": 124.563
-   },
-   {
-    "storyId": "israel-election-netanyahu",
-    "title": "Israel votes; Netanyahu touts Trump",
-    "start": 124.563,
-    "end": 141.095
+    "storyId": "drug-boat-strike",
+    "title": "Boat strike kills 5",
+    "start": 110.999,
+    "end": 126.604
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 141.095,
-    "end": 149.701
+    "start": 126.604,
+    "end": 135.209
    }
   ]
  },
  "video": {
-  "url": "/briefed/media/2026-10-27/Briefed-2026-10-27-web.mp4",
-  "durationSeconds": 149.701,
+  "url": "/briefed/media/2026-10-28/Briefed-2026-10-28-web.mp4",
+  "durationSeconds": 124.91,
   "aiVoices": true,
   "chapters": [
    {
-    "storyId": null,
-    "title": "Intro",
+    "storyId": "iran-war-cost",
+    "title": "Iran war cost hits $47B",
     "start": 0.0,
-    "end": 11.985
+    "end": 21.092
    },
    {
-    "storyId": "comey-third-charge",
-    "title": "Comey charged a 3rd time",
-    "start": 11.985,
-    "end": 34.604
+    "storyId": "hutchinson-no-bill",
+    "title": "No indictment for Hutchinson",
+    "start": 21.092,
+    "end": 37.964
    },
    {
-    "storyId": "california-ballots-9th",
-    "title": "9th Cir. won't block CA ballots",
-    "start": 34.604,
-    "end": 47.636
+    "storyId": "methane-rule",
+    "title": "Methane rule ended",
+    "start": 37.964,
+    "end": 60.582
    },
    {
-    "storyId": "anthropic-ipo-s1",
-    "title": "Anthropic files IPO (ANT)",
-    "start": 47.636,
-    "end": 60.981
+    "storyId": "rehab-fraud",
+    "title": "$1.6B sham-rehab charges",
+    "start": 60.582,
+    "end": 79.048
    },
    {
-    "storyId": "washington-ballots-doj",
-    "title": "DOJ targets ~400 WA ballots",
-    "start": 60.981,
-    "end": 72.393
+    "storyId": "cambodia-cruise",
+    "title": "Cruise strands ~200 in Cambodia",
+    "start": 79.048,
+    "end": 100.7
    },
    {
-    "storyId": "famu-homecoming-arrest",
-    "title": "Teen arrested in FAMU shooting",
-    "start": 72.393,
-    "end": 88.939
-   },
-   {
-    "storyId": "congress-powder-letters",
-    "title": "Hoax powder letters charged",
-    "start": 88.939,
-    "end": 102.911
-   },
-   {
-    "storyId": "oleshky-ceasefire",
-    "title": "Oleshky ceasefire begins",
-    "start": 102.911,
-    "end": 124.563
-   },
-   {
-    "storyId": "israel-election-netanyahu",
-    "title": "Israel votes; Netanyahu touts Trump",
-    "start": 124.563,
-    "end": 141.095
+    "storyId": "drug-boat-strike",
+    "title": "Boat strike kills 5",
+    "start": 100.7,
+    "end": 116.305
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 141.095,
-    "end": 149.701
+    "start": 116.305,
+    "end": 124.91
    }
   ],
-  "poster": "/briefed/media/2026-10-27/Briefed-2026-10-27-poster.jpg"
+  "poster": "/briefed/media/2026-10-28/Briefed-2026-10-28-poster.jpg"
  }
 }
