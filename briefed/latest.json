@@ -1,255 +1,190 @@
 {
  "schemaVersion": 1,
- "date": "2026-10-28",
- "generatedAt": "2026-10-28T05:57:00-04:00",
+ "date": "2026-10-29",
+ "generatedAt": "2026-10-29T07:15:00-04:00",
  "stories": [
   {
-   "id": "iran-war-cost",
+   "id": "alaska-second-sullivan",
    "region": "us",
-   "location": "National",
-   "headline": "Iran war has cost the U.S. military $47.1 billion, CENTCOM estimate shows",
-   "status": "reported-only",
-   "outlets": [
-    {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/iran-war-cost-centcom-47-billion/"
-    },
-    {
-     "name": "The Hill",
-     "url": "https://thehill.com/policy/defense/6176624-us-iran-war-costs-rise/"
-    }
-   ],
-   "officialSources": [],
-   "summary": "A CENTCOM estimate provided to lawmakers puts the war's cost at $47.1B as of mid-October, up from $37.5B cited three months ago; ~$29B is munitions."
-  },
-  {
-   "id": "hutchinson-no-bill",
-   "region": "us",
-   "location": "DC",
-   "headline": "Grand jury declines to indict Cassidy Hutchinson over Jan. 6 testimony",
+   "location": "Alaska",
+   "headline": "Report: Peltola campaign helped recruit a second Dan Sullivan for Alaska's Senate ballot",
    "status": "reported-only",
    "outlets": [
     {
      "name": "Associated Press",
-     "url": "https://apnews.com/article/cassidy-hutchinson-trump-indictment-65b19759933189cdebb164c5bd80649c"
+     "url": "https://apnews.com/article/alaska-peltola-senate-dan-sullivan-democrats-743677c9fb0d6696af7901504df2be3e"
     },
     {
      "name": "NBC News",
-     "url": "https://www.nbcnews.com/politics/justice-department/grand-jury-declines-indict-former-trump-aide-cassidy-hutchinson-jan-6-rcna603233"
+     "url": "https://www.nbcnews.com/politics/2026-election/trump-alaska-democratic-senate-candidate-prosecuted-dan-sullivan-rcna606159"
     },
     {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/grand-jury-declines-to-indict-trump-critic-cassidy-hutchinson-over-jan-6-testimony/"
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/28/mary-peltola-dan-sullivan-alaska-senate-campaign-recruitment.html"
+    },
+    {
+     "name": "latimes.com",
+     "url": "https://www.latimes.com/world-nation/story/2026-10-28/report-peltolas-campaign-involved-in-effort-to-recruit-second-dan-sullivan-for-alaska-senate-race"
     }
    ],
    "officialSources": [],
-   "summary": "A D.C. grand jury returned a no bill on DOJ's proposed indictment of Hutchinson, per sources; DOJ may try again."
+   "summary": "The New York Times reported texts showing Peltola campaign and DSCC aides worked to recruit Daniel J. Sullivan; both deny it, and he denies contact. Trump called for prosecution in his own post; Gov. Dunleavy ordered a state criminal investigation. Election Day is Nov. 3."
   },
   {
-   "id": "methane-rule",
+   "id": "california-ballots",
    "region": "us",
-   "location": "TX",
-   "headline": "Trump ends Biden-era methane rule, says it saves $45 billion",
-   "status": "reported-only",
-   "outlets": [
-    {
-     "name": "NPR",
-     "url": "https://www.npr.org/2026/10/28/g-s1-150299/trump-methane-restrictions"
-    }
-   ],
-   "officialSources": [],
-   "summary": "Trump announced at a Lubbock rally that he is terminating the oil-and-gas methane rule; the $45B and 210M-barrel figures are his. EDF calls it a free pass.",
-   "firstHand": [
-    {
-     "who": "Donald Trump",
-     "role": "Lubbock rally, Oct. 27",
-     "url": "https://www.npr.org/2026/10/28/g-s1-150299/trump-methane-restrictions",
-     "quote": "I'm officially terminating Biden's expensive and unnecessary methane regulations to save consumers and energy producers $45 billion in costs"
-    }
-   ]
-  },
-  {
-   "id": "rehab-fraud",
-   "region": "us",
-   "location": "CA",
-   "headline": "DOJ charges L.A. father and son in $1.6 billion sham-rehab scheme",
-   "status": "reported-only",
-   "outlets": [
-    {
-     "name": "courthousenews.com",
-     "url": "https://www.courthousenews.com/father-son-duo-charged-with-1-6-billion-rehab-fraud/"
-    },
-    {
-     "name": "dailycaller.com",
-     "url": "https://dailycaller.com/2026/10/27/los-angeles-healthcare-fraud-drugging-patients-doj"
-    }
-   ],
-   "officialSources": [
-    "https://www.justice.gov/usao-cdca/pr/la-health-care-fraud-takedown-results-15-defendants-charged-including-six-medical"
-   ],
-   "summary": "Prosecutors allege Nathan and David Young billed $1.6B and drugged patients to keep them in treatment. Charges only; hearing Nov. 5.",
-   "firstHand": [
-    {
-     "who": "Reuven Cohen, Nathan Young's attorney",
-     "role": "Statement to Courthouse News",
-     "url": "https://www.courthousenews.com/father-son-duo-charged-with-1-6-billion-rehab-fraud/",
-     "quote": "Mr. Young denies the allegations and looks forward to challenging the government's case."
-    }
-   ]
-  },
-  {
-   "id": "cambodia-cruise",
-   "region": "foreign",
-   "location": "Cambodia",
-   "headline": "About 200 residents, mostly Americans, stranded in Cambodia as cruise ship halts over fuel costs",
-   "status": "reported-only",
-   "outlets": [
-    {
-     "name": "Associated Press",
-     "url": "https://apnews.com/article/us-cambodia-cruise-ship-fuel-88fa620415d8e490cbe5a25ca5cb0691"
-    },
-    {
-     "name": "BBC",
-     "url": "https://www.bbc.com/news/articles/cwj342k62exyo"
-    }
-   ],
-   "officialSources": [],
-   "summary": "Florida-based Villa Vie Residences suspended the Odyssey's world voyage in Sihanoukville citing a 300%+ fuel cost rise; it covers lodging, not flights home.",
-   "firstHand": [
-    {
-     "who": "Mikael Petterson, Villa Vie founder",
-     "role": "Bloomberg via SMH",
-     "url": "https://www.smh.com.au/world/asia/cruise-passengers-stranded-in-cambodia-after-fuel-becomes-too-expensive-20261028-p6198q.html",
-     "quote": "Company is covering lodging and local transport but not flights out of Cambodia (paraphrase, Bloomberg interview)"
-    }
-   ],
-   "whyItMattersToUS": "Florida-based operator; mostly American residents hit by Iran-war fuel prices."
-  },
-  {
-   "id": "drug-boat-strike",
-   "region": "us",
-   "location": "Eastern Pacific",
-   "headline": "U.S. strike on alleged drug boat in eastern Pacific kills 5, SOUTHCOM says",
+   "location": "California",
+   "headline": "Judge refuses DOJ bid to set aside about 20,000 California ballots",
    "status": "sourced",
    "outlets": [
     {
-     "name": "The Guardian",
-     "url": "https://www.theguardian.com/us-news/2026/oct/27/us-military-strike-vessel-eastern-pacific"
+     "name": "NPR",
+     "url": "https://www.npr.org/2026/10/28/nx-s1-6021478/doj-california-ballots-denied"
     },
     {
-     "name": "Fox News",
-     "url": "https://www.foxnews.com/us/us-military-kills-five-eastern-pacific-strike-suspected-drug-trafficking-vessel"
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/politics/justice-department/judge-rules-california-ballots-alleged-non-citizen-voters-trump-doj-rcna606100"
     }
    ],
    "officialSources": [
-    "https://www.southcom.mil/News/PressReleases/Article/4634591/lethal-kinetic-strike-october-27-2026/"
+    "https://oag.ca.gov/system/files/attachments/press-docs/10-28-2026-order-denying-tro.pdf"
    ],
-   "summary": "SOUTHCOM says a strike on Oct. 27 killed five; WOLA counts six lethal strikes in four months."
+   "summary": "U.S. District Judge David O. Carter denied a TRO, writing it would \"wreak havoc\" on an election underway; DOJ has filed notice of appeal to the Ninth Circuit."
+  },
+  {
+   "id": "fed-holds",
+   "region": "us",
+   "location": "National",
+   "headline": "Fed holds rates at 3.75%\u20134% in 10-2 vote; Cook and Hammack wanted a hike",
+   "status": "sourced",
+   "outlets": [],
+   "officialSources": [
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+   ],
+   "summary": "The FOMC kept the target range at 3-3/4 to 4 percent and said activity is expanding at a strong pace; Lisa Cook and Beth Hammack preferred a quarter-point hike."
+  },
+  {
+   "id": "sylvia-fired",
+   "region": "us",
+   "location": "DC",
+   "headline": "Hegseth fires Pentagon's top military planner, Lt. Gen. Brett Sylvia, over alleged leaks",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/hegseth-fires-pentagons-top-military-planner/"
+    }
+   ],
+   "officialSources": [],
+   "summary": "A Pentagon official says the Joint Staff J5 chief was accused of leaking classified information and the case was referred to DOJ. No statement from Sylvia."
+  },
+  {
+   "id": "mobile-tax-fraud",
+   "region": "us",
+   "location": "Alabama",
+   "headline": "Six Mobile-area tax preparers charged over $177M in false refund claims",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "fox10tv.com",
+     "url": "https://www.fox10tv.com/2026/10/28/mobile-tax-preparer-former-alabama-basketball-star-among-those-indicted-177-million-fraud-case/"
+    }
+   ],
+   "officialSources": [],
+   "summary": "An indictment alleges 9,000+ false returns from 2021\u20132024 seeking $177M; the IRS paid $81M. One defendant is former University of Alabama basketball player Kennedy Winston. Charges only."
   }
  ],
  "audio": {
-  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-10-28/Briefed-2026-10-28-full-twohost.mp3",
-  "durationSeconds": 135.236,
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-10-29/Briefed-2026-10-29-full-twohost.mp3",
+  "durationSeconds": 107.52,
   "aiVoices": true,
   "chapters": [
    {
     "storyId": null,
     "title": "Intro",
     "start": 0.0,
-    "end": 12.299
+    "end": 11.985
    },
    {
-    "storyId": "iran-war-cost",
-    "title": "Iran war cost hits $47B",
-    "start": 12.299,
+    "storyId": "alaska-second-sullivan",
+    "title": "Second Dan Sullivan probe",
+    "start": 11.985,
     "end": 31.391
    },
    {
-    "storyId": "hutchinson-no-bill",
-    "title": "No indictment for Hutchinson",
+    "storyId": "california-ballots",
+    "title": "Judge: CA ballots keep counting",
     "start": 31.391,
-    "end": 48.263
+    "end": 47.949
    },
    {
-    "storyId": "methane-rule",
-    "title": "Methane rule ended",
-    "start": 48.263,
-    "end": 70.881
+    "storyId": "fed-holds",
+    "title": "Fed holds, 10-2",
+    "start": 47.949,
+    "end": 63.541
    },
    {
-    "storyId": "rehab-fraud",
-    "title": "$1.6B sham-rehab charges",
-    "start": 70.881,
-    "end": 89.347
+    "storyId": "sylvia-fired",
+    "title": "Top planner fired",
+    "start": 63.541,
+    "end": 81.04
    },
    {
-    "storyId": "cambodia-cruise",
-    "title": "Cruise strands ~200 in Cambodia",
-    "start": 89.347,
-    "end": 110.999
-   },
-   {
-    "storyId": "drug-boat-strike",
-    "title": "Boat strike kills 5",
-    "start": 110.999,
-    "end": 126.604
+    "storyId": "mobile-tax-fraud",
+    "title": "$177M tax fraud charges",
+    "start": 81.04,
+    "end": 98.878
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 126.604,
-    "end": 135.209
+    "start": 98.878,
+    "end": 107.483
    }
   ]
  },
  "video": {
-  "url": "/briefed/media/2026-10-28/Briefed-2026-10-28-web.mp4",
-  "durationSeconds": 124.91,
+  "url": "/briefed/media/2026-10-29/Briefed-2026-10-29-web.mp4",
+  "durationSeconds": 97.498,
   "aiVoices": true,
   "chapters": [
    {
-    "storyId": "iran-war-cost",
-    "title": "Iran war cost hits $47B",
+    "storyId": "alaska-second-sullivan",
+    "title": "Second Dan Sullivan probe",
     "start": 0.0,
-    "end": 21.092
+    "end": 21.406
    },
    {
-    "storyId": "hutchinson-no-bill",
-    "title": "No indictment for Hutchinson",
-    "start": 21.092,
+    "storyId": "california-ballots",
+    "title": "Judge: CA ballots keep counting",
+    "start": 21.406,
     "end": 37.964
    },
    {
-    "storyId": "methane-rule",
-    "title": "Methane rule ended",
+    "storyId": "fed-holds",
+    "title": "Fed holds, 10-2",
     "start": 37.964,
-    "end": 60.582
+    "end": 53.556
    },
    {
-    "storyId": "rehab-fraud",
-    "title": "$1.6B sham-rehab charges",
-    "start": 60.582,
-    "end": 79.048
+    "storyId": "sylvia-fired",
+    "title": "Top planner fired",
+    "start": 53.556,
+    "end": 71.055
    },
    {
-    "storyId": "cambodia-cruise",
-    "title": "Cruise strands ~200 in Cambodia",
-    "start": 79.048,
-    "end": 100.7
-   },
-   {
-    "storyId": "drug-boat-strike",
-    "title": "Boat strike kills 5",
-    "start": 100.7,
-    "end": 116.305
+    "storyId": "mobile-tax-fraud",
+    "title": "$177M tax fraud charges",
+    "start": 71.055,
+    "end": 88.893
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 116.305,
-    "end": 124.91
+    "start": 88.893,
+    "end": 97.498
    }
   ],
-  "poster": "/briefed/media/2026-10-28/Briefed-2026-10-28-poster.jpg"
+  "poster": "/briefed/media/2026-10-29/Briefed-2026-10-29-poster.jpg"
  }
 }
