@@ -1,102 +1,109 @@
 {
  "schemaVersion": 1,
- "date": "2026-10-29",
- "generatedAt": "2026-10-29T07:15:00-04:00",
+ "date": "2026-10-30",
+ "generatedAt": "2026-10-30T07:00:00-04:00",
  "stories": [
   {
-   "id": "alaska-second-sullivan",
+   "id": "doj-election-fights",
    "region": "us",
-   "location": "Alaska",
-   "headline": "Report: Peltola campaign helped recruit a second Dan Sullivan for Alaska's Senate ballot",
+   "location": "Anchorage & Los Angeles",
+   "headline": "DOJ moves to block Alaska Senate certification, subpoenas LA election workers",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/29/alaska-senate-governor-investigation-sullivan-peltola-doj.html"
+    },
+    {
+     "name": "yahoo.com",
+     "url": "https://www.yahoo.com/news/articles/trump-confronts-midterm-battleground-south-100310861.html"
+    },
+    {
+     "name": "Politico",
+     "url": "https://www.politico.com/news/2026/10/29/doj-california-election-subpoenas-01141719"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/voting-trump-obama-peltola-sullivan-election-908b9bd3527c66c737601da933427888"
+    }
+   ],
+   "officialSources": [],
+   "summary": "DOJ filed an amended suit Thursday to block certification if Sen. Dan Sullivan narrowly loses, citing the NYT report on a second \"Dan Sullivan.\" Separately, grand-jury subpoenas ordered LA County election workers to appear Nov. 4 in a noncitizen-voting probe."
+  },
+  {
+   "id": "q3-gdp",
+   "region": "us",
+   "location": "Washington",
+   "headline": "Q3 GDP grows at 3.4% annual rate, beating 3.2% forecast",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "The Guardian",
+     "url": "https://www.theguardian.com/business/2026/oct/29/economy-growth-third-quarter"
+    }
+   ],
+   "officialSources": [
+    "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026"
+   ],
+   "summary": "BEA advance estimate: 3.4% in Q3 vs 2.2% in Q2. Reuters: inflation is rising and economists expect a December Fed hike."
+  },
+  {
+   "id": "binance-hack",
+   "region": "world",
+   "location": "World",
+   "headline": "$6.3B stolen from Binance in biggest crypto theft ever",
    "status": "reported-only",
    "outlets": [
     {
-     "name": "Associated Press",
-     "url": "https://apnews.com/article/alaska-peltola-senate-dan-sullivan-democrats-743677c9fb0d6696af7901504df2be3e"
-    },
-    {
-     "name": "NBC News",
-     "url": "https://www.nbcnews.com/politics/2026-election/trump-alaska-democratic-senate-candidate-prosecuted-dan-sullivan-rcna606159"
+     "name": "finance.yahoo.com",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/tether-circle-freeze-2-38-222607515.html"
     },
     {
      "name": "CNBC",
-     "url": "https://www.cnbc.com/2026/10/28/mary-peltola-dan-sullivan-alaska-senate-campaign-recruitment.html"
-    },
-    {
-     "name": "latimes.com",
-     "url": "https://www.latimes.com/world-nation/story/2026-10-28/report-peltolas-campaign-involved-in-effort-to-recruit-second-dan-sullivan-for-alaska-senate-race"
+     "url": "https://www.cnbc.com/2026/10/30/billions-in-crypto-frozen-in-binance-hack-heres-what-happens-next-.html"
     }
    ],
    "officialSources": [],
-   "summary": "The New York Times reported texts showing Peltola campaign and DSCC aides worked to recruit Daniel J. Sullivan; both deny it, and he denies contact. Trump called for prosecution in his own post; Gov. Dunleavy ordered a state criminal investigation. Election Day is Nov. 3."
+   "summary": "TRM Labs and Chainalysis blame North Korea (claimed); Binance hasn't attributed it. Bitcoin hit a six-week low; Coinbase and Strategy fell; Tether and Circle froze ~$2.4B."
   },
   {
-   "id": "california-ballots",
+   "id": "ghost-students",
    "region": "us",
-   "location": "California",
-   "headline": "Judge refuses DOJ bid to set aside about 20,000 California ballots",
-   "status": "sourced",
-   "outlets": [
-    {
-     "name": "NPR",
-     "url": "https://www.npr.org/2026/10/28/nx-s1-6021478/doj-california-ballots-denied"
-    },
-    {
-     "name": "NBC News",
-     "url": "https://www.nbcnews.com/politics/justice-department/judge-rules-california-ballots-alleged-non-citizen-voters-trump-doj-rcna606100"
-    }
-   ],
-   "officialSources": [
-    "https://oag.ca.gov/system/files/attachments/press-docs/10-28-2026-order-denying-tro.pdf"
-   ],
-   "summary": "U.S. District Judge David O. Carter denied a TRO, writing it would \"wreak havoc\" on an election underway; DOJ has filed notice of appeal to the Ninth Circuit."
-  },
-  {
-   "id": "fed-holds",
-   "region": "us",
-   "location": "National",
-   "headline": "Fed holds rates at 3.75%\u20134% in 10-2 vote; Cook and Hammack wanted a hike",
-   "status": "sourced",
-   "outlets": [],
-   "officialSources": [
-    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
-   ],
-   "summary": "The FOMC kept the target range at 3-3/4 to 4 percent and said activity is expanding at a strong pace; Lisa Cook and Beth Hammack preferred a quarter-point hike."
-  },
-  {
-   "id": "sylvia-fired",
-   "region": "us",
-   "location": "DC",
-   "headline": "Hegseth fires Pentagon's top military planner, Lt. Gen. Brett Sylvia, over alleged leaks",
+   "location": "NE, VA, NJ",
+   "headline": "Operation Ghostbusters: 5 charged in $2.9M 'ghost student' aid fraud",
    "status": "reported-only",
    "outlets": [
     {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/hegseth-fires-pentagons-top-military-planner/"
+     "name": "abcnews.com",
+     "url": "https://abcnews.com/US/feds-charge-5-people-part-alleged-sprawling-ghost/story?id=137686361"
     }
    ],
-   "officialSources": [],
-   "summary": "A Pentagon official says the Joint Staff J5 chief was accused of leaking classified information and the case was referred to DOJ. No statement from Sylvia."
+   "officialSources": [
+    "https://www.justice.gov/opa/pr/justice-department-unveils-indictments-nationwide-ghost-student-fraud-scam-linked-kenyan"
+   ],
+   "summary": "DOJ says stolen identities enrolled fake students; aid was funneled to a Kenya-linked network. Cases in Nebraska, Virginia, New Jersey; $750K+ in crypto seized. Charges only."
   },
   {
-   "id": "mobile-tax-fraud",
+   "id": "doordash-instacart",
    "region": "us",
-   "location": "Alabama",
-   "headline": "Six Mobile-area tax preparers charged over $177M in false refund claims",
-   "status": "reported-only",
+   "location": "San Francisco",
+   "headline": "DoorDash agrees to buy Instacart for about $17B",
+   "status": "sourced",
    "outlets": [
     {
-     "name": "fox10tv.com",
-     "url": "https://www.fox10tv.com/2026/10/28/mobile-tax-preparer-former-alabama-basketball-star-among-those-indicted-177-million-fraud-case/"
+     "name": "about.doordash.com",
+     "url": "https://about.doordash.com/en-us/news/doordash-to-acquire-instacart"
     }
    ],
-   "officialSources": [],
-   "summary": "An indictment alleges 9,000+ false returns from 2021\u20132024 seeking $177M; the IRS paid $81M. One defendant is former University of Alabama basketball player Kennedy Winston. Charges only."
+   "officialSources": [
+    "https://www.sec.gov/Archives/edgar/data/1792789/000114036126041119/ef20084547_425.htm"
+   ],
+   "summary": "$65 a share; needs shareholder and antitrust approval; expected to close end of 2027 or first half of 2028."
   }
  ],
  "audio": {
-  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-10-29/Briefed-2026-10-29-full-twohost.mp3",
-  "durationSeconds": 107.52,
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-10-30/Briefed-2026-10-30-full-twohost.mp3",
+  "durationSeconds": 97.907,
   "aiVoices": true,
   "chapters": [
    {
@@ -106,85 +113,85 @@
     "end": 11.985
    },
    {
-    "storyId": "alaska-second-sullivan",
-    "title": "Second Dan Sullivan probe",
+    "storyId": "doj-election-fights",
+    "title": "DOJ steps up election fights",
     "start": 11.985,
-    "end": 31.391
+    "end": 27.264
    },
    {
-    "storyId": "california-ballots",
-    "title": "Judge: CA ballots keep counting",
-    "start": 31.391,
-    "end": 47.949
+    "storyId": "q3-gdp",
+    "title": "GDP grows 3.4%",
+    "start": 27.264,
+    "end": 42.202
    },
    {
-    "storyId": "fed-holds",
-    "title": "Fed holds, 10-2",
-    "start": 47.949,
-    "end": 63.541
+    "storyId": "binance-hack",
+    "title": "Record $6.3B Binance hack",
+    "start": 42.202,
+    "end": 58.108
    },
    {
-    "storyId": "sylvia-fired",
-    "title": "Top planner fired",
-    "start": 63.541,
-    "end": 81.04
+    "storyId": "ghost-students",
+    "title": "Ghost-student aid fraud",
+    "start": 58.108,
+    "end": 74.64
    },
    {
-    "storyId": "mobile-tax-fraud",
-    "title": "$177M tax fraud charges",
-    "start": 81.04,
-    "end": 98.878
+    "storyId": "doordash-instacart",
+    "title": "DoorDash to buy Instacart",
+    "start": 74.64,
+    "end": 89.265
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 98.878,
-    "end": 107.483
+    "start": 89.265,
+    "end": 97.87
    }
   ]
  },
  "video": {
-  "url": "/briefed/media/2026-10-29/Briefed-2026-10-29-web.mp4",
-  "durationSeconds": 97.498,
+  "url": "/briefed/media/2026-10-30/Briefed-2026-10-30-web.mp4",
+  "durationSeconds": 87.885,
   "aiVoices": true,
   "chapters": [
    {
-    "storyId": "alaska-second-sullivan",
-    "title": "Second Dan Sullivan probe",
+    "storyId": "doj-election-fights",
+    "title": "DOJ steps up election fights",
     "start": 0.0,
-    "end": 21.406
+    "end": 17.279
    },
    {
-    "storyId": "california-ballots",
-    "title": "Judge: CA ballots keep counting",
-    "start": 21.406,
-    "end": 37.964
+    "storyId": "q3-gdp",
+    "title": "GDP grows 3.4%",
+    "start": 17.279,
+    "end": 32.217
    },
    {
-    "storyId": "fed-holds",
-    "title": "Fed holds, 10-2",
-    "start": 37.964,
-    "end": 53.556
+    "storyId": "binance-hack",
+    "title": "Record $6.3B Binance hack",
+    "start": 32.217,
+    "end": 48.123
    },
    {
-    "storyId": "sylvia-fired",
-    "title": "Top planner fired",
-    "start": 53.556,
-    "end": 71.055
+    "storyId": "ghost-students",
+    "title": "Ghost-student aid fraud",
+    "start": 48.123,
+    "end": 64.655
    },
    {
-    "storyId": "mobile-tax-fraud",
-    "title": "$177M tax fraud charges",
-    "start": 71.055,
-    "end": 88.893
+    "storyId": "doordash-instacart",
+    "title": "DoorDash to buy Instacart",
+    "start": 64.655,
+    "end": 79.28
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 88.893,
-    "end": 97.498
+    "start": 79.28,
+    "end": 87.885
    }
   ],
-  "poster": "/briefed/media/2026-10-29/Briefed-2026-10-29-poster.jpg"
+  "poster": "/briefed/media/2026-10-30/Briefed-2026-10-30-poster.jpg"
  }
 }

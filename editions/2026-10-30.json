@@ -1,0 +1,197 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-10-30",
+ "generatedAt": "2026-10-30T07:00:00-04:00",
+ "stories": [
+  {
+   "id": "doj-election-fights",
+   "region": "us",
+   "location": "Anchorage & Los Angeles",
+   "headline": "DOJ moves to block Alaska Senate certification, subpoenas LA election workers",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/29/alaska-senate-governor-investigation-sullivan-peltola-doj.html"
+    },
+    {
+     "name": "yahoo.com",
+     "url": "https://www.yahoo.com/news/articles/trump-confronts-midterm-battleground-south-100310861.html"
+    },
+    {
+     "name": "Politico",
+     "url": "https://www.politico.com/news/2026/10/29/doj-california-election-subpoenas-01141719"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/voting-trump-obama-peltola-sullivan-election-908b9bd3527c66c737601da933427888"
+    }
+   ],
+   "officialSources": [],
+   "summary": "DOJ filed an amended suit Thursday to block certification if Sen. Dan Sullivan narrowly loses, citing the NYT report on a second \"Dan Sullivan.\" Separately, grand-jury subpoenas ordered LA County election workers to appear Nov. 4 in a noncitizen-voting probe."
+  },
+  {
+   "id": "q3-gdp",
+   "region": "us",
+   "location": "Washington",
+   "headline": "Q3 GDP grows at 3.4% annual rate, beating 3.2% forecast",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "The Guardian",
+     "url": "https://www.theguardian.com/business/2026/oct/29/economy-growth-third-quarter"
+    }
+   ],
+   "officialSources": [
+    "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026"
+   ],
+   "summary": "BEA advance estimate: 3.4% in Q3 vs 2.2% in Q2. Reuters: inflation is rising and economists expect a December Fed hike."
+  },
+  {
+   "id": "binance-hack",
+   "region": "world",
+   "location": "World",
+   "headline": "$6.3B stolen from Binance in biggest crypto theft ever",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "finance.yahoo.com",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/tether-circle-freeze-2-38-222607515.html"
+    },
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/30/billions-in-crypto-frozen-in-binance-hack-heres-what-happens-next-.html"
+    }
+   ],
+   "officialSources": [],
+   "summary": "TRM Labs and Chainalysis blame North Korea (claimed); Binance hasn't attributed it. Bitcoin hit a six-week low; Coinbase and Strategy fell; Tether and Circle froze ~$2.4B."
+  },
+  {
+   "id": "ghost-students",
+   "region": "us",
+   "location": "NE, VA, NJ",
+   "headline": "Operation Ghostbusters: 5 charged in $2.9M 'ghost student' aid fraud",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "abcnews.com",
+     "url": "https://abcnews.com/US/feds-charge-5-people-part-alleged-sprawling-ghost/story?id=137686361"
+    }
+   ],
+   "officialSources": [
+    "https://www.justice.gov/opa/pr/justice-department-unveils-indictments-nationwide-ghost-student-fraud-scam-linked-kenyan"
+   ],
+   "summary": "DOJ says stolen identities enrolled fake students; aid was funneled to a Kenya-linked network. Cases in Nebraska, Virginia, New Jersey; $750K+ in crypto seized. Charges only."
+  },
+  {
+   "id": "doordash-instacart",
+   "region": "us",
+   "location": "San Francisco",
+   "headline": "DoorDash agrees to buy Instacart for about $17B",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "about.doordash.com",
+     "url": "https://about.doordash.com/en-us/news/doordash-to-acquire-instacart"
+    }
+   ],
+   "officialSources": [
+    "https://www.sec.gov/Archives/edgar/data/1792789/000114036126041119/ef20084547_425.htm"
+   ],
+   "summary": "$65 a share; needs shareholder and antitrust approval; expected to close end of 2027 or first half of 2028."
+  }
+ ],
+ "audio": {
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-10-30/Briefed-2026-10-30-full-twohost.mp3",
+  "durationSeconds": 97.907,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": null,
+    "title": "Intro",
+    "start": 0.0,
+    "end": 11.985
+   },
+   {
+    "storyId": "doj-election-fights",
+    "title": "DOJ steps up election fights",
+    "start": 11.985,
+    "end": 27.264
+   },
+   {
+    "storyId": "q3-gdp",
+    "title": "GDP grows 3.4%",
+    "start": 27.264,
+    "end": 42.202
+   },
+   {
+    "storyId": "binance-hack",
+    "title": "Record $6.3B Binance hack",
+    "start": 42.202,
+    "end": 58.108
+   },
+   {
+    "storyId": "ghost-students",
+    "title": "Ghost-student aid fraud",
+    "start": 58.108,
+    "end": 74.64
+   },
+   {
+    "storyId": "doordash-instacart",
+    "title": "DoorDash to buy Instacart",
+    "start": 74.64,
+    "end": 89.265
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 89.265,
+    "end": 97.87
+   }
+  ]
+ },
+ "video": {
+  "url": "/briefed/media/2026-10-30/Briefed-2026-10-30-web.mp4",
+  "durationSeconds": 87.885,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": "doj-election-fights",
+    "title": "DOJ steps up election fights",
+    "start": 0.0,
+    "end": 17.279
+   },
+   {
+    "storyId": "q3-gdp",
+    "title": "GDP grows 3.4%",
+    "start": 17.279,
+    "end": 32.217
+   },
+   {
+    "storyId": "binance-hack",
+    "title": "Record $6.3B Binance hack",
+    "start": 32.217,
+    "end": 48.123
+   },
+   {
+    "storyId": "ghost-students",
+    "title": "Ghost-student aid fraud",
+    "start": 48.123,
+    "end": 64.655
+   },
+   {
+    "storyId": "doordash-instacart",
+    "title": "DoorDash to buy Instacart",
+    "start": 64.655,
+    "end": 79.28
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 79.28,
+    "end": 87.885
+   }
+  ],
+  "poster": "/briefed/media/2026-10-30/Briefed-2026-10-30-poster.jpg"
+ }
+}
