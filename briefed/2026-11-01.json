@@ -1,0 +1,224 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-11-01",
+ "generatedAt": "2026-11-01T07:20:00-05:00",
+ "stories": [
+  {
+   "id": "final-weekend-rallies",
+   "region": "us",
+   "location": "Iowa & Kansas",
+   "headline": "Trump holds Sunday rallies in Kansas and Iowa, two days before midterms",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/politics/2026-election/trump-cancels-weekend-rallies-iowa-kansas-favor-holding-numerous-teler-rcna606487"
+    },
+    {
+     "name": "kcrg.com",
+     "url": "https://www.kcrg.com/2026/11/01/trump-rally-dubuque-where-watch-how-attend/"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Rallies in Dubuque, Iowa, and Salina, Kansas, reinstated a day after Trump canceled them for tele-rallies. Election Day is Tue., Nov. 3."
+  },
+  {
+   "id": "hubbard-white-house",
+   "region": "us",
+   "location": "Washington",
+   "headline": "Freed American Stephen Hubbard meets Trump at the White House",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/trump-meeting-stephen-hubbard-white-house-russia-release/"
+    },
+    {
+     "name": "The Guardian",
+     "url": "https://www.theguardian.com/us-news/2026/oct/30/retired-michigan-teacher-released-russian-prison"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Hubbard, 74, a retired Michigan teacher, was freed Oct. 21 after 4+ years in Russian custody. Trump says no swap; CBS and AP say he appeared to tie the release to sanctions exemptions."
+  },
+  {
+   "id": "oleshky-truce",
+   "region": "world",
+   "location": "Oleshky",
+   "headline": "Hundreds evacuated from Oleshky under Melania Trump-brokered truce",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.com/news/articles/c60me298k1yeo"
+    },
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/world/ukraine/melania-ukraine-oleshky-evacuation-russia-ceasefire-leo-rcna606509"
+    }
+   ],
+   "officialSources": [],
+   "summary": "25 buses (up to 750 seats) left occupied Oleshky Friday; evacuees reached Ukrainian-held territory Saturday. The Kherson truce expires Sunday night."
+  },
+  {
+   "id": "frimpong-visa",
+   "region": "us",
+   "location": "Bronx, NY",
+   "headline": "Mamdani says Trump agreed to visa for slain Bronx teen's mother",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/1/mamdani-says-trump-to-grant-visa-to-mother-of-boy-killed-in-bronx-shooting"
+    }
+   ],
+   "officialSources": [
+    "https://www.nyc.gov/mayors-office/news/2026/10/mayor-zohran-kwame-mamdani-releases-statement-on-javits-frimpong"
+   ],
+   "summary": "Javits Frimpong, 15, was shot dead on his way to school. Mayor Mamdani says Trump agreed to a visa for his mother, Doris Adu Gyamfi. The White House hasn't confirmed."
+  },
+  {
+   "id": "arch-lawsuit",
+   "region": "us",
+   "location": "Washington, DC",
+   "headline": "Virginia and DC sue to stop Trump's 250-foot arch",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "hillheat.com",
+     "url": "https://hillheat.com/files/552/Trump_Arch_suit_DC_and_Virginia.pdf"
+    },
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/politics/white-house/dc-virginia-lawsuit-stop-proposed-trump-arch-construction-rcna606705"
+    }
+   ],
+   "officialSources": [],
+   "summary": "The suit says the arch lacks congressional approval and exceeds DC's 130-ft height limit. Construction could start Nov. 5; Judge Chutkan consolidated the case."
+  },
+  {
+   "id": "binance-fbi",
+   "region": "world",
+   "location": "Crypto",
+   "headline": "FBI says North Korea behind $6.3B Binance theft",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/binance-crypto-hack-north-korea-fbi-883f18140c1e21ce0c38781e72cbe315"
+    },
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html"
+    }
+   ],
+   "officialSources": [],
+   "summary": "The FBI blames North Korea for the largest crypto theft on record. Binance says it covered ~90% and is reopening withdrawals."
+  }
+ ],
+ "audio": {
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-01/Briefed-2026-11-01-full-twohost.mp3",
+  "durationSeconds": 127.216,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": null,
+    "title": "Intro",
+    "start": 0.0,
+    "end": 11.985
+   },
+   {
+    "storyId": "final-weekend-rallies",
+    "title": "Trump's Sunday rallies",
+    "start": 11.985,
+    "end": 29.824
+   },
+   {
+    "storyId": "hubbard-white-house",
+    "title": "Hubbard at White House",
+    "start": 29.824,
+    "end": 48.916
+   },
+   {
+    "storyId": "oleshky-truce",
+    "title": "Oleshky evacuation",
+    "start": 48.916,
+    "end": 67.068
+   },
+   {
+    "storyId": "frimpong-visa",
+    "title": "Visa for teen's mother",
+    "start": 67.068,
+    "end": 85.546
+   },
+   {
+    "storyId": "arch-lawsuit",
+    "title": "Arch lawsuit",
+    "start": 85.546,
+    "end": 101.425
+   },
+   {
+    "storyId": "binance-fbi",
+    "title": "FBI: N. Korea hack",
+    "start": 101.425,
+    "end": 118.585
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 118.585,
+    "end": 127.19
+   }
+  ]
+ },
+ "video": {
+  "url": "/briefed/media/2026-11-01/Briefed-2026-11-01-web.mp4",
+  "durationSeconds": 117.205,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": "final-weekend-rallies",
+    "title": "Trump's Sunday rallies",
+    "start": 0.0,
+    "end": 19.839
+   },
+   {
+    "storyId": "hubbard-white-house",
+    "title": "Hubbard at White House",
+    "start": 19.839,
+    "end": 38.931
+   },
+   {
+    "storyId": "oleshky-truce",
+    "title": "Oleshky evacuation",
+    "start": 38.931,
+    "end": 57.083
+   },
+   {
+    "storyId": "frimpong-visa",
+    "title": "Visa for teen's mother",
+    "start": 57.083,
+    "end": 75.561
+   },
+   {
+    "storyId": "arch-lawsuit",
+    "title": "Arch lawsuit",
+    "start": 75.561,
+    "end": 91.44
+   },
+   {
+    "storyId": "binance-fbi",
+    "title": "FBI: N. Korea hack",
+    "start": 91.44,
+    "end": 108.6
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 108.6,
+    "end": 117.205
+   }
+  ],
+  "poster": "/briefed/media/2026-11-01/Briefed-2026-11-01-poster.jpg"
+ }
+}

@@ -2,6 +2,13 @@
  "schemaVersion": 1,
  "editions": [
   {
+   "date": "2026-11-01",
+   "lead": "Trump holds Sunday rallies in Kansas and Iowa, two days before midterms",
+   "url": "/briefed/2026-11-01/",
+   "json": "/briefed/2026-11-01.json",
+   "hasAudio": true
+  },
+  {
    "date": "2026-10-31",
    "lead": "43 million Americans have already voted, ~10 million ahead of 2022",
    "url": "/briefed/2026-10-31/",

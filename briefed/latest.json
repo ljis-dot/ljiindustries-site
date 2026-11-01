@@ -1,239 +1,224 @@
 {
  "schemaVersion": 1,
- "date": "2026-10-31",
- "generatedAt": "2026-10-31T07:45:00-04:00",
+ "date": "2026-11-01",
+ "generatedAt": "2026-11-01T07:20:00-05:00",
  "stories": [
   {
-   "id": "early-vote-surge",
+   "id": "final-weekend-rallies",
    "region": "us",
-   "location": "National",
-   "headline": "43 million Americans have already voted, ~10 million ahead of 2022",
+   "location": "Iowa & Kansas",
+   "headline": "Trump holds Sunday rallies in Kansas and Iowa, two days before midterms",
    "status": "reported-only",
    "outlets": [
     {
-     "name": "pbs.org",
-     "url": "https://www.pbs.org/newshour/politics/millions-more-americans-vote-ahead-of-election-day-as-early-voting-jumps-across-senate-battlegrounds"
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/politics/2026-election/trump-cancels-weekend-rallies-iowa-kansas-favor-holding-numerous-teler-rcna606487"
+    },
+    {
+     "name": "kcrg.com",
+     "url": "https://www.kcrg.com/2026/11/01/trump-rally-dubuque-where-watch-how-attend/"
     }
    ],
    "officialSources": [],
-   "summary": "AP analysis: more than 43M early votes, nearly 10M more than in 2022. Texas up 50%; Maine, Michigan, North Carolina and Kansas up 30%+. Election Day is Tue., Nov. 3."
+   "summary": "Rallies in Dubuque, Iowa, and Salina, Kansas, reinstated a day after Trump canceled them for tele-rallies. Election Day is Tue., Nov. 3."
   },
   {
-   "id": "courts-block-doj",
+   "id": "hubbard-white-house",
    "region": "us",
-   "location": "California",
-   "headline": "Courts block DOJ on California ballots and threats to election workers",
-   "status": "sourced",
+   "location": "Washington",
+   "headline": "Freed American Stephen Hubbard meets Trump at the White House",
+   "status": "reported-only",
    "outlets": [
     {
      "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/judge-orders-doj-stop-threaten-intimidate-california-election-officials/"
+     "url": "https://www.cbsnews.com/news/trump-meeting-stephen-hubbard-white-house-russia-release/"
     },
     {
-     "name": "CNN",
-     "url": "https://edition.cnn.com/2026/10/30/politics/emergency-order-halts-doj-pressure-campaign-election-officials"
+     "name": "The Guardian",
+     "url": "https://www.theguardian.com/us-news/2026/oct/30/retired-michigan-teacher-released-russian-prison"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Hubbard, 74, a retired Michigan teacher, was freed Oct. 21 after 4+ years in Russian custody. Trump says no swap; CBS and AP say he appeared to tie the release to sanctions exemptions."
+  },
+  {
+   "id": "oleshky-truce",
+   "region": "world",
+   "location": "Oleshky",
+   "headline": "Hundreds evacuated from Oleshky under Melania Trump-brokered truce",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.com/news/articles/c60me298k1yeo"
     },
     {
      "name": "NBC News",
-     "url": "https://www.nbcnews.com/politics/trump-administration/appeals-court-rejects-justice-department-noncitizen-ballots-rcna606604"
+     "url": "https://www.nbcnews.com/world/ukraine/melania-ukraine-oleshky-evacuation-russia-ceasefire-leo-rcna606509"
     }
    ],
    "officialSources": [],
-   "summary": "The 9th Circuit, 2-1, refused to make California set aside ~20,000 ballots. Judge Trina Thompson issued a TRO barring DOJ/DHS from threatening or coercing election officials (expires Nov. 16)."
+   "summary": "25 buses (up to 750 seats) left occupied Oleshky Friday; evacuees reached Ukrainian-held territory Saturday. The Kherson truce expires Sunday night."
   },
   {
-   "id": "stocks-intel",
+   "id": "frimpong-visa",
    "region": "us",
-   "location": "National",
-   "headline": "Intel plunges 28.6%, worst since 1974; S&P 500 has worst day since June",
+   "location": "Bronx, NY",
+   "headline": "Mamdani says Trump agreed to visa for slain Bronx teen's mother",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/1/mamdani-says-trump-to-grant-visa-to-mother-of-boy-killed-in-bronx-shooting"
+    }
+   ],
+   "officialSources": [
+    "https://www.nyc.gov/mayors-office/news/2026/10/mayor-zohran-kwame-mamdani-releases-statement-on-javits-frimpong"
+   ],
+   "summary": "Javits Frimpong, 15, was shot dead on his way to school. Mayor Mamdani says Trump agreed to a visa for his mother, Doris Adu Gyamfi. The White House hasn't confirmed."
+  },
+  {
+   "id": "arch-lawsuit",
+   "region": "us",
+   "location": "Washington, DC",
+   "headline": "Virginia and DC sue to stop Trump's 250-foot arch",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "hillheat.com",
+     "url": "https://hillheat.com/files/552/Trump_Arch_suit_DC_and_Virginia.pdf"
+    },
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/politics/white-house/dc-virginia-lawsuit-stop-proposed-trump-arch-construction-rcna606705"
+    }
+   ],
+   "officialSources": [],
+   "summary": "The suit says the arch lacks congressional approval and exceeds DC's 130-ft height limit. Construction could start Nov. 5; Judge Chutkan consolidated the case."
+  },
+  {
+   "id": "binance-fbi",
+   "region": "world",
+   "location": "Crypto",
+   "headline": "FBI says North Korea behind $6.3B Binance theft",
    "status": "reported-only",
    "outlets": [
     {
-     "name": "fortune.com",
-     "url": "https://fortune.com/2026/10/30/intel-worst-drop-since-1974-sp-500-worst-day-since-june-ai-selloff/"
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/binance-crypto-hack-north-korea-fbi-883f18140c1e21ce0c38781e72cbe315"
     },
     {
      "name": "CNBC",
-     "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+     "url": "https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html"
     }
    ],
    "officialSources": [],
-   "summary": "S&P 500 -1.8%, Nasdaq -2.9%. Intel's weak forecast cut ~ $12B from the U.S. government's ~10% stake, which remains profitable."
-  },
-  {
-   "id": "fraud-beat",
-   "region": "us",
-   "location": "MN, VA",
-   "headline": "DOJ: ~$29.1M in new Minnesota benefits-fraud charges; $49M Virginia Medicaid case",
-   "status": "reported-only",
-   "outlets": [],
-   "officialSources": [
-    "https://www.justice.gov/opa/pr/dojs-fraud-division-and-us-attorneys-office-district-minnesota-uncover-voter-fraud-and",
-    "https://www.justice.gov/opa/pr/virginia-mental-health-professional-charged-49m-medicaid-fraud-scheme"
-   ],
-   "summary": "13 Minnesota defendants charged, convicted or sentenced since Sept. 30; new cases allege ~$29.1M in Medicaid/SNAP fraud. Separately, a Richmond-area provider co-owner was arrested over $49M in alleged Medicaid claims. Allegations only."
-  },
-  {
-   "id": "fairfield-shooting",
-   "region": "us",
-   "location": "Fairfield, CA",
-   "headline": "1 dead, 6 wounded in shooting at Fairfield, Calif., Halloween store",
-   "status": "sourced",
-   "outlets": [
-    {
-     "name": "abcnews.com",
-     "url": "https://abcnews.com/US/1-dead-6-injured-shooting-california-halloween-store/story?id=137730138"
-    }
-   ],
-   "officialSources": [],
-   "summary": "Police say the shooting at a Spirit Halloween in Solano Town Center was about 8:30 p.m. Friday; at least three critical. No suspect named."
-  },
-  {
-   "id": "patriot-sale",
-   "region": "world",
-   "location": "Ukraine",
-   "headline": "U.S. approves $2.1B sale of 500 Patriot missiles to Ukraine",
-   "status": "sourced",
-   "outlets": [
-    {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/ukraine-patriot-missiles-us-lockheed-martin-sale-zelenskyy/"
-    }
-   ],
-   "officialSources": [],
-   "summary": "Paid by Ukraine with donations from Canada and European allies; no U.S. funds. Lockheed Martin is prime contractor; State says no adverse impact on U.S. readiness. Zelenskyy says delivery could take years."
-  },
-  {
-   "id": "iran-economy",
-   "region": "world",
-   "location": "Iran",
-   "headline": "Treasury says sanctions, blockade crippling Iran's economy; inflation at 90%",
-   "status": "reported-only",
-   "outlets": [
-    {
-     "name": "The Hill",
-     "url": "https://thehill.com/policy/international/6185517-bessent-iran-operation-economic-outcast-impact/"
-    }
-   ],
-   "officialSources": [],
-   "summary": "A Treasury report claims Iran's headline inflation hit 90% in September and no oil has loaded since Aug. 25. Treasury's figures; not independently verified."
+   "summary": "The FBI blames North Korea for the largest crypto theft on record. Binance says it covered ~90% and is reopening withdrawals."
   }
  ],
  "audio": {
-  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-10-31/Briefed-2026-10-31-full-twohost.mp3",
-  "durationSeconds": 142.838,
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-01/Briefed-2026-11-01-full-twohost.mp3",
+  "durationSeconds": 127.216,
   "aiVoices": true,
   "chapters": [
    {
     "storyId": null,
     "title": "Intro",
     "start": 0.0,
-    "end": 12.638
+    "end": 11.985
    },
    {
-    "storyId": "early-vote-surge",
-    "title": "Early vote surges",
-    "start": 12.638,
-    "end": 31.417
+    "storyId": "final-weekend-rallies",
+    "title": "Trump's Sunday rallies",
+    "start": 11.985,
+    "end": 29.824
    },
    {
-    "storyId": "courts-block-doj",
-    "title": "Courts block DOJ",
-    "start": 31.417,
-    "end": 46.356
+    "storyId": "hubbard-white-house",
+    "title": "Hubbard at White House",
+    "start": 29.824,
+    "end": 48.916
    },
    {
-    "storyId": "stocks-intel",
-    "title": "Intel's worst day since 1974",
-    "start": 46.356,
-    "end": 64.795
+    "storyId": "oleshky-truce",
+    "title": "Oleshky evacuation",
+    "start": 48.916,
+    "end": 67.068
    },
    {
-    "storyId": "fraud-beat",
-    "title": "Minnesota, Virginia fraud cases",
-    "start": 64.795,
-    "end": 83.26
+    "storyId": "frimpong-visa",
+    "title": "Visa for teen's mother",
+    "start": 67.068,
+    "end": 85.546
    },
    {
-    "storyId": "fairfield-shooting",
-    "title": "Fairfield mall shooting",
-    "start": 83.26,
-    "end": 99.492
+    "storyId": "arch-lawsuit",
+    "title": "Arch lawsuit",
+    "start": 85.546,
+    "end": 101.425
    },
    {
-    "storyId": "patriot-sale",
-    "title": "Patriots for Ukraine",
-    "start": 99.492,
-    "end": 119.891
-   },
-   {
-    "storyId": "iran-economy",
-    "title": "Treasury: Iran inflation 90%",
-    "start": 119.891,
-    "end": 134.203
+    "storyId": "binance-fbi",
+    "title": "FBI: N. Korea hack",
+    "start": 101.425,
+    "end": 118.585
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 134.203,
-    "end": 142.808
+    "start": 118.585,
+    "end": 127.19
    }
   ]
  },
  "video": {
-  "url": "/briefed/media/2026-10-31/Briefed-2026-10-31-web.mp4",
-  "durationSeconds": 132.17,
+  "url": "/briefed/media/2026-11-01/Briefed-2026-11-01-web.mp4",
+  "durationSeconds": 117.205,
   "aiVoices": true,
   "chapters": [
    {
-    "storyId": "early-vote-surge",
-    "title": "Early vote surges",
+    "storyId": "final-weekend-rallies",
+    "title": "Trump's Sunday rallies",
     "start": 0.0,
-    "end": 20.779
+    "end": 19.839
    },
    {
-    "storyId": "courts-block-doj",
-    "title": "Courts block DOJ",
-    "start": 20.779,
-    "end": 35.718
+    "storyId": "hubbard-white-house",
+    "title": "Hubbard at White House",
+    "start": 19.839,
+    "end": 38.931
    },
    {
-    "storyId": "stocks-intel",
-    "title": "Intel's worst day since 1974",
-    "start": 35.718,
-    "end": 54.157
+    "storyId": "oleshky-truce",
+    "title": "Oleshky evacuation",
+    "start": 38.931,
+    "end": 57.083
    },
    {
-    "storyId": "fraud-beat",
-    "title": "Minnesota, Virginia fraud cases",
-    "start": 54.157,
-    "end": 72.622
+    "storyId": "frimpong-visa",
+    "title": "Visa for teen's mother",
+    "start": 57.083,
+    "end": 75.561
    },
    {
-    "storyId": "fairfield-shooting",
-    "title": "Fairfield mall shooting",
-    "start": 72.622,
-    "end": 88.854
+    "storyId": "arch-lawsuit",
+    "title": "Arch lawsuit",
+    "start": 75.561,
+    "end": 91.44
    },
    {
-    "storyId": "patriot-sale",
-    "title": "Patriots for Ukraine",
-    "start": 88.854,
-    "end": 109.253
-   },
-   {
-    "storyId": "iran-economy",
-    "title": "Treasury: Iran inflation 90%",
-    "start": 109.253,
-    "end": 123.565
+    "storyId": "binance-fbi",
+    "title": "FBI: N. Korea hack",
+    "start": 91.44,
+    "end": 108.6
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 123.565,
-    "end": 132.17
+    "start": 108.6,
+    "end": 117.205
    }
   ],
-  "poster": "/briefed/media/2026-10-31/Briefed-2026-10-31-poster.jpg"
+  "poster": "/briefed/media/2026-11-01/Briefed-2026-11-01-poster.jpg"
  }
 }
