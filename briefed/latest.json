@@ -1,124 +1,128 @@
 {
  "schemaVersion": 1,
- "date": "2026-11-01",
- "generatedAt": "2026-11-01T07:20:00-05:00",
+ "date": "2026-11-02",
+ "generatedAt": "2026-11-02T07:20:00-05:00",
  "stories": [
   {
-   "id": "final-weekend-rallies",
+   "id": "palm-beach-jet-crash",
    "region": "us",
-   "location": "Iowa & Kansas",
-   "headline": "Trump holds Sunday rallies in Kansas and Iowa, two days before midterms",
+   "location": "Palm Beach County, FL",
+   "headline": "All 9 aboard killed in Palm Beach County jet crash",
    "status": "reported-only",
    "outlets": [
     {
      "name": "NBC News",
-     "url": "https://www.nbcnews.com/politics/2026-election/trump-cancels-weekend-rallies-iowa-kansas-favor-holding-numerous-teler-rcna606487"
+     "url": "https://www.nbcnews.com/news/us-news/jet-crashes-florida-nine-people-board-rcna606874"
     },
     {
-     "name": "kcrg.com",
-     "url": "https://www.kcrg.com/2026/11/01/trump-rally-dubuque-where-watch-how-attend/"
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/palm-beach-plane-crash-ffdee609e7916ff7fcd178d2b8e69b39"
     }
    ],
    "officialSources": [],
-   "summary": "Rallies in Dubuque, Iowa, and Salina, Kansas, reinstated a day after Trump canceled them for tele-rallies. Election Day is Tue., Nov. 3."
+   "summary": "A Learjet 60 bound from Austin to North Eleuthera, Bahamas, crashed near Military Trail around 12:50 p.m. Sunday. No ground injuries reported; victims not named. NTSB leads."
   },
   {
-   "id": "hubbard-white-house",
+   "id": "southwest-flooding",
    "region": "us",
-   "location": "Washington",
-   "headline": "Freed American Stephen Hubbard meets Trump at the White House",
+   "location": "Colorado & Arizona",
+   "headline": "Flooding forces evacuations in Arizona and Colorado",
    "status": "reported-only",
    "outlets": [
     {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/trump-meeting-stephen-hubbard-white-house-russia-release/"
+     "name": "denver7.com",
+     "url": "https://www.denver7.com/news/local-news/some-pagosa-springs-residents-businesses-urged-to-evacuate-ahead-of-possible-historic-river-crest"
     },
     {
-     "name": "The Guardian",
-     "url": "https://www.theguardian.com/us-news/2026/oct/30/retired-michigan-teacher-released-russian-prison"
-    }
-   ],
-   "officialSources": [],
-   "summary": "Hubbard, 74, a retired Michigan teacher, was freed Oct. 21 after 4+ years in Russian custody. Trump says no swap; CBS and AP say he appeared to tie the release to sanctions exemptions."
-  },
-  {
-   "id": "oleshky-truce",
-   "region": "world",
-   "location": "Oleshky",
-   "headline": "Hundreds evacuated from Oleshky under Melania Trump-brokered truce",
-   "status": "reported-only",
-   "outlets": [
-    {
-     "name": "BBC",
-     "url": "https://www.bbc.com/news/articles/c60me298k1yeo"
-    },
-    {
-     "name": "NBC News",
-     "url": "https://www.nbcnews.com/world/ukraine/melania-ukraine-oleshky-evacuation-russia-ceasefire-leo-rcna606509"
-    }
-   ],
-   "officialSources": [],
-   "summary": "25 buses (up to 750 seats) left occupied Oleshky Friday; evacuees reached Ukrainian-held territory Saturday. The Kherson truce expires Sunday night."
-  },
-  {
-   "id": "frimpong-visa",
-   "region": "us",
-   "location": "Bronx, NY",
-   "headline": "Mamdani says Trump agreed to visa for slain Bronx teen's mother",
-   "status": "sourced",
-   "outlets": [
-    {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/1/mamdani-says-trump-to-grant-visa-to-mother-of-boy-killed-in-bronx-shooting"
+     "name": "fox10phoenix.com",
+     "url": "https://www.fox10phoenix.com/news/man-missing-after-falling-fast-moving-flagstaff-floodwaters"
     }
    ],
    "officialSources": [
-    "https://www.nyc.gov/mayors-office/news/2026/10/mayor-zohran-kwame-mamdani-releases-statement-on-javits-frimpong"
+    "https://waterdata.usgs.gov/nwis/uv?legacy=1&site_no=09342500"
    ],
-   "summary": "Javits Frimpong, 15, was shot dead on his way to school. Mayor Mamdani says Trump agreed to a visa for his mother, Doris Adu Gyamfi. The White House hasn't confirmed."
+   "summary": "Mandatory evacuations in Sedona, AZ, and around Pagosa Springs, CO. The San Juan River crested near 16.8 ft (USGS). A man is missing in Flagstaff floodwaters."
   },
   {
-   "id": "arch-lawsuit",
+   "id": "stevens-endorses-rogers",
    "region": "us",
-   "location": "Washington, DC",
-   "headline": "Virginia and DC sue to stop Trump's 250-foot arch",
-   "status": "sourced",
-   "outlets": [
-    {
-     "name": "hillheat.com",
-     "url": "https://hillheat.com/files/552/Trump_Arch_suit_DC_and_Virginia.pdf"
-    },
-    {
-     "name": "NBC News",
-     "url": "https://www.nbcnews.com/politics/white-house/dc-virginia-lawsuit-stop-proposed-trump-arch-construction-rcna606705"
-    }
-   ],
-   "officialSources": [],
-   "summary": "The suit says the arch lacks congressional approval and exceeds DC's 130-ft height limit. Construction could start Nov. 5; Judge Chutkan consolidated the case."
-  },
-  {
-   "id": "binance-fbi",
-   "region": "world",
-   "location": "Crypto",
-   "headline": "FBI says North Korea behind $6.3B Binance theft",
+   "location": "Michigan",
+   "headline": "Democratic Rep. Haley Stevens endorses Republican Mike Rogers in Michigan",
    "status": "reported-only",
    "outlets": [
     {
-     "name": "Associated Press",
-     "url": "https://apnews.com/article/binance-crypto-hack-north-korea-fbi-883f18140c1e21ce0c38781e72cbe315"
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/politics/2026-election/haley-stevens-endorses-gop-mike-rogers-michigan-senate-race-el-sayed-rcna606831"
     },
     {
-     "name": "CNBC",
-     "url": "https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html"
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/haley-stevens-mike-rogers-together-church-abdul-el-sayed-michigan-senate/"
     }
    ],
    "officialSources": [],
-   "summary": "The FBI blames North Korea for the largest crypto theft on record. Binance says it covered ~90% and is reopening withdrawals."
+   "summary": "Stevens lost the primary to Abdul El-Sayed, who leads Rogers 53-42 in the final NYT/Siena poll. 35 Senate seats and all 435 House seats are on Tuesday's ballot."
+  },
+  {
+   "id": "alaska-suit-dismissed",
+   "region": "us",
+   "location": "Anchorage, AK",
+   "headline": "Judge dismisses DOJ suit over Alaska Senate certification",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/01/alaska-senate-doj-lawsuit-dismissed-sullivan-peltola.html"
+    },
+    {
+     "name": "Politico",
+     "url": "https://www.politico.com/news/2026/11/01/alaska-lawsuit-trump-administration-ruling"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Judge Sharon Gleason found no standing and no workable plan to segregate ballots while keeping them secret. DOJ will appeal. Sen. Sullivan says he'd accept the results."
+  },
+  {
+   "id": "canada-trade-talks",
+   "region": "world",
+   "location": "USA/Canada",
+   "headline": "Carney and Trump report progress toward a possible trade deal",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "pbs.org",
+     "url": "https://www.pbs.org/newshour/world/canadian-prime-minister-carney-reports-progress-in-trade-talks-with-trump-days-before-u-s-midterms"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/canada-us-trump-canada-trade-d0bfffc67ecdf22d9a5abffb2d26d848"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Trump says a 'concept' could include Keystone XL and no tariffs for US farmers. Negotiators to work in coming weeks; no terms announced."
+  },
+  {
+   "id": "gulf-iran-tensions",
+   "region": "world",
+   "location": "Gulf",
+   "headline": "Gulf states brace for possible renewed US strikes on Iran",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "NPR",
+     "url": "https://www.npr.org/2026/11/02/nx-s1-6023485/gulf-region-on-edge-over-possibility-of-renewed-u-s-attacks-against-iran"
+    },
+    {
+     "name": "arabnews.com",
+     "url": "https://www.arabnews.com/middle-east/iranian-envoys-meet-qatari-mediators-as-threat-looms-of-us-strikes-after-midterms-3009168"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Qatar is mediating a plan to reopen the Strait of Hormuz; no deal. Iran threatens to strike US and Israeli targets in the region if attacked."
   }
  ],
  "audio": {
-  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-01/Briefed-2026-11-01-full-twohost.mp3",
-  "durationSeconds": 127.216,
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-02/Briefed-2026-11-02-full-twohost.mp3",
+  "durationSeconds": 131.657,
   "aiVoices": true,
   "chapters": [
    {
@@ -128,97 +132,97 @@
     "end": 11.985
    },
    {
-    "storyId": "final-weekend-rallies",
-    "title": "Trump's Sunday rallies",
+    "storyId": "palm-beach-jet-crash",
+    "title": "Florida jet crash",
     "start": 11.985,
-    "end": 29.824
+    "end": 33.024
    },
    {
-    "storyId": "hubbard-white-house",
-    "title": "Hubbard at White House",
-    "start": 29.824,
-    "end": 48.916
+    "storyId": "southwest-flooding",
+    "title": "Southwest flooding",
+    "start": 33.024,
+    "end": 51.463
    },
    {
-    "storyId": "oleshky-truce",
-    "title": "Oleshky evacuation",
-    "start": 48.916,
-    "end": 67.068
+    "storyId": "stevens-endorses-rogers",
+    "title": "Stevens backs Rogers",
+    "start": 51.463,
+    "end": 70.242
    },
    {
-    "storyId": "frimpong-visa",
-    "title": "Visa for teen's mother",
-    "start": 67.068,
-    "end": 85.546
+    "storyId": "alaska-suit-dismissed",
+    "title": "Alaska suit dismissed",
+    "start": 70.242,
+    "end": 88.054
    },
    {
-    "storyId": "arch-lawsuit",
-    "title": "Arch lawsuit",
-    "start": 85.546,
-    "end": 101.425
+    "storyId": "canada-trade-talks",
+    "title": "US-Canada trade talks",
+    "start": 88.054,
+    "end": 104.586
    },
    {
-    "storyId": "binance-fbi",
-    "title": "FBI: N. Korea hack",
-    "start": 101.425,
-    "end": 118.585
+    "storyId": "gulf-iran-tensions",
+    "title": "Gulf braces on Iran",
+    "start": 104.586,
+    "end": 123.025
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 118.585,
-    "end": 127.19
+    "start": 123.025,
+    "end": 131.631
    }
   ]
  },
  "video": {
-  "url": "/briefed/media/2026-11-01/Briefed-2026-11-01-web.mp4",
-  "durationSeconds": 117.205,
+  "url": "/briefed/media/2026-11-02/Briefed-2026-11-02-web.mp4",
+  "durationSeconds": 121.646,
   "aiVoices": true,
   "chapters": [
    {
-    "storyId": "final-weekend-rallies",
-    "title": "Trump's Sunday rallies",
+    "storyId": "palm-beach-jet-crash",
+    "title": "Florida jet crash",
     "start": 0.0,
-    "end": 19.839
+    "end": 23.039
    },
    {
-    "storyId": "hubbard-white-house",
-    "title": "Hubbard at White House",
-    "start": 19.839,
-    "end": 38.931
+    "storyId": "southwest-flooding",
+    "title": "Southwest flooding",
+    "start": 23.039,
+    "end": 41.478
    },
    {
-    "storyId": "oleshky-truce",
-    "title": "Oleshky evacuation",
-    "start": 38.931,
-    "end": 57.083
+    "storyId": "stevens-endorses-rogers",
+    "title": "Stevens backs Rogers",
+    "start": 41.478,
+    "end": 60.257
    },
    {
-    "storyId": "frimpong-visa",
-    "title": "Visa for teen's mother",
-    "start": 57.083,
-    "end": 75.561
+    "storyId": "alaska-suit-dismissed",
+    "title": "Alaska suit dismissed",
+    "start": 60.257,
+    "end": 78.069
    },
    {
-    "storyId": "arch-lawsuit",
-    "title": "Arch lawsuit",
-    "start": 75.561,
-    "end": 91.44
+    "storyId": "canada-trade-talks",
+    "title": "US-Canada trade talks",
+    "start": 78.069,
+    "end": 94.601
    },
    {
-    "storyId": "binance-fbi",
-    "title": "FBI: N. Korea hack",
-    "start": 91.44,
-    "end": 108.6
+    "storyId": "gulf-iran-tensions",
+    "title": "Gulf braces on Iran",
+    "start": 94.601,
+    "end": 113.04
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 108.6,
-    "end": 117.205
+    "start": 113.04,
+    "end": 121.646
    }
   ],
-  "poster": "/briefed/media/2026-11-01/Briefed-2026-11-01-poster.jpg"
+  "poster": "/briefed/media/2026-11-02/Briefed-2026-11-02-poster.jpg"
  }
 }
