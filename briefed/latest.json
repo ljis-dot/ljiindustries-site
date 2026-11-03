@@ -1,228 +1,238 @@
 {
  "schemaVersion": 1,
- "date": "2026-11-02",
- "generatedAt": "2026-11-02T07:20:00-05:00",
+ "date": "2026-11-03",
+ "generatedAt": "2026-11-03T07:10:00-05:00",
  "stories": [
   {
-   "id": "palm-beach-jet-crash",
+   "id": "election-day",
    "region": "us",
-   "location": "Palm Beach County, FL",
-   "headline": "All 9 aboard killed in Palm Beach County jet crash",
+   "location": "National",
+   "headline": "Election Day: 57 million+ voted early",
    "status": "reported-only",
    "outlets": [
     {
-     "name": "NBC News",
-     "url": "https://www.nbcnews.com/news/us-news/jet-crashes-florida-nine-people-board-rcna606874"
-    },
-    {
-     "name": "Associated Press",
-     "url": "https://apnews.com/article/palm-beach-plane-crash-ffdee609e7916ff7fcd178d2b8e69b39"
-    }
-   ],
-   "officialSources": [],
-   "summary": "A Learjet 60 bound from Austin to North Eleuthera, Bahamas, crashed near Military Trail around 12:50 p.m. Sunday. No ground injuries reported; victims not named. NTSB leads."
-  },
-  {
-   "id": "southwest-flooding",
-   "region": "us",
-   "location": "Colorado & Arizona",
-   "headline": "Flooding forces evacuations in Arizona and Colorado",
-   "status": "reported-only",
-   "outlets": [
-    {
-     "name": "denver7.com",
-     "url": "https://www.denver7.com/news/local-news/some-pagosa-springs-residents-businesses-urged-to-evacuate-ahead-of-possible-historic-river-crest"
-    },
-    {
-     "name": "fox10phoenix.com",
-     "url": "https://www.fox10phoenix.com/news/man-missing-after-falling-fast-moving-flagstaff-floodwaters"
-    }
-   ],
-   "officialSources": [
-    "https://waterdata.usgs.gov/nwis/uv?legacy=1&site_no=09342500"
-   ],
-   "summary": "Mandatory evacuations in Sedona, AZ, and around Pagosa Springs, CO. The San Juan River crested near 16.8 ft (USGS). A man is missing in Flagstaff floodwaters."
-  },
-  {
-   "id": "stevens-endorses-rogers",
-   "region": "us",
-   "location": "Michigan",
-   "headline": "Democratic Rep. Haley Stevens endorses Republican Mike Rogers in Michigan",
-   "status": "reported-only",
-   "outlets": [
-    {
-     "name": "NBC News",
-     "url": "https://www.nbcnews.com/politics/2026-election/haley-stevens-endorses-gop-mike-rogers-michigan-senate-race-el-sayed-rcna606831"
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
     },
     {
      "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/haley-stevens-mike-rogers-together-church-abdul-el-sayed-michigan-senate/"
+     "url": "https://www.cbsnews.com/news/when-polls-open-close-2026-midterm-elections/"
+    },
+    {
+     "name": "NPR",
+     "url": "https://www.npr.org/2026/11/03/nx-s1-5992757/election-day-live-updates-key-races"
     }
    ],
    "officialSources": [],
-   "summary": "Stevens lost the primary to Abdul El-Sayed, who leads Rogers 53-42 in the final NYT/Siena poll. 35 Senate seats and all 435 House seats are on Tuesday's ballot."
+   "summary": "UF Election Lab: 57M+ early votes. All 435 House seats, 35 Senate seats and 36 governorships on the ballot. Senate is 53-47 GOP. First polls close 6 p.m. ET (parts of IN, KY)."
   },
   {
-   "id": "alaska-suit-dismissed",
+   "id": "scotus-california-ballots",
    "region": "us",
-   "location": "Anchorage, AK",
-   "headline": "Judge dismisses DOJ suit over Alaska Senate certification",
+   "location": "California",
+   "headline": "Supreme Court rejects DOJ bid to set aside 20,000 California ballots",
    "status": "sourced",
    "outlets": [
     {
+     "name": "scotusblog.com",
+     "url": "https://www.scotusblog.com/2026/11/trump-administration-asks-supreme-court-to-intervene-in-california-ballots-dispute/"
+    },
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/supreme-court-rejects-trump-california-mail-ballots-alleged-noncitizens/"
+    },
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.com/news/articles/cm5ynekkn5qko"
+    }
+   ],
+   "officialSources": [],
+   "summary": "One-line unsigned order, no noted dissents, hours after DOJ filed. Judge David Carter (Oct. 28) and the 9th Circuit had already refused."
+  },
+  {
+   "id": "qeshm-strikes",
+   "region": "world",
+   "location": "Strait of Hormuz",
+   "headline": "US carries out 'defensive' strikes on Iran's Qeshm Island",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.com/news/articles/cx240mrm3g8vo"
+    },
+    {
+     "name": "The Hill",
+     "url": "https://thehill.com/policy/defense/6190947-us-strikes-iranian-radar-missiles/"
+    },
+    {
+     "name": "abcnews.com",
+     "url": "https://abcnews.com/International/us-carries-defensive-airstrikes-irans-qeshm-island-officials/story?id=137792518"
+    }
+   ],
+   "officialSources": [],
+   "summary": "US officials: limited, defensive strikes on radar and missile sites after Iran fired on a US aircraft; not a return to major combat. CENTCOM has not commented."
+  },
+  {
+   "id": "oil-drop",
+   "region": "us",
+   "location": "Markets",
+   "headline": "Oil falls 7.4% on hopes for US-Iran talks",
+   "status": "reported-only",
+   "outlets": [
+    {
      "name": "CNBC",
-     "url": "https://www.cnbc.com/2026/11/01/alaska-senate-doj-lawsuit-dismissed-sullivan-peltola.html"
+     "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
     },
     {
-     "name": "Politico",
-     "url": "https://www.politico.com/news/2026/11/01/alaska-lawsuit-trump-administration-ruling"
+     "name": "live.euronext.com",
+     "url": "https://live.euronext.com/en/financial-news/oil-drops-7-iran-signals-openness-peace-talks"
     }
    ],
    "officialSources": [],
-   "summary": "Judge Sharon Gleason found no standing and no workable plan to segregate ballots while keeping them secret. DOJ will appeal. Sen. Sullivan says he'd accept the results."
+   "summary": "WTI $96.46, biggest one-day drop since July 27; Brent $104.77. Trump: Iran wants 'to make a deal and that could happen.'"
   },
   {
-   "id": "canada-trade-talks",
+   "id": "abu-dhabi-talks",
    "region": "world",
-   "location": "USA/Canada",
-   "headline": "Carney and Trump report progress toward a possible trade deal",
+   "location": "Abu Dhabi",
+   "headline": "US to mediate Ukraine-Russia talks in Abu Dhabi Nov. 10-11",
    "status": "reported-only",
    "outlets": [
     {
-     "name": "pbs.org",
-     "url": "https://www.pbs.org/newshour/world/canadian-prime-minister-carney-reports-progress-in-trade-talks-with-trump-days-before-u-s-midterms"
+     "name": "Axios",
+     "url": "https://www.axios.com/2026/11/03/us-russia-ukraine-peace-talks-uae-trump-witkoff-kushner"
     },
     {
-     "name": "Associated Press",
-     "url": "https://apnews.com/article/canada-us-trump-canada-trade-d0bfffc67ecdf22d9a5abffb2d26d848"
+     "name": "investing.com",
+     "url": "https://www.investing.com/news/world-news/kremlin-confirms-trilateral-ukraine-peace-talks-in-abu-dhabi-next-week-4994064"
     }
    ],
    "officialSources": [],
-   "summary": "Trump says a 'concept' could include Keystone XL and no tariffs for US farmers. Negotiators to work in coming weeks; no terms announced."
+   "summary": "Envoy Steve Witkoff announced the talks; he and Jared Kushner are expected to lead the US side. Kremlin confirmed; Vladimir Medinsky leads for Russia."
   },
   {
-   "id": "gulf-iran-tensions",
-   "region": "world",
-   "location": "Gulf",
-   "headline": "Gulf states brace for possible renewed US strikes on Iran",
+   "id": "scotus-colorado-preschool",
+   "region": "us",
+   "location": "Colorado",
+   "headline": "Supreme Court hears Catholic preschools' challenge to Colorado pre-K rules",
    "status": "reported-only",
    "outlets": [
     {
-     "name": "NPR",
-     "url": "https://www.npr.org/2026/11/02/nx-s1-6023485/gulf-region-on-edge-over-possibility-of-renewed-u-s-attacks-against-iran"
+     "name": "scotusblog.com",
+     "url": "https://www.scotusblog.com/cases/st-mary-catholic-parish-v-roy/"
     },
     {
-     "name": "arabnews.com",
-     "url": "https://www.arabnews.com/middle-east/iranian-envoys-meet-qatari-mediators-as-threat-looms-of-us-strikes-after-midterms-3009168"
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/politics/supreme-court/supreme-court-hears-catholic-colorado-preschool-program-case-rcna605703"
     }
    ],
    "officialSources": [],
-   "summary": "Qatar is mediating a plan to reopen the Strait of Hormuz; no deal. Iran threatens to strike US and Israeli targets in the region if attacked."
+   "summary": "St. Mary Catholic Parish v. Roy: preschools seek a religious exemption from the program's nondiscrimination rule on sexual orientation and gender identity."
   }
  ],
  "audio": {
-  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-02/Briefed-2026-11-02-full-twohost.mp3",
-  "durationSeconds": 131.657,
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-03/Briefed-2026-11-03-full-twohost.mp3",
+  "durationSeconds": 120.503,
   "aiVoices": true,
   "chapters": [
    {
     "storyId": null,
     "title": "Intro",
     "start": 0.0,
-    "end": 11.985
+    "end": 12.952
    },
    {
-    "storyId": "palm-beach-jet-crash",
-    "title": "Florida jet crash",
-    "start": 11.985,
-    "end": 33.024
+    "storyId": "election-day",
+    "title": "Election Day",
+    "start": 12.952,
+    "end": 32.384
    },
    {
-    "storyId": "southwest-flooding",
-    "title": "Southwest flooding",
-    "start": 33.024,
-    "end": 51.463
+    "storyId": "scotus-california-ballots",
+    "title": "SCOTUS: CA ballots",
+    "start": 32.384,
+    "end": 48.942
    },
    {
-    "storyId": "stevens-endorses-rogers",
-    "title": "Stevens backs Rogers",
-    "start": 51.463,
-    "end": 70.242
+    "storyId": "qeshm-strikes",
+    "title": "Strikes on Qeshm",
+    "start": 48.942,
+    "end": 64.508
    },
    {
-    "storyId": "alaska-suit-dismissed",
-    "title": "Alaska suit dismissed",
-    "start": 70.242,
-    "end": 88.054
+    "storyId": "oil-drop",
+    "title": "Oil drops 7.4%",
+    "start": 64.508,
+    "end": 80.387
    },
    {
-    "storyId": "canada-trade-talks",
-    "title": "US-Canada trade talks",
-    "start": 88.054,
-    "end": 104.586
+    "storyId": "abu-dhabi-talks",
+    "title": "Abu Dhabi talks",
+    "start": 80.387,
+    "end": 94.359
    },
    {
-    "storyId": "gulf-iran-tensions",
-    "title": "Gulf braces on Iran",
-    "start": 104.586,
-    "end": 123.025
+    "storyId": "scotus-colorado-preschool",
+    "title": "SCOTUS: Colorado pre-K",
+    "start": 94.359,
+    "end": 111.858
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 123.025,
-    "end": 131.631
+    "start": 111.858,
+    "end": 120.463
    }
   ]
  },
  "video": {
-  "url": "/briefed/media/2026-11-02/Briefed-2026-11-02-web.mp4",
-  "durationSeconds": 121.646,
+  "url": "/briefed/media/2026-11-03/Briefed-2026-11-03-web.mp4",
+  "durationSeconds": 109.511,
   "aiVoices": true,
   "chapters": [
    {
-    "storyId": "palm-beach-jet-crash",
-    "title": "Florida jet crash",
+    "storyId": "election-day",
+    "title": "Election Day",
     "start": 0.0,
-    "end": 23.039
+    "end": 21.432
    },
    {
-    "storyId": "southwest-flooding",
-    "title": "Southwest flooding",
-    "start": 23.039,
-    "end": 41.478
+    "storyId": "scotus-california-ballots",
+    "title": "SCOTUS: CA ballots",
+    "start": 21.432,
+    "end": 37.99
    },
    {
-    "storyId": "stevens-endorses-rogers",
-    "title": "Stevens backs Rogers",
-    "start": 41.478,
-    "end": 60.257
+    "storyId": "qeshm-strikes",
+    "title": "Strikes on Qeshm",
+    "start": 37.99,
+    "end": 53.556
    },
    {
-    "storyId": "alaska-suit-dismissed",
-    "title": "Alaska suit dismissed",
-    "start": 60.257,
-    "end": 78.069
+    "storyId": "oil-drop",
+    "title": "Oil drops 7.4%",
+    "start": 53.556,
+    "end": 69.435
    },
    {
-    "storyId": "canada-trade-talks",
-    "title": "US-Canada trade talks",
-    "start": 78.069,
-    "end": 94.601
+    "storyId": "abu-dhabi-talks",
+    "title": "Abu Dhabi talks",
+    "start": 69.435,
+    "end": 83.407
    },
    {
-    "storyId": "gulf-iran-tensions",
-    "title": "Gulf braces on Iran",
-    "start": 94.601,
-    "end": 113.04
+    "storyId": "scotus-colorado-preschool",
+    "title": "SCOTUS: Colorado pre-K",
+    "start": 83.407,
+    "end": 100.906
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 113.04,
-    "end": 121.646
+    "start": 100.906,
+    "end": 109.511
    }
   ],
-  "poster": "/briefed/media/2026-11-02/Briefed-2026-11-02-poster.jpg"
+  "poster": "/briefed/media/2026-11-03/Briefed-2026-11-03-poster.jpg"
  }
 }
