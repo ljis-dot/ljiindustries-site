@@ -1,0 +1,242 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-11-04",
+ "generatedAt": "2026-11-04T07:50:00-05:00",
+ "stories": [
+  {
+   "id": "democrats-win-congress",
+   "region": "us",
+   "location": "National",
+   "headline": "Democrats win control of the House and Senate",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/politics/2026-elections/senate-results"
+    },
+    {
+     "name": "rollcall.com",
+     "url": "https://rollcall.com/2026/11/04/senate-democrats-majority-midterm-elections-2/"
+    },
+    {
+     "name": "news.ballotpedia.org",
+     "url": "https://news.ballotpedia.org/2026/11/04/democrats-win-u-s-house-and-senate-majorities/"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Dems flipped 7 Senate seats (IA, KS, OH, ME, NC, SC, TX) for a projected 54-44 majority; AK and MS uncalled. NBC estimates 258+ Democratic House seats. El-Sayed (MI) is the first Muslim elected to the Senate."
+  },
+  {
+   "id": "hinojosa-governors",
+   "region": "us",
+   "location": "Texas",
+   "headline": "Hinojosa defeats Abbott; Democrats flip 5 governorships",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/texas-governor-election-hinojosa-abbott-c9a0ffa1ec3cd599f9bc304ae26268a2"
+    },
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/politics/2026-election/democrats-flip-governorships-extending-party-inroads-red-states-rcna607010"
+    },
+    {
+     "name": "texastribune.org",
+     "url": "https://www.texastribune.org/2026/11/03/texas-governor-greg-abbott-gina-hinojosa-election/"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Gina Hinojosa will be Texas' first Latina governor. Democrats also flipped GA (Bottoms), NV (Ford), OH (Acton) and IA (Sand), winning a majority of governorships for the first time in 16 years."
+  },
+  {
+   "id": "trump-response",
+   "region": "us",
+   "location": "Washington",
+   "headline": "Trump says he accepts results, vows vetoes",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "businessinsider.com",
+     "url": "https://www.businessinsider.com/trump-midterm-voters-democrats-win-willing-pay-gas-iran-war-2026-11"
+    },
+    {
+     "name": "straitstimes.com",
+     "url": "https://www.straitstimes.com/world/united-states/us-midterms-trump-acknowledges-iran-role-in-democratic-sweep"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Trump told Fox News he accepts the results and can work with Democrats but will veto 'insane' bills; said voters weren't willing to pay more for gas tied to the Iran war."
+  },
+  {
+   "id": "ballot-measures",
+   "region": "us",
+   "location": "VA, NV, MO, ID",
+   "headline": "Abortion-rights measures pass in VA and NV; Missouri keeps abortion rights",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/politics/2026-elections/ballot-measures"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/ballot-issues-abortion-redistricting-transgender-fe17112e9538f5e4ed5907f6d1f5b470"
+    }
+   ],
+   "officialSources": [],
+   "summary": "VA 62% and NV 63% yes. Missouri Amendment 3 repeal failed (55.5% no); Missouri Prop A 2025 congressional map rejected (61.8% no). Idaho Prop 1 failed (56% no)."
+  },
+  {
+   "id": "israel-aid",
+   "region": "world",
+   "location": "USA/Israel",
+   "headline": "Trump says US will stop $4B a year in aid to Israel",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "Reuters",
+     "url": "https://www.reuters.com/5f374b32b07b/world/middle-east/trump-says-us-will-stop-paying-israel-after-year-end-2026-11-03/"
+    },
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.com/news/articles/cmx2dlx86n9yo"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/trump-israel-military-aid-hardware-5cad93330300b2d45a9665d5eccb2ab2"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Trump says aid ends after this year but weapons sales continue. The 2016 MOU ($3.8B/yr) runs through 2028; Congress appropriates the funds annually."
+  },
+  {
+   "id": "komyshuvakha-strike",
+   "region": "world",
+   "location": "Zaporizhzhia",
+   "headline": "Russian strike on Ukrainian aid center kills 37, officials say",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "kyivindependent.com",
+     "url": "https://kyivindependent.com/death-toll-from-russian-attack-on-komyshuvakha-rises-to-37-as-search-operation-enters-3rd-day/"
+    },
+    {
+     "name": "en.interfax.com.ua",
+     "url": "https://en.interfax.com.ua/news/general/1231045.html"
+    },
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.com/news/articles/cjy56dndlyz0o"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Ukrainian officials say the Nov. 2 strike on an aid hub in Komyshuvakha, Zaporizhzhia region, killed 37; search continues. US-mediated talks in Abu Dhabi are set for Nov. 10-11."
+  }
+ ],
+ "audio": {
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-04/Briefed-2026-11-04-full-twohost.mp3",
+  "durationSeconds": 146.73,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": null,
+    "title": "Intro",
+    "start": 0.0,
+    "end": 11.672
+   },
+   {
+    "storyId": "democrats-win-congress",
+    "title": "Democrats take Congress",
+    "start": 11.672,
+    "end": 40.351
+   },
+   {
+    "storyId": "hinojosa-governors",
+    "title": "Hinojosa beats Abbott",
+    "start": 40.351,
+    "end": 61.69
+   },
+   {
+    "storyId": "trump-response",
+    "title": "Trump responds",
+    "start": 61.69,
+    "end": 79.188
+   },
+   {
+    "storyId": "ballot-measures",
+    "title": "Ballot measures",
+    "start": 79.188,
+    "end": 101.468
+   },
+   {
+    "storyId": "israel-aid",
+    "title": "Israel aid",
+    "start": 101.468,
+    "end": 118.966
+   },
+   {
+    "storyId": "komyshuvakha-strike",
+    "title": "Komyshuvakha strike",
+    "start": 118.966,
+    "end": 138.098
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 138.098,
+    "end": 146.703
+   }
+  ]
+ },
+ "video": {
+  "url": "/briefed/media/2026-11-04/Briefed-2026-11-04-web.mp4",
+  "durationSeconds": 137.031,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": "democrats-win-congress",
+    "title": "Democrats take Congress",
+    "start": 0.0,
+    "end": 30.679
+   },
+   {
+    "storyId": "hinojosa-governors",
+    "title": "Hinojosa beats Abbott",
+    "start": 30.679,
+    "end": 52.018
+   },
+   {
+    "storyId": "trump-response",
+    "title": "Trump responds",
+    "start": 52.018,
+    "end": 69.516
+   },
+   {
+    "storyId": "ballot-measures",
+    "title": "Ballot measures",
+    "start": 69.516,
+    "end": 91.796
+   },
+   {
+    "storyId": "israel-aid",
+    "title": "Israel aid",
+    "start": 91.796,
+    "end": 109.294
+   },
+   {
+    "storyId": "komyshuvakha-strike",
+    "title": "Komyshuvakha strike",
+    "start": 109.294,
+    "end": 128.426
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 128.426,
+    "end": 137.031
+   }
+  ],
+  "poster": "/briefed/media/2026-11-04/Briefed-2026-11-04-poster.jpg"
+ }
+}
