@@ -1,242 +1,230 @@
 {
  "schemaVersion": 1,
- "date": "2026-11-04",
- "generatedAt": "2026-11-04T07:50:00-05:00",
+ "date": "2026-11-05",
+ "generatedAt": "2026-11-05T07:10:00-05:00",
  "stories": [
   {
-   "id": "democrats-win-congress",
+   "id": "trump-iran-midterms",
    "region": "us",
-   "location": "National",
-   "headline": "Democrats win control of the House and Senate",
+   "location": "USA/Iran",
+   "headline": "Trump: Iran war 'largely' cost GOP the midterms, but he'd do it again",
    "status": "reported-only",
    "outlets": [
     {
-     "name": "NBC News",
-     "url": "https://www.nbcnews.com/politics/2026-elections/senate-results"
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/"
     },
     {
-     "name": "rollcall.com",
-     "url": "https://rollcall.com/2026/11/04/senate-democrats-majority-midterm-elections-2/"
-    },
-    {
-     "name": "news.ballotpedia.org",
-     "url": "https://news.ballotpedia.org/2026/11/04/democrats-win-u-s-house-and-senate-majorities/"
+     "name": "abcnews.com",
+     "url": "https://abcnews.com/Politics/vance-blames-iran-war-republicans-midterms-defeat-trump/story?id=137849295"
     }
    ],
    "officialSources": [],
-   "summary": "Dems flipped 7 Senate seats (IA, KS, OH, ME, NC, SC, TX) for a projected 54-44 majority; AK and MS uncalled. NBC estimates 258+ Democratic House seats. El-Sayed (MI) is the first Muslim elected to the Senate."
+   "summary": "Trump called Vance's view 'largely true,' citing gas prices. Brent fell ~8% Wednesday, under $100 for the first time since early October. IRGC says more tankers caught fire near Hormuz."
   },
   {
-   "id": "hinojosa-governors",
-   "region": "us",
-   "location": "Texas",
-   "headline": "Hinojosa defeats Abbott; Democrats flip 5 governorships",
-   "status": "reported-only",
-   "outlets": [
-    {
-     "name": "Associated Press",
-     "url": "https://apnews.com/article/texas-governor-election-hinojosa-abbott-c9a0ffa1ec3cd599f9bc304ae26268a2"
-    },
-    {
-     "name": "NBC News",
-     "url": "https://www.nbcnews.com/politics/2026-election/democrats-flip-governorships-extending-party-inroads-red-states-rcna607010"
-    },
-    {
-     "name": "texastribune.org",
-     "url": "https://www.texastribune.org/2026/11/03/texas-governor-greg-abbott-gina-hinojosa-election/"
-    }
-   ],
-   "officialSources": [],
-   "summary": "Gina Hinojosa will be Texas' first Latina governor. Democrats also flipped GA (Bottoms), NV (Ford), OH (Acton) and IA (Sand), winning a majority of governorships for the first time in 16 years."
-  },
-  {
-   "id": "trump-response",
+   "id": "house-gop-leader",
    "region": "us",
    "location": "Washington",
-   "headline": "Trump says he accepts results, vows vetoes",
+   "headline": "Johnson won't seek House GOP leader post; Scalise, Jordan to run",
    "status": "reported-only",
    "outlets": [
     {
-     "name": "businessinsider.com",
-     "url": "https://www.businessinsider.com/trump-midterm-voters-democrats-win-willing-pay-gas-iran-war-2026-11"
+     "name": "Axios",
+     "url": "https://www.axios.com/2026/11/04/state-scalise-house-republicans-minority-leader-midterms"
     },
     {
-     "name": "straitstimes.com",
-     "url": "https://www.straitstimes.com/world/united-states/us-midterms-trump-acknowledges-iran-role-in-democratic-sweep"
+     "name": "USA Today",
+     "url": "https://www.usatoday.com/story/news/politics/2026/11/04/house-speaker-mike-johnson-gop-leadership/92609302007/"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/speaker-johnson-house-republicans-elections-b8490666bc9fb634fad8c9222f1483ec"
     }
    ],
    "officialSources": [],
-   "summary": "Trump told Fox News he accepts the results and can work with Democrats but will veto 'insane' bills; said voters weren't willing to pay more for gas tied to the Iran war."
+   "summary": "Speaker Mike Johnson steps aside; Steve Scalise and Jim Jordan are running. House Republicans vote Nov. 10 by secret ballot."
   },
   {
-   "id": "ballot-measures",
+   "id": "sunset-park-fire",
    "region": "us",
-   "location": "VA, NV, MO, ID",
-   "headline": "Abortion-rights measures pass in VA and NV; Missouri keeps abortion rights",
+   "location": "Brooklyn, NY",
+   "headline": "Brooklyn house fire kills 6, injures 7",
    "status": "reported-only",
    "outlets": [
     {
-     "name": "NBC News",
-     "url": "https://www.nbcnews.com/politics/2026-elections/ballot-measures"
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/newyork/news/brooklyn-fire-sunset-park-deadly-residential-building-fdny/"
+    },
+    {
+     "name": "abc7ny.com",
+     "url": "https://abc7ny.com/post/6-dead-3-alarm-fire-tears-sunset-park-home-brooklyn/20017265/"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Three-alarm fire on 58th Street, Sunset Park, ~1:40 a.m.; 3 firefighters among the injured. A lithium-ion battery was found; cause under investigation."
+  },
+  {
+   "id": "arch-vote",
+   "region": "us",
+   "location": "Washington, DC",
+   "headline": "Planning commission holds final vote on Trump's 250-ft arch",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "NPR",
+     "url": "https://www.npr.org/2026/11/05/nx-s1-6027301/trump-arch-federal-approval-judge-construction"
     },
     {
      "name": "Associated Press",
-     "url": "https://apnews.com/article/ballot-issues-abortion-redistricting-transgender-fe17112e9538f5e4ed5907f6d1f5b470"
+     "url": "https://apnews.com/article/trump-arch-federal-court-projects-270c41a6cb297880499fca3d43d12408"
     }
    ],
-   "officialSources": [],
-   "summary": "VA 62% and NV 63% yes. Missouri Amendment 3 repeal failed (55.5% no); Missouri Prop A 2025 congressional map rejected (61.8% no). Idaho Prop 1 failed (56% no)."
+   "officialSources": [
+    "https://www.ncpc.gov/docs/final_agendas/FinalAgenda_November2026.pdf"
+   ],
+   "summary": "NCPC meets 1-6 p.m. ET. Administration says construction could start same day; Judge Chutkan ordered notice within 1 hour of approval and 30 min of any work."
   },
   {
-   "id": "israel-aid",
-   "region": "world",
-   "location": "USA/Israel",
-   "headline": "Trump says US will stop $4B a year in aid to Israel",
+   "id": "uncalled-senate",
+   "region": "us",
+   "location": "AK, MS",
+   "headline": "Alaska, Mississippi Senate races still uncalled",
    "status": "reported-only",
    "outlets": [
-    {
-     "name": "Reuters",
-     "url": "https://www.reuters.com/5f374b32b07b/world/middle-east/trump-says-us-will-stop-paying-israel-after-year-end-2026-11-03/"
-    },
-    {
-     "name": "BBC",
-     "url": "https://www.bbc.com/news/articles/cmx2dlx86n9yo"
-    },
     {
      "name": "Associated Press",
-     "url": "https://apnews.com/article/trump-israel-military-aid-hardware-5cad93330300b2d45a9665d5eccb2ab2"
+     "url": "https://apnews.com/article/midterm-election-uncalled-races-b20c577aaffced99155af448bd182fa5"
+    },
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/5/whats-delaying-us-midterm-election-calls-in-mississippi-and-alaska"
     }
    ],
    "officialSources": [],
-   "summary": "Trump says aid ends after this year but weapons sales continue. The 2016 MOU ($3.8B/yr) runs through 2028; Congress appropriates the funds annually."
+   "summary": "Democrats Mary Peltola and Scott Colom lead narrowly (AP). Mississippi has until Nov. 10 for provisional ballots; Alaska ranked-choice results due Nov. 18."
   },
   {
-   "id": "komyshuvakha-strike",
+   "id": "treasury-sanctions",
    "region": "world",
-   "location": "Zaporizhzhia",
-   "headline": "Russian strike on Ukrainian aid center kills 37, officials say",
-   "status": "reported-only",
+   "location": "India, T\u00fcrkiye",
+   "headline": "Treasury sanctions India-based network aiding Iran's shadow fleet",
+   "status": "sourced",
    "outlets": [
     {
-     "name": "kyivindependent.com",
-     "url": "https://kyivindependent.com/death-toll-from-russian-attack-on-komyshuvakha-rises-to-37-as-search-operation-enters-3rd-day/"
-    },
-    {
-     "name": "en.interfax.com.ua",
-     "url": "https://en.interfax.com.ua/news/general/1231045.html"
-    },
-    {
-     "name": "BBC",
-     "url": "https://www.bbc.com/news/articles/cjy56dndlyz0o"
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/5/us-sanctions-indian-and-turkish-firms-accused-of-helping-iran"
     }
    ],
-   "officialSources": [],
-   "summary": "Ukrainian officials say the Nov. 2 strike on an aid hub in Komyshuvakha, Zaporizhzhia region, killed 37; search continues. US-mediated talks in Abu Dhabi are set for Nov. 10-11."
+   "officialSources": [
+    "https://home.treasury.gov/news/press-releases/sb0681/",
+    "https://ofac.treasury.gov/recent-actions/20261104"
+   ],
+   "summary": "OFAC targeted a network it says issued false flags and certificates to Iranian tankers, plus T\u00fcrkiye-based Fugo Ground Services for serving sanctioned Iranian airlines."
   }
  ],
  "audio": {
-  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-04/Briefed-2026-11-04-full-twohost.mp3",
-  "durationSeconds": 146.73,
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-05/Briefed-2026-11-05-full-twohost.mp3",
+  "durationSeconds": 119.536,
   "aiVoices": true,
   "chapters": [
    {
     "storyId": null,
     "title": "Intro",
     "start": 0.0,
-    "end": 11.672
+    "end": 11.985
    },
    {
-    "storyId": "democrats-win-congress",
-    "title": "Democrats take Congress",
-    "start": 11.672,
-    "end": 40.351
+    "storyId": "trump-iran-midterms",
+    "title": "Trump on Iran, midterms",
+    "start": 11.985,
+    "end": 30.764
    },
    {
-    "storyId": "hinojosa-governors",
-    "title": "Hinojosa beats Abbott",
-    "start": 40.351,
-    "end": 61.69
+    "storyId": "house-gop-leader",
+    "title": "House GOP leadership",
+    "start": 30.764,
+    "end": 47.322
    },
    {
-    "storyId": "trump-response",
-    "title": "Trump responds",
-    "start": 61.69,
-    "end": 79.188
+    "storyId": "sunset-park-fire",
+    "title": "Sunset Park fire",
+    "start": 47.322,
+    "end": 65.801
    },
    {
-    "storyId": "ballot-measures",
-    "title": "Ballot measures",
-    "start": 79.188,
-    "end": 101.468
+    "storyId": "arch-vote",
+    "title": "Arch final vote",
+    "start": 65.801,
+    "end": 81.68
    },
    {
-    "storyId": "israel-aid",
-    "title": "Israel aid",
-    "start": 101.468,
-    "end": 118.966
+    "storyId": "uncalled-senate",
+    "title": "Two races uncalled",
+    "start": 81.68,
+    "end": 95.652
    },
    {
-    "storyId": "komyshuvakha-strike",
-    "title": "Komyshuvakha strike",
-    "start": 118.966,
-    "end": 138.098
+    "storyId": "treasury-sanctions",
+    "title": "Iran sanctions",
+    "start": 95.652,
+    "end": 110.905
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 138.098,
-    "end": 146.703
+    "start": 110.905,
+    "end": 119.51
    }
   ]
  },
  "video": {
-  "url": "/briefed/media/2026-11-04/Briefed-2026-11-04-web.mp4",
-  "durationSeconds": 137.031,
+  "url": "/briefed/media/2026-11-05/Briefed-2026-11-05-web.mp4",
+  "durationSeconds": 109.525,
   "aiVoices": true,
   "chapters": [
    {
-    "storyId": "democrats-win-congress",
-    "title": "Democrats take Congress",
+    "storyId": "trump-iran-midterms",
+    "title": "Trump on Iran, midterms",
     "start": 0.0,
-    "end": 30.679
+    "end": 20.779
    },
    {
-    "storyId": "hinojosa-governors",
-    "title": "Hinojosa beats Abbott",
-    "start": 30.679,
-    "end": 52.018
+    "storyId": "house-gop-leader",
+    "title": "House GOP leadership",
+    "start": 20.779,
+    "end": 37.337
    },
    {
-    "storyId": "trump-response",
-    "title": "Trump responds",
-    "start": 52.018,
-    "end": 69.516
+    "storyId": "sunset-park-fire",
+    "title": "Sunset Park fire",
+    "start": 37.337,
+    "end": 55.816
    },
    {
-    "storyId": "ballot-measures",
-    "title": "Ballot measures",
-    "start": 69.516,
-    "end": 91.796
+    "storyId": "arch-vote",
+    "title": "Arch final vote",
+    "start": 55.816,
+    "end": 71.695
    },
    {
-    "storyId": "israel-aid",
-    "title": "Israel aid",
-    "start": 91.796,
-    "end": 109.294
+    "storyId": "uncalled-senate",
+    "title": "Two races uncalled",
+    "start": 71.695,
+    "end": 85.667
    },
    {
-    "storyId": "komyshuvakha-strike",
-    "title": "Komyshuvakha strike",
-    "start": 109.294,
-    "end": 128.426
+    "storyId": "treasury-sanctions",
+    "title": "Iran sanctions",
+    "start": 85.667,
+    "end": 100.92
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 128.426,
-    "end": 137.031
+    "start": 100.92,
+    "end": 109.525
    }
-  ],
-  "poster": "/briefed/media/2026-11-04/Briefed-2026-11-04-poster.jpg"
+  ]
  }
 }

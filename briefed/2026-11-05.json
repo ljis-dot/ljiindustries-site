@@ -1,0 +1,230 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-11-05",
+ "generatedAt": "2026-11-05T07:10:00-05:00",
+ "stories": [
+  {
+   "id": "trump-iran-midterms",
+   "region": "us",
+   "location": "USA/Iran",
+   "headline": "Trump: Iran war 'largely' cost GOP the midterms, but he'd do it again",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/"
+    },
+    {
+     "name": "abcnews.com",
+     "url": "https://abcnews.com/Politics/vance-blames-iran-war-republicans-midterms-defeat-trump/story?id=137849295"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Trump called Vance's view 'largely true,' citing gas prices. Brent fell ~8% Wednesday, under $100 for the first time since early October. IRGC says more tankers caught fire near Hormuz."
+  },
+  {
+   "id": "house-gop-leader",
+   "region": "us",
+   "location": "Washington",
+   "headline": "Johnson won't seek House GOP leader post; Scalise, Jordan to run",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "Axios",
+     "url": "https://www.axios.com/2026/11/04/state-scalise-house-republicans-minority-leader-midterms"
+    },
+    {
+     "name": "USA Today",
+     "url": "https://www.usatoday.com/story/news/politics/2026/11/04/house-speaker-mike-johnson-gop-leadership/92609302007/"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/speaker-johnson-house-republicans-elections-b8490666bc9fb634fad8c9222f1483ec"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Speaker Mike Johnson steps aside; Steve Scalise and Jim Jordan are running. House Republicans vote Nov. 10 by secret ballot."
+  },
+  {
+   "id": "sunset-park-fire",
+   "region": "us",
+   "location": "Brooklyn, NY",
+   "headline": "Brooklyn house fire kills 6, injures 7",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/newyork/news/brooklyn-fire-sunset-park-deadly-residential-building-fdny/"
+    },
+    {
+     "name": "abc7ny.com",
+     "url": "https://abc7ny.com/post/6-dead-3-alarm-fire-tears-sunset-park-home-brooklyn/20017265/"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Three-alarm fire on 58th Street, Sunset Park, ~1:40 a.m.; 3 firefighters among the injured. A lithium-ion battery was found; cause under investigation."
+  },
+  {
+   "id": "arch-vote",
+   "region": "us",
+   "location": "Washington, DC",
+   "headline": "Planning commission holds final vote on Trump's 250-ft arch",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "NPR",
+     "url": "https://www.npr.org/2026/11/05/nx-s1-6027301/trump-arch-federal-approval-judge-construction"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/trump-arch-federal-court-projects-270c41a6cb297880499fca3d43d12408"
+    }
+   ],
+   "officialSources": [
+    "https://www.ncpc.gov/docs/final_agendas/FinalAgenda_November2026.pdf"
+   ],
+   "summary": "NCPC meets 1-6 p.m. ET. Administration says construction could start same day; Judge Chutkan ordered notice within 1 hour of approval and 30 min of any work."
+  },
+  {
+   "id": "uncalled-senate",
+   "region": "us",
+   "location": "AK, MS",
+   "headline": "Alaska, Mississippi Senate races still uncalled",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/midterm-election-uncalled-races-b20c577aaffced99155af448bd182fa5"
+    },
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/5/whats-delaying-us-midterm-election-calls-in-mississippi-and-alaska"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Democrats Mary Peltola and Scott Colom lead narrowly (AP). Mississippi has until Nov. 10 for provisional ballots; Alaska ranked-choice results due Nov. 18."
+  },
+  {
+   "id": "treasury-sanctions",
+   "region": "world",
+   "location": "India, T\u00fcrkiye",
+   "headline": "Treasury sanctions India-based network aiding Iran's shadow fleet",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/5/us-sanctions-indian-and-turkish-firms-accused-of-helping-iran"
+    }
+   ],
+   "officialSources": [
+    "https://home.treasury.gov/news/press-releases/sb0681/",
+    "https://ofac.treasury.gov/recent-actions/20261104"
+   ],
+   "summary": "OFAC targeted a network it says issued false flags and certificates to Iranian tankers, plus T\u00fcrkiye-based Fugo Ground Services for serving sanctioned Iranian airlines."
+  }
+ ],
+ "audio": {
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-05/Briefed-2026-11-05-full-twohost.mp3",
+  "durationSeconds": 119.536,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": null,
+    "title": "Intro",
+    "start": 0.0,
+    "end": 11.985
+   },
+   {
+    "storyId": "trump-iran-midterms",
+    "title": "Trump on Iran, midterms",
+    "start": 11.985,
+    "end": 30.764
+   },
+   {
+    "storyId": "house-gop-leader",
+    "title": "House GOP leadership",
+    "start": 30.764,
+    "end": 47.322
+   },
+   {
+    "storyId": "sunset-park-fire",
+    "title": "Sunset Park fire",
+    "start": 47.322,
+    "end": 65.801
+   },
+   {
+    "storyId": "arch-vote",
+    "title": "Arch final vote",
+    "start": 65.801,
+    "end": 81.68
+   },
+   {
+    "storyId": "uncalled-senate",
+    "title": "Two races uncalled",
+    "start": 81.68,
+    "end": 95.652
+   },
+   {
+    "storyId": "treasury-sanctions",
+    "title": "Iran sanctions",
+    "start": 95.652,
+    "end": 110.905
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 110.905,
+    "end": 119.51
+   }
+  ]
+ },
+ "video": {
+  "url": "/briefed/media/2026-11-05/Briefed-2026-11-05-web.mp4",
+  "durationSeconds": 109.525,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": "trump-iran-midterms",
+    "title": "Trump on Iran, midterms",
+    "start": 0.0,
+    "end": 20.779
+   },
+   {
+    "storyId": "house-gop-leader",
+    "title": "House GOP leadership",
+    "start": 20.779,
+    "end": 37.337
+   },
+   {
+    "storyId": "sunset-park-fire",
+    "title": "Sunset Park fire",
+    "start": 37.337,
+    "end": 55.816
+   },
+   {
+    "storyId": "arch-vote",
+    "title": "Arch final vote",
+    "start": 55.816,
+    "end": 71.695
+   },
+   {
+    "storyId": "uncalled-senate",
+    "title": "Two races uncalled",
+    "start": 71.695,
+    "end": 85.667
+   },
+   {
+    "storyId": "treasury-sanctions",
+    "title": "Iran sanctions",
+    "start": 85.667,
+    "end": 100.92
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 100.92,
+    "end": 109.525
+   }
+  ]
+ }
+}
