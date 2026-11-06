@@ -1,229 +1,197 @@
 {
  "schemaVersion": 1,
- "date": "2026-11-05",
- "generatedAt": "2026-11-05T07:10:00-05:00",
+ "date": "2026-11-06",
+ "generatedAt": "2026-11-06T07:00:00-05:00",
  "stories": [
   {
-   "id": "trump-iran-midterms",
+   "id": "nasdaq-correction",
    "region": "us",
-   "location": "USA/Iran",
-   "headline": "Trump: Iran war 'largely' cost GOP the midterms, but he'd do it again",
+   "location": "Markets",
+   "headline": "Nasdaq falls 5.5% into correction as AI stocks sell off",
    "status": "reported-only",
    "outlets": [
     {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/"
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650"
     },
-    {
-     "name": "abcnews.com",
-     "url": "https://abcnews.com/Politics/vance-blames-iran-war-republicans-midterms-defeat-trump/story?id=137849295"
-    }
-   ],
-   "officialSources": [],
-   "summary": "Trump called Vance's view 'largely true,' citing gas prices. Brent fell ~8% Wednesday, under $100 for the first time since early October. IRGC says more tankers caught fire near Hormuz."
-  },
-  {
-   "id": "house-gop-leader",
-   "region": "us",
-   "location": "Washington",
-   "headline": "Johnson won't seek House GOP leader post; Scalise, Jordan to run",
-   "status": "reported-only",
-   "outlets": [
     {
      "name": "Axios",
-     "url": "https://www.axios.com/2026/11/04/state-scalise-house-republicans-minority-leader-midterms"
-    },
-    {
-     "name": "USA Today",
-     "url": "https://www.usatoday.com/story/news/politics/2026/11/04/house-speaker-mike-johnson-gop-leadership/92609302007/"
+     "url": "https://www.axios.com/2026/11/06/trump-stock-market-sell-off"
     },
     {
      "name": "Associated Press",
-     "url": "https://apnews.com/article/speaker-johnson-house-republicans-elections-b8490666bc9fb634fad8c9222f1483ec"
+     "url": "https://apnews.com/article/stocks-markets-ai-midterm-oil-trump-7ee9c212805aa5e70cf34d25aab7a36e"
     }
    ],
    "officialSources": [],
-   "summary": "Speaker Mike Johnson steps aside; Steve Scalise and Jim Jordan are running. House Republicans vote Nov. 10 by secret ballot."
+   "summary": "Thu close: Nasdaq \u22125.5% into correction; S&P \u22124.4%; Dow \u22121,833. Nvidia led (~\u22129%). Trump told voters they 'only have yourselves to blame.'"
   },
   {
-   "id": "sunset-park-fire",
+   "id": "arch-tro",
    "region": "us",
-   "location": "Brooklyn, NY",
-   "headline": "Brooklyn house fire kills 6, injures 7",
+   "location": "Washington, DC",
+   "headline": "Chutkan blocks Trump arch construction for 14 days",
    "status": "reported-only",
    "outlets": [
     {
      "name": "CBS News",
-     "url": "https://www.cbsnews.com/newyork/news/brooklyn-fire-sunset-park-deadly-residential-building-fdny/"
+     "url": "https://www.cbsnews.com/news/trump-arch-approval-national-capital-planning-commission/"
     },
     {
-     "name": "abc7ny.com",
-     "url": "https://abc7ny.com/post/6-dead-3-alarm-fire-tears-sunset-park-home-brooklyn/20017265/"
+     "name": "NPR",
+     "url": "https://www.npr.org/2026/11/06/nx-s1-6031990/trump-arch-planning-commission-injunction"
     }
    ],
    "officialSources": [],
-   "summary": "Three-alarm fire on 58th Street, Sunset Park, ~1:40 a.m.; 3 firefighters among the injured. A lithium-ion battery was found; cause under investigation."
+   "summary": "Hours after NCPC approved final plans 8\u20134, Judge Tanya Chutkan issued a 14-day TRO barring construction-related activity."
   },
   {
-   "id": "arch-vote",
+   "id": "georgia-tennessee-flood",
    "region": "us",
-   "location": "Washington, DC",
-   "headline": "Planning commission holds final vote on Trump's 250-ft arch",
-   "status": "sourced",
+   "location": "GA/TN border",
+   "headline": "Record flooding in McCaysville, Ga., and Copperhill, Tenn.; 80+ rescues",
+   "status": "reported-only",
    "outlets": [
     {
-     "name": "NPR",
-     "url": "https://www.npr.org/2026/11/05/nx-s1-6027301/trump-arch-federal-approval-judge-construction"
+     "name": "fox5atlanta.com",
+     "url": "https://www.fox5atlanta.com/news/record-flooding-devastates-georgia-tennessee-mountain-towns"
     },
     {
-     "name": "Associated Press",
-     "url": "https://apnews.com/article/trump-arch-federal-court-projects-270c41a6cb297880499fca3d43d12408"
+     "name": "wsmv.com",
+     "url": "https://www.wsmv.com/2026/11/05/state-reports-nearly-70-rescues-southeast-tennessee-responds-severe-flooding-heres-what-we-know/"
     }
    ],
-   "officialSources": [
-    "https://www.ncpc.gov/docs/final_agendas/FinalAgenda_November2026.pdf"
+   "officialSources": [],
+   "summary": "River rose ~16 ft in 12 hours and crested near 18 ft. 80+ rescues in Fannin County; TEMA reports 68 in Polk County. No fatalities reported."
+  },
+  {
+   "id": "melania-oleshky",
+   "region": "us",
+   "location": "Washington",
+   "headline": "Melania Trump hosts Russian, Ukrainian officials; seeks enduring truce",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.com/news/articles/c9p8g085mz07o"
+    },
+    {
+     "name": "afp.com",
+     "url": "https://www.afp.com/en/melania-trump-calls-more-enduring-ukraine-ceasefire"
+    }
    ],
-   "summary": "NCPC meets 1-6 p.m. ET. Administration says construction could start same day; Judge Chutkan ordered notice within 1 hour of approval and 30 min of any work."
+   "officialSources": [],
+   "summary": "White House event after the six-day Oleshky ceasefire. Both sides credited her; BBC notes contested credit for the ceasefire."
   },
   {
    "id": "uncalled-senate",
    "region": "us",
    "location": "AK, MS",
-   "headline": "Alaska, Mississippi Senate races still uncalled",
+   "headline": "Alaska and Mississippi Senate races still uncalled",
    "status": "reported-only",
    "outlets": [
     {
      "name": "Associated Press",
-     "url": "https://apnews.com/article/midterm-election-uncalled-races-b20c577aaffced99155af448bd182fa5"
+     "url": "https://apnews.com/article/midterm-election-ap-race-call-uncalled-races-d4f55516fd72155d746cfbbc2017c743"
     },
     {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/5/whats-delaying-us-midterm-election-calls-in-mississippi-and-alaska"
+     "name": "alaskasnewssource.com",
+     "url": "https://www.alaskasnewssource.com/2026/11/06/peltola-sullivan-campaigns-project-wins-while-quarter-ballots-are-outstanding/"
     }
    ],
    "officialSources": [],
-   "summary": "Democrats Mary Peltola and Scott Colom lead narrowly (AP). Mississippi has until Nov. 10 for provisional ballots; Alaska ranked-choice results due Nov. 18."
-  },
-  {
-   "id": "treasury-sanctions",
-   "region": "world",
-   "location": "India, T\u00fcrkiye",
-   "headline": "Treasury sanctions India-based network aiding Iran's shadow fleet",
-   "status": "sourced",
-   "outlets": [
-    {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/5/us-sanctions-indian-and-turkish-firms-accused-of-helping-iran"
-    }
-   ],
-   "officialSources": [
-    "https://home.treasury.gov/news/press-releases/sb0681/",
-    "https://ofac.treasury.gov/recent-actions/20261104"
-   ],
-   "summary": "OFAC targeted a network it says issued false flags and certificates to Iranian tankers, plus T\u00fcrkiye-based Fugo Ground Services for serving sanctioned Iranian airlines."
+   "summary": "Democrats lead narrowly; neither flips chamber control. Alaska ranked-choice tabulation set for Nov. 18."
   }
  ],
  "audio": {
-  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-05/Briefed-2026-11-05-full-twohost.mp3",
-  "durationSeconds": 119.536,
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-06/Briefed-2026-11-06-full-twohost.mp3",
+  "durationSeconds": 112.953,
   "aiVoices": true,
   "chapters": [
    {
     "storyId": null,
     "title": "Intro",
     "start": 0.0,
-    "end": 11.985
+    "end": 12.299
    },
    {
-    "storyId": "trump-iran-midterms",
-    "title": "Trump on Iran, midterms",
-    "start": 11.985,
-    "end": 30.764
+    "storyId": "nasdaq-correction",
+    "title": "Nasdaq correction",
+    "start": 12.299,
+    "end": 36.537
    },
    {
-    "storyId": "house-gop-leader",
-    "title": "House GOP leadership",
-    "start": 30.764,
-    "end": 47.322
+    "storyId": "arch-tro",
+    "title": "Arch TRO",
+    "start": 36.537,
+    "end": 51.136
    },
    {
-    "storyId": "sunset-park-fire",
-    "title": "Sunset Park fire",
-    "start": 47.322,
-    "end": 65.801
+    "storyId": "georgia-tennessee-flood",
+    "title": "Border flooding",
+    "start": 51.136,
+    "end": 68.021
    },
    {
-    "storyId": "arch-vote",
-    "title": "Arch final vote",
-    "start": 65.801,
-    "end": 81.68
+    "storyId": "melania-oleshky",
+    "title": "Melania hosts envoys",
+    "start": 68.021,
+    "end": 87.114
    },
    {
     "storyId": "uncalled-senate",
     "title": "Two races uncalled",
-    "start": 81.68,
-    "end": 95.652
-   },
-   {
-    "storyId": "treasury-sanctions",
-    "title": "Iran sanctions",
-    "start": 95.652,
-    "end": 110.905
+    "start": 87.114,
+    "end": 104.299
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 110.905,
-    "end": 119.51
+    "start": 104.299,
+    "end": 112.904
    }
   ]
  },
  "video": {
-  "url": "/briefed/media/2026-11-05/Briefed-2026-11-05-web.mp4",
-  "durationSeconds": 109.525,
+  "url": "/briefed/media/2026-11-06/Briefed-2026-11-06-web.mp4",
+  "durationSeconds": 102.605,
   "aiVoices": true,
   "chapters": [
    {
-    "storyId": "trump-iran-midterms",
-    "title": "Trump on Iran, midterms",
+    "storyId": "nasdaq-correction",
+    "title": "Nasdaq correction",
     "start": 0.0,
-    "end": 20.779
+    "end": 26.238
    },
    {
-    "storyId": "house-gop-leader",
-    "title": "House GOP leadership",
-    "start": 20.779,
-    "end": 37.337
+    "storyId": "arch-tro",
+    "title": "Arch TRO",
+    "start": 26.238,
+    "end": 40.837
    },
    {
-    "storyId": "sunset-park-fire",
-    "title": "Sunset Park fire",
-    "start": 37.337,
-    "end": 55.816
+    "storyId": "georgia-tennessee-flood",
+    "title": "Border flooding",
+    "start": 40.837,
+    "end": 57.722
    },
    {
-    "storyId": "arch-vote",
-    "title": "Arch final vote",
-    "start": 55.816,
-    "end": 71.695
+    "storyId": "melania-oleshky",
+    "title": "Melania hosts envoys",
+    "start": 57.722,
+    "end": 76.815
    },
    {
     "storyId": "uncalled-senate",
     "title": "Two races uncalled",
-    "start": 71.695,
-    "end": 85.667
-   },
-   {
-    "storyId": "treasury-sanctions",
-    "title": "Iran sanctions",
-    "start": 85.667,
-    "end": 100.92
+    "start": 76.815,
+    "end": 94.0
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 100.92,
-    "end": 109.525
+    "start": 94.0,
+    "end": 102.605
    }
   ]
  }

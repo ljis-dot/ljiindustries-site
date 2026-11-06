@@ -1,0 +1,198 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-11-06",
+ "generatedAt": "2026-11-06T07:00:00-05:00",
+ "stories": [
+  {
+   "id": "nasdaq-correction",
+   "region": "us",
+   "location": "Markets",
+   "headline": "Nasdaq falls 5.5% into correction as AI stocks sell off",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650"
+    },
+    {
+     "name": "Axios",
+     "url": "https://www.axios.com/2026/11/06/trump-stock-market-sell-off"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/stocks-markets-ai-midterm-oil-trump-7ee9c212805aa5e70cf34d25aab7a36e"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Thu close: Nasdaq −5.5% into correction; S&P −4.4%; Dow −1,833. Nvidia led (~−9%). Trump told voters they 'only have yourselves to blame.'"
+  },
+  {
+   "id": "arch-tro",
+   "region": "us",
+   "location": "Washington, DC",
+   "headline": "Chutkan blocks Trump arch construction for 14 days",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/trump-arch-approval-national-capital-planning-commission/"
+    },
+    {
+     "name": "NPR",
+     "url": "https://www.npr.org/2026/11/06/nx-s1-6031990/trump-arch-planning-commission-injunction"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Hours after NCPC approved final plans 8–4, Judge Tanya Chutkan issued a 14-day TRO barring construction-related activity."
+  },
+  {
+   "id": "georgia-tennessee-flood",
+   "region": "us",
+   "location": "GA/TN border",
+   "headline": "Record flooding in McCaysville, Ga., and Copperhill, Tenn.; 80+ rescues",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "fox5atlanta.com",
+     "url": "https://www.fox5atlanta.com/news/record-flooding-devastates-georgia-tennessee-mountain-towns"
+    },
+    {
+     "name": "wsmv.com",
+     "url": "https://www.wsmv.com/2026/11/05/state-reports-nearly-70-rescues-southeast-tennessee-responds-severe-flooding-heres-what-we-know/"
+    }
+   ],
+   "officialSources": [],
+   "summary": "River rose ~16 ft in 12 hours and crested near 18 ft. 80+ rescues in Fannin County; TEMA reports 68 in Polk County. No fatalities reported."
+  },
+  {
+   "id": "melania-oleshky",
+   "region": "us",
+   "location": "Washington",
+   "headline": "Melania Trump hosts Russian, Ukrainian officials; seeks enduring truce",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.com/news/articles/c9p8g085mz07o"
+    },
+    {
+     "name": "afp.com",
+     "url": "https://www.afp.com/en/melania-trump-calls-more-enduring-ukraine-ceasefire"
+    }
+   ],
+   "officialSources": [],
+   "summary": "White House event after the six-day Oleshky ceasefire. Both sides credited her; BBC notes contested credit for the ceasefire."
+  },
+  {
+   "id": "uncalled-senate",
+   "region": "us",
+   "location": "AK, MS",
+   "headline": "Alaska and Mississippi Senate races still uncalled",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/midterm-election-ap-race-call-uncalled-races-d4f55516fd72155d746cfbbc2017c743"
+    },
+    {
+     "name": "alaskasnewssource.com",
+     "url": "https://www.alaskasnewssource.com/2026/11/06/peltola-sullivan-campaigns-project-wins-while-quarter-ballots-are-outstanding/"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Democrats lead narrowly; neither flips chamber control. Alaska ranked-choice tabulation set for Nov. 18."
+  }
+ ],
+ "audio": {
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-06/Briefed-2026-11-06-full-twohost.mp3",
+  "durationSeconds": 112.953,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": null,
+    "title": "Intro",
+    "start": 0.0,
+    "end": 12.299
+   },
+   {
+    "storyId": "nasdaq-correction",
+    "title": "Nasdaq correction",
+    "start": 12.299,
+    "end": 36.537
+   },
+   {
+    "storyId": "arch-tro",
+    "title": "Arch TRO",
+    "start": 36.537,
+    "end": 51.136
+   },
+   {
+    "storyId": "georgia-tennessee-flood",
+    "title": "Border flooding",
+    "start": 51.136,
+    "end": 68.021
+   },
+   {
+    "storyId": "melania-oleshky",
+    "title": "Melania hosts envoys",
+    "start": 68.021,
+    "end": 87.114
+   },
+   {
+    "storyId": "uncalled-senate",
+    "title": "Two races uncalled",
+    "start": 87.114,
+    "end": 104.299
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 104.299,
+    "end": 112.904
+   }
+  ]
+ },
+ "video": {
+  "url": "/briefed/media/2026-11-06/Briefed-2026-11-06-web.mp4",
+  "durationSeconds": 102.605,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": "nasdaq-correction",
+    "title": "Nasdaq correction",
+    "start": 0.0,
+    "end": 26.238
+   },
+   {
+    "storyId": "arch-tro",
+    "title": "Arch TRO",
+    "start": 26.238,
+    "end": 40.837
+   },
+   {
+    "storyId": "georgia-tennessee-flood",
+    "title": "Border flooding",
+    "start": 40.837,
+    "end": 57.722
+   },
+   {
+    "storyId": "melania-oleshky",
+    "title": "Melania hosts envoys",
+    "start": 57.722,
+    "end": 76.815
+   },
+   {
+    "storyId": "uncalled-senate",
+    "title": "Two races uncalled",
+    "start": 76.815,
+    "end": 94.0
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 94.0,
+    "end": 102.605
+   }
+  ]
+ }
+}
