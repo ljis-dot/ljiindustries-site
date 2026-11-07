@@ -117,16 +117,50 @@ FOOTER = '''<footer>
 <!-- slot:subscribe (follow/subscribe is OFF for now; render here later) -->
 <script>document.getElementById('yr').textContent=new Date().getFullYear();document.querySelectorAll('#nav a').forEach(function(a){a.addEventListener('click',function(){document.getElementById('nav').classList.remove('open');});});</script>'''
 
+# Public Cloudflare Web Analytics beacon for ljiindustries.com. Not an API credential.
+CF_BEACON_TOKEN = "72d001bbabb842c482d7888f61492a53"
+CF_BEACON_SRC = "https://static.cloudflareinsights.com/beacon.min.js"
+_CSP_REST = (
+    "style-src 'self' 'unsafe-inline'; "
+    "img-src 'self' data: https://github.com https://*.githubusercontent.com; "
+    "media-src 'self' https://github.com https://*.githubusercontent.com; "
+    "font-src 'self'; "
+)
+
+
+def content_security_policy(analytics=False):
+    """Keep the existing policy. Briefed pages also allow the official beacon hosts."""
+    script = "'self' 'unsafe-inline'"
+    connect = "'self'"
+    if analytics:
+        script += " https://static.cloudflareinsights.com"
+        connect += " https://cloudflareinsights.com"
+    return (
+        "default-src 'self'; "
+        f"script-src {script}; "
+        + _CSP_REST
+        + f"connect-src {connect}; "
+        "object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+    )
+
+
+def analytics_snippet():
+    """One deferred beacon before </body>. Default load is single, so no SPA double count."""
+    payload = json.dumps({"token": CF_BEACON_TOKEN}, separators=(", ", ": "))
+    return f"<script defer src=\"{CF_BEACON_SRC}\" data-cf-beacon='{payload}'></script>"
+
+
 def page(title, desc, canonical, body, jsonld=None, extra_head="", og=None, og_url=None):
     is_b = canonical.startswith("/briefed")
     ogtags = og_meta(title, desc, og_url or canonical, og, is_b)
     icons = BRIEFED_ICONS if is_b else LJI_ICONS
     ld = f'<script type="application/ld+json">{json.dumps(jsonld)}</script>' if jsonld else ""
+    beacon = "\n" + analytics_snippet() if is_b else ""
     return f'''<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://github.com https://*.githubusercontent.com; media-src 'self' https://github.com https://*.githubusercontent.com; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"><meta name="referrer" content="strict-origin-when-cross-origin">
+<meta http-equiv="Content-Security-Policy" content="{content_security_policy(is_b)}"><meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{e(title)}</title>
 <meta name="description" content="{e(desc)}">
@@ -146,7 +180,7 @@ def page(title, desc, canonical, body, jsonld=None, extra_head="", og=None, og_u
 <main id="top">
 {body}
 </main>
-{FOOTER}
+{FOOTER}{beacon}
 </body>
 </html>
 '''
