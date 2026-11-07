@@ -2,6 +2,13 @@
  "schemaVersion": 1,
  "editions": [
   {
+   "date": "2026-11-07",
+   "lead": "Stephen Miller named White House chief of staff, replacing Susie Wiles",
+   "url": "/briefed/2026-11-07/",
+   "json": "/briefed/2026-11-07.json",
+   "hasAudio": true
+  },
+  {
    "date": "2026-11-06",
    "lead": "Nasdaq falls 5.5% into correction as AI stocks sell off",
    "url": "/briefed/2026-11-06/",

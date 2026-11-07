@@ -1,0 +1,206 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-11-07",
+ "generatedAt": "2026-11-07T07:10:00-05:00",
+ "stories": [
+  {
+   "id": "miller-chief-of-staff",
+   "region": "us",
+   "location": "Washington, DC",
+   "headline": "Stephen Miller named White House chief of staff, replacing Susie Wiles",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/stephen-miller-trump-chief-of-staff-susie-wiles/"
+    },
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/06/trump-stephen-miller-wiles-chief-of-staff.html"
+    },
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/politics/donald-trump/trump-stephen-miller-susie-wiles-white-house-chief-of-staff-rcna607892"
+    }
+   ],
+   "officialSources": [
+    "https://www.whitehouse.gov/releases/2026/11/president-trump-names-stephen-miller-as-33rd-white-house-chief-of-staff/"
+   ],
+   "summary": "White House names Miller the 33rd chief of staff, starting Monday, Nov. 9. Wiles resigned Thursday night (CBS) and moves to Trump's political operation. Trump: 'I wanted to make a change.'"
+  },
+  {
+   "id": "october-jobs",
+   "region": "us",
+   "location": "Economy",
+   "headline": "US adds 165,000 jobs in October; unemployment 4.1%",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/business/economy/us-added-jobs-october-risks-stagnation-rcna607812"
+    },
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html"
+    }
+   ],
+   "officialSources": [
+    "https://www.bls.gov/news.release/empsit.nr0.htm"
+   ],
+   "summary": "BLS: +165K (forecast ~59K\u201365K); unemployment 4.1% from 4.2%. Aug/Sep revised up a combined 84K. Wages +0.4% m/m, 3.1% y/y."
+  },
+  {
+   "id": "qeshm-strikes",
+   "region": "world",
+   "location": "Qeshm Island",
+   "headline": "Iranian media report US missiles hit Qeshm Island; Trump cites \"minor strikes\"",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island"
+    },
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/07/trump-us-minor-strikes-iran-qeshm-island.html"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Iranian state media: two missiles hit Qeshm's Suza area. Trump described 'minor strikes' on an anti-aircraft device but did not name Qeshm (CNBC). CENTCOM: 'relatively calm.' Iran claims it downed a US MQ-9 (unverified)."
+  },
+  {
+   "id": "doj-drops-california",
+   "region": "us",
+   "location": "California",
+   "headline": "DOJ drops suit over California mail ballots",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/california-noncitizen-voting-trump-midterm-lawsuit-09e1048507008385dae20160786dc490"
+    },
+    {
+     "name": "courthousenews.com",
+     "url": "https://www.courthousenews.com/trump-administration-drops-lawsuit-over-california-election-procedures/"
+    }
+   ],
+   "officialSources": [
+    "https://oag.ca.gov/system/files/attachments/press-docs/11-6-2026-voluntary-dismissal.pdf"
+   ],
+   "summary": "Nov. 6 notice of voluntary dismissal (Case 2:26-cv-12025, C.D. Cal.) says relief 'no longer available' after the Supreme Court denied DOJ's application Nov. 2. CA AG Bonta: dismissal followed 'four consecutive court losses.'"
+  },
+  {
+   "id": "white-house-arrest",
+   "region": "us",
+   "location": "Washington, DC",
+   "headline": "Armed man arrested near White House; DHS says he cited voices urging him to kill Trump",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "abcnews.com",
+     "url": "https://abcnews.com/US/man-arrested-after-secret-service-finds-parked-white/story?id=137930505"
+    },
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/news/us-news/venezuelan-man-said-voices-told-kill-trump-arrested-white-house-dhs-sa-rcna607943"
+    }
+   ],
+   "officialSources": [
+    "https://www.dhs.gov/news/2026/11/06/us-secret-service-arrests-illegal-alien-guns-vehicle-near-white-house"
+   ],
+   "summary": "DHS: 26-year-old Venezuelan arrested late Thursday on Constitution Ave. in a truck reported stolen, with three guns. DHS says he cited voices urging him to kill Trump; ABC says the affidavit omits that. Charged with weapons and theft counts; presumed innocent."
+  }
+ ],
+ "audio": {
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-07/Briefed-2026-11-07-full-twohost.mp3",
+  "durationSeconds": 118.674,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": null,
+    "title": "Intro",
+    "start": 0.0,
+    "end": 11.985
+   },
+   {
+    "storyId": "miller-chief-of-staff",
+    "title": "Miller chief of staff",
+    "start": 11.985,
+    "end": 34.604
+   },
+   {
+    "storyId": "october-jobs",
+    "title": "October jobs",
+    "start": 34.604,
+    "end": 54.976
+   },
+   {
+    "storyId": "qeshm-strikes",
+    "title": "Qeshm strikes",
+    "start": 54.976,
+    "end": 73.441
+   },
+   {
+    "storyId": "doj-drops-california",
+    "title": "DOJ drops CA suit",
+    "start": 73.441,
+    "end": 89.974
+   },
+   {
+    "storyId": "white-house-arrest",
+    "title": "White House arrest",
+    "start": 89.974,
+    "end": 110.032
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 110.032,
+    "end": 118.638
+   }
+  ]
+ },
+ "video": {
+  "url": "/briefed/media/2026-11-07/Briefed-2026-11-07-web.mp4",
+  "durationSeconds": 108.653,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": "miller-chief-of-staff",
+    "title": "Miller chief of staff",
+    "start": 0.0,
+    "end": 24.619
+   },
+   {
+    "storyId": "october-jobs",
+    "title": "October jobs",
+    "start": 24.619,
+    "end": 44.991
+   },
+   {
+    "storyId": "qeshm-strikes",
+    "title": "Qeshm strikes",
+    "start": 44.991,
+    "end": 63.456
+   },
+   {
+    "storyId": "doj-drops-california",
+    "title": "DOJ drops CA suit",
+    "start": 63.456,
+    "end": 79.989
+   },
+   {
+    "storyId": "white-house-arrest",
+    "title": "White House arrest",
+    "start": 79.989,
+    "end": 100.047
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 100.047,
+    "end": 108.653
+   }
+  ]
+ }
+}

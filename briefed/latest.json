@@ -1,197 +1,205 @@
 {
  "schemaVersion": 1,
- "date": "2026-11-06",
- "generatedAt": "2026-11-06T07:00:00-05:00",
+ "date": "2026-11-07",
+ "generatedAt": "2026-11-07T07:10:00-05:00",
  "stories": [
   {
-   "id": "nasdaq-correction",
-   "region": "us",
-   "location": "Markets",
-   "headline": "Nasdaq falls 5.5% into correction as AI stocks sell off",
-   "status": "reported-only",
-   "outlets": [
-    {
-     "name": "NBC News",
-     "url": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650"
-    },
-    {
-     "name": "Axios",
-     "url": "https://www.axios.com/2026/11/06/trump-stock-market-sell-off"
-    },
-    {
-     "name": "Associated Press",
-     "url": "https://apnews.com/article/stocks-markets-ai-midterm-oil-trump-7ee9c212805aa5e70cf34d25aab7a36e"
-    }
-   ],
-   "officialSources": [],
-   "summary": "Thu close: Nasdaq \u22125.5% into correction; S&P \u22124.4%; Dow \u22121,833. Nvidia led (~\u22129%). Trump told voters they 'only have yourselves to blame.'"
-  },
-  {
-   "id": "arch-tro",
+   "id": "miller-chief-of-staff",
    "region": "us",
    "location": "Washington, DC",
-   "headline": "Chutkan blocks Trump arch construction for 14 days",
-   "status": "reported-only",
+   "headline": "Stephen Miller named White House chief of staff, replacing Susie Wiles",
+   "status": "sourced",
    "outlets": [
     {
      "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/trump-arch-approval-national-capital-planning-commission/"
+     "url": "https://www.cbsnews.com/news/stephen-miller-trump-chief-of-staff-susie-wiles/"
     },
     {
-     "name": "NPR",
-     "url": "https://www.npr.org/2026/11/06/nx-s1-6031990/trump-arch-planning-commission-injunction"
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/06/trump-stephen-miller-wiles-chief-of-staff.html"
+    },
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/politics/donald-trump/trump-stephen-miller-susie-wiles-white-house-chief-of-staff-rcna607892"
     }
    ],
-   "officialSources": [],
-   "summary": "Hours after NCPC approved final plans 8\u20134, Judge Tanya Chutkan issued a 14-day TRO barring construction-related activity."
+   "officialSources": [
+    "https://www.whitehouse.gov/releases/2026/11/president-trump-names-stephen-miller-as-33rd-white-house-chief-of-staff/"
+   ],
+   "summary": "White House names Miller the 33rd chief of staff, starting Monday, Nov. 9. Wiles resigned Thursday night (CBS) and moves to Trump's political operation. Trump: 'I wanted to make a change.'"
   },
   {
-   "id": "georgia-tennessee-flood",
+   "id": "october-jobs",
    "region": "us",
-   "location": "GA/TN border",
-   "headline": "Record flooding in McCaysville, Ga., and Copperhill, Tenn.; 80+ rescues",
+   "location": "Economy",
+   "headline": "US adds 165,000 jobs in October; unemployment 4.1%",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/business/economy/us-added-jobs-october-risks-stagnation-rcna607812"
+    },
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html"
+    }
+   ],
+   "officialSources": [
+    "https://www.bls.gov/news.release/empsit.nr0.htm"
+   ],
+   "summary": "BLS: +165K (forecast ~59K\u201365K); unemployment 4.1% from 4.2%. Aug/Sep revised up a combined 84K. Wages +0.4% m/m, 3.1% y/y."
+  },
+  {
+   "id": "qeshm-strikes",
+   "region": "world",
+   "location": "Qeshm Island",
+   "headline": "Iranian media report US missiles hit Qeshm Island; Trump cites \"minor strikes\"",
    "status": "reported-only",
    "outlets": [
     {
-     "name": "fox5atlanta.com",
-     "url": "https://www.fox5atlanta.com/news/record-flooding-devastates-georgia-tennessee-mountain-towns"
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island"
     },
     {
-     "name": "wsmv.com",
-     "url": "https://www.wsmv.com/2026/11/05/state-reports-nearly-70-rescues-southeast-tennessee-responds-severe-flooding-heres-what-we-know/"
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/07/trump-us-minor-strikes-iran-qeshm-island.html"
     }
    ],
    "officialSources": [],
-   "summary": "River rose ~16 ft in 12 hours and crested near 18 ft. 80+ rescues in Fannin County; TEMA reports 68 in Polk County. No fatalities reported."
+   "summary": "Iranian state media: two missiles hit Qeshm's Suza area. Trump described 'minor strikes' on an anti-aircraft device but did not name Qeshm (CNBC). CENTCOM: 'relatively calm.' Iran claims it downed a US MQ-9 (unverified)."
   },
   {
-   "id": "melania-oleshky",
+   "id": "doj-drops-california",
    "region": "us",
-   "location": "Washington",
-   "headline": "Melania Trump hosts Russian, Ukrainian officials; seeks enduring truce",
-   "status": "reported-only",
-   "outlets": [
-    {
-     "name": "BBC",
-     "url": "https://www.bbc.com/news/articles/c9p8g085mz07o"
-    },
-    {
-     "name": "afp.com",
-     "url": "https://www.afp.com/en/melania-trump-calls-more-enduring-ukraine-ceasefire"
-    }
-   ],
-   "officialSources": [],
-   "summary": "White House event after the six-day Oleshky ceasefire. Both sides credited her; BBC notes contested credit for the ceasefire."
-  },
-  {
-   "id": "uncalled-senate",
-   "region": "us",
-   "location": "AK, MS",
-   "headline": "Alaska and Mississippi Senate races still uncalled",
-   "status": "reported-only",
+   "location": "California",
+   "headline": "DOJ drops suit over California mail ballots",
+   "status": "sourced",
    "outlets": [
     {
      "name": "Associated Press",
-     "url": "https://apnews.com/article/midterm-election-ap-race-call-uncalled-races-d4f55516fd72155d746cfbbc2017c743"
+     "url": "https://apnews.com/article/california-noncitizen-voting-trump-midterm-lawsuit-09e1048507008385dae20160786dc490"
     },
     {
-     "name": "alaskasnewssource.com",
-     "url": "https://www.alaskasnewssource.com/2026/11/06/peltola-sullivan-campaigns-project-wins-while-quarter-ballots-are-outstanding/"
+     "name": "courthousenews.com",
+     "url": "https://www.courthousenews.com/trump-administration-drops-lawsuit-over-california-election-procedures/"
     }
    ],
-   "officialSources": [],
-   "summary": "Democrats lead narrowly; neither flips chamber control. Alaska ranked-choice tabulation set for Nov. 18."
+   "officialSources": [
+    "https://oag.ca.gov/system/files/attachments/press-docs/11-6-2026-voluntary-dismissal.pdf"
+   ],
+   "summary": "Nov. 6 notice of voluntary dismissal (Case 2:26-cv-12025, C.D. Cal.) says relief 'no longer available' after the Supreme Court denied DOJ's application Nov. 2. CA AG Bonta: dismissal followed 'four consecutive court losses.'"
+  },
+  {
+   "id": "white-house-arrest",
+   "region": "us",
+   "location": "Washington, DC",
+   "headline": "Armed man arrested near White House; DHS says he cited voices urging him to kill Trump",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "abcnews.com",
+     "url": "https://abcnews.com/US/man-arrested-after-secret-service-finds-parked-white/story?id=137930505"
+    },
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/news/us-news/venezuelan-man-said-voices-told-kill-trump-arrested-white-house-dhs-sa-rcna607943"
+    }
+   ],
+   "officialSources": [
+    "https://www.dhs.gov/news/2026/11/06/us-secret-service-arrests-illegal-alien-guns-vehicle-near-white-house"
+   ],
+   "summary": "DHS: 26-year-old Venezuelan arrested late Thursday on Constitution Ave. in a truck reported stolen, with three guns. DHS says he cited voices urging him to kill Trump; ABC says the affidavit omits that. Charged with weapons and theft counts; presumed innocent."
   }
  ],
  "audio": {
-  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-06/Briefed-2026-11-06-full-twohost.mp3",
-  "durationSeconds": 112.953,
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-07/Briefed-2026-11-07-full-twohost.mp3",
+  "durationSeconds": 118.674,
   "aiVoices": true,
   "chapters": [
    {
     "storyId": null,
     "title": "Intro",
     "start": 0.0,
-    "end": 12.299
+    "end": 11.985
    },
    {
-    "storyId": "nasdaq-correction",
-    "title": "Nasdaq correction",
-    "start": 12.299,
-    "end": 36.537
+    "storyId": "miller-chief-of-staff",
+    "title": "Miller chief of staff",
+    "start": 11.985,
+    "end": 34.604
    },
    {
-    "storyId": "arch-tro",
-    "title": "Arch TRO",
-    "start": 36.537,
-    "end": 51.136
+    "storyId": "october-jobs",
+    "title": "October jobs",
+    "start": 34.604,
+    "end": 54.976
    },
    {
-    "storyId": "georgia-tennessee-flood",
-    "title": "Border flooding",
-    "start": 51.136,
-    "end": 68.021
+    "storyId": "qeshm-strikes",
+    "title": "Qeshm strikes",
+    "start": 54.976,
+    "end": 73.441
    },
    {
-    "storyId": "melania-oleshky",
-    "title": "Melania hosts envoys",
-    "start": 68.021,
-    "end": 87.114
+    "storyId": "doj-drops-california",
+    "title": "DOJ drops CA suit",
+    "start": 73.441,
+    "end": 89.974
    },
    {
-    "storyId": "uncalled-senate",
-    "title": "Two races uncalled",
-    "start": 87.114,
-    "end": 104.299
+    "storyId": "white-house-arrest",
+    "title": "White House arrest",
+    "start": 89.974,
+    "end": 110.032
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 104.299,
-    "end": 112.904
+    "start": 110.032,
+    "end": 118.638
    }
   ]
  },
  "video": {
-  "url": "/briefed/media/2026-11-06/Briefed-2026-11-06-web.mp4",
-  "durationSeconds": 102.605,
+  "url": "/briefed/media/2026-11-07/Briefed-2026-11-07-web.mp4",
+  "durationSeconds": 108.653,
   "aiVoices": true,
   "chapters": [
    {
-    "storyId": "nasdaq-correction",
-    "title": "Nasdaq correction",
+    "storyId": "miller-chief-of-staff",
+    "title": "Miller chief of staff",
     "start": 0.0,
-    "end": 26.238
+    "end": 24.619
    },
    {
-    "storyId": "arch-tro",
-    "title": "Arch TRO",
-    "start": 26.238,
-    "end": 40.837
+    "storyId": "october-jobs",
+    "title": "October jobs",
+    "start": 24.619,
+    "end": 44.991
    },
    {
-    "storyId": "georgia-tennessee-flood",
-    "title": "Border flooding",
-    "start": 40.837,
-    "end": 57.722
+    "storyId": "qeshm-strikes",
+    "title": "Qeshm strikes",
+    "start": 44.991,
+    "end": 63.456
    },
    {
-    "storyId": "melania-oleshky",
-    "title": "Melania hosts envoys",
-    "start": 57.722,
-    "end": 76.815
+    "storyId": "doj-drops-california",
+    "title": "DOJ drops CA suit",
+    "start": 63.456,
+    "end": 79.989
    },
    {
-    "storyId": "uncalled-senate",
-    "title": "Two races uncalled",
-    "start": 76.815,
-    "end": 94.0
+    "storyId": "white-house-arrest",
+    "title": "White House arrest",
+    "start": 79.989,
+    "end": 100.047
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 94.0,
-    "end": 102.605
+    "start": 100.047,
+    "end": 108.653
    }
   ]
  }
