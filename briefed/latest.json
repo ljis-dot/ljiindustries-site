@@ -1,119 +1,128 @@
 {
  "schemaVersion": 1,
- "date": "2026-11-07",
- "generatedAt": "2026-11-07T07:10:00-05:00",
+ "date": "2026-11-08",
+ "generatedAt": "2026-11-08T07:50:00-05:00",
  "stories": [
   {
-   "id": "miller-chief-of-staff",
+   "id": "doj-resignations",
    "region": "us",
    "location": "Washington, DC",
-   "headline": "Stephen Miller named White House chief of staff, replacing Susie Wiles",
-   "status": "sourced",
-   "outlets": [
-    {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/stephen-miller-trump-chief-of-staff-susie-wiles/"
-    },
-    {
-     "name": "CNBC",
-     "url": "https://www.cnbc.com/2026/11/06/trump-stephen-miller-wiles-chief-of-staff.html"
-    },
-    {
-     "name": "NBC News",
-     "url": "https://www.nbcnews.com/politics/donald-trump/trump-stephen-miller-susie-wiles-white-house-chief-of-staff-rcna607892"
-    }
-   ],
-   "officialSources": [
-    "https://www.whitehouse.gov/releases/2026/11/president-trump-names-stephen-miller-as-33rd-white-house-chief-of-staff/"
-   ],
-   "summary": "White House names Miller the 33rd chief of staff, starting Monday, Nov. 9. Wiles resigned Thursday night (CBS) and moves to Trump's political operation. Trump: 'I wanted to make a change.'"
-  },
-  {
-   "id": "october-jobs",
-   "region": "us",
-   "location": "Economy",
-   "headline": "US adds 165,000 jobs in October; unemployment 4.1%",
-   "status": "sourced",
-   "outlets": [
-    {
-     "name": "NBC News",
-     "url": "https://www.nbcnews.com/business/economy/us-added-jobs-october-risks-stagnation-rcna607812"
-    },
-    {
-     "name": "CNBC",
-     "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html"
-    }
-   ],
-   "officialSources": [
-    "https://www.bls.gov/news.release/empsit.nr0.htm"
-   ],
-   "summary": "BLS: +165K (forecast ~59K\u201365K); unemployment 4.1% from 4.2%. Aug/Sep revised up a combined 84K. Wages +0.4% m/m, 3.1% y/y."
-  },
-  {
-   "id": "qeshm-strikes",
-   "region": "world",
-   "location": "Qeshm Island",
-   "headline": "Iranian media report US missiles hit Qeshm Island; Trump cites \"minor strikes\"",
+   "headline": "Three senior DOJ officials resign after midterms",
    "status": "reported-only",
    "outlets": [
     {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island"
+     "name": "Politico",
+     "url": "https://www.politico.com/news/2026/11/06/justice-department-officials-resign-01154909"
     },
     {
-     "name": "CNBC",
-     "url": "https://www.cnbc.com/2026/11/07/trump-us-minor-strikes-iran-qeshm-island.html"
+     "name": "news.bloomberglaw.com",
+     "url": "https://news.bloomberglaw.com/us-law-week/trump-ally-reding-quinones-resigns-as-miamis-top-prosecutor"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/justice-department-resignations-grand-conspiracy-florida-jason-quinones-9a10b4ffcb620edb3c2298cec066062d"
     }
    ],
    "officialSources": [],
-   "summary": "Iranian state media: two missiles hit Qeshm's Suza area. Trump described 'minor strikes' on an anti-aircraft device but did not name Qeshm (CNBC). CENTCOM: 'relatively calm.' Iran claims it downed a US MQ-9 (unverified)."
+   "summary": "NSD chief John Eisenberg and S.D. Fla. U.S. Attorney Jason Reding Qui\u00f1ones resigned Friday; Civil Rights chief Harmeet Dhillon on Thursday. AG Todd Blanche announced the Friday exits."
   },
   {
-   "id": "doj-drops-california",
+   "id": "dana-white",
    "region": "us",
-   "location": "California",
-   "headline": "DOJ drops suit over California mail ballots",
+   "location": "Washington, DC",
+   "headline": "Trump says he offered press secretary job to UFC's Dana White",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/politics/white-house/trump-offers-press-secretary-job-ufc-ceo-dana-white-rcna608039"
+    },
+    {
+     "name": "Washington Post",
+     "url": "https://www.washingtonpost.com/politics/2026/11/07/ufc-dana-white-offered-white-house-press-secretary-role-trump-says/"
+    },
+    {
+     "name": "wtop.com",
+     "url": "https://wtop.com/national/2026/11/trump-says-hes-asked-dana-white-to-serve-as-press-secretary/"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Trump posted the offer Saturday. White says he meets Trump Monday. CNN, citing a source, reports White declined."
+  },
+  {
+   "id": "measles-record",
+   "region": "us",
+   "location": "Nationwide",
+   "headline": "CDC: 5,182 measles cases in 2026, most since 1991",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "investing.com",
+     "url": "https://www.investing.com/news/general-news/us-measles-cases-rise-to-5182-cdc-says-5008804"
+    }
+   ],
+   "officialSources": [
+    "https://tools.cdc.gov/api/v2/resources/media/398690/content.html"
+   ],
+   "summary": "CDC count as of Nov. 5: 5,182 confirmed cases, 43 new outbreaks. 2025 total: 2,289. Reuters: 96% unvaccinated or unknown status."
+  },
+  {
+   "id": "houston-ice",
+   "region": "us",
+   "location": "Houston, TX",
+   "headline": "Houston limits police contact with ICE",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "texastribune.org",
+     "url": "https://www.texastribune.org/2026/11/06/ice-warrants-immigration-houston-texas-whitmire-police/"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/houston-mayor-ice-cooperation-texas-election-2a0bf7f2e33754864e8364019798db9f"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Executive order: police contact ICE only for a jailable offense plus an ICE warrant. Chief Diaz: no ICE contact on an administrative warrant without arrest. Whitmire: 'elections matter.'"
+  },
+  {
+   "id": "blockade-ship",
+   "region": "world",
+   "location": "Gulf of Oman",
+   "headline": "US disables cargo ship trying to breach Iran blockade",
    "status": "sourced",
    "outlets": [
     {
      "name": "Associated Press",
-     "url": "https://apnews.com/article/california-noncitizen-voting-trump-midterm-lawsuit-09e1048507008385dae20160786dc490"
-    },
-    {
-     "name": "courthousenews.com",
-     "url": "https://www.courthousenews.com/trump-administration-drops-lawsuit-over-california-election-procedures/"
+     "url": "https://apnews.com/article/commercial-vessel-gulf-oman-breach-blockade-iran-bc902d3400cb5d022f8bafd247ef975b"
     }
    ],
    "officialSources": [
-    "https://oag.ca.gov/system/files/attachments/press-docs/11-6-2026-voluntary-dismissal.pdf"
+    "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4644273/us-forces-disable-cargo-vessel-attempting-to-violate-naval-blockade/"
    ],
-   "summary": "Nov. 6 notice of voluntary dismissal (Case 2:26-cv-12025, C.D. Cal.) says relief 'no longer available' after the Supreme Court denied DOJ's application Nov. 2. CA AG Bonta: dismissal followed 'four consecutive court losses.'"
+   "summary": "CENTCOM: aircraft fired precision munitions at a St. Kitts-flagged cargo ship's stern Nov. 7 after it ignored warnings leaving an Iranian port call."
   },
   {
-   "id": "white-house-arrest",
+   "id": "nasa-astronauts",
    "region": "us",
-   "location": "Washington, DC",
-   "headline": "Armed man arrested near White House; DHS says he cited voices urging him to kill Trump",
-   "status": "reported-only",
+   "location": "NASA",
+   "headline": "NASA opens applications for next astronaut class",
+   "status": "sourced",
    "outlets": [
     {
-     "name": "abcnews.com",
-     "url": "https://abcnews.com/US/man-arrested-after-secret-service-finds-parked-white/story?id=137930505"
-    },
-    {
-     "name": "NBC News",
-     "url": "https://www.nbcnews.com/news/us-news/venezuelan-man-said-voices-told-kill-trump-arrested-white-house-dhs-sa-rcna607943"
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/nasa-astronauts-moon-space-789a68a0425551b9870b17911eaa042e"
     }
    ],
    "officialSources": [
-    "https://www.dhs.gov/news/2026/11/06/us-secret-service-arrests-illegal-alien-guns-vehicle-near-white-house"
+    "https://www.nasa.gov/news-release/nasa-seeks-next-generation-of-explorers-to-join-astronaut-corps/"
    ],
-   "summary": "DHS: 26-year-old Venezuelan arrested late Thursday on Constitution Ave. in a truck reported stolen, with three guns. DHS says he cited voices urging him to kill Trump; ABC says the affidavit omits that. Charged with weapons and theft counts; presumed innocent."
+   "summary": "Announced Nov. 7. US citizens may apply through 11:59 p.m. EST Dec. 3; selection expected late 2027. NASA has 32 active astronauts."
   }
  ],
  "audio": {
-  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-07/Briefed-2026-11-07-full-twohost.mp3",
-  "durationSeconds": 118.674,
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-08/Briefed-2026-11-08-full-twohost.mp3",
+  "durationSeconds": 121.443,
   "aiVoices": true,
   "chapters": [
    {
@@ -123,84 +132,97 @@
     "end": 11.985
    },
    {
-    "storyId": "miller-chief-of-staff",
-    "title": "Miller chief of staff",
+    "storyId": "doj-resignations",
+    "title": "DOJ resignations",
     "start": 11.985,
-    "end": 34.604
+    "end": 30.45
    },
    {
-    "storyId": "october-jobs",
-    "title": "October jobs",
-    "start": 34.604,
-    "end": 54.976
+    "storyId": "dana-white",
+    "title": "Dana White offer",
+    "start": 30.45,
+    "end": 47.322
    },
    {
-    "storyId": "qeshm-strikes",
-    "title": "Qeshm strikes",
-    "start": 54.976,
-    "end": 73.441
+    "storyId": "measles-record",
+    "title": "Measles record",
+    "start": 47.322,
+    "end": 65.134
    },
    {
-    "storyId": "doj-drops-california",
-    "title": "DOJ drops CA suit",
-    "start": 73.441,
-    "end": 89.974
+    "storyId": "houston-ice",
+    "title": "Houston ICE policy",
+    "start": 65.134,
+    "end": 81.353
    },
    {
-    "storyId": "white-house-arrest",
-    "title": "White House arrest",
-    "start": 89.974,
-    "end": 110.032
+    "storyId": "blockade-ship",
+    "title": "Blockade ship",
+    "start": 81.353,
+    "end": 97.232
+   },
+   {
+    "storyId": "nasa-astronauts",
+    "title": "NASA astronauts",
+    "start": 97.232,
+    "end": 112.798
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 110.032,
-    "end": 118.638
+    "start": 112.798,
+    "end": 121.403
    }
   ]
  },
  "video": {
-  "url": "/briefed/media/2026-11-07/Briefed-2026-11-07-web.mp4",
-  "durationSeconds": 108.653,
+  "url": "/briefed/media/2026-11-08/Briefed-2026-11-08-web.mp4",
+  "durationSeconds": 111.418,
   "aiVoices": true,
   "chapters": [
    {
-    "storyId": "miller-chief-of-staff",
-    "title": "Miller chief of staff",
+    "storyId": "doj-resignations",
+    "title": "DOJ resignations",
     "start": 0.0,
-    "end": 24.619
+    "end": 20.465
    },
    {
-    "storyId": "october-jobs",
-    "title": "October jobs",
-    "start": 24.619,
-    "end": 44.991
+    "storyId": "dana-white",
+    "title": "Dana White offer",
+    "start": 20.465,
+    "end": 37.337
    },
    {
-    "storyId": "qeshm-strikes",
-    "title": "Qeshm strikes",
-    "start": 44.991,
-    "end": 63.456
+    "storyId": "measles-record",
+    "title": "Measles record",
+    "start": 37.337,
+    "end": 55.149
    },
    {
-    "storyId": "doj-drops-california",
-    "title": "DOJ drops CA suit",
-    "start": 63.456,
-    "end": 79.989
+    "storyId": "houston-ice",
+    "title": "Houston ICE policy",
+    "start": 55.149,
+    "end": 71.368
    },
    {
-    "storyId": "white-house-arrest",
-    "title": "White House arrest",
-    "start": 79.989,
-    "end": 100.047
+    "storyId": "blockade-ship",
+    "title": "Blockade ship",
+    "start": 71.368,
+    "end": 87.247
+   },
+   {
+    "storyId": "nasa-astronauts",
+    "title": "NASA astronauts",
+    "start": 87.247,
+    "end": 102.813
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 100.047,
-    "end": 108.653
+    "start": 102.813,
+    "end": 111.418
    }
-  ]
+  ],
+  "poster": "/briefed/media/2026-11-08/Briefed-2026-11-08-poster.jpg"
  }
 }
