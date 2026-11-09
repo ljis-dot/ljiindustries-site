@@ -1,0 +1,242 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-11-09",
+ "generatedAt": "2026-11-09T06:45:00-05:00",
+ "stories": [
+  {
+   "id": "trump-deportation",
+   "region": "us",
+   "location": "Washington, DC",
+   "headline": "Trump on 60 Minutes: deportation policy 'too tough'; 58% said immigration went too far",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/trump-says-some-of-his-immigration-policies-may-have-been-too-tough-60-minutes/"
+    },
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/politics/trump-administration/trump-says-deportations-tough-hurt-midterms-rcna608208"
+    },
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/politics/2026-election/exit-poll-trump-midterms-voters-economy-disapproval-rcna607045"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Trump told CBS's Ross Douthat immigration 'both helped and hurt' and 'I think it was too tough.' CBS exit polling: 58% said administration immigration actions went too far. NBC Exit Poll: 57%. NBC confirms the interview quotes."
+  },
+  {
+   "id": "nvidia-probe",
+   "region": "us",
+   "location": "Technology",
+   "headline": "Nvidia board opens independent probe of CEO Jensen Huang",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "nvidianews.nvidia.com",
+     "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors"
+    },
+    {
+     "name": "news.bloomberglaw.com",
+     "url": "https://news.bloomberglaw.com/artificial-intelligence/nvidia-board-to-probe-spying-case-after-ceo-admits-infidelity"
+    },
+    {
+     "name": "investing.com",
+     "url": "https://www.investing.com/news/stock-market-news/explainerwhat-we-know-about-nvidias-probe-into-ceo-jensen-huang-5010580"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Board statement Nov. 8: independent investigation after reporting Huang was 'target of a foreign intelligence effort.' No reason to believe national security or secrets compromised. Huang cooperating. Underlying allegation from NYT/FT reporting attributed carefully; Chinese Foreign Ministry denies."
+  },
+  {
+   "id": "lame-duck",
+   "region": "us",
+   "location": "Washington, DC",
+   "headline": "Congress returns facing Dec. 11 funding deadline",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/09/congress-government-funding-debt-limit-elections.html"
+    },
+    {
+     "name": "abcnews.com",
+     "url": "https://abcnews.com/Politics/congress-returns-crowded-lame-duck-session-hegseth-impeachment/story?id=137918357"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Funding expires Dec. 11. CNBC and ABC: lame-duck session after midterms; NDAA and other bills also pending."
+  },
+  {
+   "id": "scotus-nielsen",
+   "region": "us",
+   "location": "Washington, DC",
+   "headline": "SCOTUS hears Nielsen v. Watanabe on suing federal officials",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "NPR",
+     "url": "https://www.npr.org/2026/11/09/nx-s1-6013575/supreme-court-federal-law-enforcement-prison-rights"
+    },
+    {
+     "name": "scotusblog.com",
+     "url": "https://www.scotusblog.com/2026/11/court-to-hear-argument-on-whether-and-when-federal-officials-can-be-held-liable-for-violations-o/"
+    },
+    {
+     "name": "scotusblog.com",
+     "url": "https://www.scotusblog.com/cases/nielsen-v-watanabe/"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Argument Nov. 9 in Nielsen v. Watanabe (25-417). Tests Bivens damages claims; prison medical Eighth Amendment case. Administration filed brief supporting Nielsen."
+  },
+  {
+   "id": "gas-prices",
+   "region": "us",
+   "location": "Nationwide",
+   "headline": "Gas about $3.96\u2013$4.02, down about 16 cents on the week",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "gilmermirror.com",
+     "url": "https://www.gilmermirror.com/2026/11/09/texas-weekly-gas-price-update-245/"
+    },
+    {
+     "name": "newsroom.acg.aaa.com",
+     "url": "https://newsroom.acg.aaa.com/georgia-drivers-see-more-relief-at-the-pump/"
+    },
+    {
+     "name": "gasprices.aaa.com",
+     "url": "https://gasprices.aaa.com/?pubDate=20260925"
+    }
+   ],
+   "officialSources": [],
+   "summary": "GasBuddy: national regular avg $3.96, down 15.9\u00a2/week. AAA Georgia release: national $4.02, down 15\u00a2. AAA site Nov 9 shows ~$4.01."
+  },
+  {
+   "id": "biden-book",
+   "region": "us",
+   "location": "USA",
+   "headline": "Biden scales back book tour, citing cancer treatment",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/politics/joe-biden/joe-biden-cancer-health-book-tour-promise-me-america-rcna608260"
+    },
+    {
+     "name": "Washington Post",
+     "url": "https://www.washingtonpost.com/politics/2026/11/08/biden-says-cancer-fight-means-he-will-scale-back-book-promotion-tour/"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Biden on X: cancer 'sometimes slows me down'; will do fewer book conversations. Memoir 'Promise Me, America' due Nov. 17. Doctors 'encouraged' by response to treatment."
+  }
+ ],
+ "audio": {
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-09/Briefed-2026-11-09-full-twohost.mp3",
+  "durationSeconds": 113.189,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": null,
+    "title": "Intro",
+    "start": 0.0,
+    "end": 11.672
+   },
+   {
+    "storyId": "trump-deportation",
+    "title": "Trump deportation",
+    "start": 11.672,
+    "end": 30.764
+   },
+   {
+    "storyId": "nvidia-probe",
+    "title": "Nvidia probe",
+    "start": 30.764,
+    "end": 48.576
+   },
+   {
+    "storyId": "lame-duck",
+    "title": "Lame duck",
+    "start": 48.576,
+    "end": 60.014
+   },
+   {
+    "storyId": "scotus-nielsen",
+    "title": "SCOTUS Bivens",
+    "start": 60.014,
+    "end": 75.293
+   },
+   {
+    "storyId": "gas-prices",
+    "title": "Gas prices",
+    "start": 75.293,
+    "end": 90.545
+   },
+   {
+    "storyId": "biden-book",
+    "title": "Biden book tour",
+    "start": 90.545,
+    "end": 104.557
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 104.557,
+    "end": 113.162
+   }
+  ]
+ },
+ "video": {
+  "url": "/briefed/media/2026-11-09/Briefed-2026-11-09-web.mp4",
+  "durationSeconds": 103.49,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": "trump-deportation",
+    "title": "Trump deportation",
+    "start": 0.0,
+    "end": 21.092
+   },
+   {
+    "storyId": "nvidia-probe",
+    "title": "Nvidia probe",
+    "start": 21.092,
+    "end": 38.904
+   },
+   {
+    "storyId": "lame-duck",
+    "title": "Lame duck",
+    "start": 38.904,
+    "end": 50.342
+   },
+   {
+    "storyId": "scotus-nielsen",
+    "title": "SCOTUS Bivens",
+    "start": 50.342,
+    "end": 65.621
+   },
+   {
+    "storyId": "gas-prices",
+    "title": "Gas prices",
+    "start": 65.621,
+    "end": 80.873
+   },
+   {
+    "storyId": "biden-book",
+    "title": "Biden book tour",
+    "start": 80.873,
+    "end": 94.885
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 94.885,
+    "end": 103.49
+   }
+  ],
+  "poster": "/briefed/media/2026-11-09/Briefed-2026-11-09-poster.jpg"
+ }
+}
