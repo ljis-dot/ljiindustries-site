@@ -3,6 +3,7 @@
 
 Inputs (Briefed_Bot writes these under $BRIEFED_AUDIO_DIR/<day>/, default /workspace/briefed-audio):
   v2/stories.json                         cards: headline, location, label, labelChip, sources, usLink, optional summary/region
+  web-summary.md                          optional fuller summaries plus Quick facts / Not yet confirmed / What happens next
   full_segments_<MMDD>.json               spoken script; NN_body text is the summary fallback
   Briefed-<day>-full-twohost-chapters.json chapter times per storyId (card -> storyId)
   Briefed-<day>-full-twohost.mp3          audio (uploaded separately by publish_day.sh)
@@ -12,11 +13,11 @@ import json, os, re, sys
 from urllib.parse import urlparse
 
 OUTLETS = {"apnews.com": "Associated Press", "reuters.com": "Reuters", "bbc.com": "BBC", "bbc.co.uk": "BBC", "nbcnews.com": "NBC News",
-  "abcnews.go.com": "ABC News", "cbsnews.com": "CBS News", "npr.org": "NPR", "nytimes.com": "New York Times", "washingtonpost.com": "Washington Post",
+  "abcnews.go.com": "ABC News", "abcnews.com": "ABC News", "cbsnews.com": "CBS News", "npr.org": "NPR", "nytimes.com": "New York Times", "washingtonpost.com": "Washington Post",
   "wsj.com": "Wall Street Journal", "foxnews.com": "Fox News", "cnn.com": "CNN", "politico.com": "Politico", "thehill.com": "The Hill",
   "axios.com": "Axios", "theguardian.com": "The Guardian", "bloomberg.com": "Bloomberg", "cnbc.com": "CNBC", "usatoday.com": "USA Today",
   "newsmax.com": "Newsmax", "washingtontimes.com": "Washington Times", "nypost.com": "New York Post", "dw.com": "DW", "france24.com": "France 24",
-  "aljazeera.com": "Al Jazeera", "abqjournal.com": "Albuquerque Journal"}
+  "aljazeera.com": "Al Jazeera", "abqjournal.com": "Albuquerque Journal", "politifact.com": "PolitiFact", "scotusblog.com": "SCOTUSblog"}
 NAMES = {"AP": "Associated Press", "NBC": "NBC News", "ABC": "ABC News", "CBS": "CBS News", "DOJ": "Justice Department"}
 OFFICIAL = re.compile(r"(\.gov|\.mil|whitehouse\.gov|kremlin\.ru|\.gov\.[a-z]{2}|europa\.eu|un\.org|who\.int)$")
 LABELS = {"sourced": "sourced", "cleared": "cleared", "as_reported": "reported-only", "reported": "reported-only", "reported_only": "reported-only"}
@@ -43,6 +44,62 @@ def summary_from_script(text):
     out = " ".join(sents[:2]).strip()
     return out[:400]
 
+
+def parse_list_items(block):
+    items = []
+    for raw in (block or "").splitlines():
+        m = re.match(r"\s*(?:[-*]|\d+\.)\s+(.*)$", raw)
+        if m:
+            items.append(m.group(1).strip())
+        elif items and raw.strip() and raw.startswith(" "):
+            items[-1] = items[-1] + " " + raw.strip()
+    if not items:
+        para = re.sub(r"\s+", " ", (block or "").strip())
+        if para:
+            items = [para]
+    return items
+
+def parse_web_summary(md):
+    """Parse morning web-summary.md into per-card fuller text and brief lists.
+
+    Morning summaries use numbered '## N. Headline [Label]' sections and
+    '**Quick facts**' / '**Not yet confirmed**' / '**What happens next**' headings.
+    Night summaries use '### ' headings and are handled in make_night_edition.py.
+    """
+    out = {}
+    if not md:
+        return out
+    text = md.replace("\r\n", "\n")
+    parts = re.split(r"\n(?=##\s+\d+\.\s+)", "\n" + text)
+    for part in parts:
+        part = part.lstrip("\n")
+        m = re.match(r"##\s+(\d+)\.\s+(.+?)(?:\s+\[[^\]]+\])?\s*\n", part)
+        if not m:
+            continue
+        rec = {"headline": m.group(2).strip()}
+        body = part[m.end():]
+        chunks = re.split(r"\n(?=\*\*(?:Quick facts|Not yet confirmed|What happens next|Sources)\*\*\s*$)", body, flags=re.M)
+        rec["summary"] = chunks[0].strip() if chunks else ""
+        for chunk in chunks[1:]:
+            title, _, sbody = chunk.strip().partition("\n")
+            key = title.strip().strip("*").strip()
+            items = parse_list_items(sbody)
+            if key == "Quick facts":
+                rec["quickFacts"] = items
+            elif key == "Not yet confirmed":
+                rec["notYetConfirmed"] = items
+            elif key == "What happens next":
+                rec["whatHappensNext"] = items
+            elif key == "Sources":
+                urls = []
+                for item in items:
+                    um = re.search(r"https?://\S+", item)
+                    if um:
+                        urls.append(um.group(0).rstrip(").,;"))
+                rec["sources"] = urls
+        out[int(m.group(1))] = rec
+    return out
+
 def main():
     day, out = sys.argv[1], sys.argv[2]
     audio_url = sys.argv[sys.argv.index("--audio-url") + 1] if "--audio-url" in sys.argv else None
@@ -53,6 +110,8 @@ def main():
     segs = json.load(open(segp))["segments"] if os.path.exists(segp) else []
     by_card = {c["card"]: c for c in ch["chapters"] if c.get("card")}
     body = {s.get("storyId"): s["text"] for s in segs if s["id"].endswith("_body")}
+    web_path = os.path.join(base, "web-summary.md")
+    webs = parse_web_summary(open(web_path, encoding="utf-8").read()) if os.path.exists(web_path) else {}
     stories, warn = [], []
     for s in sorted(st["stories"], key=lambda x: x["card"]):
         c = by_card.get(s["card"])
@@ -68,12 +127,23 @@ def main():
             else:
                 outlets.append({"name": clean_name(src)})
         for u in s.get("officialSources", []): official.append(u)
+        web = webs.get(s["card"]) or {}
+        for src in web.get("sources") or []:
+            if re.match(r"https?://", src):
+                h = host(src)
+                (official.append(src) if OFFICIAL.search(h) else outlets.append({"name": outlet_name(h), "url": src}))
         seen = set(); outlets = [o for o in outlets if not (o.get("url") or o["name"]) in seen and not seen.add(o.get("url") or o["name"])]
+        seen_off = set(); official = [u for u in official if not (u in seen_off or seen_off.add(u))]
         story = {"id": sid, "region": region, "location": loc.split(": ", 1)[-1] if ": " in loc else loc,
                  "headline": s["headline"], "status": LABELS.get(s.get("label", ""), "reported-only"),
                  "outlets": outlets, "officialSources": official}
-        summ = s.get("summary") or (summary_from_script(body[sid]) if body.get(sid) else None)
+        summ = web.get("summary") or s.get("summary") or (summary_from_script(body[sid]) if body.get(sid) else None)
         if summ: story["summary"] = summ
+        briefing = {k: web[k] for k in ("quickFacts", "notYetConfirmed", "whatHappensNext") if web.get(k)}
+        if briefing:
+            story["briefing"] = briefing
+        elif webs and s["card"] not in webs:
+            warn.append(f"card {s['card']}: no matching section in web-summary.md")
         # accept both {quote,url,role} and v2 {said,source,where} shapes
         fhn = [dict(q, quote=q.get("quote") or q.get("said"), url=q.get("url") or q.get("source"), role=q.get("role") or q.get("where"))
                for q in s.get("firstHand") or [] if isinstance(q, dict)]
@@ -115,7 +185,8 @@ def main():
     os.makedirs(os.path.dirname(os.path.abspath(out)), exist_ok=True)
     json.dump(ed, open(out, "w"), indent=1, ensure_ascii=False)
     for w in warn: print("WARN:", w, file=sys.stderr)
-    print(f"wrote {out}: {len(stories)} stories, {len(chapters)} chapters, audio={'yes' if audio_url else 'no'}, video={'yes' if ed.get('video') else 'no'}")
+    nbrief = sum(1 for s in stories if s.get("briefing"))
+    print(f"wrote {out}: {len(stories)} stories ({nbrief} with briefing lists), {len(chapters)} chapters, audio={'yes' if audio_url else 'no'}, video={'yes' if ed.get('video') else 'no'}")
 
 if __name__ == "__main__":
     main()

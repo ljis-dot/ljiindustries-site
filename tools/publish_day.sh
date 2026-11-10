@@ -143,7 +143,7 @@ fi
 if [ $NIGHT = 1 ]; then
   git add "editions/$SLUG.json" briefed sitemap.xml tools/publish_day.sh tools/build_briefed.py tools/make_night_edition.py tools/test_analytics.py editions/README.md
 else
-  git add "editions/$DAY.json" briefed sitemap.xml
+  git add "editions/$DAY.json" briefed sitemap.xml tools/make_edition.py tools/build_briefed.py tools/publish_day.sh
 fi
 if git diff --cached --quiet; then log "nothing changed"; else
   MSG="Briefed: publish $DAY"

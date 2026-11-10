@@ -174,5 +174,7 @@ html.b-standalone .b-a2hs{display:none!important}
 .b-brief h3,.b-credits h3{font-size:.95rem;margin:0 0 8px;letter-spacing:.04em;text-transform:uppercase;color:var(--brand2)}
 .b-brief ul,.b-credits ul{margin:0 0 0 18px;display:grid;gap:8px;color:var(--ink2)}
 .b-brief-open{border-left:4px solid #d97706}
+.b-story .b-brief-in{margin-top:12px;padding:12px 14px;box-shadow:none}
+.b-story .b-brief-in:first-of-type{margin-top:14px}
 .b-credits-note{margin:0 0 8px;color:var(--muted);font-size:.9rem}
 .b-arch li.b-arch-sub a{padding:12px 16px 12px 28px;background:var(--soft)}

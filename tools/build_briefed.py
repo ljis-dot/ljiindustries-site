@@ -233,35 +233,38 @@ def first_sentence(t):
     return t
 
 def inline_md(text):
-    """Escape text, then apply a tiny subset: **bold** and [label](http(s)://...)."""
+    """Escape text, then apply a tiny subset: **bold**, *italic*, and [label](http(s)://...)."""
     text = str(text or "")
-    pat = re.compile(r"\*\*(.+?)\*\*|\[([^\]]+)\]\((https?://[^)\s]+)\)")
+    pat = re.compile(r"\*\*(.+?)\*\*|\[([^\]]+)\]\((https?://[^)\s]+)\)|(?<!\*)\*([^*]+)\*(?!\*)")
     parts, pos = [], 0
     for m in pat.finditer(text):
         if m.start() > pos:
             parts.append(e(text[pos:m.start()]))
         if m.group(1) is not None:
             parts.append("<strong>%s</strong>" % e(m.group(1)))
-        else:
+        elif m.group(3) is not None:
             parts.append('<a href="%s" rel="noopener nofollow" target="_blank">%s</a>' % (e(safe_url(m.group(3)), quote=True), e(m.group(2))))
+        else:
+            parts.append("<em>%s</em>" % e(m.group(4)))
         pos = m.end()
     parts.append(e(text[pos:]))
     return "".join(parts)
 
-def briefing_html(ed):
-    br = ed.get("briefing") or {}
+def briefing_html(ed, briefing=None, compact=False):
+    br = briefing if briefing is not None else (ed.get("briefing") or {} if ed else {})
     if not br: return ""
     def ul(items):
         return "<ul>" + "".join("<li>%s</li>" % inline_md(it) for it in items) + "</ul>"
+    cls = "b-brief b-brief-in" if compact else "b-brief"
     blocks = []
     if br.get("quickFacts"):
-        blocks.append('<section class="b-brief"><h3>Quick facts</h3>%s</section>' % ul(br["quickFacts"]))
+        blocks.append('<section class="%s"><h3>Quick facts</h3>%s</section>' % (cls, ul(br["quickFacts"])))
     if br.get("notYetConfirmed"):
-        blocks.append('<section class="b-brief b-brief-open"><h3>Not yet confirmed</h3>%s</section>' % ul(br["notYetConfirmed"]))
+        blocks.append('<section class="%s b-brief-open"><h3>Not yet confirmed</h3>%s</section>' % (cls, ul(br["notYetConfirmed"])))
     if br.get("related"):
-        blocks.append('<section class="b-brief"><h3>Related same-day development</h3>%s</section>' % ul(br["related"]))
+        blocks.append('<section class="%s"><h3>Related same-day development</h3>%s</section>' % (cls, ul(br["related"])))
     if br.get("whatHappensNext"):
-        blocks.append('<section class="b-brief"><h3>What happens next</h3>%s</section>' % ul(br["whatHappensNext"]))
+        blocks.append('<section class="%s"><h3>What happens next</h3>%s</section>' % (cls, ul(br["whatHappensNext"])))
     return "".join(blocks)
 
 def credits_html(ed):
@@ -343,7 +346,7 @@ def story_card(s, n, chap):
     badge = {"cleared": ("Cleared", "ok"), "sourced": ("Sourced", "ok"), "reported-only": ("Reported only", "warn")}.get(s.get("status"), (s.get("statusLabel") or s.get("status", "").title(), "warn"))
     region = "World" if s.get("region") == "foreign" else "U.S."
     loc = f' · {e(s["location"])}' if s.get("location") else ""
-    summ = f'<p class="b-sum">{e(s["summary"])}</p>' if s.get("summary") else ""
+    summ = f'<p class="b-sum">{inline_md(s["summary"])}</p>' if s.get("summary") else ""
     why = f'<p class="b-why"><strong>Why it matters to the US:</strong> {e(s["whyItMattersToUS"])}</p>' if s.get("whyItMattersToUS") else ""
     outs = "".join(
         (f'<a class="b-chip" href="{e(safe_url(o["url"]))}" rel="noopener nofollow" target="_blank">{e(o["name"])}</a>' if o.get("url") else f'<span class="b-chip">{e(o["name"])}</span>')
@@ -352,12 +355,13 @@ def story_card(s, n, chap):
     offs = f'<p class="b-off">Checked against: {offs}</p>' if offs else ""
     note = f'<p class="b-note">{e(s["statusNote"])}</p>' if s.get("statusNote") else ""
     fh = first_hand(s)
+    brief = briefing_html(None, s.get("briefing") or {}, compact=True)
     listen = (f'<button class="b-listen" type="button" data-start="{chap["start"]:.3f}" data-story="{e(s["id"])}" aria-label="Listen to this story, starts at {fmt_t(chap["start"])}">&#9654; Listen <span>{fmt_t(chap["start"])}</span></button>') if chap else ""
     lead = " b-lead" if n == 0 else ""
     return f'''<article class="b-story card{lead}" id="story-{e(s["id"])}" data-story="{e(s["id"])}">
   <div class="b-meta"><span class="eyebrow">{"Lead story · " if n == 0 else ""}{region}{loc}</span><span class="b-badge {badge[1]}">{e(badge[0])}</span></div>
   <h2 class="b-head">{e(s["headline"])}</h2>
-  {summ}{why}{note}{fh}
+  {summ}{why}{note}{fh}{brief}
   <div class="b-chips" aria-label="Original reporting">{outs}</div>
   {offs}
   {listen}
@@ -680,6 +684,8 @@ html.b-standalone .b-a2hs{display:none!important}
 .b-brief h3,.b-credits h3{font-size:.95rem;margin:0 0 8px;letter-spacing:.04em;text-transform:uppercase;color:var(--brand2)}
 .b-brief ul,.b-credits ul{margin:0 0 0 18px;display:grid;gap:8px;color:var(--ink2)}
 .b-brief-open{border-left:4px solid #d97706}
+.b-story .b-brief-in{margin-top:12px;padding:12px 14px;box-shadow:none}
+.b-story .b-brief-in:first-of-type{margin-top:14px}
 .b-credits-note{margin:0 0 8px;color:var(--muted);font-size:.9rem}
 .b-arch li.b-arch-sub a{padding:12px 16px 12px 28px;background:var(--soft)}
 '''
