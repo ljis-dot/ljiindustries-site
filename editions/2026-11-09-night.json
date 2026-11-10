@@ -1,0 +1,147 @@
+{
+ "schemaVersion": 1,
+ "kind": "night",
+ "date": "2026-11-09",
+ "slug": "2026-11-09-night",
+ "generatedAt": "2026-11-09T20:28:00-05:00",
+ "stories": [
+  {
+   "id": "massie-hegseth",
+   "region": "us",
+   "location": "Washington, DC",
+   "headline": "Massie files 8 impeachment articles against Hegseth; House vote by Wednesday",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/politics/trump-administration/thomas-massie-pete-hegseth-impeachment-house-defense-rcna597989"
+    },
+    {
+     "name": "NPR",
+     "url": "https://www.npr.org/2026/11/09/nx-s1-6034483/thomas-massie-impeachment-pete-hegseth"
+    },
+    {
+     "name": "Washington Post",
+     "url": "https://www.washingtonpost.com/national-security/2026/11/09/hegseth-impeachment-effort-begins-house-focused-iran-war/"
+    },
+    {
+     "name": "PolitiFact",
+     "url": "https://politifact.com/article/2026/nov/09/hegseth-impeachment-house-massie-jeffries/"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/iran-us-war-trump-qatar-c38770b168faf5e094e96c1e1e212cff"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Rep. Thomas Massie (R-Ky.) reintroduced eight articles of impeachment against Defense Secretary Pete Hegseth on Nov. 9 as a privileged measure, forcing a House floor vote within two legislative days (by Nov. 11) unless Republicans kill it by majority motion. Three charges cite Iran War Powers Resolution issues; others cite alleged drug-boat strikes, Maduro capture, and Yemen. House Minority Leader Hakeem Jeffries said Sunday he is a hard yes. Hegseth scheduled a Pentagon press conference for Tuesday morning. Same day, Trump told reporters the Iran war is militarily effectively over (AP)."
+  }
+ ],
+ "briefing": {
+  "quickFacts": [
+   "Rep. Thomas Massie (R-Ky.) **reintroduced eight articles of impeachment** against Defense Secretary Pete Hegseth on Monday, Nov. 9. ([NBC](https://www.nbcnews.com/politics/trump-administration/thomas-massie-pete-hegseth-impeachment-house-defense-rcna597989); [NPR](https://www.npr.org/2026/11/09/nx-s1-6034483/thomas-massie-impeachment-pete-hegseth); [Washington Post](https://www.washingtonpost.com/national-security/2026/11/09/hegseth-impeachment-effort-begins-house-focused-iran-war/))",
+   "He filed the measure as **privileged** under House rules, which forces a floor vote within **two legislative days** — by **Wednesday, Nov. 11** — unless Republicans kill it with a majority motion. ([NBC](https://www.nbcnews.com/politics/trump-administration/thomas-massie-pete-hegseth-impeachment-house-defense-rcna597989); [PolitiFact](https://politifact.com/article/2026/nov/09/hegseth-impeachment-house-massie-jeffries/))",
+   "**Three** of the eight charges accuse Hegseth of waging the Iran war without a declaration of war or statutory authorization (War Powers Resolution). Other charges cite alleged drug-boat strikes, the capture of Venezuela’s Nicolás Maduro, and military action in Yemen. ([NBC](https://www.nbcnews.com/politics/trump-administration/thomas-massie-pete-hegseth-impeachment-house-defense-rcna597989); [NPR](https://www.npr.org/2026/11/09/nx-s1-6034483/thomas-massie-impeachment-pete-hegseth))",
+   "House Minority Leader Hakeem Jeffries said Sunday he is a **“hard yes”** on the impeachment effort. ([NBC](https://www.nbcnews.com/politics/trump-administration/thomas-massie-pete-hegseth-impeachment-house-defense-rcna597989))",
+   "Hegseth said Monday he will hold a **Pentagon press conference Tuesday morning** on the impeachment effort. ([NBC](https://www.nbcnews.com/politics/trump-administration/thomas-massie-pete-hegseth-impeachment-house-defense-rcna597989))"
+  ],
+  "notYetConfirmed": [
+   "**Whether the privileged resolution reaches a floor vote** or is tabled / killed by a Republican majority motion before Wednesday. Outlets report both paths are available; no final procedural outcome yet. ([NBC](https://www.nbcnews.com/politics/trump-administration/thomas-massie-pete-hegseth-impeachment-house-defense-rcna597989); [PolitiFact](https://politifact.com/article/2026/nov/09/hegseth-impeachment-house-massie-jeffries/))",
+   "**How many Republicans would join Democrats** if a floor vote is held. PolitiFact notes analysts’ vote-math scenarios; Rep. Don Bacon (R-Neb.) has said he is undecided. These are projections, not a counted whip. ([PolitiFact](https://politifact.com/article/2026/nov/09/hegseth-impeachment-house-massie-jeffries/))",
+   "**Whether a House passage would lead to Senate conviction/removal.** No Senate trial schedule exists; conviction would require a two-thirds Senate vote under the Constitution (standard impeachment process — not yet triggered)."
+  ],
+  "related": [
+   "After meeting Qatar’s prime minister, President Trump told reporters Monday the war in Iran is **“militarily effectively over”** and that the U.S. is keeping a “status quo,” while saying forces remain ready if circumstances change. ([AP](https://apnews.com/article/iran-us-war-trump-qatar-c38770b168faf5e094e96c1e1e212cff); [Washington Post](https://www.washingtonpost.com/politics/2026/11/09/trump-says-he-sees-no-need-new-military-strikes-against-iran/))"
+  ],
+  "whatHappensNext": [
+   "**Tuesday morning:** Hegseth Pentagon press conference on the impeachment effort.",
+   "**By Wednesday, Nov. 11:** House must consider the privileged resolution unless it is killed by a majority motion.",
+   "If the House approves articles, the matter goes to the Senate for trial."
+  ],
+  "sources": [
+   {
+    "name": "NBC News",
+    "url": "https://www.nbcnews.com/politics/trump-administration/thomas-massie-pete-hegseth-impeachment-house-defense-rcna597989"
+   },
+   {
+    "name": "NPR",
+    "url": "https://www.npr.org/2026/11/09/nx-s1-6034483/thomas-massie-impeachment-pete-hegseth"
+   },
+   {
+    "name": "Washington Post",
+    "url": "https://www.washingtonpost.com/national-security/2026/11/09/hegseth-impeachment-effort-begins-house-focused-iran-war/"
+   },
+   {
+    "name": "PolitiFact",
+    "url": "https://politifact.com/article/2026/nov/09/hegseth-impeachment-house-massie-jeffries/"
+   },
+   {
+    "name": "Associated Press",
+    "url": "https://apnews.com/article/iran-us-war-trump-qatar-c38770b168faf5e094e96c1e1e212cff"
+   }
+  ]
+ },
+ "photoCredits": [
+  {
+   "subject": "Rep. Thomas Massie",
+   "credit": "House Creative Services, circa 2025",
+   "license": "Public domain (PD-USGov)",
+   "url": "https://commons.wikimedia.org/wiki/File:Massie_Thomas_119th_Congress.jpg",
+   "source": "Wikimedia Commons",
+   "author": "House Creative Services"
+  },
+  {
+   "subject": "Defense Secretary Pete Hegseth",
+   "credit": "U.S. Department of Defense / DoD photo by Chad J. McNeeley, 27 January 2025",
+   "license": "Public domain (PD-USGov-Military)",
+   "url": "https://commons.wikimedia.org/wiki/File:Pete_Hegseth_Official_Portrait.jpg",
+   "source": "Wikimedia Commons",
+   "author": "U.S. Department of Defense / DoD photo by Chad J. McNeeley"
+  }
+ ],
+ "audio": {
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-09-night/Briefed-2026-11-09-night-full-twohost.mp3",
+  "durationSeconds": 67.239,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": null,
+    "title": "Intro",
+    "start": 0.0,
+    "end": 11.672
+   },
+   {
+    "storyId": "massie-hegseth",
+    "title": "Massie Hegseth",
+    "start": 11.672,
+    "end": 58.924
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 58.924,
+    "end": 67.19
+   }
+  ]
+ },
+ "video": {
+  "url": "/briefed/media/2026-11-09-night/Briefed-2026-11-09-night-web.mp4",
+  "durationSeconds": 57.518,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": "massie-hegseth",
+    "title": "Massie Hegseth",
+    "start": 0.0,
+    "end": 49.252
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 49.252,
+    "end": 57.518
+   }
+  ],
+  "poster": "/briefed/media/2026-11-09-night/Briefed-2026-11-09-night-poster.jpg"
+ }
+}

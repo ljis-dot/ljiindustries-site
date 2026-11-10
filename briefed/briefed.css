@@ -166,3 +166,13 @@ html.b-standalone .b-stick,html.b-standalone .b-player{top:calc(48px + env(safe-
 .b-a2hs-x{border:0;background:none;color:var(--muted);font-size:1.2rem;line-height:1;padding:4px 6px;cursor:pointer}
 @media (display-mode: standalone){.b-a2hs{display:none!important}}
 html.b-standalone .b-a2hs{display:none!important}
+/* ---- night addendum ---- */
+.b-night{margin-top:16px;padding:14px 16px;border-left:4px solid var(--brand)}
+.b-night .eyebrow{display:block;margin-bottom:4px}
+.b-night a{font-weight:700}
+.b-brief,.b-credits{margin-top:16px;padding:16px 18px;background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+.b-brief h3,.b-credits h3{font-size:.95rem;margin:0 0 8px;letter-spacing:.04em;text-transform:uppercase;color:var(--brand2)}
+.b-brief ul,.b-credits ul{margin:0 0 0 18px;display:grid;gap:8px;color:var(--ink2)}
+.b-brief-open{border-left:4px solid #d97706}
+.b-credits-note{margin:0 0 8px;color:var(--muted);font-size:.9rem}
+.b-arch li.b-arch-sub a{padding:12px 16px 12px 28px;background:var(--soft)}

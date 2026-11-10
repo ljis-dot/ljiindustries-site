@@ -63,7 +63,7 @@ class Analytics(unittest.TestCase):
             "briefed/about/index.html",
         ]
         for name in sorted(os.listdir(os.path.join(ROOT, "briefed"))):
-            if re.fullmatch(r"\d{4}-\d{2}-\d{2}", name):
+            if re.fullmatch(r"\d{4}-\d{2}-\d{2}(-night)?", name):
                 briefed.append(f"briefed/{name}/index.html")
         self.assertGreaterEqual(sum(1 for p in briefed if "/20" in p), 15)
         for rel in briefed:
@@ -102,6 +102,80 @@ class Analytics(unittest.TestCase):
                 notes = f.read()
             self.assertNotIn("beacon.min.js", notes)
             self.assertIn(b.content_security_policy(False), notes)
+
+
+    def test_night_addendum_keeps_daily_latest_and_beacon(self):
+        try:
+            import PIL  # noqa: F401
+        except ImportError:
+            self.skipTest("Pillow is required to render share cards during build")
+        with open(os.path.join(ROOT, "editions", "2026-11-09.json"), encoding="utf-8") as f:
+            daily = json.load(f)
+        night = {
+            "schemaVersion": 1,
+            "kind": "night",
+            "date": "2026-11-09",
+            "slug": "2026-11-09-night",
+            "generatedAt": "2026-11-09T20:28:00-05:00",
+            "stories": [{
+                "id": "massie-hegseth",
+                "region": "us",
+                "location": "Washington, DC",
+                "headline": "Massie files 8 impeachment articles against Hegseth; House vote by Wednesday",
+                "status": "reported-only",
+                "outlets": [{"name": "NBC News", "url": "https://www.nbcnews.com/politics/trump-administration/thomas-massie-pete-hegseth-impeachment-house-defense-rcna597989"}],
+                "officialSources": [],
+                "summary": "Massie reintroduced eight articles of impeachment against Defense Secretary Pete Hegseth.",
+            }],
+            "briefing": {"quickFacts": ["Massie **reintroduced eight articles**."], "notYetConfirmed": ["Whether a floor vote is held."], "whatHappensNext": ["Tuesday morning: Pentagon press conference."]},
+            "photoCredits": [{"subject": "Rep. Thomas Massie", "credit": "House Creative Services, circa 2025", "license": "Public domain (PD-USGov)", "url": "https://commons.wikimedia.org/wiki/File:Massie_Thomas_119th_Congress.jpg", "source": "Wikimedia Commons"}],
+            "video": {"url": "/briefed/media/2026-11-09-night/Briefed-2026-11-09-night-web.mp4", "poster": "/briefed/media/2026-11-09-night/Briefed-2026-11-09-night-poster.jpg", "durationSeconds": 57.5, "aiVoices": True, "chapters": [{"storyId": "massie-hegseth", "title": "Massie Hegseth", "start": 0, "end": 49}]},
+        }
+        with tempfile.TemporaryDirectory() as tmp:
+            with open(os.path.join(tmp, "index.html"), "w", encoding="utf-8") as f:
+                f.write("<style>body{color:#111}</style>")
+            os.makedirs(os.path.join(tmp, "sitemap-src"), exist_ok=True)
+            with warnings.catch_warnings():
+                warnings.simplefilter("ignore", ResourceWarning)
+                b.build(tmp, [daily], preview=True, addenda=[night])
+            def readp(*parts):
+                with open(os.path.join(tmp, *parts), encoding="utf-8") as f:
+                    return f.read()
+            home = readp("briefed", "index.html")
+            morn = readp("briefed", "2026-11-09", "index.html")
+            night_page = readp("briefed", "2026-11-09-night", "index.html")
+            latest = json.loads(readp("briefed", "latest.json"))
+            archive = readp("briefed", "archive", "index.html")
+            self.assertEqual(latest["date"], "2026-11-09")
+            self.assertNotIn("kind", latest)
+            self.assertEqual(len(latest["stories"]), 6)
+            self.assertIn("/briefed/2026-11-09-night/", home)
+            self.assertIn("/briefed/2026-11-09-night/", morn)
+            self.assertEqual(morn.count('class="b-story'), 6)
+            self.assertIn("trump-deportation", morn)
+            self.assertNotIn("massie-hegseth", morn)
+            self.assertIn("Night update", night_page)
+            self.assertIn("Quick facts", night_page)
+            self.assertIn("Not yet confirmed", night_page)
+            self.assertIn("What happens next", night_page)
+            self.assertIn("Portrait credits", night_page)
+            self.assertIn("/briefed/2026-11-09-night/", archive)
+            self.assertIn("Morning edition", night_page)
+            for rel, html in (("home", home), ("morn", morn), ("night", night_page), ("archive", archive)):
+                self.assertEqual(html.count(b.analytics_snippet()), 1, rel)
+                self.assertNotRegex(html, r"Levi|Schmieg")
+            # no addenda: homepage should not grow a night banner
+            with tempfile.TemporaryDirectory() as tmp2:
+                with open(os.path.join(tmp2, "index.html"), "w", encoding="utf-8") as f:
+                    f.write("<style>body{color:#111}</style>")
+                with warnings.catch_warnings():
+                    warnings.simplefilter("ignore", ResourceWarning)
+                    b.build(tmp2, [daily], preview=True)
+                with open(os.path.join(tmp2, "briefed", "index.html"), encoding="utf-8") as f:
+                    home2 = f.read()
+                self.assertNotIn("/briefed/2026-11-09-night/", home2)
+                self.assertNotIn("Night update", home2)
+
 
 
 if __name__ == "__main__":

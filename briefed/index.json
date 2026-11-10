@@ -120,5 +120,17 @@
    "json": "/briefed/2026-10-24.json",
    "hasAudio": true
   }
+ ],
+ "addenda": [
+  {
+   "date": "2026-11-09",
+   "slug": "2026-11-09-night",
+   "kind": "night",
+   "lead": "Massie files 8 impeachment articles against Hegseth; House vote by Wednesday",
+   "url": "/briefed/2026-11-09-night/",
+   "json": "/briefed/2026-11-09-night.json",
+   "hasAudio": true,
+   "hasVideo": true
+  }
  ]
 }

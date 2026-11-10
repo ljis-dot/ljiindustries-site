@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 """Build static Briefed pages from editions/YYYY-MM-DD.json (public schema v1).
 
+Optional night addenda: editions/YYYY-MM-DD-night.json, published at /briefed/YYYY-MM-DD-night/.
+They are listed in the archive and linked from that morning's edition; they never replace
+"today's edition" on the homepage.
+
 Usage: python3 tools/build_briefed.py [--root .] [--preview EDITION.json]
 --preview builds a local-only preview from one edition (it ignores the launch date and
 does not touch the sitemap). Output always goes under <root>/briefed/.
@@ -26,6 +30,9 @@ def safe_url(u):
     u = str(u or "").strip()
     return u if re.match(r"(?i)^https?://", u) else "#"
 
+def ed_slug(ed):
+    return ed.get("slug") or ed["date"]
+
 def load_editions(d):
     out = []
     if not os.path.isdir(d): return out
@@ -34,9 +41,21 @@ def load_editions(d):
             out.append(validate(json.load(open(os.path.join(d, n)))))
     return out
 
+def load_addenda(d):
+    out = []
+    if not os.path.isdir(d): return out
+    for n in sorted(os.listdir(d)):
+        if re.fullmatch(r"\d{4}-\d{2}-\d{2}-night\.json", n):
+            out.append(validate(json.load(open(os.path.join(d, n)))))
+    return out
+
 def validate(ed):
     assert ed.get("schemaVersion") == 1, "schemaVersion must be 1"
-    assert re.fullmatch(r"\d{4}-\d{2}-\d{2}", ed["date"])
+    assert re.fullmatch(r"\d{4}-\d{2}-\d{2}", ed["date"]), f"bad date: {ed.get('date')}"
+    kind = ed.get("kind", "daily")
+    assert kind in ("daily", "night"), f"{ed['date']}: unknown kind {kind}"
+    if kind == "night":
+        assert ed.get("slug") == ed["date"] + "-night", f"{ed['date']}: night slug must be {ed['date']}-night"
     foreign = [s for s in ed["stories"] if s.get("region") == "foreign"]
     assert len(foreign) <= MAX_FOREIGN, f"{ed['date']}: more than {MAX_FOREIGN} foreign stories"
     for s in foreign:
@@ -213,21 +232,87 @@ def first_sentence(t):
         return t[:m.end()].strip()
     return t
 
+def inline_md(text):
+    """Escape text, then apply a tiny subset: **bold** and [label](http(s)://...)."""
+    text = str(text or "")
+    pat = re.compile(r"\*\*(.+?)\*\*|\[([^\]]+)\]\((https?://[^)\s]+)\)")
+    parts, pos = [], 0
+    for m in pat.finditer(text):
+        if m.start() > pos:
+            parts.append(e(text[pos:m.start()]))
+        if m.group(1) is not None:
+            parts.append("<strong>%s</strong>" % e(m.group(1)))
+        else:
+            parts.append('<a href="%s" rel="noopener nofollow" target="_blank">%s</a>' % (e(safe_url(m.group(3)), quote=True), e(m.group(2))))
+        pos = m.end()
+    parts.append(e(text[pos:]))
+    return "".join(parts)
+
+def briefing_html(ed):
+    br = ed.get("briefing") or {}
+    if not br: return ""
+    def ul(items):
+        return "<ul>" + "".join("<li>%s</li>" % inline_md(it) for it in items) + "</ul>"
+    blocks = []
+    if br.get("quickFacts"):
+        blocks.append('<section class="b-brief"><h3>Quick facts</h3>%s</section>' % ul(br["quickFacts"]))
+    if br.get("notYetConfirmed"):
+        blocks.append('<section class="b-brief b-brief-open"><h3>Not yet confirmed</h3>%s</section>' % ul(br["notYetConfirmed"]))
+    if br.get("related"):
+        blocks.append('<section class="b-brief"><h3>Related same-day development</h3>%s</section>' % ul(br["related"]))
+    if br.get("whatHappensNext"):
+        blocks.append('<section class="b-brief"><h3>What happens next</h3>%s</section>' % ul(br["whatHappensNext"]))
+    return "".join(blocks)
+
+def credits_html(ed):
+    creds = ed.get("photoCredits") or []
+    if not creds: return ""
+    items = []
+    for c in creds:
+        line = "<strong>%s</strong>" % e(c.get("subject") or "Portrait")
+        if c.get("credit"):
+            line += " — %s" % e(c["credit"])
+        if c.get("license"):
+            line += " (%s)" % e(c["license"])
+        if c.get("url"):
+            label = e(c.get("source") or "Source")
+            line += ' · <a href="%s" rel="noopener nofollow" target="_blank">%s</a>' % (e(safe_url(c["url"]), quote=True), label)
+        items.append("<li>%s</li>" % line)
+    return ('<section class="b-credits"><h3>Portrait credits</h3>'
+            '<p class="b-credits-note">Portraits in the thumbnail are official public-domain U.S. government photos. No AI-generated faces.</p>'
+            '<ul>%s</ul></section>' % "".join(items))
+
+def addendum_banner(addendum):
+    if not addendum: return ""
+    slug = ed_slug(addendum)
+    lead = (addendum.get("stories") or [{"headline": "Night update"}])[0]["headline"]
+    return ('<aside class="b-night card"><span class="eyebrow">Night update</span> '
+            '<a href="/briefed/%s/">%s</a></aside>' % (e(slug), e(lead)))
+
 def og_edition(ed, root):
     st = ed["stories"]; lead = st[0] if st else {"headline": "Today's edition", "summary": ""}
-    d = date.fromisoformat(ed["date"]); lab = d.strftime("%a, %b %-d")
+    d = date.fromisoformat(ed["date"])
+    slug = ed_slug(ed)
+    night = ed.get("kind") == "night"
+    lab = ("Night update, " + d.strftime("%b %-d")) if night else d.strftime("%a, %b %-d")
     summ = first_sentence(lead.get("summary") or "")
     if len(summ) > 160: summ = summ[:157].rsplit(" ", 1)[0] + "…"
     secs = (ed.get("video") or {}).get("durationSeconds") if (ed.get("video") or {}).get("url") else None
     secs = secs or (ed.get("audio") or {}).get("durationSeconds")
     tail = f"{len(st)} stories" + (f", about {max(1, round(secs / 60))} min" if secs else "")
+    if night:
+        tail = "Night update · " + tail
     desc = (summ + " " if summ else "") + tail + "."
     import og_card
-    og_card.edition_card(os.path.join(root, "briefed", "og", ed["date"] + ".png"), d.strftime("%a, %b %-d, %Y"),
-                         [x["headline"] for x in st[:5]], tail.replace("stories", "stories today"))
+    og_label = ("Night update, " + d.strftime("%a, %b %-d, %Y")) if night else d.strftime("%a, %b %-d, %Y")
+    og_tail = tail if night else tail.replace("stories", "stories today")
+    og_card.edition_card(os.path.join(root, "briefed", "og", slug + ".png"), og_label,
+                         [x["headline"] for x in st[:5]], og_tail)
+    alt = (("Briefed night update for " if night else "Briefed for ") +
+           d.strftime("%A, %B %-d, %Y") + ". Top story: " + lead["headline"])
     return {"type": "article", "title": f"Briefed · {lab}: {lead['headline']}", "desc": desc,
-            "image": f"/briefed/og/{ed['date']}.png",
-            "alt": f"Briefed for {d.strftime('%A, %B %-d, %Y')}. Top story: {lead['headline']}"}
+            "image": f"/briefed/og/{slug}.png",
+            "alt": alt}
 
 def long_date(d):
     y, m, dd = map(int, d.split("-"))
@@ -361,20 +446,29 @@ document.querySelectorAll('.b-vote').forEach(function(box){var id=ed+'/'+box.dat
  box.querySelectorAll('.b-vote-b').forEach(function(b){b.addEventListener('click',function(){var v=load();if(v[id]===b.dataset.vote)return;v[id]=b.dataset.vote;save(v);paint(box,b.dataset.vote);send(box.dataset.story,b.dataset.vote);});});});
 })();</script>"""
 
-def edition_body(ed, is_latest, prev_day=None, next_day=None, all_eds=()):
+def edition_body(ed, is_latest, prev_day=None, next_day=None, all_eds=(), addendum=None):
     chaps = {c["storyId"]: c for c in media_chapters(ed) if c.get("storyId")}
     pl, js = player(ed)
     cards = "\n".join(story_card(s, i, chaps.get(s["id"])) for i, s in enumerate(ed["stories"]))
     d = ed["date"]
+    slug = ed_slug(ed)
+    night = ed.get("kind") == "night"
+    if night:
+        cards = cards + briefing_html(ed) + credits_html(ed)
     nav = daynav(prev_day, next_day)
+    extra_links = ('<a href="/briefed/%s/">Morning edition</a>' % d) if night else ""
+    time_label = e(short_date(d) + (" · Night" if night else ""))
+    eyebrow = "Night update" if night else ("Today" if is_latest else "Edition")
+    streak = ('<p class="b-streak"><strong>Night update</strong> &middot; added to the <a href="/briefed/%s/">%s morning edition</a></p>' % (d, e(long_date(d)))) if night else streak_line(ed, all_eds)
+    banner = addendum_banner(addendum)
     return ('<div class="b-stick" id="b-stick"><div class="wrap b-narrow">\n'
       '<div class="b-topline"><h1 class="b-h1"><span class="eyebrow">Briefed &middot; %s</span> <time datetime="%s">%s</time></h1>'
-      '<span class="b-links">%s<a href="/briefed/archive/">Archive</a><a href="/briefed/about/">About</a></span></div>\n'
+      '<span class="b-links">%s%s<a href="/briefed/archive/">Archive</a><a href="/briefed/about/">About</a></span></div>\n'
       '%s\n</div></div>\n'
-      '<section class="b-main"><div class="wrap b-narrow">\n%s<p class="b-tag" data-edition="%s">Just the facts, with sources. <a href="/briefed/%s.json">JSON</a></p>\n%s\n%s\n'
+      '<section class="b-main"><div class="wrap b-narrow">\n%s<p class="b-tag" data-edition="%s">Just the facts, with sources. <a href="/briefed/%s.json">JSON</a></p>\n%s%s\n%s\n'
       '<p class="b-fine">Headlines and summaries are written by Briefed. Each story links to the original reporting; we do not republish article text.</p>\n'
       '</div></section>\n<script type="application/json" id="b-data">%s</script>\n%s%s') % (
-      "Today" if is_latest else "Edition", d, e(short_date(d)), daynav_inline(prev_day, next_day), pl, streak_line(ed, all_eds), d, d, cards, nav, panel_data(ed), js, VOTE_JS)
+      eyebrow, d, time_label, daynav_inline(prev_day, next_day), extra_links, pl, streak, slug, slug, banner, cards, nav, panel_data(ed), js, VOTE_JS)
 
 
 def jsonld_ed(ed, url):
@@ -578,6 +672,16 @@ html.b-standalone .b-stick,html.b-standalone .b-player{top:calc(48px + env(safe-
 .b-a2hs-x{border:0;background:none;color:var(--muted);font-size:1.2rem;line-height:1;padding:4px 6px;cursor:pointer}
 @media (display-mode: standalone){.b-a2hs{display:none!important}}
 html.b-standalone .b-a2hs{display:none!important}
+/* ---- night addendum ---- */
+.b-night{margin-top:16px;padding:14px 16px;border-left:4px solid var(--brand)}
+.b-night .eyebrow{display:block;margin-bottom:4px}
+.b-night a{font-weight:700}
+.b-brief,.b-credits{margin-top:16px;padding:16px 18px;background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+.b-brief h3,.b-credits h3{font-size:.95rem;margin:0 0 8px;letter-spacing:.04em;text-transform:uppercase;color:var(--brand2)}
+.b-brief ul,.b-credits ul{margin:0 0 0 18px;display:grid;gap:8px;color:var(--ink2)}
+.b-brief-open{border-left:4px solid #d97706}
+.b-credits-note{margin:0 0 8px;color:var(--muted);font-size:.9rem}
+.b-arch li.b-arch-sub a{padding:12px 16px 12px 28px;background:var(--soft)}
 '''
 
 NOTES = [
@@ -602,12 +706,15 @@ def write(path, text):
 
 def public_json(ed):
     keep = ["schemaVersion", "date", "generatedAt", "stories", "audio", "video"]
+    if ed.get("kind") and ed.get("kind") != "daily":
+        keep = ["schemaVersion", "kind", "date", "slug", "generatedAt", "stories", "audio", "video", "briefing", "photoCredits"]
     return {k: ed[k] for k in keep if k in ed}
 
-def build(root, editions, preview=False):
+def build(root, editions, preview=False, addenda=None):
+    addenda = list(addenda or [])
     out = os.path.join(root, "briefed")
     for sub in os.listdir(out) if os.path.isdir(out) else []:
-        if re.fullmatch(r"\d{4}-\d{2}-\d{2}(\.json)?", sub):
+        if re.fullmatch(r"\d{4}-\d{2}-\d{2}(-night)?(\.json)?", sub):
             p = os.path.join(out, sub); shutil.rmtree(p) if os.path.isdir(p) else os.remove(p)
     write(os.path.join(out, "site.css"), "/* generated from /index.html <style>; do not edit */\n" + site_css(root) + "\n")
     write(os.path.join(out, "briefed.css"), BRIEFED_CSS)
@@ -621,29 +728,62 @@ def build(root, editions, preview=False):
                   {"src": "/briefed/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}]}, indent=2))
     if not preview:
         editions = [x for x in editions if x["date"] >= LAUNCH]
+        addenda = [x for x in addenda if x["date"] >= LAUNCH]
     editions.sort(key=lambda x: x["date"], reverse=True)
+    addenda.sort(key=lambda x: (x["date"], ed_slug(x)), reverse=True)
+    addenda_by_day = {}
+    for a in addenda:
+        addenda_by_day.setdefault(a["date"], []).append(a)
+    def neighbors(i):
+        return (editions[i + 1]["date"] if i + 1 < len(editions) else None,
+                editions[i - 1]["date"] if i > 0 else None)
     for i, ed in enumerate(editions):
         url = f"/briefed/{ed['date']}/"
         desc = f"Briefed for {long_date(ed['date'])}: " + "; ".join(s["headline"] for s in ed["stories"][:3])
-        write(os.path.join(out, ed["date"], "index.html"), page(f"Briefed: {long_date(ed['date'])}", desc[:300], url, edition_body(ed, i == 0, editions[i + 1]["date"] if i + 1 < len(editions) else None, editions[i - 1]["date"] if i > 0 else None, editions), jsonld_ed(ed, url), og=og_edition(ed, root)))
+        prev_day, next_day = neighbors(i)
+        night = (addenda_by_day.get(ed["date"]) or [None])[0]
+        write(os.path.join(out, ed["date"], "index.html"), page(f"Briefed: {long_date(ed['date'])}", desc[:300], url, edition_body(ed, i == 0, prev_day, next_day, editions, addendum=night), jsonld_ed(ed, url), og=og_edition(ed, root)))
         write(os.path.join(out, f"{ed['date']}.json"), json.dumps(public_json(ed), indent=1))
+    for ad in addenda:
+        slug = ed_slug(ad)
+        url = f"/briefed/{slug}/"
+        desc = f"Briefed night update for {long_date(ad['date'])}: " + "; ".join(s["headline"] for s in ad["stories"][:3])
+        i = next((n for n, x in enumerate(editions) if x["date"] == ad["date"]), None)
+        prev_day, next_day = neighbors(i) if i is not None else (None, None)
+        write(os.path.join(out, slug, "index.html"), page(f"Briefed night update: {long_date(ad['date'])}", desc[:300], url, edition_body(ad, False, prev_day, next_day, editions), jsonld_ed(ad, url), og=og_edition(ad, root)))
+        write(os.path.join(out, f"{slug}.json"), json.dumps(public_json(ad), indent=1))
     if editions:
         latest = editions[0]
-        write(os.path.join(out, "index.html"), page("Briefed: today's edition | LJI Industries", f"Briefed for {long_date(latest['date'])}: the facts on the day's stories, with links to the original reporting and official sources.", f"/briefed/{latest['date']}/", edition_body(latest, True, editions[1]["date"] if len(editions) > 1 else None, None, editions), jsonld_ed(latest, "/briefed/"), og=og_edition(latest, root), og_url="/briefed/"))
+        night = (addenda_by_day.get(latest["date"]) or [None])[0]
+        write(os.path.join(out, "index.html"), page("Briefed: today's edition | LJI Industries", f"Briefed for {long_date(latest['date'])}: the facts on the day's stories, with links to the original reporting and official sources.", f"/briefed/{latest['date']}/", edition_body(latest, True, editions[1]["date"] if len(editions) > 1 else None, None, editions, addendum=night), jsonld_ed(latest, "/briefed/"), og=og_edition(latest, root), og_url="/briefed/"))
         write(os.path.join(out, "latest.json"), json.dumps(public_json(latest), indent=1))
     else:
         write(os.path.join(out, "index.html"), page("Briefed: daily edition | LJI Industries", "Briefed's first US-focused daily edition arrives Sunday, October 25, 2026.", "/briefed/", EMPTY))
         write(os.path.join(out, "latest.json"), json.dumps({"schemaVersion": 1, "date": None, "message": "First edition arrives soon."}))
     idx = [{"date": x["date"], "lead": x["stories"][0]["headline"] if x["stories"] else None, "url": f"/briefed/{x['date']}/", "json": f"/briefed/{x['date']}.json", "hasAudio": bool(x.get("audio"))} for x in editions]
-    write(os.path.join(out, "index.json"), json.dumps({"schemaVersion": 1, "editions": idx}, indent=1))
+    addenda_idx = [{"date": x["date"], "slug": ed_slug(x), "kind": "night", "lead": x["stories"][0]["headline"] if x["stories"] else None, "url": f"/briefed/{ed_slug(x)}/", "json": f"/briefed/{ed_slug(x)}.json", "hasAudio": bool(x.get("audio")), "hasVideo": bool((x.get("video") or {}).get("url"))} for x in addenda]
+    index_doc = {"schemaVersion": 1, "editions": idx}
+    if addenda_idx:
+        index_doc["addenda"] = addenda_idx
+    write(os.path.join(out, "index.json"), json.dumps(index_doc, indent=1))
     # archive
+    nights = {}
+    for it in addenda_idx:
+        nights.setdefault(it["date"], []).append(it)
     if idx:
         groups, cur = [], None
         for it in idx:
             m = date.fromisoformat(it["date"]).strftime("%B %Y")
             if m != cur: groups.append((m, [])); cur = m
             groups[-1][1].append(it)
-        lists = "".join(f'<h2>{m}</h2><ul>' + "".join(f'<li><a href="{it["url"]}"><span class="d">{e(long_date(it["date"]))}{" · 🎧" if it["hasAudio"] else ""}</span>{e(it["lead"] or "")}</a></li>' for it in items) + "</ul>" for m, items in groups)
+        def archive_items(items):
+            bits = []
+            for it in items:
+                bits.append(f'<li><a href="{it["url"]}"><span class="d">{e(long_date(it["date"]))}{" · 🎧" if it["hasAudio"] else ""}</span>{e(it["lead"] or "")}</a></li>')
+                for n in nights.get(it["date"], []):
+                    bits.append(f'<li class="b-arch-sub"><a href="{n["url"]}"><span class="d">{e(long_date(n["date"]))} · Night update{" · 🎧" if n.get("hasAudio") else ""}</span>{e(n["lead"] or "")}</a></li>')
+            return "".join(bits)
+        lists = "".join(f'<h2>{m}</h2><ul>' + archive_items(items) + "</ul>" for m, items in groups)
     else:
         lists = '<p class="lead">No editions yet. The first edition arrives Sunday, October 25, 2026.</p>'
     body = f'<section class="b-hero"><div class="wrap b-narrow"><span class="eyebrow">Briefed · Archive</span><h1>Past editions</h1></div></section><section class="b-main"><div class="wrap b-narrow b-arch">{lists}</div></section>'
@@ -651,15 +791,17 @@ def build(root, editions, preview=False):
     write(os.path.join(out, "about", "index.html"), page("About Briefed | LJI Industries", "Why Briefed exists: the facts on things that really happened, with links to the original reporting and official sources.", "/briefed/about/", ABOUT))
     write(os.path.join(root, "notes", "index.html"), page("Field notes | LJI Industries", "Short, dated lessons from shipping every day at LJI Industries.", "/notes/", notes_body()))
     if not preview:
-        sitemap(root, editions)
+        sitemap(root, editions, addenda)
     return editions
 
-def sitemap(root, editions):
+def sitemap(root, editions, addenda=None):
     p = os.path.join(root, "sitemap.xml")
     s = open(p).read()
     s = re.sub(r"\s*<url><loc>https://ljiindustries.com/(?:briefed|notes)/[^<]*</loc>.*?</url>", "", s)
     today = editions[0]["date"] if editions else "2026-10-24"
     urls = [("/briefed/", today), ("/briefed/archive/", today), ("/briefed/about/", today), ("/notes/", "2026-10-25")] + [(f"/briefed/{x['date']}/", x["date"]) for x in editions]
+    for a in addenda or []:
+        urls.append((f"/briefed/{ed_slug(a)}/", a["date"]))
     add = "".join(f"\n  <url><loc>{SITE}{u}</loc><lastmod>{d}</lastmod></url>" for u, d in urls)
     s = s.replace("\n</urlset>", add + "\n</urlset>")
     open(p, "w").write(s)
@@ -669,6 +811,17 @@ if __name__ == "__main__":
     ap.add_argument("--root", default=".")
     ap.add_argument("--preview", help="local-only: build from this one edition file, ignore launch date, skip sitemap")
     a = ap.parse_args()
-    eds = [validate(json.load(open(a.preview)))] if a.preview else load_editions(os.path.join(a.root, "editions"))
-    got = build(a.root, eds, preview=bool(a.preview))
-    print(f"built {len(got)} edition(s): {[x['date'] for x in got]}")
+    if a.preview:
+        ed = validate(json.load(open(a.preview)))
+        if ed.get("kind") == "night":
+            got = build(a.root, [], preview=True, addenda=[ed])
+            print(f"built preview addendum: {ed_slug(ed)}")
+        else:
+            got = build(a.root, [ed], preview=True)
+            print(f"built {len(got)} edition(s): {[x['date'] for x in got]}")
+    else:
+        eds = load_editions(os.path.join(a.root, "editions"))
+        addenda = load_addenda(os.path.join(a.root, "editions"))
+        got = build(a.root, eds, addenda=addenda)
+        extra = f" + {[ed_slug(x) for x in addenda]}" if addenda else ""
+        print(f"built {len(got)} edition(s): {[x['date'] for x in got]}{extra}")
