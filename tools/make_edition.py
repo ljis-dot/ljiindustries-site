@@ -17,10 +17,10 @@ OUTLETS = {"apnews.com": "Associated Press", "reuters.com": "Reuters", "bbc.com"
   "wsj.com": "Wall Street Journal", "foxnews.com": "Fox News", "cnn.com": "CNN", "politico.com": "Politico", "thehill.com": "The Hill",
   "axios.com": "Axios", "theguardian.com": "The Guardian", "bloomberg.com": "Bloomberg", "cnbc.com": "CNBC", "usatoday.com": "USA Today",
   "newsmax.com": "Newsmax", "washingtontimes.com": "Washington Times", "nypost.com": "New York Post", "dw.com": "DW", "france24.com": "France 24",
-  "aljazeera.com": "Al Jazeera", "abqjournal.com": "Albuquerque Journal", "politifact.com": "PolitiFact", "scotusblog.com": "SCOTUSblog"}
+  "aljazeera.com": "Al Jazeera", "abqjournal.com": "Albuquerque Journal", "politifact.com": "PolitiFact", "scotusblog.com": "SCOTUSblog", "courthousenews.com": "Courthouse News", "stripes.com": "Stars and Stripes", "veterannews.com": "VeteranNews", "pool.pp.tools": "White House pool report"}
 NAMES = {"AP": "Associated Press", "NBC": "NBC News", "ABC": "ABC News", "CBS": "CBS News", "DOJ": "Justice Department"}
 OFFICIAL = re.compile(r"(\.gov|\.mil|whitehouse\.gov|kremlin\.ru|\.gov\.[a-z]{2}|europa\.eu|un\.org|who\.int)$")
-LABELS = {"sourced": "sourced", "cleared": "cleared", "as_reported": "reported-only", "reported": "reported-only", "reported_only": "reported-only"}
+LABELS = {"sourced": "sourced", "cleared": "cleared", "as_reported": "reported-only", "reported": "reported-only", "reported_only": "reported-only", "claimed": "claimed"}
 
 def host(u):
     h = urlparse(u).netloc.lower()

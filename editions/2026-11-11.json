@@ -1,0 +1,309 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-11-11",
+ "generatedAt": "2026-11-11T07:25:00-05:00",
+ "stories": [
+  {
+   "id": "hegseth-impeachment",
+   "region": "us",
+   "location": "Washington, DC",
+   "headline": "House kills Hegseth impeachment, 211-204",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/massie-hegseth-impeachment/"
+    },
+    {
+     "name": "NPR",
+     "url": "https://www.npr.org/2026/11/10/nx-s1-6036813/house-votes-to-effectively-end-the-impeachment-effort-against-pete-hegseth"
+    },
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.com/news/articles/cxly4y5jzl0qo"
+    }
+   ],
+   "officialSources": [
+    "https://clerk.house.gov/Votes/2026317?RollCallNum=317"
+   ],
+   "summary": "The House voted 211 to 204 on Tuesday evening, November 10, to refer Rep. Thomas Massie's resolution impeaching Defense Secretary Pete Hegseth (H. Res. 1655) to the Judiciary Committee. The House Clerk's record shows the motion to refer passed at 6:02 p.m. Eastern (roll call 317). Every Republican who voted backed the referral except Massie, who joined all 203 Democrats voting in opposition; independent Rep. Kevin Kiley of California voted with Republicans. Seven Republicans and 11 Democrats did not vote. CBS News described the referral as \"effectively killing\" the resolution, and NPR reported it \"virtually guarantees the measure will not be taken up before the current session of Congress expires.\" The eight articles accused Hegseth of waging the Iran war without congressional authorization, ignoring laws meant to limit civilian casualties, directing lethal strikes on suspected drug boats, the capture of Venezuela's Nicolás Maduro, military action in Yemen, and retaliating against Sen. Mark Kelly. Those were accusations in the resolution, not findings. At a Pentagon news conference Tuesday morning, before the vote, Hegseth called the effort a \"farce\" and a \"political spectacle,\" saying, \"None of these are high crimes or misdemeanors,\" and \"I stand behind every one of these operations\" (CBS News, NPR). After the vote, Massie said, \"I wasn't surprised, but I was disappointed,\" and said he planned to force a vote on a war powers resolution. House Minority Leader Hakeem Jeffries said, \"This is not the end of it. It's just the beginning.\" President Trump wrote that the effort had \"miserably FAILED!\" (CBS News).",
+   "briefing": {
+    "quickFacts": [
+     "Vote: 211-204 on a motion to refer H. Res. 1655 to the Judiciary Committee (roll call 317, Nov. 10, 6:02 p.m. ET)",
+     "Republicans 210 yes, 1 no (Massie); Democrats 0 yes, 203 no; independent Kiley yes",
+     "Not voting: 7 Republicans, 11 Democrats",
+     "Hegseth, Tuesday morning: \"farce,\" \"political spectacle\"; says the operations were lawful",
+     "Massie says he will not refile impeachment, and plans to force a war powers vote; he leaves Congress in early January",
+     "Only two Cabinet secretaries have been impeached: William Belknap (1876) and Alejandro Mayorkas (2024)"
+    ],
+    "notYetConfirmed": [
+     "Whether Democrats, who take majorities in both chambers in January, will pursue a new impeachment effort; Jeffries said \"this is not the end of it,\" but no new resolution has been announced",
+     "When Massie's war powers resolution will be filed or reach a vote",
+     "Whether the operations named in the articles were lawful: Hegseth says they were; the articles allege otherwise"
+    ],
+    "whatHappensNext": [
+     "The resolution sits with the House Judiciary Committee, where it is not expected to advance before this Congress ends. The new Congress begins in January with Democratic majorities in the House and Senate. Massie has said he plans to force a vote on a war powers resolution."
+    ]
+   }
+  },
+  {
+   "id": "gop-leaders",
+   "region": "us",
+   "location": "Washington, DC",
+   "headline": "Jim Jordan beats Scalise, 106-73, to lead House Republicans",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+    },
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/jim-jordan-house-minority-leader-republicans/"
+    },
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/john-thune-reelected-senate-republican-leader/"
+    },
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/10/jim-jordan-congress-republicans-midterm.html"
+    }
+   ],
+   "officialSources": [],
+   "summary": "House Republicans on Tuesday elected Rep. Jim Jordan of Ohio, the Judiciary Committee chairman, as their leader for the next Congress, when the party will be in the minority. Jordan defeated Majority Leader Steve Scalise of Louisiana by 106 to 73 in a secret ballot behind closed doors, according to two Republican lawmakers in the room (NBC News) and sources familiar with the tally (CBS News). Speaker Mike Johnson did not run. \"When Democrats offer more government, we'll offer more freedom,\" Jordan said after the vote. Rep. Tom Emmer of Minnesota will remain whip and Rep. Lisa McClain of Michigan conference chair; Rep. Brian Jack of Georgia will chair the National Republican Congressional Committee (CBS News). In the Senate, Republicans re-elected Sen. John Thune of South Dakota as their leader by acclamation, with no opponent, after a push by some conservatives to delay the elections fell short. Thune becomes minority leader in January. Sen. John Barrasso will be whip and Sen. Tom Cotton conference chair (NBC News).",
+   "briefing": {
+    "quickFacts": [
+     "House GOP leader-elect: Jim Jordan (Ohio), Judiciary chairman, who helped start the House Freedom Caucus",
+     "Tally: 106-73 over Steve Scalise, per lawmakers and sources; the ballot was secret",
+     "Senate GOP leader: John Thune, re-elected by acclamation; minority leader from January",
+     "House team: Emmer (whip), McClain (conference chair), Jack (NRCC chair)",
+     "Senate team: Barrasso (whip), Cotton (conference chair)"
+    ],
+    "notYetConfirmed": [
+     "The tally comes from anonymous lawmakers and sources; the conference has not released an official count"
+    ],
+    "whatHappensNext": [
+     "Jordan and Thune take over as minority leaders when the new Congress convenes in January, opposite Democratic majorities in both chambers."
+    ]
+   }
+  },
+  {
+   "id": "kennedy-arch",
+   "region": "us",
+   "location": "Arlington, VA",
+   "headline": "Kennedy family moves to block Trump’s 250-foot arch near Arlington",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "Courthouse News",
+     "url": "https://www.courthousenews.com/kennedy-family-joins-lawsuit-to-block-trumps-proposed-arch/"
+    },
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.com/news/articles/cw8dvpmzp2p4o"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/kennedy-family-trump-memorial-arch-ab905b5e44bf359cdbfc2d231ae4caa1"
+    },
+    {
+     "name": "Washington Post",
+     "url": "https://www.washingtonpost.com/politics/2026/11/10/kennedy-family-sues-stop-trumps-arch-citing-shadow-jfk-grave/"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/trump-washington-arch-planning-commission-246d15697c00b065bc8ab8c614d50ca7"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Nine members of the Kennedy family on Tuesday asked a federal judge to let them join lawsuits seeking to block President Trump's planned 250-foot (76-meter) memorial arch at Memorial Circle, between Arlington National Cemetery and the Arlington Memorial Bridge. In a six-page motion to intervene, the family said the arch would \"obstruct the clear sightline of the Kennedy gravesites and JFK Eternal Flame\" from the bridge and \"permanently cast a shadow over the graves of servicemen and women ... including the Kennedy gravesites\" (Courthouse News). The motion joins existing cases brought by the District of Columbia and Virginia, Vietnam War veterans, and conservationists. The nine are children and grandchildren of Robert F. Kennedy and Edward M. Kennedy, including former Rep. Joseph P. Kennedy III; Health and Human Services Secretary Robert F. Kennedy Jr. is not among them (BBC). Last Thursday, November 5, U.S. District Judge Tanya Chutkan issued a temporary restraining order barring any groundbreaking for 14 days, the same day the National Capital Planning Commission gave the arch final approval in an 8-4 vote. A White House spokesman, Davis Ingle, called the family's move \"unfortunate\" and said the administration is \"confident we will be fully vindicated as this litigation proceeds\" (BBC).",
+   "briefing": {
+    "quickFacts": [
+     "Who: nine Kennedy family members, represented by Norm Eisen of the Democracy Defenders Fund",
+     "What: motion to intervene in existing suits, filed Tuesday, Nov. 10",
+     "Structure: planned 250-foot arch at Memorial Circle, outside Arlington National Cemetery",
+     "Court: Judge Tanya Chutkan paused groundbreaking for 14 days on Nov. 5",
+     "Planning commission approved the arch 8-4 on Nov. 5"
+    ],
+    "notYetConfirmed": [
+     "Whether the judge will allow the family to join the cases",
+     "Whether the court will extend the pause beyond 14 days or issue a longer injunction",
+     "How much shadow the arch would cast on specific graves; that is the family's claim, citing a Washington Post analysis"
+    ],
+    "whatHappensNext": [
+     "The 14-day restraining order runs into the week of November 16 unless the court extends it or rules on a longer injunction. The judge will decide whether to admit the Kennedy family as plaintiffs."
+    ]
+   }
+  },
+  {
+   "id": "va-claims",
+   "region": "us",
+   "location": "Washington, DC",
+   "headline": "VA says it processed a record 3.11 million disability claims",
+   "status": "claimed",
+   "outlets": [
+    {
+     "name": "Stars and Stripes",
+     "url": "https://www.stripes.com/veterans/2026-10-16/3-million-veterans-claims-processed-2026-23173473.html"
+    },
+    {
+     "name": "VeteranNews",
+     "url": "https://veterannews.com/post/va-claims-scorecard/"
+    },
+    {
+     "name": "White House pool report",
+     "url": "https://pool.pp.tools/reports/10260"
+    }
+   ],
+   "officialSources": [
+    "https://news.va.gov/press-room/va-in-fy-2026-processes-the-most-claims-ever/",
+    "https://www.arlingtoncemetery.mil/Media/News/Post/15150/2026-National-Veterans-Day-Observance-Open-to-Public"
+   ],
+   "summary": "The Department of Veterans Affairs' latest annual figures come from its own October 15 release: the VA says it processed 3,111,399 disability compensation claims in fiscal year 2026, which ended September 30, topping its prior record of 3,001,734 in fiscal 2025. The VA also says its backlog of veterans waiting for benefits has fallen by more than 70% since January 20, 2025, that claims accuracy is 94%, and that it grants more than 60% of claims. Independent coverage of the release has been limited; Stars and Stripes reported the VA's figures as the agency's. A monthly scorecard from VeteranNews.com, built from the VA's own weekly workload reports, shows the backlog, meaning claims pending more than 125 days, rose to 79,004 on October 31, up 5,658 (7.7%) from 73,346 on October 3, and grew in every weekly report in October, with 702,682 claims pending in total. The VA has said rising claims are expected, citing a record 3.15 million-plus claims received in fiscal 2026, and plans to hire more than 2,000 claims staff. President Trump and the first lady are scheduled to take part in the National Veterans Day wreath-laying ceremony at Arlington National Cemetery at 11 a.m. ET, with remarks at 11:30, according to the White House press schedule.",
+   "briefing": {
+    "quickFacts": [
+     "VA: 3,111,399 compensation claims processed in FY2026 vs. 3,001,734 in FY2025",
+     "VA: backlog down \"more than 70%\" since Jan. 20, 2025; 94% accuracy",
+     "VA weekly data (VeteranNews.com tally): backlog 79,004 on Oct. 31, up from 73,346 on Oct. 3",
+     "Pending claims: 702,682 as of Oct. 31",
+     "Veterans Day: wreath-laying at Arlington, 11 a.m. ET; Trump remarks scheduled 11:30"
+    ],
+    "notYetConfirmed": [
+     "The record and the 70% figure are the VA's own; no independent audit of the FY2026 totals has been published",
+     "Whether October's backlog rise continues; the VA says higher claim volume is expected"
+    ],
+    "whatHappensNext": [
+     "The VA publishes claims workload data weekly; November's figures will show whether the backlog keeps rising. The agency says it will hire more than 2,000 claims processors in fiscal 2027."
+    ]
+   }
+  },
+  {
+   "id": "october-cpi",
+   "region": "us",
+   "location": "Washington, DC",
+   "headline": "October consumer prices rose 0.4%, above forecasts",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "Reuters",
+     "url": "https://www.reuters.com/5f374b32b07b/world/us/us-consumer-prices-rise-above-expectations-october-2026-11-10/"
+    },
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
+    }
+   ],
+   "officialSources": [
+    "https://www.bls.gov/news.release/cpi.nr0.htm"
+   ],
+   "summary": "The Labor Department reported Tuesday that consumer prices rose 0.4% in October, above the 0.3% forecast in a Reuters poll, after 0.6% in September. Core prices, excluding food and energy, rose 0.3%, against a 0.2% forecast. Reuters reported that the data were \"cementing expectations that the Federal Reserve will raise interest rates next month.\" Full category figures were in yesterday's edition.",
+   "briefing": {
+    "quickFacts": [
+     "CPI: +0.4% in October (forecast 0.3%); September +0.6%",
+     "Core CPI: +0.3% (forecast 0.2%), third straight month at that pace",
+     "No official year-over-year rate, because of last year's shutdown data gap"
+    ],
+    "notYetConfirmed": [
+     "What the Fed will do; market-implied odds (about an 89% chance of a quarter-point increase, per CME FedWatch via Reuters) are not a decision"
+    ],
+    "whatHappensNext": [
+     "The Federal Reserve meets December 8-9. October producer prices are due Friday."
+    ]
+   }
+  }
+ ],
+ "audio": {
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-11/Briefed-2026-11-11-full-twohost.mp3",
+  "durationSeconds": 119.928,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": null,
+    "title": "Intro",
+    "start": 0.0,
+    "end": 10.016
+   },
+   {
+    "storyId": "hegseth-impeachment",
+    "title": "Hegseth vote",
+    "start": 10.016,
+    "end": 32.321
+   },
+   {
+    "storyId": "gop-leaders",
+    "title": "GOP leaders",
+    "start": 32.321,
+    "end": 52.38
+   },
+   {
+    "storyId": "kennedy-arch",
+    "title": "Kennedy arch suit",
+    "start": 52.38,
+    "end": 74.371
+   },
+   {
+    "storyId": "va-claims",
+    "title": "VA claims",
+    "start": 74.371,
+    "end": 97.304
+   },
+   {
+    "storyId": "october-cpi",
+    "title": "October CPI",
+    "start": 97.304,
+    "end": 111.276
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 111.276,
+    "end": 119.881
+   }
+  ]
+ },
+ "video": {
+  "url": "/briefed/media/2026-11-11/Briefed-2026-11-11-web.mp4",
+  "durationSeconds": 111.365,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": "hegseth-impeachment",
+    "title": "Hegseth vote",
+    "start": 0.0,
+    "end": 23.805
+   },
+   {
+    "storyId": "gop-leaders",
+    "title": "GOP leaders",
+    "start": 23.805,
+    "end": 43.864
+   },
+   {
+    "storyId": "kennedy-arch",
+    "title": "Kennedy arch suit",
+    "start": 43.864,
+    "end": 65.855
+   },
+   {
+    "storyId": "va-claims",
+    "title": "VA claims",
+    "start": 65.855,
+    "end": 88.788
+   },
+   {
+    "storyId": "october-cpi",
+    "title": "October CPI",
+    "start": 88.788,
+    "end": 102.76
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 102.76,
+    "end": 111.365
+   }
+  ],
+  "poster": "/briefed/media/2026-11-11/Briefed-2026-11-11-poster.jpg"
+ }
+}

@@ -1,279 +1,221 @@
 {
  "schemaVersion": 1,
- "date": "2026-11-10",
- "generatedAt": "2026-11-10T08:50:00-05:00",
+ "date": "2026-11-11",
+ "generatedAt": "2026-11-11T07:25:00-05:00",
  "stories": [
   {
    "id": "hegseth-impeachment",
    "region": "us",
    "location": "Washington, DC",
-   "headline": "Massie forces a House impeachment vote on Hegseth by Wednesday",
-   "status": "reported-only",
-   "outlets": [
-    {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/pete-hegseth-impeachment-vote-house-thomas-massie/"
-    },
-    {
-     "name": "NBC News",
-     "url": "https://www.nbcnews.com/politics/trump-administration/thomas-massie-pete-hegseth-impeachment-house-defense-rcna597989"
-    },
-    {
-     "name": "PolitiFact",
-     "url": "https://politifact.com/article/2026/nov/09/hegseth-impeachment-house-massie-jeffries/"
-    },
-    {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/hegseth-pentagon-briefing-impeachment-iran-war/"
-    },
-    {
-     "name": "ABC News",
-     "url": "https://abcnews.com/US/hegseth-dismisses-impeachment-effort-political-spectacle/story?id=138002466"
-    },
-    {
-     "name": "NPR",
-     "url": "https://www.npr.org/2026/11/09/nx-s1-6034483/thomas-massie-impeachment-pete-hegseth"
-    }
-   ],
-   "officialSources": [
-    "https://massie.house.gov/news/documentsingle.aspx?DocumentID=395863"
-   ],
-   "summary": "Kentucky Republican Rep. Thomas Massie on Monday reintroduced a privileged resolution with eight articles of impeachment against Defense Secretary Pete Hegseth, a step that forces House leaders to take up the measure within two legislative days. A floor vote could come as soon as Wednesday, November 11, unless Republicans use a majority motion to table, kill, or send the resolution back to committee. Massie first filed articles in September; Speaker Mike Johnson recessed the House early, and that earlier resolution expired. Three of the eight articles cite the War Powers Resolution of 1973 and the Iran war, including the claim that the war began without a declaration, a statutory authorization, or an imminent attack, and that it continued after Congress directed a withdrawal and after the 60-day clock. The other articles, as Massie and news outlets summarize them, involve alleged failures to minimize civilian casualties, lethal boat strikes in the Caribbean, the capture of Venezuela's Nicol\u00e1s Maduro, military action in Yemen, and retaliation against Sen. Mark Kelly after a video about unlawful orders. Those are accusations in the resolution, not adjudicated findings. House Minority Leader Hakeem Jeffries said Sunday he is a \"hard yes\" on the effort. President Trump told reporters Monday, \"I'll stand by him.\" Hegseth last week called the articles a \"sham\" and told reporters Monday he was \"not worried.\" At a Pentagon news briefing Tuesday morning, his first there in about six months, Hegseth called the effort \"a political spectacle, a personal manifesto driven by ego and resentment\" and \"a farce\" and \"a stunt,\" said every operation named in the articles was a lawful operation ordered by the commander-in-chief, and said he would \"take that company every day of the week\" when compared with Trump's two impeachments (CBS News, ABC News, AP). PolitiFact, working from the current House math, said passage would require three Republicans to join all Democrats. Only two Cabinet secretaries have been impeached before: William Belknap in 1876 and Alejandro Mayorkas in 2024.",
-   "briefing": {
-    "quickFacts": [
-     "Filer: Rep. Thomas Massie (R-Ky.), who is leaving Congress after a primary defeat",
-     "Privileged resolution, 8 articles; 3 cite the War Powers Resolution and the Iran war",
-     "House must act within two legislative days; vote possible Wednesday, Nov. 11",
-     "Simple majority needed in the House; a Senate trial would require two-thirds to convict",
-     "Hegseth, Tuesday Pentagon briefing: \"a political spectacle\"; said the operations were lawful",
-     "Jeffries: \"hard yes.\" Trump: \"I'll stand by him.\" Johnson: impeaching amid hostilities \"would be a terrible, terrible look.\""
-    ],
-    "notYetConfirmed": [
-     "Whether the resolution gets a straight floor vote, or is tabled, killed, or referred, by a majority motion",
-     "How many Republicans, if any, will vote to impeach; several, including Rep. Don Bacon, have said they are undecided",
-     "Whether the operations named in the articles were lawful: Hegseth says so; the articles allege otherwise, and that is for the House and the courts, not this summary",
-     "Death counts cited in some articles of the resolution differ by outlet (for example, boat-strike figures of at least 221 vs. at least 243) and are not used as settled facts here"
-    ],
-    "whatHappensNext": [
-     "The House is expected to consider the privileged measure by Wednesday, November 11, unless Republican leaders obtain a majority to dispose of it another way. If the House approved the articles, they would go to the Senate. Massie has urged the current Senate to act before Democrats take the majority in January."
-    ]
-   }
-  },
-  {
-   "id": "iran-war",
-   "region": "us",
-   "location": "Washington, DC",
-   "headline": "Trump says the Iran war is militarily \u201ceffectively over\u201d",
-   "status": "reported-only",
-   "outlets": [
-    {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/9/trump-calls-iran-war-effectively-over-after-talks-with-qatar-pm"
-    },
-    {
-     "name": "Associated Press",
-     "url": "https://apnews.com/article/iran-us-war-trump-qatar-c38770b168faf5e094e96c1e1e212cff"
-    },
-    {
-     "name": "BBC",
-     "url": "https://www.bbc.com/news/articles/cq5yny4nl2d3o"
-    },
-    {
-     "name": "The Guardian",
-     "url": "https://www.theguardian.com/us-news/2026/nov/09/trump-iran-war"
-    }
-   ],
-   "officialSources": [],
-   "summary": "After a closed-door meeting Monday with Qatar's prime minister, Sheikh Mohammed bin Abdulrahman bin Jassim Al Thani, and Vice President JD Vance, President Trump appeared in the White House briefing room and said, \"Iran militarily is effectively over.\" He said the United States was \"just keeping it the status quo,\" which he described as continuing the naval blockade of Iranian ports, at the behest of Gulf neighbors, and included a land and Caspian cutoff he called Task Force Iron Gate. He said further military action \"doesn't seem to be a very necessary thing,\" that more attacks were \"highly unlikely,\" and that the United States was \"locked and loaded, ready to go for any reason that changes.\" He also said he thought the conflict would be \"ending fairly soon.\" The Qatari prime minister, a mediator in indirect talks, said on X that they had discussed \"ways to progress the U.S.-Iran talks\" and that the discussions were \"positive.\" Iranian officials, including Supreme National Security Council Secretary Mohsen Rezaei, dismissed the remarks; President Masoud Pezeshkian said Iran was open to talks but would not be coerced. The war began on February 28, 2026, with joint U.S. and Israeli strikes. BBC noted that this is not the first time Trump has described the war as militarily over.",
-   "briefing": {
-    "quickFacts": [
-     "Setting: White House briefing, Monday, Nov. 9, after talks with Qatar's prime minister",
-     "Core quote: \"Iran militarily is effectively over.\"",
-     "Blockade continues; Trump says Gulf partners prefer the \"status quo\"",
-     "\"Locked and loaded\" if circumstances change; new strikes called highly unlikely",
-     "Qatar is a mediator; Iran has publicly disputed Trump's description of talks"
-    ],
-    "notYetConfirmed": [
-     "Whether a formal end to the war, a cease-fire, or a deal is actually near; Trump did not declare the conflict over as a legal or diplomatic matter",
-     "The contents of the \"two-day proposal\" Al Jazeera said the Qatari prime minister reportedly presented",
-     "How, if at all, the comments change U.S. or Iranian military operations"
-    ],
-    "whatHappensNext": [
-     "The naval blockade remains in place. Talks, largely through mediators, are ongoing. Further U.S. strikes are possible if, as Trump put it, \"any reason that changes.\""
-    ]
-   }
-  },
-  {
-   "id": "scotus-wall",
-   "region": "us",
-   "location": "Texas",
-   "headline": "Supreme Court lets Big Bend border-wall construction resume",
+   "headline": "House kills Hegseth impeachment, 211-204",
    "status": "sourced",
    "outlets": [
     {
-     "name": "SCOTUSblog",
-     "url": "https://www.scotusblog.com/2026/11/supreme-court-allows-trump-administration-to-continue-border-wall-construction/"
-    },
-    {
      "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/supreme-court-trump-border-wall-big-bend/"
+     "url": "https://www.cbsnews.com/news/massie-hegseth-impeachment/"
     },
     {
-     "name": "SCOTUSblog",
-     "url": "https://www.scotusblog.com/cases/mullin-v-friends-of-the-ruidosa-church/"
+     "name": "NPR",
+     "url": "https://www.npr.org/2026/11/10/nx-s1-6036813/house-votes-to-effectively-end-the-impeachment-effort-against-pete-hegseth"
+    },
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.com/news/articles/cxly4y5jzl0qo"
     }
    ],
    "officialSources": [
-    "https://www.supremecourt.gov/opinions/26pdf/26a560_onkq.pdf"
+    "https://clerk.house.gov/Votes/2026317?RollCallNum=317"
    ],
-   "summary": "The Supreme Court on Monday granted the government's application for a stay in *Mullin v. Friends of the Ruidosa Church*, No. 26A560, an unsigned per curiam order dated November 9, 2026. The order stays a preliminary injunction issued on October 2 by Judge Kathleen Cardone of the U.S. District Court for the Western District of Texas, which had halted border-barrier and related construction in the Big Bend Sector. Only Justice Ketanji Brown Jackson noted that she would have denied the stay; she did not write a separate opinion. The Court denied the government's request for summary reversal. In the opinion, the justices said the government is \"exceedingly likely to prevail\" on the argument that the district court lacked jurisdiction, because a 1996 immigration law limits district-court review of waiver claims to alleged constitutional violations, and the challengers' \"major questions doctrine\" argument is a statutory-authority claim, not a constitutional one. \"There is no such thing as a 'constitutional' major-questions claim,\" the Court wrote. It also said the injunction delayed construction and impeded \"compelling interests\" in border security, and that those interests outweighed the aesthetic, recreational, and environmental harms the challengers asserted. The stay lasts through a timely petition for certiorari (and, if certiorari is granted, until the Court's judgment is sent down). The underlying dispute concerns waivers issued by Homeland Security Secretaries Kristi Noem and then Markwayne Mullin under section 102 of the Illegal Immigration Reform and Immigrant Responsibility Act. Customs and Border Protection has said a 30-foot wall would not cut through Big Bend National Park, but that patrol roads and a vehicle-barrier system would go through the park.",
+   "summary": "The House voted 211 to 204 on Tuesday evening, November 10, to refer Rep. Thomas Massie's resolution impeaching Defense Secretary Pete Hegseth (H. Res. 1655) to the Judiciary Committee. The House Clerk's record shows the motion to refer passed at 6:02 p.m. Eastern (roll call 317). Every Republican who voted backed the referral except Massie, who joined all 203 Democrats voting in opposition; independent Rep. Kevin Kiley of California voted with Republicans. Seven Republicans and 11 Democrats did not vote. CBS News described the referral as \"effectively killing\" the resolution, and NPR reported it \"virtually guarantees the measure will not be taken up before the current session of Congress expires.\" The eight articles accused Hegseth of waging the Iran war without congressional authorization, ignoring laws meant to limit civilian casualties, directing lethal strikes on suspected drug boats, the capture of Venezuela's Nicol\u00e1s Maduro, military action in Yemen, and retaliating against Sen. Mark Kelly. Those were accusations in the resolution, not findings. At a Pentagon news conference Tuesday morning, before the vote, Hegseth called the effort a \"farce\" and a \"political spectacle,\" saying, \"None of these are high crimes or misdemeanors,\" and \"I stand behind every one of these operations\" (CBS News, NPR). After the vote, Massie said, \"I wasn't surprised, but I was disappointed,\" and said he planned to force a vote on a war powers resolution. House Minority Leader Hakeem Jeffries said, \"This is not the end of it. It's just the beginning.\" President Trump wrote that the effort had \"miserably FAILED!\" (CBS News).",
    "briefing": {
     "quickFacts": [
-     "Case: *Mullin v. Friends of the Ruidosa Church*, 26A560, decided Nov. 9, 2026",
-     "Unsigned stay; Justice Jackson would have denied it",
-     "Stays a W.D. Tex. preliminary injunction; does not finally decide the merits",
-     "Court: district court likely lacked jurisdiction over the \"major questions\" claim",
-     "Location: Big Bend Sector, West Texas, along a remote stretch of the border"
+     "Vote: 211-204 on a motion to refer H. Res. 1655 to the Judiciary Committee (roll call 317, Nov. 10, 6:02 p.m. ET)",
+     "Republicans 210 yes, 1 no (Massie); Democrats 0 yes, 203 no; independent Kiley yes",
+     "Not voting: 7 Republicans, 11 Democrats",
+     "Hegseth, Tuesday morning: \"farce,\" \"political spectacle\"; says the operations were lawful",
+     "Massie says he will not refile impeachment, and plans to force a war powers vote; he leaves Congress in early January",
+     "Only two Cabinet secretaries have been impeached: William Belknap (1876) and Alejandro Mayorkas (2024)"
     ],
     "notYetConfirmed": [
-     "How quickly construction will restart, and exactly where new wall segments versus roads or vehicle barriers will go",
-     "The final outcome of the litigation, including whether the Court later grants certiorari",
-     "Whether CBP's description of work inside Big Bend National Park will hold"
+     "Whether Democrats, who take majorities in both chambers in January, will pursue a new impeachment effort; Jeffries said \"this is not the end of it,\" but no new resolution has been announced",
+     "When Massie's war powers resolution will be filed or reach a vote",
+     "Whether the operations named in the articles were lawful: Hegseth says they were; the articles allege otherwise"
     ],
     "whatHappensNext": [
-     "The government may resume construction while the case continues. The stay remains in effect pending a timely certiorari petition; it ends if certiorari is denied, or, if granted, when the Supreme Court's judgment is issued."
+     "The resolution sits with the House Judiciary Committee, where it is not expected to advance before this Congress ends. The new Congress begins in January with Democratic majorities in the House and Senate. Massie has said he plans to force a vote on a war powers resolution."
+    ]
+   }
+  },
+  {
+   "id": "gop-leaders",
+   "region": "us",
+   "location": "Washington, DC",
+   "headline": "Jim Jordan beats Scalise, 106-73, to lead House Republicans",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+    },
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/jim-jordan-house-minority-leader-republicans/"
+    },
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/john-thune-reelected-senate-republican-leader/"
+    },
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/10/jim-jordan-congress-republicans-midterm.html"
+    }
+   ],
+   "officialSources": [],
+   "summary": "House Republicans on Tuesday elected Rep. Jim Jordan of Ohio, the Judiciary Committee chairman, as their leader for the next Congress, when the party will be in the minority. Jordan defeated Majority Leader Steve Scalise of Louisiana by 106 to 73 in a secret ballot behind closed doors, according to two Republican lawmakers in the room (NBC News) and sources familiar with the tally (CBS News). Speaker Mike Johnson did not run. \"When Democrats offer more government, we'll offer more freedom,\" Jordan said after the vote. Rep. Tom Emmer of Minnesota will remain whip and Rep. Lisa McClain of Michigan conference chair; Rep. Brian Jack of Georgia will chair the National Republican Congressional Committee (CBS News). In the Senate, Republicans re-elected Sen. John Thune of South Dakota as their leader by acclamation, with no opponent, after a push by some conservatives to delay the elections fell short. Thune becomes minority leader in January. Sen. John Barrasso will be whip and Sen. Tom Cotton conference chair (NBC News).",
+   "briefing": {
+    "quickFacts": [
+     "House GOP leader-elect: Jim Jordan (Ohio), Judiciary chairman, who helped start the House Freedom Caucus",
+     "Tally: 106-73 over Steve Scalise, per lawmakers and sources; the ballot was secret",
+     "Senate GOP leader: John Thune, re-elected by acclamation; minority leader from January",
+     "House team: Emmer (whip), McClain (conference chair), Jack (NRCC chair)",
+     "Senate team: Barrasso (whip), Cotton (conference chair)"
+    ],
+    "notYetConfirmed": [
+     "The tally comes from anonymous lawmakers and sources; the conference has not released an official count"
+    ],
+    "whatHappensNext": [
+     "Jordan and Thune take over as minority leaders when the new Congress convenes in January, opposite Democratic majorities in both chambers."
+    ]
+   }
+  },
+  {
+   "id": "kennedy-arch",
+   "region": "us",
+   "location": "Arlington, VA",
+   "headline": "Kennedy family moves to block Trump\u2019s 250-foot arch near Arlington",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "Courthouse News",
+     "url": "https://www.courthousenews.com/kennedy-family-joins-lawsuit-to-block-trumps-proposed-arch/"
+    },
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.com/news/articles/cw8dvpmzp2p4o"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/kennedy-family-trump-memorial-arch-ab905b5e44bf359cdbfc2d231ae4caa1"
+    },
+    {
+     "name": "Washington Post",
+     "url": "https://www.washingtonpost.com/politics/2026/11/10/kennedy-family-sues-stop-trumps-arch-citing-shadow-jfk-grave/"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/trump-washington-arch-planning-commission-246d15697c00b065bc8ab8c614d50ca7"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Nine members of the Kennedy family on Tuesday asked a federal judge to let them join lawsuits seeking to block President Trump's planned 250-foot (76-meter) memorial arch at Memorial Circle, between Arlington National Cemetery and the Arlington Memorial Bridge. In a six-page motion to intervene, the family said the arch would \"obstruct the clear sightline of the Kennedy gravesites and JFK Eternal Flame\" from the bridge and \"permanently cast a shadow over the graves of servicemen and women ... including the Kennedy gravesites\" (Courthouse News). The motion joins existing cases brought by the District of Columbia and Virginia, Vietnam War veterans, and conservationists. The nine are children and grandchildren of Robert F. Kennedy and Edward M. Kennedy, including former Rep. Joseph P. Kennedy III; Health and Human Services Secretary Robert F. Kennedy Jr. is not among them (BBC). Last Thursday, November 5, U.S. District Judge Tanya Chutkan issued a temporary restraining order barring any groundbreaking for 14 days, the same day the National Capital Planning Commission gave the arch final approval in an 8-4 vote. A White House spokesman, Davis Ingle, called the family's move \"unfortunate\" and said the administration is \"confident we will be fully vindicated as this litigation proceeds\" (BBC).",
+   "briefing": {
+    "quickFacts": [
+     "Who: nine Kennedy family members, represented by Norm Eisen of the Democracy Defenders Fund",
+     "What: motion to intervene in existing suits, filed Tuesday, Nov. 10",
+     "Structure: planned 250-foot arch at Memorial Circle, outside Arlington National Cemetery",
+     "Court: Judge Tanya Chutkan paused groundbreaking for 14 days on Nov. 5",
+     "Planning commission approved the arch 8-4 on Nov. 5"
+    ],
+    "notYetConfirmed": [
+     "Whether the judge will allow the family to join the cases",
+     "Whether the court will extend the pause beyond 14 days or issue a longer injunction",
+     "How much shadow the arch would cast on specific graves; that is the family's claim, citing a Washington Post analysis"
+    ],
+    "whatHappensNext": [
+     "The 14-day restraining order runs into the week of November 16 unless the court extends it or rules on a longer injunction. The judge will decide whether to admit the Kennedy family as plaintiffs."
+    ]
+   }
+  },
+  {
+   "id": "va-claims",
+   "region": "us",
+   "location": "Washington, DC",
+   "headline": "VA says it processed a record 3.11 million disability claims",
+   "status": "claimed",
+   "outlets": [
+    {
+     "name": "Stars and Stripes",
+     "url": "https://www.stripes.com/veterans/2026-10-16/3-million-veterans-claims-processed-2026-23173473.html"
+    },
+    {
+     "name": "VeteranNews",
+     "url": "https://veterannews.com/post/va-claims-scorecard/"
+    },
+    {
+     "name": "White House pool report",
+     "url": "https://pool.pp.tools/reports/10260"
+    }
+   ],
+   "officialSources": [
+    "https://news.va.gov/press-room/va-in-fy-2026-processes-the-most-claims-ever/",
+    "https://www.arlingtoncemetery.mil/Media/News/Post/15150/2026-National-Veterans-Day-Observance-Open-to-Public"
+   ],
+   "summary": "The Department of Veterans Affairs' latest annual figures come from its own October 15 release: the VA says it processed 3,111,399 disability compensation claims in fiscal year 2026, which ended September 30, topping its prior record of 3,001,734 in fiscal 2025. The VA also says its backlog of veterans waiting for benefits has fallen by more than 70% since January 20, 2025, that claims accuracy is 94%, and that it grants more than 60% of claims. Independent coverage of the release has been limited; Stars and Stripes reported the VA's figures as the agency's. A monthly scorecard from VeteranNews.com, built from the VA's own weekly workload reports, shows the backlog, meaning claims pending more than 125 days, rose to 79,004 on October 31, up 5,658 (7.7%) from 73,346 on October 3, and grew in every weekly report in October, with 702,682 claims pending in total. The VA has said rising claims are expected, citing a record 3.15 million-plus claims received in fiscal 2026, and plans to hire more than 2,000 claims staff. President Trump and the first lady are scheduled to take part in the National Veterans Day wreath-laying ceremony at Arlington National Cemetery at 11 a.m. ET, with remarks at 11:30, according to the White House press schedule.",
+   "briefing": {
+    "quickFacts": [
+     "VA: 3,111,399 compensation claims processed in FY2026 vs. 3,001,734 in FY2025",
+     "VA: backlog down \"more than 70%\" since Jan. 20, 2025; 94% accuracy",
+     "VA weekly data (VeteranNews.com tally): backlog 79,004 on Oct. 31, up from 73,346 on Oct. 3",
+     "Pending claims: 702,682 as of Oct. 31",
+     "Veterans Day: wreath-laying at Arlington, 11 a.m. ET; Trump remarks scheduled 11:30"
+    ],
+    "notYetConfirmed": [
+     "The record and the 70% figure are the VA's own; no independent audit of the FY2026 totals has been published",
+     "Whether October's backlog rise continues; the VA says higher claim volume is expected"
+    ],
+    "whatHappensNext": [
+     "The VA publishes claims workload data weekly; November's figures will show whether the backlog keeps rising. The agency says it will hire more than 2,000 claims processors in fiscal 2027."
     ]
    }
   },
   {
    "id": "october-cpi",
    "region": "us",
-   "location": "Nationwide",
-   "headline": "October consumer prices rose 0.4%, more than expected",
+   "location": "Washington, DC",
+   "headline": "October consumer prices rose 0.4%, above forecasts",
    "status": "sourced",
    "outlets": [
     {
-     "name": "CNBC",
-     "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
+     "name": "Reuters",
+     "url": "https://www.reuters.com/5f374b32b07b/world/us/us-consumer-prices-rise-above-expectations-october-2026-11-10/"
     },
     {
      "name": "CNBC",
-     "url": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html"
+     "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
     }
    ],
    "officialSources": [
     "https://www.bls.gov/news.release/cpi.nr0.htm"
    ],
-   "summary": "The Bureau of Labor Statistics reported Tuesday at 8:30 a.m. Eastern that the Consumer Price Index for All Urban Consumers rose 0.4% in October on a seasonally adjusted basis, after rising 0.6% in September. CNBC reported that economists surveyed by Dow Jones had expected 0.3%. The index excluding food and energy, known as core, rose 0.3% (as it did in September and August); the forecast was 0.2%. Energy rose 0.7% after a 5.2% jump in September, with gasoline up 1.0% on a seasonally adjusted basis (before seasonal adjustment, gasoline fell 0.7%) and electricity up 0.9%, while natural gas fell 0.8%. Food rose 0.5%, with food at home up 0.4% and food away from home up 0.5%. Shelter rose 0.3%, motor vehicle insurance 0.7%, recreation 0.8%, and medical care 0.3%. Used cars and trucks fell 1.2% and communication fell 0.1%. BLS did not publish a 12-month rate for October because it could not collect October 2025 data during last year's government shutdown. The next CPI release is scheduled for Thursday, December 10; the Federal Reserve meets December 8\u20139.",
+   "summary": "The Labor Department reported Tuesday that consumer prices rose 0.4% in October, above the 0.3% forecast in a Reuters poll, after 0.6% in September. Core prices, excluding food and energy, rose 0.3%, against a 0.2% forecast. Reuters reported that the data were \"cementing expectations that the Federal Reserve will raise interest rates next month.\" Full category figures were in yesterday's edition.",
    "briefing": {
     "quickFacts": [
-     "All items: +0.4% in October (September: +0.6%); consensus was +0.3%",
-     "Core (excluding food and energy): +0.3%; consensus was +0.2%",
-     "Energy +0.7%, gasoline +1.0% (seasonally adjusted), food +0.5%, shelter +0.3%",
-     "Used cars and trucks \u22121.2%; motor vehicle insurance +0.7%",
-     "No official 12-month rate for October because of last year's shutdown gap"
+     "CPI: +0.4% in October (forecast 0.3%); September +0.6%",
+     "Core CPI: +0.3% (forecast 0.2%), third straight month at that pace",
+     "No official year-over-year rate, because of last year's shutdown data gap"
     ],
     "notYetConfirmed": [
-     "Any year-over-year figure: outside estimates (for example, Bank of America's 3.8% headline) use assumed baselines and are not official",
-     "How Federal Reserve officials will read the report at the December 8\u20139 meeting (market odds are not a decision)",
-     "Secondary confirmation: the headline and core figures are confirmed by CNBC; category figures come from the BLS release alone"
+     "What the Fed will do; market-implied odds (about an 89% chance of a quarter-point increase, per CME FedWatch via Reuters) are not a decision"
     ],
     "whatHappensNext": [
-     "The Federal Reserve meets December 8\u20139, and BLS publishes the November CPI on Thursday, December 10."
-    ]
-   }
-  },
-  {
-   "id": "gop-leader",
-   "region": "us",
-   "location": "Washington, DC",
-   "headline": "House Republicans vote today on a new leader, Scalise or Jordan",
-   "status": "reported-only",
-   "outlets": [
-    {
-     "name": "NPR",
-     "url": "https://www.npr.org/2026/11/10/nx-s1-6030988/gop-leadership-election-steve-scalise-jim-jordan"
-    },
-    {
-     "name": "ABC News",
-     "url": "https://abcnews.com/Politics/jordan-scalise-face-off-house-gop-leader-after/story?id=137980555"
-    },
-    {
-     "name": "Associated Press",
-     "url": "https://apnews.com/article/republicans-minority-leader-scalise-jordan-election-9452bdcf8c16ba84b44fe537ebce0de8"
-    }
-   ],
-   "officialSources": [],
-   "summary": "One week after midterm losses that will send House Republicans into the minority in January, the conference meets Tuesday to elect a successor to Speaker Mike Johnson, who is not running again as the party's House leader. The contest is between Majority Leader Steve Scalise of Louisiana and Rep. Jim Jordan of Ohio, a rematch of their 2023 race for speaker, which neither won. The vote is a secret ballot. ABC News, in a Tuesday morning report, said the conference convenes at 9 a.m. for a candidate forum and organizing session, with leadership elections scheduled from 1:30 p.m. to 5:30 p.m. A simple majority of members elected to the next Congress is required; lawmakers who are retiring or were defeated cannot vote. Conference Chair Lisa McClain is expected to post results on X. NPR reported that Trump is staying out of this race; he endorsed Jordan in 2023. As of early Tuesday, no winner had been announced. This edition treats the race as pending.",
-   "briefing": {
-    "quickFacts": [
-     "Office: House Republican / minority leader for the next Congress",
-     "Candidates: Steve Scalise (R-La.) and Jim Jordan (R-Ohio)",
-     "Johnson is not running; secret ballot; simple majority of the incoming conference",
-     "Timing: elections scheduled 1:30\u20135:30 p.m. ET Tuesday, after a 9 a.m. forum",
-     "Democrats hold their House leadership elections on Nov. 18, per ABC"
-    ],
-    "notYetConfirmed": [
-     "The winner, until the conference announces the result",
-     "The margins, and the outcomes of the other House GOP leadership races the same day",
-     "Whether Senate Republicans, who are also due to meet Tuesday, delay their own elections"
-    ],
-    "whatHappensNext": [
-     "Results are expected Tuesday afternoon. The new leader will head a smaller conference into the minority when the 120th Congress convenes in January. The House still elects a speaker on the floor on January 3, 2027."
-    ]
-   }
-  },
-  {
-   "id": "nvidia-congress",
-   "region": "us",
-   "location": "Washington, DC",
-   "headline": "Congress asks Nvidia\u2019s Huang to brief lawmakers next week",
-   "status": "reported-only",
-   "outlets": [
-    {
-     "name": "CNBC",
-     "url": "https://www.cnbc.com/2026/11/05/nvidia-jensen-huang-china-spy-congress.html"
-    },
-    {
-     "name": "BBC",
-     "url": "https://www.bbc.com/news/articles/ckgel338xql3o"
-    },
-    {
-     "name": "CNBC",
-     "url": "https://www.cnbc.com/2026/11/09/megaspeed-nvidia-jensen-huang-alice-huang.html"
-    },
-    {
-     "name": "NPR",
-     "url": "https://www.npr.org/2026/11/10/nx-s1-6035504/hegseth-impeachment-push-trump-holds-off-iran-strikes-congress-summons-nvidias-ceo"
-    }
-   ],
-   "officialSources": [
-    "https://foreignaffairs.house.gov/news/press-releases/chairmen-mast-moolenaar-and-crawford-request-jensen-huang-brief-congress-on-link-to-chinese-intelligence-asset"
-   ],
-   "summary": "This is a follow-up to Nvidia's board opening an independent investigation, reported in Monday's edition. On November 5, House Foreign Affairs Chairman Brian Mast, Select Committee on China Chairman John Moolenaar, and House Intelligence Chairman Rick Crawford released a letter dated November 4 asking Nvidia CEO Jensen Huang to appear for a joint, closed-door briefing on November 18. The letter asks about Huang's interactions with Megaspeed executive Alice Huang, whom it describes as a \"publicly reported\" People's Republic of China intelligence asset, and about Nvidia's security protocols against foreign-adversary espionage. It is a request, not a subpoena. Huang was asked to accept the date or propose another session day in this Congress by November 11. Nvidia's board has said it has no reason to believe national security or company secrets were compromised, and that Huang is cooperating with its review. The intelligence-asset allegation originates in reporting, including by The New York Times, that has been cited by CNBC and the BBC; it has not been independently established here. China's Foreign Ministry has called the spy allegation groundless. Megaspeed, a Singapore-based cloud firm and Nvidia partner, has previously been the subject of reporting that U.S. authorities investigated whether restricted Nvidia chips were diverted to China. Megaspeed has said inspections found no evidence of illicit transfers. The BBC reported that Singapore is examining earlier allegations that the company circumvented U.S. export rules. Those chip-diversion claims remain contested.",
-   "briefing": {
-    "quickFacts": [
-     "Who asked: House chairs Mast, Moolenaar, and Crawford, in a Nov. 4 letter released Nov. 5",
-     "Requested appearance: closed-door joint briefing, Nov. 18; reply due Nov. 11",
-     "Subject: reported interactions with Megaspeed executive Alice Huang, and Nvidia security protocols",
-     "Nvidia board: independent review underway; \"no reason to believe\" national security or secrets were compromised",
-     "Not a subpoena, and not sworn testimony unless that later changes"
-    ],
-    "notYetConfirmed": [
-     "Whether Huang will appear on November 18, or on another date",
-     "The intelligence-asset allegation against Alice Huang, which remains reported, not adjudicated",
-     "Whether restricted Nvidia chips reached China through Megaspeed; the company has denied wrongdoing, and no public finding of a violation is cited here",
-     "A Nov. 10 NBC report, only partially available to this edition, that the Justice Department asked Commerce to pause part of a chip inquiry after a contact from Nvidia; that mechanism is not treated as confirmed without a second full account"
-    ],
-    "whatHappensNext": [
-     "Nvidia's deadline to accept the November 18 date, or to offer another, is Wednesday, November 11. The company's board review continues. Nvidia is scheduled to report quarterly earnings on November 17, the day before the proposed briefing."
+     "The Federal Reserve meets December 8-9. October producer prices are due Friday."
     ]
    }
   }
  ],
  "audio": {
-  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-10/Briefed-2026-11-10-full-twohost.mp3",
-  "durationSeconds": 114.077,
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-11/Briefed-2026-11-11-full-twohost.mp3",
+  "durationSeconds": 119.928,
   "aiVoices": true,
   "chapters": [
    {
@@ -289,46 +231,40 @@
     "end": 32.321
    },
    {
-    "storyId": "iran-war",
-    "title": "Iran war",
+    "storyId": "gop-leaders",
+    "title": "GOP leaders",
     "start": 32.321,
-    "end": 46.633
+    "end": 52.38
    },
    {
-    "storyId": "scotus-wall",
-    "title": "Big Bend wall",
-    "start": 46.633,
-    "end": 60.918
+    "storyId": "kennedy-arch",
+    "title": "Kennedy arch suit",
+    "start": 52.38,
+    "end": 74.371
+   },
+   {
+    "storyId": "va-claims",
+    "title": "VA claims",
+    "start": 74.371,
+    "end": 97.304
    },
    {
     "storyId": "october-cpi",
     "title": "October CPI",
-    "start": 60.918,
-    "end": 78.757
-   },
-   {
-    "storyId": "gop-leader",
-    "title": "GOP leader",
-    "start": 78.757,
-    "end": 89.855
-   },
-   {
-    "storyId": "nvidia-congress",
-    "title": "Nvidia briefing",
-    "start": 89.855,
-    "end": 105.421
+    "start": 97.304,
+    "end": 111.276
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 105.421,
-    "end": 114.026
+    "start": 111.276,
+    "end": 119.881
    }
   ]
  },
  "video": {
-  "url": "/briefed/media/2026-11-10/Briefed-2026-11-10-web.mp4",
-  "durationSeconds": 105.51,
+  "url": "/briefed/media/2026-11-11/Briefed-2026-11-11-web.mp4",
+  "durationSeconds": 111.365,
   "aiVoices": true,
   "chapters": [
    {
@@ -338,42 +274,36 @@
     "end": 23.805
    },
    {
-    "storyId": "iran-war",
-    "title": "Iran war",
+    "storyId": "gop-leaders",
+    "title": "GOP leaders",
     "start": 23.805,
-    "end": 38.117
+    "end": 43.864
    },
    {
-    "storyId": "scotus-wall",
-    "title": "Big Bend wall",
-    "start": 38.117,
-    "end": 52.402
+    "storyId": "kennedy-arch",
+    "title": "Kennedy arch suit",
+    "start": 43.864,
+    "end": 65.855
+   },
+   {
+    "storyId": "va-claims",
+    "title": "VA claims",
+    "start": 65.855,
+    "end": 88.788
    },
    {
     "storyId": "october-cpi",
     "title": "October CPI",
-    "start": 52.402,
-    "end": 70.241
-   },
-   {
-    "storyId": "gop-leader",
-    "title": "GOP leader",
-    "start": 70.241,
-    "end": 81.339
-   },
-   {
-    "storyId": "nvidia-congress",
-    "title": "Nvidia briefing",
-    "start": 81.339,
-    "end": 96.905
+    "start": 88.788,
+    "end": 102.76
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 96.905,
-    "end": 105.51
+    "start": 102.76,
+    "end": 111.365
    }
   ],
-  "poster": "/briefed/media/2026-11-10/Briefed-2026-11-10-poster.jpg"
+  "poster": "/briefed/media/2026-11-11/Briefed-2026-11-11-poster.jpg"
  }
 }

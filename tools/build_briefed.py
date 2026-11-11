@@ -343,7 +343,7 @@ def first_hand(s):
 
 
 def story_card(s, n, chap):
-    badge = {"cleared": ("Cleared", "ok"), "sourced": ("Sourced", "ok"), "reported-only": ("Reported only", "warn")}.get(s.get("status"), (s.get("statusLabel") or s.get("status", "").title(), "warn"))
+    badge = {"cleared": ("Cleared", "ok"), "sourced": ("Sourced", "ok"), "reported-only": ("Reported only", "warn"), "claimed": ("Claimed", "warn")}.get(s.get("status"), (s.get("statusLabel") or s.get("status", "").title(), "warn"))
     region = "World" if s.get("region") == "foreign" else "U.S."
     loc = f' · {e(s["location"])}' if s.get("location") else ""
     summ = f'<p class="b-sum">{inline_md(s["summary"])}</p>' if s.get("summary") else ""
@@ -403,7 +403,7 @@ def player(ed):
     html_ = '<section class="b-player card%s" aria-label="Listen to or watch the edition">\n%s\n</section>' % (" b-has-video" if has_video else "", media)
     return html_, "<script>" + open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "briefed_player.js")).read() + "</script>"
 
-BADGES = {"cleared": ("Cleared", "ok"), "sourced": ("Sourced", "ok"), "reported-only": ("Reported only", "warn")}
+BADGES = {"cleared": ("Cleared", "ok"), "sourced": ("Sourced", "ok"), "reported-only": ("Reported only", "warn"), "claimed": ("Claimed", "warn")}
 
 def panel_data(ed):
     out = {}
