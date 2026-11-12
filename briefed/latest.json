@@ -1,309 +1,356 @@
 {
  "schemaVersion": 1,
- "date": "2026-11-11",
- "generatedAt": "2026-11-11T07:25:00-05:00",
+ "date": "2026-11-12",
+ "generatedAt": "2026-11-12T07:32:00-05:00",
  "stories": [
   {
-   "id": "hegseth-impeachment",
+   "id": "colom-mississippi",
    "region": "us",
-   "location": "Washington, DC",
-   "headline": "House kills Hegseth impeachment, 211-204",
-   "status": "sourced",
-   "outlets": [
-    {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/massie-hegseth-impeachment/"
-    },
-    {
-     "name": "NPR",
-     "url": "https://www.npr.org/2026/11/10/nx-s1-6036813/house-votes-to-effectively-end-the-impeachment-effort-against-pete-hegseth"
-    },
-    {
-     "name": "BBC",
-     "url": "https://www.bbc.com/news/articles/cxly4y5jzl0qo"
-    }
-   ],
-   "officialSources": [
-    "https://clerk.house.gov/Votes/2026317?RollCallNum=317"
-   ],
-   "summary": "The House voted 211 to 204 on Tuesday evening, November 10, to refer Rep. Thomas Massie's resolution impeaching Defense Secretary Pete Hegseth (H. Res. 1655) to the Judiciary Committee. The House Clerk's record shows the motion to refer passed at 6:02 p.m. Eastern (roll call 317). Every Republican who voted backed the referral except Massie, who joined all 203 Democrats voting in opposition; independent Rep. Kevin Kiley of California voted with Republicans. Seven Republicans and 11 Democrats did not vote. CBS News described the referral as \"effectively killing\" the resolution, and NPR reported it \"virtually guarantees the measure will not be taken up before the current session of Congress expires.\" The eight articles accused Hegseth of waging the Iran war without congressional authorization, ignoring laws meant to limit civilian casualties, directing lethal strikes on suspected drug boats, the capture of Venezuela's Nicol\u00e1s Maduro, military action in Yemen, and retaliating against Sen. Mark Kelly. Those were accusations in the resolution, not findings. At a Pentagon news conference Tuesday morning, before the vote, Hegseth called the effort a \"farce\" and a \"political spectacle,\" saying, \"None of these are high crimes or misdemeanors,\" and \"I stand behind every one of these operations\" (CBS News, NPR). After the vote, Massie said, \"I wasn't surprised, but I was disappointed,\" and said he planned to force a vote on a war powers resolution. House Minority Leader Hakeem Jeffries said, \"This is not the end of it. It's just the beginning.\" President Trump wrote that the effort had \"miserably FAILED!\" (CBS News).",
-   "briefing": {
-    "quickFacts": [
-     "Vote: 211-204 on a motion to refer H. Res. 1655 to the Judiciary Committee (roll call 317, Nov. 10, 6:02 p.m. ET)",
-     "Republicans 210 yes, 1 no (Massie); Democrats 0 yes, 203 no; independent Kiley yes",
-     "Not voting: 7 Republicans, 11 Democrats",
-     "Hegseth, Tuesday morning: \"farce,\" \"political spectacle\"; says the operations were lawful",
-     "Massie says he will not refile impeachment, and plans to force a war powers vote; he leaves Congress in early January",
-     "Only two Cabinet secretaries have been impeached: William Belknap (1876) and Alejandro Mayorkas (2024)"
-    ],
-    "notYetConfirmed": [
-     "Whether Democrats, who take majorities in both chambers in January, will pursue a new impeachment effort; Jeffries said \"this is not the end of it,\" but no new resolution has been announced",
-     "When Massie's war powers resolution will be filed or reach a vote",
-     "Whether the operations named in the articles were lawful: Hegseth says they were; the articles allege otherwise"
-    ],
-    "whatHappensNext": [
-     "The resolution sits with the House Judiciary Committee, where it is not expected to advance before this Congress ends. The new Congress begins in January with Democratic majorities in the House and Senate. Massie has said he plans to force a vote on a war powers resolution."
-    ]
-   }
-  },
-  {
-   "id": "gop-leaders",
-   "region": "us",
-   "location": "Washington, DC",
-   "headline": "Jim Jordan beats Scalise, 106-73, to lead House Republicans",
+   "location": "Mississippi",
+   "headline": "Democrat Scott Colom wins Mississippi Senate seat by 4,669 votes",
    "status": "reported-only",
    "outlets": [
     {
      "name": "NBC News",
-     "url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+     "url": "https://www.nbcnews.com/politics/2026-election/scott-colom-mississippi-senate-election-win-democrat-hyde-smith-rcna605729"
     },
     {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/jim-jordan-house-minority-leader-republicans/"
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/scott-colom-mississippi-senate-midterms-56c18f292a734443992f9466c3b0f346"
     },
     {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/john-thune-reelected-senate-republican-leader/"
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/mississippi-senate-colom-hydesmith-midterm-7f098b8834f598c923ba73572ea2223f"
     },
     {
-     "name": "CNBC",
-     "url": "https://www.cnbc.com/2026/11/10/jim-jordan-congress-republicans-midterm.html"
+     "name": "Ballotpedia",
+     "url": "https://ballotpedia.org/Scott_Colom"
     }
    ],
    "officialSources": [],
-   "summary": "House Republicans on Tuesday elected Rep. Jim Jordan of Ohio, the Judiciary Committee chairman, as their leader for the next Congress, when the party will be in the minority. Jordan defeated Majority Leader Steve Scalise of Louisiana by 106 to 73 in a secret ballot behind closed doors, according to two Republican lawmakers in the room (NBC News) and sources familiar with the tally (CBS News). Speaker Mike Johnson did not run. \"When Democrats offer more government, we'll offer more freedom,\" Jordan said after the vote. Rep. Tom Emmer of Minnesota will remain whip and Rep. Lisa McClain of Michigan conference chair; Rep. Brian Jack of Georgia will chair the National Republican Congressional Committee (CBS News). In the Senate, Republicans re-elected Sen. John Thune of South Dakota as their leader by acclamation, with no opponent, after a push by some conservatives to delay the elections fell short. Thune becomes minority leader in January. Sen. John Barrasso will be whip and Sen. Tom Cotton conference chair (NBC News).",
+   "summary": "Democrat Scott Colom defeated Republican Sen. Cindy Hyde-Smith in Mississippi's U.S. Senate race, the Associated Press and NBC News projected Wednesday, November 11, eight days after Election Day. In the AP's unofficial count, with about 99% of the vote in, Colom had 473,336 votes (49.2%) to Hyde-Smith's 468,667 (48.7%), a margin of 4,669; independent Ty Pinkins had 20,234 (2.1%). The AP said it called the race at 5:58 p.m. Eastern after Jackson County reported another 2,173 votes, and estimated fewer than 12,000 votes remained for county officials to review. Colom led by 43 votes after the final election-night update and his lead grew as counties processed absentee and affidavit (provisional) ballots (AP). Colom, 43, the district attorney for Mississippi's 16th Circuit Court District, will be the first Democrat Mississippi has elected to the Senate since 1982 and the state's first Black U.S. senator since Reconstruction (NBC News, AP). Hyde-Smith called Colom to concede and said in a video message, \"While this is not the outcome we worked for or hoped for, I respect the decision of Mississippi voters\" (NBC News). NBC News reported that Colom is the eighth Democrat to flip a Republican-held Senate seat this year and that Democrats will hold at least 55 Senate seats next year, with only Alaska's race uncalled. Hyde-Smith, appointed in 2018 and elected to a full term in 2020, had blocked Colom's nomination to a federal judgeship during the Biden administration (NBC News; Ballotpedia).",
    "briefing": {
     "quickFacts": [
-     "House GOP leader-elect: Jim Jordan (Ohio), Judiciary chairman, who helped start the House Freedom Caucus",
-     "Tally: 106-73 over Steve Scalise, per lawmakers and sources; the ballot was secret",
-     "Senate GOP leader: John Thune, re-elected by acclamation; minority leader from January",
-     "House team: Emmer (whip), McClain (conference chair), Jack (NRCC chair)",
-     "Senate team: Barrasso (whip), Cotton (conference chair)"
+     "Result (AP unofficial count): Colom 473,336 (49.2%), Hyde-Smith 468,667 (48.7%), Pinkins 20,234 (2.1%)",
+     "Margin: 4,669 votes; AP call Wednesday, Nov. 11, 5:58 p.m. ET",
+     "First Democrat elected to the Senate from Mississippi since 1982; first Black senator from the state since Reconstruction",
+     "Hyde-Smith conceded by phone and in a video message",
+     "Democrats: 8 Senate seats flipped this year; at least 55 seats next year (NBC News); Alaska uncalled",
+     "Trump carried Mississippi by 23 points in 2024 (NBC News)"
     ],
     "notYetConfirmed": [
-     "The tally comes from anonymous lawmakers and sources; the conference has not released an official count"
+     "Final certified totals; the figures above are unofficial and may change as counties finish reviewing ballots",
+     "The outcome of Alaska's Senate race, which determines whether Democrats hold 55 or 56 seats"
     ],
     "whatHappensNext": [
-     "Jordan and Thune take over as minority leaders when the new Congress convenes in January, opposite Democratic majorities in both chambers."
+     "Mississippi counties certify their results Friday, November 13, and the secretary of state declares the statewide result December 3, according to an account of the AP's race call. Mississippi has no automatic recount; any challenge would go through the courts. The new Senate term begins January 3, 2027."
     ]
    }
   },
   {
-   "id": "kennedy-arch",
+   "id": "nvidia-huang",
    "region": "us",
-   "location": "Arlington, VA",
-   "headline": "Kennedy family moves to block Trump\u2019s 250-foot arch near Arlington",
+   "location": "Santa Clara, CA",
+   "headline": "Nvidia board meets on whether to oust CEO Jensen Huang",
    "status": "reported-only",
    "outlets": [
     {
-     "name": "Courthouse News",
-     "url": "https://www.courthousenews.com/kennedy-family-joins-lawsuit-to-block-trumps-proposed-arch/"
-    },
-    {
-     "name": "BBC",
-     "url": "https://www.bbc.com/news/articles/cw8dvpmzp2p4o"
-    },
-    {
-     "name": "Associated Press",
-     "url": "https://apnews.com/article/kennedy-family-trump-memorial-arch-ab905b5e44bf359cdbfc2d231ae4caa1"
-    },
-    {
-     "name": "Washington Post",
-     "url": "https://www.washingtonpost.com/politics/2026/11/10/kennedy-family-sues-stop-trumps-arch-citing-shadow-jfk-grave/"
-    },
-    {
-     "name": "Associated Press",
-     "url": "https://apnews.com/article/trump-washington-arch-planning-commission-246d15697c00b065bc8ab8c614d50ca7"
-    }
-   ],
-   "officialSources": [],
-   "summary": "Nine members of the Kennedy family on Tuesday asked a federal judge to let them join lawsuits seeking to block President Trump's planned 250-foot (76-meter) memorial arch at Memorial Circle, between Arlington National Cemetery and the Arlington Memorial Bridge. In a six-page motion to intervene, the family said the arch would \"obstruct the clear sightline of the Kennedy gravesites and JFK Eternal Flame\" from the bridge and \"permanently cast a shadow over the graves of servicemen and women ... including the Kennedy gravesites\" (Courthouse News). The motion joins existing cases brought by the District of Columbia and Virginia, Vietnam War veterans, and conservationists. The nine are children and grandchildren of Robert F. Kennedy and Edward M. Kennedy, including former Rep. Joseph P. Kennedy III; Health and Human Services Secretary Robert F. Kennedy Jr. is not among them (BBC). Last Thursday, November 5, U.S. District Judge Tanya Chutkan issued a temporary restraining order barring any groundbreaking for 14 days, the same day the National Capital Planning Commission gave the arch final approval in an 8-4 vote. A White House spokesman, Davis Ingle, called the family's move \"unfortunate\" and said the administration is \"confident we will be fully vindicated as this litigation proceeds\" (BBC).",
-   "briefing": {
-    "quickFacts": [
-     "Who: nine Kennedy family members, represented by Norm Eisen of the Democracy Defenders Fund",
-     "What: motion to intervene in existing suits, filed Tuesday, Nov. 10",
-     "Structure: planned 250-foot arch at Memorial Circle, outside Arlington National Cemetery",
-     "Court: Judge Tanya Chutkan paused groundbreaking for 14 days on Nov. 5",
-     "Planning commission approved the arch 8-4 on Nov. 5"
-    ],
-    "notYetConfirmed": [
-     "Whether the judge will allow the family to join the cases",
-     "Whether the court will extend the pause beyond 14 days or issue a longer injunction",
-     "How much shadow the arch would cast on specific graves; that is the family's claim, citing a Washington Post analysis"
-    ],
-    "whatHappensNext": [
-     "The 14-day restraining order runs into the week of November 16 unless the court extends it or rules on a longer injunction. The judge will decide whether to admit the Kennedy family as plaintiffs."
-    ]
-   }
-  },
-  {
-   "id": "va-claims",
-   "region": "us",
-   "location": "Washington, DC",
-   "headline": "VA says it processed a record 3.11 million disability claims",
-   "status": "claimed",
-   "outlets": [
-    {
-     "name": "Stars and Stripes",
-     "url": "https://www.stripes.com/veterans/2026-10-16/3-million-veterans-claims-processed-2026-23173473.html"
-    },
-    {
-     "name": "VeteranNews",
-     "url": "https://veterannews.com/post/va-claims-scorecard/"
-    },
-    {
-     "name": "White House pool report",
-     "url": "https://pool.pp.tools/reports/10260"
-    }
-   ],
-   "officialSources": [
-    "https://news.va.gov/press-room/va-in-fy-2026-processes-the-most-claims-ever/",
-    "https://www.arlingtoncemetery.mil/Media/News/Post/15150/2026-National-Veterans-Day-Observance-Open-to-Public"
-   ],
-   "summary": "The Department of Veterans Affairs' latest annual figures come from its own October 15 release: the VA says it processed 3,111,399 disability compensation claims in fiscal year 2026, which ended September 30, topping its prior record of 3,001,734 in fiscal 2025. The VA also says its backlog of veterans waiting for benefits has fallen by more than 70% since January 20, 2025, that claims accuracy is 94%, and that it grants more than 60% of claims. Independent coverage of the release has been limited; Stars and Stripes reported the VA's figures as the agency's. A monthly scorecard from VeteranNews.com, built from the VA's own weekly workload reports, shows the backlog, meaning claims pending more than 125 days, rose to 79,004 on October 31, up 5,658 (7.7%) from 73,346 on October 3, and grew in every weekly report in October, with 702,682 claims pending in total. The VA has said rising claims are expected, citing a record 3.15 million-plus claims received in fiscal 2026, and plans to hire more than 2,000 claims staff. President Trump and the first lady are scheduled to take part in the National Veterans Day wreath-laying ceremony at Arlington National Cemetery at 11 a.m. ET, with remarks at 11:30, according to the White House press schedule.",
-   "briefing": {
-    "quickFacts": [
-     "VA: 3,111,399 compensation claims processed in FY2026 vs. 3,001,734 in FY2025",
-     "VA: backlog down \"more than 70%\" since Jan. 20, 2025; 94% accuracy",
-     "VA weekly data (VeteranNews.com tally): backlog 79,004 on Oct. 31, up from 73,346 on Oct. 3",
-     "Pending claims: 702,682 as of Oct. 31",
-     "Veterans Day: wreath-laying at Arlington, 11 a.m. ET; Trump remarks scheduled 11:30"
-    ],
-    "notYetConfirmed": [
-     "The record and the 70% figure are the VA's own; no independent audit of the FY2026 totals has been published",
-     "Whether October's backlog rise continues; the VA says higher claim volume is expected"
-    ],
-    "whatHappensNext": [
-     "The VA publishes claims workload data weekly; November's figures will show whether the backlog keeps rising. The agency says it will hire more than 2,000 claims processors in fiscal 2027."
-    ]
-   }
-  },
-  {
-   "id": "october-cpi",
-   "region": "us",
-   "location": "Washington, DC",
-   "headline": "October consumer prices rose 0.4%, above forecasts",
-   "status": "sourced",
-   "outlets": [
-    {
-     "name": "Reuters",
-     "url": "https://www.reuters.com/5f374b32b07b/world/us/us-consumer-prices-rise-above-expectations-october-2026-11-10/"
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/business/business-news/nvidia-shares-drop-hours-reports-meeting-ceo-jensen-huangs-future-rcna608906"
     },
     {
      "name": "CNBC",
-     "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
+     "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html"
+    },
+    {
+     "name": "The Guardian",
+     "url": "https://www.theguardian.com/technology/2026/nov/12/nvidia-board-decision-ceo-jensen-huang-alleged-second-affair"
+    },
+    {
+     "name": "The Next Web",
+     "url": "https://thenextweb.com/news/nvidia-board-meeting-jensen-huang-ouster-no-decision"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Nvidia's board met Wednesday evening to address CEO Jensen Huang's future at the company, two sources familiar with the matter told NBC News; CNBC also confirmed the meeting, and Reuters reported it citing a source. As of Thursday morning, no decision had been announced (CNBC, The Next Web citing Reuters). The meeting followed a New York Times report Wednesday, citing five people who worked at Nvidia, that Huang had a relationship with Kimberly Powell, Nvidia's vice president of healthcare, who reported to him. NBC News said it had not confirmed the Times report. On Sunday, Huang told employees he had been \"unfaithful to his wife,\" after reports about his relationship with Alice Huang, a Megaspeed executive whom NBC News reported U.S. intelligence agencies had determined was a Chinese intelligence operative. China's Foreign Ministry called the allegations \"purely unsubstantiated.\" Nvidia shares fell more than 8% in after-hours trading Wednesday (The Guardian) and were down 6.9% in premarket trading at 6:23 a.m. Eastern Thursday (CNBC). The board said Sunday it had confidence in Huang; its independent directors have hired the law firm Wachtell, Lipton, Rosen & Katz to investigate (The Guardian). Under Nvidia's bylaws, a majority of its 11 directors can remove the CEO \"with or without cause.\" Huang co-founded Nvidia in 1993. Late Wednesday, Sens. Elizabeth Warren and Chris Coons asked the Commerce Department, the State Department and the White House to preserve records on Nvidia chip exports to China (NBC News). Nvidia did not respond to requests for comment.",
+   "briefing": {
+    "quickFacts": [
+     "Board meeting: Wednesday evening; no announced outcome as of Thursday morning",
+     "New report: NYT says Huang had a relationship with a direct report, VP of healthcare Kimberly Powell (not independently confirmed by NBC News)",
+     "Shares: down more than 8% after hours Wednesday; down 6.9% premarket Thursday (as of 6:23 a.m. ET)",
+     "Board: 11 directors, all but Huang considered independent; a majority can remove the CEO",
+     "Bernstein cut its share target to $200 from $400 (CNBC)",
+     "This follows Briefed's Nov. 9 and Nov. 10 reports on the first relationship and the board's investigation"
+    ],
+    "notYetConfirmed": [
+     "Whether the board will remove Huang, and who would lead the company if it does",
+     "The Times report about Powell; Huang, Powell and Nvidia did not comment",
+     "Whether Huang knew of any intelligence link; Huang denied knowledge, according to President Trump"
+    ],
+    "whatHappensNext": [
+     "Nvidia is scheduled to report quarterly results Tuesday, November 17. The Wachtell investigation is ongoing."
+    ]
+   }
+  },
+  {
+   "id": "brooklyn-collapse",
+   "region": "us",
+   "location": "Brooklyn, NY",
+   "headline": "Brooklyn building collapse kills eight, injures 17",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "ABC7 New York",
+     "url": "https://abc7ny.com/live-updates/brooklyn-building-collapse-live-updates-1-dead-flatbush/20034152/"
+    },
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/newyork/news/brooklyn-building-collapse-bedford-avenue/"
+    },
+    {
+     "name": "NY1",
+     "url": "https://ny1.com/nyc/all-boroughs/news/2026/11/12/death-toll-continues-to-rise-after-building-collapse-in-brooklyn-fdny-"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/brooklyn-building-collapse-dead-rubble-digging-292b3ece5d9ba6e375413c9f4671cf00"
+    }
+   ],
+   "officialSources": [],
+   "summary": "A three-story building at 1321 Flatbush Avenue, at the corner of Bedford Avenue in Flatbush, Brooklyn, collapsed just after 4 p.m. Wednesday into an excavation site next door at 2625 Bedford Avenue. As of about 7:20 a.m. Thursday, the FDNY says eight people have died and 17 were injured (ABC7 New York). Two of the dead died at the hospital, and four victims found in the rubble early Thursday are believed to be construction workers, ABC7 reported. Earlier Thursday the FDNY reported six dead and 19 injured (CBS News New York, NY1). Seven children were among those treated, and one firefighter had minor injuries. The building had a store at street level and apartments upstairs; the side of the neighboring building at 1323 Flatbush Avenue was torn off (NYPD via CBS News New York). People from both the building and the construction site were trapped. FDNY Commissioner Lillian Bonsignore said officials do not know how many people may still be in the collapse zone, and crews are using drones, buckets, vacuum trucks and dogs to search the rubble. The Buildings Department says the developers of the adjacent site had an active permit for excavation and foundation work and has since issued a full stop-work order (ABC7). City records show the department issued a violation in April to a demolition contractor at that lot for demolishing a building despite a stop-work order; the violation is listed as resolved (CBS News New York). It is not known whether work at the site caused the collapse. The Buildings Department and law enforcement are investigating, and the Brooklyn district attorney's office is examining whether any criminal conduct contributed.",
+   "briefing": {
+    "quickFacts": [
+     "Where: 1321 Flatbush Ave., at Bedford Ave., Flatbush, Brooklyn",
+     "When: just after 4 p.m. Wednesday, Nov. 11",
+     "Toll (FDNY, about 7:20 a.m. Thursday, via ABC7): 8 dead, 17 injured; two of the dead died at the hospital",
+     "Seven children were among those treated; one firefighter had minor injuries",
+     "More than 250 firefighters and EMS personnel responded",
+     "Families seeking information: call 311, or 212-639-9675 from outside New York City"
+    ],
+    "notYetConfirmed": [
+     "How many people may still be missing",
+     "How many of the injured remain in critical condition; ABC7's update gives both \"four\" and \"at least two\"",
+     "The cause of the collapse, including any role of the excavation next door",
+     "The names and ages of the victims"
+    ],
+    "whatHappensNext": [
+     "Officials say the search will continue for several days. A service center for affected residents opens at 9 a.m. Thursday at the Flatbush YMCA (NY1)."
+    ]
+   }
+  },
+  {
+   "id": "ice-record",
+   "region": "us",
+   "location": "Washington, DC",
+   "headline": "DHS says ICE deported a record 483,200 people in FY2026",
+   "status": "claimed",
+   "outlets": [
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/ice-deportations-arrests-hit-record-high/"
+    },
+    {
+     "name": "TRAC",
+     "url": "https://tracreports.org/whatsnew/email.261111.html"
+    }
+   ],
+   "officialSources": [],
+   "summary": "These are the Department of Homeland Security's own figures, obtained by CBS News; they have not been independently audited. DHS says Immigration and Customs Enforcement deported 483,200 people in fiscal year 2026, which ended September 30, above its previous record of 442,640 in fiscal 2025, and made more than 491,000 arrests, including nearly 475,000 administrative (civil) arrests. DHS says the deportation total is about 18% above the 409,849 removals in fiscal 2012 and about 78% above the 271,484 in fiscal 2024. \"Fiscal Year 2026 saw the highest number of ICE deportations and arrests for any year in ICE's history,\" DHS Secretary Markwayne Mullin said in a statement. CBS News noted that ICE's figures exclude actions by Customs and Border Protection, and that broader governmentwide deportation measures were higher in parts of the early 2000s. An analysis published Wednesday by Syracuse University's Transactional Records Access Clearinghouse (TRAC), based on case-by-case DHS records, found formal removals made up 63% of deportations in July and August 2026; voluntary departures were 31% and voluntary returns 6%. TRAC also found monthly removals fell to 26,908 in July 2026 from 30,893 in February 2025. The Migration Policy Institute found about 20% of roughly 980,000 ICE and CBP deportations from January 2025 to July 2026 involved someone with a criminal conviction (via CBS News).",
+   "briefing": {
+    "quickFacts": [
+     "DHS claim: 483,200 ICE deportations in FY2026 (FY2025: 442,640)",
+     "DHS claim: 491,000+ ICE arrests, including about 475,000 administrative arrests; monthly high of 50,925 in August",
+     "TRAC: formal removals were 63% of deportations in July-August 2026",
+     "MPI: about 20% of ICE and CBP deportations since January 2025 involved a criminal conviction",
+     "CBS News exit polling: 58% of midterm voters said enforcement had gone too far"
+    ],
+    "notYetConfirmed": [
+     "The DHS totals; the department's full data release was not posted on dhs.gov when this was written, and the counts include voluntary departures and returns",
+     "How DHS defines and counts a deportation versus a formal removal"
+    ],
+    "whatHappensNext": [
+     "Democrats take control of both chambers of Congress in January; some have said they want more oversight of immigration enforcement. ICE has about $75 billion in additional funding from the July 2025 tax and spending law (CBS News)."
+    ]
+   }
+  },
+  {
+   "id": "snap-rule",
+   "region": "us",
+   "location": "Washington, DC",
+   "headline": "USDA proposes SNAP rule it says would cut 6.3 million people",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/usda-proposes-snap-eligibility-rule-change-food-stamps/"
+    },
+    {
+     "name": "Politico",
+     "url": "https://www.politico.com/news/2026/11/09/usda-food-aid-snap-01156715"
     }
    ],
    "officialSources": [
-    "https://www.bls.gov/news.release/cpi.nr0.htm"
+    "https://www.federalregister.gov/documents/2026/11/10/2026-22936/supplemental-nutrition-assistance-program-reforming-categorical-eligibility"
    ],
-   "summary": "The Labor Department reported Tuesday that consumer prices rose 0.4% in October, above the 0.3% forecast in a Reuters poll, after 0.6% in September. Core prices, excluding food and energy, rose 0.3%, against a 0.2% forecast. Reuters reported that the data were \"cementing expectations that the Federal Reserve will raise interest rates next month.\" Full category figures were in yesterday's edition.",
+   "summary": "The Agriculture Department published a proposed rule in the Federal Register on November 10 that would narrow \"categorical eligibility\" for the Supplemental Nutrition Assistance Program (SNAP). Under current rules, households that receive cash or non-cash benefits from programs funded by Temporary Assistance for Needy Families (TANF) can qualify for SNAP automatically. The proposal would limit that to households that receive TANF \"assistance\" as defined in federal regulation, so non-cash services such as child care or job training would no longer confer SNAP eligibility (Federal Register; CBS News). USDA estimates about 16.9% of participating households, 3.2 million households containing 6.3 million people, would no longer receive SNAP in fiscal 2029, the first year the rule would take full effect, and that federal SNAP benefit spending would fall by about $44.6 billion from fiscal 2027 to 2031. The agency estimates nearly 1.8 million children would lose access to free school meals (CBS News). A USDA spokesperson said broad-based categorical eligibility \"has bloated the welfare rolls for decades.\" The Center on Budget and Policy Priorities and the Food Research and Action Center criticized the proposal, and Rep. Angie Craig of Minnesota, the top Democrat on the House Agriculture Committee, called it \"heartless and cruel\" (CBS News). A similar 2019 proposal was withdrawn in 2021.",
    "briefing": {
     "quickFacts": [
-     "CPI: +0.4% in October (forecast 0.3%); September +0.6%",
-     "Core CPI: +0.3% (forecast 0.2%), third straight month at that pace",
-     "No official year-over-year rate, because of last year's shutdown data gap"
+     "Rule: \"Supplemental Nutrition Assistance Program: Reforming Categorical Eligibility,\" FR Doc. 2026-22936",
+     "USDA estimate: 3.2 million households, 6.3 million people off SNAP in FY2029",
+     "USDA estimate: about $44.6 billion less in federal SNAP benefits, FY2027-2031",
+     "More than 40 states use broad-based categorical eligibility (CBS News)",
+     "Comment deadline: December 10, 2026"
     ],
     "notYetConfirmed": [
-     "What the Fed will do; market-implied odds (about an 89% chance of a quarter-point increase, per CME FedWatch via Reuters) are not a decision"
+     "Whether USDA will change the rule after public comments, and when a final rule would be issued",
+     "Advocacy groups say the impact could be larger than USDA's estimate"
     ],
     "whatHappensNext": [
-     "The Federal Reserve meets December 8-9. October producer prices are due Friday."
+     "Public comments are open through December 10 on Regulations.gov (docket FNA-2026-0661). USDA would then review comments before any final rule."
+    ]
+   }
+  },
+  {
+   "id": "epstein-petition",
+   "region": "us",
+   "location": "Washington, DC",
+   "headline": "Massie petition for second Epstein files bill reaches 218",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/US/discharge-petition-2nd-epstein-files-bill-secures-218/story?id=138057235"
+    },
+    {
+     "name": "Axios",
+     "url": "https://www.axios.com/2026/11/11/massie-epstein-files-second-vote"
+    },
+    {
+     "name": "The Hill",
+     "url": "https://thehill.com/homenews/house/6214408-massie-epstein-files-discharge-petition/"
+    }
+   ],
+   "officialSources": [],
+   "summary": "A discharge petition from Rep. Thomas Massie, R-Ky., to force a House vote on the Epstein Files Transparency Act II reached the 218 signatures needed on Wednesday, November 11 (ABC News, Axios). All 214 House Democrats signed, along with four Republicans: Massie and Reps. Nancy Mace and Ralph Norman of South Carolina and Brian Fitzpatrick of Pennsylvania. Reps. Adam Smith and John Garamendi were the final signers (The Hill, Axios). The bill would let state attorneys general, Epstein's victims and members of Congress sue the U.S. attorney general over Epstein-related records the Justice Department withholds or redacts without justification (ABC News). Congress passed the first Epstein Files Transparency Act in November 2025 after an earlier Massie discharge petition; the House vote was 427-1, and President Trump signed it. The Justice Department missed that law's December 19, 2025, deadline and said in January it had released nearly 3.5 million pages (Axios). The White House did not answer Axios's questions about the new bill.",
+   "briefing": {
+    "quickFacts": [
+     "Signatures: 218 (214 Democrats, 4 Republicans)",
+     "Republican signers: Massie, Mace, Norman, Fitzpatrick",
+     "Bill: lets states, victims and members of Congress sue over withheld or redacted Epstein records",
+     "Discharge petitions have succeeded eight times in the 119th Congress (ABC News)"
+    ],
+    "notYetConfirmed": [
+     "Whether the bill would pass the House, or get a Senate vote before the new Congress begins in January (Axios)"
+    ],
+    "whatHappensNext": [
+     "The petition must sit on the House calendar for seven legislative days; a signer can then call it up, and the speaker has two legislative days to schedule it. Floor action would come after the Thanksgiving recess, potentially as early as December 2 or 3 (ABC News)."
     ]
    }
   }
  ],
  "audio": {
-  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-11/Briefed-2026-11-11-full-twohost.mp3",
-  "durationSeconds": 119.928,
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-12/Briefed-2026-11-12-full-twohost.mp3",
+  "durationSeconds": 116.663,
   "aiVoices": true,
   "chapters": [
    {
     "storyId": null,
     "title": "Intro",
     "start": 0.0,
-    "end": 10.016
+    "end": 9.702
    },
    {
-    "storyId": "hegseth-impeachment",
-    "title": "Hegseth vote",
-    "start": 10.016,
-    "end": 32.321
+    "storyId": "colom-mississippi",
+    "title": "Colom wins Mississippi",
+    "start": 9.702,
+    "end": 27.828
    },
    {
-    "storyId": "gop-leaders",
-    "title": "GOP leaders",
-    "start": 32.321,
-    "end": 52.38
+    "storyId": "nvidia-huang",
+    "title": "Nvidia and Huang",
+    "start": 27.828,
+    "end": 44.386
    },
    {
-    "storyId": "kennedy-arch",
-    "title": "Kennedy arch suit",
-    "start": 52.38,
-    "end": 74.371
+    "storyId": "brooklyn-collapse",
+    "title": "Brooklyn collapse",
+    "start": 44.386,
+    "end": 58.398
    },
    {
-    "storyId": "va-claims",
-    "title": "VA claims",
-    "start": 74.371,
-    "end": 97.304
+    "storyId": "ice-record",
+    "title": "ICE record",
+    "start": 58.398,
+    "end": 75.897
    },
    {
-    "storyId": "october-cpi",
-    "title": "October CPI",
-    "start": 97.304,
-    "end": 111.276
+    "storyId": "snap-rule",
+    "title": "SNAP rule",
+    "start": 75.897,
+    "end": 90.522
+   },
+   {
+    "storyId": "epstein-petition",
+    "title": "Epstein petition",
+    "start": 90.522,
+    "end": 108.021
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 111.276,
-    "end": 119.881
+    "start": 108.021,
+    "end": 116.626
    }
   ]
  },
  "video": {
-  "url": "/briefed/media/2026-11-11/Briefed-2026-11-11-web.mp4",
-  "durationSeconds": 111.365,
+  "url": "/briefed/media/2026-11-12/Briefed-2026-11-12-web.mp4",
+  "durationSeconds": 108.424,
   "aiVoices": true,
   "chapters": [
    {
-    "storyId": "hegseth-impeachment",
-    "title": "Hegseth vote",
+    "storyId": "colom-mississippi",
+    "title": "Colom wins Mississippi",
     "start": 0.0,
-    "end": 23.805
+    "end": 19.626
    },
    {
-    "storyId": "gop-leaders",
-    "title": "GOP leaders",
-    "start": 23.805,
-    "end": 43.864
+    "storyId": "nvidia-huang",
+    "title": "Nvidia and Huang",
+    "start": 19.626,
+    "end": 36.184
    },
    {
-    "storyId": "kennedy-arch",
-    "title": "Kennedy arch suit",
-    "start": 43.864,
-    "end": 65.855
+    "storyId": "brooklyn-collapse",
+    "title": "Brooklyn collapse",
+    "start": 36.184,
+    "end": 50.196
    },
    {
-    "storyId": "va-claims",
-    "title": "VA claims",
-    "start": 65.855,
-    "end": 88.788
+    "storyId": "ice-record",
+    "title": "ICE record",
+    "start": 50.196,
+    "end": 67.695
    },
    {
-    "storyId": "october-cpi",
-    "title": "October CPI",
-    "start": 88.788,
-    "end": 102.76
+    "storyId": "snap-rule",
+    "title": "SNAP rule",
+    "start": 67.695,
+    "end": 82.32
+   },
+   {
+    "storyId": "epstein-petition",
+    "title": "Epstein petition",
+    "start": 82.32,
+    "end": 99.819
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 102.76,
-    "end": 111.365
+    "start": 99.819,
+    "end": 108.424
    }
   ],
-  "poster": "/briefed/media/2026-11-11/Briefed-2026-11-11-poster.jpg"
+  "poster": "/briefed/media/2026-11-12/Briefed-2026-11-12-poster.jpg"
  }
 }
