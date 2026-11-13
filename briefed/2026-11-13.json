@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "date": "2026-11-13",
- "generatedAt": "2026-11-13T07:35:00-05:00",
+ "generatedAt": "2026-11-13T07:48:00-05:00",
  "stories": [
   {
    "id": "dc-logan-circle",
@@ -256,7 +256,7 @@
  ],
  "audio": {
   "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-13/Briefed-2026-11-13-full-twohost.mp3",
-  "durationSeconds": 125.571,
+  "durationSeconds": 123.35,
   "aiVoices": true,
   "chapters": [
    {
@@ -281,37 +281,37 @@
     "storyId": "hhs-ibogaine",
     "title": "HHS ibogaine research",
     "start": 44.713,
-    "end": 65.399
+    "end": 63.178
    },
    {
     "storyId": "vance-iran",
     "title": "Trump pulls Vance off Iran talks",
-    "start": 65.399,
-    "end": 80.991
+    "start": 63.178,
+    "end": 78.77
    },
    {
     "storyId": "van-hollen-schumer",
     "title": "Van Hollen challenges Schumer",
-    "start": 80.991,
-    "end": 95.929
+    "start": 78.77,
+    "end": 93.709
    },
    {
     "storyId": "home-sales",
     "title": "Home sales lowest since 2010",
-    "start": 95.929,
-    "end": 116.928
+    "start": 93.709,
+    "end": 114.708
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 116.928,
-    "end": 125.534
+    "start": 114.708,
+    "end": 123.313
    }
   ]
  },
  "video": {
   "url": "/briefed/media/2026-11-13/Briefed-2026-11-13-web.mp4",
-  "durationSeconds": 117.018,
+  "durationSeconds": 114.797,
   "aiVoices": true,
   "chapters": [
    {
@@ -330,31 +330,31 @@
     "storyId": "hhs-ibogaine",
     "title": "HHS ibogaine research",
     "start": 36.197,
-    "end": 56.883
+    "end": 54.662
    },
    {
     "storyId": "vance-iran",
     "title": "Trump pulls Vance off Iran talks",
-    "start": 56.883,
-    "end": 72.475
+    "start": 54.662,
+    "end": 70.254
    },
    {
     "storyId": "van-hollen-schumer",
     "title": "Van Hollen challenges Schumer",
-    "start": 72.475,
-    "end": 87.413
+    "start": 70.254,
+    "end": 85.193
    },
    {
     "storyId": "home-sales",
     "title": "Home sales lowest since 2010",
-    "start": 87.413,
-    "end": 108.412
+    "start": 85.193,
+    "end": 106.192
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 108.412,
-    "end": 117.018
+    "start": 106.192,
+    "end": 114.797
    }
   ],
   "poster": "/briefed/media/2026-11-13/Briefed-2026-11-13-poster.jpg"
