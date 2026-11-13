@@ -49,8 +49,10 @@ a.b-chip:hover{border-color:var(--brand);text-decoration:none;color:var(--brand)
 .b-arch li a{display:block;padding:14px 16px;border:1px solid var(--line);border-radius:12px;background:#fff;color:var(--ink)}
 .b-arch li a:hover{border-color:var(--brand);text-decoration:none}
 .b-arch .d{display:block;font-weight:700;color:var(--brand)}
-.b-follow{margin-top:14px;color:var(--ink2);font-size:.95rem}
-.b-follow a{font-weight:700}
+.b-follow{margin-top:14px;color:var(--ink2);font-size:.95rem;line-height:1.4}
+.b-follow-link{display:inline-flex;align-items:center;gap:.35em;font-weight:700;vertical-align:middle;padding:4px 2px;min-height:32px;color:inherit}
+.b-follow-link:hover{color:var(--brand);text-decoration:none}
+.b-follow-icon{width:18px;height:18px;flex:none;display:block}
 .b-arch-month{padding:0}
 .b-arch-month:first-child h2{margin-top:16px}
 .b-arch-filters{display:grid;grid-template-columns:1fr 1fr auto;gap:10px 12px;align-items:end;margin:0 0 4px;padding:14px 16px;background:#fff;border:1px solid var(--line);border-radius:12px}
