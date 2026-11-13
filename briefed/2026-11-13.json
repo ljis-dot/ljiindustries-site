@@ -1,0 +1,362 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-11-13",
+ "generatedAt": "2026-11-13T07:35:00-05:00",
+ "stories": [
+  {
+   "id": "dc-logan-circle",
+   "region": "us",
+   "location": "Washington, DC",
+   "headline": "Gunman kills D.C. building manager, shoots four more, then himself",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "Washington Post",
+     "url": "https://www.washingtonpost.com/dc-md-va/2026/11/12/multiple-victims-shooting-dcs-logan-circle/"
+    },
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/washington-dc-shooting-gym-vida/"
+    },
+    {
+     "name": "NBC4 Washington",
+     "url": "https://www.nbcwashington.com/news/local/logan-circle-dc-shooting-live-updates/4181644/"
+    }
+   ],
+   "officialSources": [
+    "https://mpdc.dc.gov/release/mpd-provides-update-15th-street-northwest-shooting"
+   ],
+   "summary": "A gunman killed building manager James Stuart, 46, inside Vida Fitness at 1517 15th St. NW in Washington, D.C.'s Logan Circle neighborhood on Thursday morning, then shot four more people from a balcony and killed himself, D.C. police said. The Metropolitan Police Department said officers responded to the 1500 block of 15th Street NW at about 7:59 a.m. Thursday, November 12. Police identified the gunman as 55-year-old Matt Wade Lambert, a doctor who lived in the building (CBS News; NBC4). Interim Chief Jeffery Carroll said there were five victims, not counting the shooter: one dead, one in critical condition and three with non-life-threatening injuries. Carroll said Stuart was shot inside the gym and that the four injured people were shot after Lambert retreated to his apartment and fired from his balcony; other victims included members of a construction crew across the street and a person in the lobby or alley outside the gym (CBS News, NBC4). Carroll said Lambert barricaded himself in his apartment, spoke with negotiators for about an hour, and died of a self-inflicted gunshot wound (CBS News). Police recovered a shotgun, a rifle and a handgun in the apartment; none were registered to Lambert in the District of Columbia (MPD, CBS News). Carroll said investigators believe there was a conflict between Lambert and the building's homeowners association and that the investigation is continuing. NBC4, citing authorities and court records, reported that Lambert had sued over mold, moisture and water problems in his seventh-floor penthouse. CBS News, citing police, said investigators believe Stuart was specifically targeted because of a long-running conflict with the building's homeowners association. The four injured people have not been publicly identified. A shelter-in-place order for the block lasted about two and a half hours (NBC4). An earlier written MPD release said officers located six people with gunshot wounds \u2014 three adult females and two adult males transported, and one adult male dead on the scene \u2014 a count that does not match the chief's later statement of five victims plus the gunman.",
+   "briefing": {
+    "quickFacts": [
+     "Where: Vida Fitness, 1517 15th St. NW, Logan Circle, Washington, D.C.",
+     "When: about 7:59 a.m. Thursday, Nov. 12",
+     "Toll (Interim Chief Jeffery Carroll): 5 victims not counting the shooter \u2014 1 dead, 1 critical, 3 non-life-threatening",
+     "Killed: James Stuart, 46, the building manager, inside the gym",
+     "Gunman: Matt Wade Lambert, 55, died of a self-inflicted gunshot after a barricade",
+     "Three firearms recovered (shotgun, rifle, handgun); none registered to him in D.C."
+    ],
+    "notYetConfirmed": [
+     "The discrepancy between MPD's written release (six people with gunshot wounds) and the chief's later count of five victims plus the gunman",
+     "The names and conditions of the four injured people, beyond one critical and three non-life-threatening",
+     "Whether the homeowners-association dispute was the motive, which police said they were still investigating",
+     "How Lambert obtained the three firearms",
+     "CBS News sometimes identifies the gunman as \"Matthew\" Lambert; MPD's written release says \"Matt Wade Lambert\""
+    ],
+    "whatHappensNext": [
+     "The case remains under investigation. MPD asked anyone with information to call (202) 727-9099 or text 50411."
+    ]
+   }
+  },
+  {
+   "id": "nvidia-huang",
+   "region": "us",
+   "location": "Santa Clara, CA",
+   "headline": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress is interim",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "Nvidia",
+     "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+    },
+    {
+     "name": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/"
+    },
+    {
+     "name": "Investing.com",
+     "url": "https://www.investing.com/news/stock-market-news/nvidia-ceo-jensen-huang-to-step-down-in-big-blow-to-ai-boom-5021980"
+    },
+    {
+     "name": "Investopedia",
+     "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11122026-12250329"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Nvidia said Thursday that its board had accepted Jensen Huang's resignation as president, chief executive and a member of the board, effective immediately. In a regulatory filing cited by TechCrunch, the company said the board accepted the resignation on Wednesday, November 11, and announced it on Thursday, November 12. Colette Kress, Nvidia's executive vice president and chief financial officer since 2013, is interim CEO and will remain CFO until a permanent successor is named. The board said it is starting a search that will consider internal and external candidates, and it appointed Harvey C. Jones as its first-ever board chair. Jones, a longtime technology executive and former CEO and executive chairman of Synopsys, said the board has \"full confidence in Colette and the leadership team\" and expects operations, customer commitments and the product roadmap to continue without interruption (Nvidia newsroom). Huang co-founded Nvidia in 1993 and had been CEO since then. Nvidia shares closed down 4.3% Thursday after falling as much as 14% early, Investopedia reported; TechCrunch said the shares were down nearly 12% in early trading. Nvidia is scheduled to report third-quarter fiscal 2027 results on Tuesday, November 17, at about 1:20 p.m. Pacific, followed by its earnings call at 2 p.m. Pacific.",
+   "briefing": {
+    "quickFacts": [
+     "Board accepted Huang's resignation Wednesday, Nov. 11; company announced it Thursday, Nov. 12; effective immediately",
+     "Huang left the president, CEO and board roles",
+     "Interim CEO: CFO Colette Kress, who remains CFO",
+     "Harvey C. Jones named the board's first chair",
+     "Shares: closed down 4.3% Thursday; TechCrunch said nearly 12% early; Investopedia said as much as 14% early",
+     "Earnings: Tuesday, Nov. 17"
+    ],
+    "notYetConfirmed": [
+     "Whom the board will name as permanent CEO, or when",
+     "A single official figure for Thursday's early drop; published accounts include nearly 12% and as much as 14%"
+    ],
+    "whatHappensNext": [
+     "Nvidia reports quarterly results Tuesday, November 17. The board's search for a permanent CEO is underway."
+    ]
+   }
+  },
+  {
+   "id": "hhs-ibogaine",
+   "region": "us",
+   "location": "Washington, DC",
+   "headline": "HHS puts up to $4.9 million toward preparing U.S. ibogaine PTSD studies",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/Health/wireStory/trump-administration-fund-new-research-controversial-psychedelic-drug-138085268"
+    }
+   ],
+   "officialSources": [
+    "https://www.hhs.gov/press-room/hhs-advances-ibogaine-ptsd-research-rapid-acting-mental-health-treatments.html",
+    "https://arpa-h.gov/news-and-events/arpa-h-lays-groundwork-first-trials-assess-ibogaine-serious-mental-illness"
+   ],
+   "summary": "The Department of Health and Human Services said Thursday that the Advanced Research Projects Agency for Health (ARPA-H) is committing up to $4.9 million over five years to prepare for U.S. studies of ibogaine for post-traumatic stress disorder and other serious mental illness, including in veterans. HHS said the awards fund regulatory and manufacturing groundwork for future trials, including preparation of Investigational New Drug applications, and do not fund treatment of patients or human-subject research, authorize clinical trials, or establish FDA approval. The research teams selected by ARPA-H are led by the Mark Cuban Cost Plus Drug Company, PBC, which HHS said will establish the regulatory, clinical, chemical and engineering foundation for a domestically manufactured ibogaine hydrochloride product, and Beond, Inc., which HHS said will deliver clinical data on safety, dosing, efficacy and durability. ABC News reported that Beond is a Texas-based company that has treated more than 3,000 patients with ibogaine in Mexico. HHS said additional awards are expected, including work focused on substance use disorders. The announcement noted that ibogaine carries serious safety risks, including potentially life-threatening heart rhythm problems. ABC News noted that ibogaine is illegal in the United States and is in the same restrictive class as LSD and most other psychedelic drugs. Separately, the National Institute of Mental Health published a $20 million Notice of Funding Opportunity for a research network to study rapid-acting psychotropic treatments such as ketamine, esketamine and psilocybin; HHS said award recipients will be announced in the summer of 2027. Secretary Robert F. Kennedy Jr. was joined by Department of Veterans Affairs leaders for the announcement the day after Veterans Day.",
+   "briefing": {
+    "quickFacts": [
+     "ARPA-H: up to $4.9 million over five years to prepare U.S. ibogaine studies for PTSD and other serious mental illness",
+     "Groundwork only: not patient treatment, not authorized clinical trials, not FDA approval",
+     "Awardees named by HHS: Mark Cuban Cost Plus Drug Company, PBC, and Beond, Inc.",
+     "NIMH: $20 million funding opportunity for a rapid-acting treatments network (ketamine, esketamine, psilocybin)",
+     "NIMH network awards due summer 2027",
+     "HHS warning: ibogaine can cause serious, potentially life-threatening heart rhythm problems"
+    ],
+    "notYetConfirmed": [
+     "When, or whether, the FDA would authorize U.S. clinical trials of ibogaine",
+     "The size of each ARPA-H award; HHS gave only the combined \"up to $4.9 million\" figure",
+     "Whether later awards for substance use disorders will be made, and for how much"
+    ],
+    "whatHappensNext": [
+     "The ARPA-H teams are to prepare the groundwork for possible Investigational New Drug applications. NIMH said it will announce RAPID-network awards in the summer of 2027. HHS said additional ibogaine awards are expected."
+    ]
+   }
+  },
+  {
+   "id": "vance-iran",
+   "region": "us",
+   "location": "Washington, DC",
+   "headline": "Trump tells Vance to drop Iran talks and focus on Democratic-run cities",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/politics/donald-trump/us-doesnt-need-peace-deal-iran-vance-corruption-trump-rcna609027"
+    },
+    {
+     "name": "NPR",
+     "url": "https://www.npr.org/2026/11/13/nx-s1-6039160/trump-redirects-vance-from-iran-to-focus-on-combatting-fraud-in-democratic-led-states"
+    },
+    {
+     "name": "Christian Science Monitor",
+     "url": "https://www.csmonitor.com/Daily/2026/20261113"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/trump-iran-vance-negotiations-d9671cbf66e3c2e337f4fb3485ad07d0"
+    }
+   ],
+   "officialSources": [],
+   "summary": "President Trump said Thursday he told Vice President JD Vance to turn his attention from Iran negotiations to what Trump called crime and corruption in Democratic-run cities and states. In a Truth Social post, Trump wrote, \"We don't need a deal with Iran. Those days have long since passed. We've got their money, Hundreds of Billions of Dollars, and we've got their Strait!\" referring to the Strait of Hormuz (NBC News). The Christian Science Monitor's Daily for November 13, citing that post, said Vance would instead focus on fighting corruption in cities and states run by Democrats, and that Vance has been a central figure in this year's peace talks. NPR's headline said Trump was redirecting Vance from Iran to combating fraud in Democratic-led states. NBC News noted that Trump had repeatedly suggested before the midterm elections that an Iran agreement could be reached, and that two days earlier he had predicted the war would be \"ending fairly soon.\" Vance, NBC News reported, had said a day after Republican midterm losses that voter anger over the Iran war was the \"real reason\" for the party's defeat.",
+   "briefing": {
+    "quickFacts": [
+     "Trump, Thursday on Truth Social: \"We don't need a deal with Iran. Those days have long since passed.\"",
+     "Trump said he told Vance to focus on crime and corruption in Democratic-run cities and states",
+     "Vance had been a central figure in this year's Iran talks (CSM)",
+     "Trump had said before the midterms that an agreement could be reached, and on Tuesday that the war was \"going to be ending fairly soon\" (NBC News)"
+    ],
+    "notYetConfirmed": [
+     "What, if any, Iran diplomacy continues without Vance in the lead",
+     "A full, official transcript of the Truth Social post beyond the excerpts published by NBC News and CSM"
+    ],
+    "whatHappensNext": [
+     "NBC News reported that some of Trump's advisers have told him the window for restarting major combat operations in Iran was closing before Democrats take control of Congress in January, according to two U.S. officials. It was not clear from Thursday's coverage what Vance will do next on either Iran or the domestic assignment."
+    ]
+   }
+  },
+  {
+   "id": "van-hollen-schumer",
+   "region": "us",
+   "location": "Washington, DC",
+   "headline": "Van Hollen challenges Schumer for Senate Democratic leader",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "NPR",
+     "url": "https://www.npr.org/2026/11/12/nx-s1-6039357/chris-van-hollen-chuck-schumer-senate-majority-leader"
+    },
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/politics/congress/sen-chris-van-hollen-says-will-challenge-sen-chuck-schumer-majority-le-rcna609100"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/van-hollen-schumer-senate-democratic-leader-6d74c189cb6c065c9a810a1cf1a53436"
+    },
+    {
+     "name": "Roll Call",
+     "url": "https://rollcall.com/2026/11/12/van-hollen-announces-bid-for-majority-leader-but-schumer-says-he-has-the-votes/"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Sen. Chris Van Hollen of Maryland said Thursday he will run for Senate Democratic leader, challenging Sen. Chuck Schumer of New York. Van Hollen, in a statement, said voters \"called for a change from the status quo that isn't working for working people\" and that \"we need new leadership.\" \"This is not about any one person \u2014 it's about answering the call of the American people. That is why I'm running for Senate Majority Leader\" (NPR, NBC News, Roll Call). Schumer, who has led Senate Democrats since 2017, said he has the votes to continue. \"I'm proud of what we've accomplished together\u201455 seats and counting is an amazing result\u2014and I have the votes to continue serving as Democratic Leader,\" he wrote (NPR, Roll Call). Democratic senators will hold a closed-door, secret-ballot vote in early December, NPR reported; NBC News and Roll Call said the vote is in December and that it requires a simple majority of the caucus. Van Hollen, 67, was elected to the Senate in 2016 after more than a decade in the House. In an interview with MS NOW, he said more than 10 senators had pledged to support him and called himself the underdog (NBC News, Roll Call). NPR reported that Sen. Bernie Sanders has said he would oppose Schumer, and that several incoming Democratic senators, including Peggy Flanagan of Minnesota and Abdul El-Sayed of Michigan, have also expressed opposition to Schumer's bid.",
+   "briefing": {
+    "quickFacts": [
+     "Van Hollen announced Thursday he will challenge Schumer for Senate Democratic leader",
+     "Closed-door, secret-ballot vote in early December (NPR); NBC News and Roll Call say December",
+     "Schumer, Democratic leader since 2017, says he has the votes",
+     "Van Hollen told MS NOW that more than 10 senators have pledged support and that he is the underdog",
+     "Schumer pointed to \"55 seats and counting\" in the new Democratic majority"
+    ],
+    "notYetConfirmed": [
+     "A precise vote date of December 1, which appeared in some secondary accounts but was not in the fetched NPR, NBC News or Roll Call text",
+     "How many senators will ultimately support Van Hollen; his \"more than 10\" figure is his own",
+     "The outcome of Alaska's Senate race, which NPR noted could grow the Democratic majority from 55 to 56 seats"
+    ],
+    "whatHappensNext": [
+     "Democratic senators vote in early December. The winner will lead the caucus when the new Congress convenes in January."
+    ]
+   }
+  },
+  {
+   "id": "home-sales",
+   "region": "us",
+   "location": "USA",
+   "headline": "Existing-home sales fall to a 3.75 million pace, lowest since 2010",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "National Association of Realtors",
+     "url": "https://www.nar.realtor/newsroom/existing-home-sales-decreased-5-5-percent-october-nar-report"
+    },
+    {
+     "name": "HousingWire",
+     "url": "https://www.housingwire.com/articles/existing-home-sales-october-375m/"
+    },
+    {
+     "name": "Realtor.com",
+     "url": "https://www.realtor.com/news/trends/existing-home-sales-data-nar-october-2026/"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Existing-home sales fell to a seasonally adjusted annual rate of 3.75 million in October, down 5.5% from September and 8.8% from a year earlier, the National Association of Realtors said Thursday. That was the lowest pace since August 2010, NAR Chief Economist Lawrence Yun said. \"Home buying is difficult when mortgage rates have climbed to their highest levels since 2000, aside from a single month in 2023,\" Yun said in NAR's statement, as reported by HousingWire and Realtor.com. The median price was $416,700, up 0.4% from a year earlier, HousingWire reported, citing NAR; Realtor.com said that was the highest median for the month of October and the 40th consecutive month of year-over-year increases, according to NAR. The average 30-year fixed mortgage rate was 7.33% in October, up from 6.86% in September, according to Freddie Mac figures cited by Realtor.com; the rate hit 7.40% on October 8. Inventory rose to 1.59 million existing homes for sale, up 1.3% from September and 4.6% from a year earlier, or 5.1 months of supply (HousingWire, Realtor.com). Month-over-month sales declined in the Midwest, South and West and held steady in the Northeast; year-over-year sales declined in all four regions (NAR). Realtor.com Chief Economist Danielle Hale said sales are likely to remain relatively low for the rest of 2026 as mortgage rates stay high.",
+   "briefing": {
+    "quickFacts": [
+     "October existing-home sales: 3.75 million seasonally adjusted annual rate",
+     "Down 5.5% from September and 8.8% from a year earlier; lowest pace since August 2010",
+     "Median price: $416,700, up 0.4% from a year earlier",
+     "30-year fixed mortgage averaged 7.33% in October (Freddie Mac, via Realtor.com), up from 6.86% in September; hit 7.40% on Oct. 8",
+     "Inventory: 1.59 million homes, 5.1 months of supply"
+    ],
+    "notYetConfirmed": [
+     "NAR's newsroom page as fetched did not include the statistical tables (they load separately); the 3.75 million pace, median price, inventory and mortgage-rate figures used here come from HousingWire and Realtor.com attributing NAR and Freddie Mac",
+     "Whether November sales will remain at this pace"
+    ],
+    "whatHappensNext": [
+     "NAR will release November existing-home sales in December. Yun said there could be pent-up demand if mortgage rates decline; Hale said she expects sales to stay near longtime lows for the next few months."
+    ]
+   }
+  }
+ ],
+ "audio": {
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-13/Briefed-2026-11-13-full-twohost.mp3",
+  "durationSeconds": 125.571,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": null,
+    "title": "Intro",
+    "start": 0.0,
+    "end": 10.016
+   },
+   {
+    "storyId": "dc-logan-circle",
+    "title": "D.C. Logan Circle shooting",
+    "start": 10.016,
+    "end": 26.901
+   },
+   {
+    "storyId": "nvidia-huang",
+    "title": "Huang resigns at Nvidia",
+    "start": 26.901,
+    "end": 44.713
+   },
+   {
+    "storyId": "hhs-ibogaine",
+    "title": "HHS ibogaine research",
+    "start": 44.713,
+    "end": 65.399
+   },
+   {
+    "storyId": "vance-iran",
+    "title": "Trump pulls Vance off Iran talks",
+    "start": 65.399,
+    "end": 80.991
+   },
+   {
+    "storyId": "van-hollen-schumer",
+    "title": "Van Hollen challenges Schumer",
+    "start": 80.991,
+    "end": 95.929
+   },
+   {
+    "storyId": "home-sales",
+    "title": "Home sales lowest since 2010",
+    "start": 95.929,
+    "end": 116.928
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 116.928,
+    "end": 125.534
+   }
+  ]
+ },
+ "video": {
+  "url": "/briefed/media/2026-11-13/Briefed-2026-11-13-web.mp4",
+  "durationSeconds": 117.018,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": "dc-logan-circle",
+    "title": "D.C. Logan Circle shooting",
+    "start": 0.0,
+    "end": 18.385
+   },
+   {
+    "storyId": "nvidia-huang",
+    "title": "Huang resigns at Nvidia",
+    "start": 18.385,
+    "end": 36.197
+   },
+   {
+    "storyId": "hhs-ibogaine",
+    "title": "HHS ibogaine research",
+    "start": 36.197,
+    "end": 56.883
+   },
+   {
+    "storyId": "vance-iran",
+    "title": "Trump pulls Vance off Iran talks",
+    "start": 56.883,
+    "end": 72.475
+   },
+   {
+    "storyId": "van-hollen-schumer",
+    "title": "Van Hollen challenges Schumer",
+    "start": 72.475,
+    "end": 87.413
+   },
+   {
+    "storyId": "home-sales",
+    "title": "Home sales lowest since 2010",
+    "start": 87.413,
+    "end": 108.412
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 108.412,
+    "end": 117.018
+   }
+  ],
+  "poster": "/briefed/media/2026-11-13/Briefed-2026-11-13-poster.jpg"
+ }
+}

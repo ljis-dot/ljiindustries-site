@@ -1,49 +1,50 @@
 {
  "schemaVersion": 1,
- "date": "2026-11-12",
- "generatedAt": "2026-11-12T07:32:00-05:00",
+ "date": "2026-11-13",
+ "generatedAt": "2026-11-13T07:35:00-05:00",
  "stories": [
   {
-   "id": "colom-mississippi",
+   "id": "dc-logan-circle",
    "region": "us",
-   "location": "Mississippi",
-   "headline": "Democrat Scott Colom wins Mississippi Senate seat by 4,669 votes",
-   "status": "reported-only",
+   "location": "Washington, DC",
+   "headline": "Gunman kills D.C. building manager, shoots four more, then himself",
+   "status": "sourced",
    "outlets": [
     {
-     "name": "NBC News",
-     "url": "https://www.nbcnews.com/politics/2026-election/scott-colom-mississippi-senate-election-win-democrat-hyde-smith-rcna605729"
+     "name": "Washington Post",
+     "url": "https://www.washingtonpost.com/dc-md-va/2026/11/12/multiple-victims-shooting-dcs-logan-circle/"
     },
     {
-     "name": "Associated Press",
-     "url": "https://apnews.com/article/scott-colom-mississippi-senate-midterms-56c18f292a734443992f9466c3b0f346"
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/washington-dc-shooting-gym-vida/"
     },
     {
-     "name": "Associated Press",
-     "url": "https://apnews.com/article/mississippi-senate-colom-hydesmith-midterm-7f098b8834f598c923ba73572ea2223f"
-    },
-    {
-     "name": "Ballotpedia",
-     "url": "https://ballotpedia.org/Scott_Colom"
+     "name": "NBC4 Washington",
+     "url": "https://www.nbcwashington.com/news/local/logan-circle-dc-shooting-live-updates/4181644/"
     }
    ],
-   "officialSources": [],
-   "summary": "Democrat Scott Colom defeated Republican Sen. Cindy Hyde-Smith in Mississippi's U.S. Senate race, the Associated Press and NBC News projected Wednesday, November 11, eight days after Election Day. In the AP's unofficial count, with about 99% of the vote in, Colom had 473,336 votes (49.2%) to Hyde-Smith's 468,667 (48.7%), a margin of 4,669; independent Ty Pinkins had 20,234 (2.1%). The AP said it called the race at 5:58 p.m. Eastern after Jackson County reported another 2,173 votes, and estimated fewer than 12,000 votes remained for county officials to review. Colom led by 43 votes after the final election-night update and his lead grew as counties processed absentee and affidavit (provisional) ballots (AP). Colom, 43, the district attorney for Mississippi's 16th Circuit Court District, will be the first Democrat Mississippi has elected to the Senate since 1982 and the state's first Black U.S. senator since Reconstruction (NBC News, AP). Hyde-Smith called Colom to concede and said in a video message, \"While this is not the outcome we worked for or hoped for, I respect the decision of Mississippi voters\" (NBC News). NBC News reported that Colom is the eighth Democrat to flip a Republican-held Senate seat this year and that Democrats will hold at least 55 Senate seats next year, with only Alaska's race uncalled. Hyde-Smith, appointed in 2018 and elected to a full term in 2020, had blocked Colom's nomination to a federal judgeship during the Biden administration (NBC News; Ballotpedia).",
+   "officialSources": [
+    "https://mpdc.dc.gov/release/mpd-provides-update-15th-street-northwest-shooting"
+   ],
+   "summary": "A gunman killed building manager James Stuart, 46, inside Vida Fitness at 1517 15th St. NW in Washington, D.C.'s Logan Circle neighborhood on Thursday morning, then shot four more people from a balcony and killed himself, D.C. police said. The Metropolitan Police Department said officers responded to the 1500 block of 15th Street NW at about 7:59 a.m. Thursday, November 12. Police identified the gunman as 55-year-old Matt Wade Lambert, a doctor who lived in the building (CBS News; NBC4). Interim Chief Jeffery Carroll said there were five victims, not counting the shooter: one dead, one in critical condition and three with non-life-threatening injuries. Carroll said Stuart was shot inside the gym and that the four injured people were shot after Lambert retreated to his apartment and fired from his balcony; other victims included members of a construction crew across the street and a person in the lobby or alley outside the gym (CBS News, NBC4). Carroll said Lambert barricaded himself in his apartment, spoke with negotiators for about an hour, and died of a self-inflicted gunshot wound (CBS News). Police recovered a shotgun, a rifle and a handgun in the apartment; none were registered to Lambert in the District of Columbia (MPD, CBS News). Carroll said investigators believe there was a conflict between Lambert and the building's homeowners association and that the investigation is continuing. NBC4, citing authorities and court records, reported that Lambert had sued over mold, moisture and water problems in his seventh-floor penthouse. CBS News, citing police, said investigators believe Stuart was specifically targeted because of a long-running conflict with the building's homeowners association. The four injured people have not been publicly identified. A shelter-in-place order for the block lasted about two and a half hours (NBC4). An earlier written MPD release said officers located six people with gunshot wounds \u2014 three adult females and two adult males transported, and one adult male dead on the scene \u2014 a count that does not match the chief's later statement of five victims plus the gunman.",
    "briefing": {
     "quickFacts": [
-     "Result (AP unofficial count): Colom 473,336 (49.2%), Hyde-Smith 468,667 (48.7%), Pinkins 20,234 (2.1%)",
-     "Margin: 4,669 votes; AP call Wednesday, Nov. 11, 5:58 p.m. ET",
-     "First Democrat elected to the Senate from Mississippi since 1982; first Black senator from the state since Reconstruction",
-     "Hyde-Smith conceded by phone and in a video message",
-     "Democrats: 8 Senate seats flipped this year; at least 55 seats next year (NBC News); Alaska uncalled",
-     "Trump carried Mississippi by 23 points in 2024 (NBC News)"
+     "Where: Vida Fitness, 1517 15th St. NW, Logan Circle, Washington, D.C.",
+     "When: about 7:59 a.m. Thursday, Nov. 12",
+     "Toll (Interim Chief Jeffery Carroll): 5 victims not counting the shooter \u2014 1 dead, 1 critical, 3 non-life-threatening",
+     "Killed: James Stuart, 46, the building manager, inside the gym",
+     "Gunman: Matt Wade Lambert, 55, died of a self-inflicted gunshot after a barricade",
+     "Three firearms recovered (shotgun, rifle, handgun); none registered to him in D.C."
     ],
     "notYetConfirmed": [
-     "Final certified totals; the figures above are unofficial and may change as counties finish reviewing ballots",
-     "The outcome of Alaska's Senate race, which determines whether Democrats hold 55 or 56 seats"
+     "The discrepancy between MPD's written release (six people with gunshot wounds) and the chief's later count of five victims plus the gunman",
+     "The names and conditions of the four injured people, beyond one critical and three non-life-threatening",
+     "Whether the homeowners-association dispute was the motive, which police said they were still investigating",
+     "How Lambert obtained the three firearms",
+     "CBS News sometimes identifies the gunman as \"Matthew\" Lambert; MPD's written release says \"Matt Wade Lambert\""
     ],
     "whatHappensNext": [
-     "Mississippi counties certify their results Friday, November 13, and the secretary of state declares the statewide result December 3, according to an account of the AP's race call. Mississippi has no automatic recount; any challenge would go through the courts. The new Senate term begins January 3, 2027."
+     "The case remains under investigation. MPD asked anyone with information to call (202) 727-9099 or text 50411."
     ]
    }
   },
@@ -51,306 +52,311 @@
    "id": "nvidia-huang",
    "region": "us",
    "location": "Santa Clara, CA",
-   "headline": "Nvidia board meets on whether to oust CEO Jensen Huang",
+   "headline": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress is interim",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "Nvidia",
+     "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+    },
+    {
+     "name": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/"
+    },
+    {
+     "name": "Investing.com",
+     "url": "https://www.investing.com/news/stock-market-news/nvidia-ceo-jensen-huang-to-step-down-in-big-blow-to-ai-boom-5021980"
+    },
+    {
+     "name": "Investopedia",
+     "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11122026-12250329"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Nvidia said Thursday that its board had accepted Jensen Huang's resignation as president, chief executive and a member of the board, effective immediately. In a regulatory filing cited by TechCrunch, the company said the board accepted the resignation on Wednesday, November 11, and announced it on Thursday, November 12. Colette Kress, Nvidia's executive vice president and chief financial officer since 2013, is interim CEO and will remain CFO until a permanent successor is named. The board said it is starting a search that will consider internal and external candidates, and it appointed Harvey C. Jones as its first-ever board chair. Jones, a longtime technology executive and former CEO and executive chairman of Synopsys, said the board has \"full confidence in Colette and the leadership team\" and expects operations, customer commitments and the product roadmap to continue without interruption (Nvidia newsroom). Huang co-founded Nvidia in 1993 and had been CEO since then. Nvidia shares closed down 4.3% Thursday after falling as much as 14% early, Investopedia reported; TechCrunch said the shares were down nearly 12% in early trading. Nvidia is scheduled to report third-quarter fiscal 2027 results on Tuesday, November 17, at about 1:20 p.m. Pacific, followed by its earnings call at 2 p.m. Pacific.",
+   "briefing": {
+    "quickFacts": [
+     "Board accepted Huang's resignation Wednesday, Nov. 11; company announced it Thursday, Nov. 12; effective immediately",
+     "Huang left the president, CEO and board roles",
+     "Interim CEO: CFO Colette Kress, who remains CFO",
+     "Harvey C. Jones named the board's first chair",
+     "Shares: closed down 4.3% Thursday; TechCrunch said nearly 12% early; Investopedia said as much as 14% early",
+     "Earnings: Tuesday, Nov. 17"
+    ],
+    "notYetConfirmed": [
+     "Whom the board will name as permanent CEO, or when",
+     "A single official figure for Thursday's early drop; published accounts include nearly 12% and as much as 14%"
+    ],
+    "whatHappensNext": [
+     "Nvidia reports quarterly results Tuesday, November 17. The board's search for a permanent CEO is underway."
+    ]
+   }
+  },
+  {
+   "id": "hhs-ibogaine",
+   "region": "us",
+   "location": "Washington, DC",
+   "headline": "HHS puts up to $4.9 million toward preparing U.S. ibogaine PTSD studies",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/Health/wireStory/trump-administration-fund-new-research-controversial-psychedelic-drug-138085268"
+    }
+   ],
+   "officialSources": [
+    "https://www.hhs.gov/press-room/hhs-advances-ibogaine-ptsd-research-rapid-acting-mental-health-treatments.html",
+    "https://arpa-h.gov/news-and-events/arpa-h-lays-groundwork-first-trials-assess-ibogaine-serious-mental-illness"
+   ],
+   "summary": "The Department of Health and Human Services said Thursday that the Advanced Research Projects Agency for Health (ARPA-H) is committing up to $4.9 million over five years to prepare for U.S. studies of ibogaine for post-traumatic stress disorder and other serious mental illness, including in veterans. HHS said the awards fund regulatory and manufacturing groundwork for future trials, including preparation of Investigational New Drug applications, and do not fund treatment of patients or human-subject research, authorize clinical trials, or establish FDA approval. The research teams selected by ARPA-H are led by the Mark Cuban Cost Plus Drug Company, PBC, which HHS said will establish the regulatory, clinical, chemical and engineering foundation for a domestically manufactured ibogaine hydrochloride product, and Beond, Inc., which HHS said will deliver clinical data on safety, dosing, efficacy and durability. ABC News reported that Beond is a Texas-based company that has treated more than 3,000 patients with ibogaine in Mexico. HHS said additional awards are expected, including work focused on substance use disorders. The announcement noted that ibogaine carries serious safety risks, including potentially life-threatening heart rhythm problems. ABC News noted that ibogaine is illegal in the United States and is in the same restrictive class as LSD and most other psychedelic drugs. Separately, the National Institute of Mental Health published a $20 million Notice of Funding Opportunity for a research network to study rapid-acting psychotropic treatments such as ketamine, esketamine and psilocybin; HHS said award recipients will be announced in the summer of 2027. Secretary Robert F. Kennedy Jr. was joined by Department of Veterans Affairs leaders for the announcement the day after Veterans Day.",
+   "briefing": {
+    "quickFacts": [
+     "ARPA-H: up to $4.9 million over five years to prepare U.S. ibogaine studies for PTSD and other serious mental illness",
+     "Groundwork only: not patient treatment, not authorized clinical trials, not FDA approval",
+     "Awardees named by HHS: Mark Cuban Cost Plus Drug Company, PBC, and Beond, Inc.",
+     "NIMH: $20 million funding opportunity for a rapid-acting treatments network (ketamine, esketamine, psilocybin)",
+     "NIMH network awards due summer 2027",
+     "HHS warning: ibogaine can cause serious, potentially life-threatening heart rhythm problems"
+    ],
+    "notYetConfirmed": [
+     "When, or whether, the FDA would authorize U.S. clinical trials of ibogaine",
+     "The size of each ARPA-H award; HHS gave only the combined \"up to $4.9 million\" figure",
+     "Whether later awards for substance use disorders will be made, and for how much"
+    ],
+    "whatHappensNext": [
+     "The ARPA-H teams are to prepare the groundwork for possible Investigational New Drug applications. NIMH said it will announce RAPID-network awards in the summer of 2027. HHS said additional ibogaine awards are expected."
+    ]
+   }
+  },
+  {
+   "id": "vance-iran",
+   "region": "us",
+   "location": "Washington, DC",
+   "headline": "Trump tells Vance to drop Iran talks and focus on Democratic-run cities",
    "status": "reported-only",
    "outlets": [
     {
      "name": "NBC News",
-     "url": "https://www.nbcnews.com/business/business-news/nvidia-shares-drop-hours-reports-meeting-ceo-jensen-huangs-future-rcna608906"
+     "url": "https://www.nbcnews.com/politics/donald-trump/us-doesnt-need-peace-deal-iran-vance-corruption-trump-rcna609027"
     },
     {
-     "name": "CNBC",
-     "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html"
+     "name": "NPR",
+     "url": "https://www.npr.org/2026/11/13/nx-s1-6039160/trump-redirects-vance-from-iran-to-focus-on-combatting-fraud-in-democratic-led-states"
     },
     {
-     "name": "The Guardian",
-     "url": "https://www.theguardian.com/technology/2026/nov/12/nvidia-board-decision-ceo-jensen-huang-alleged-second-affair"
-    },
-    {
-     "name": "The Next Web",
-     "url": "https://thenextweb.com/news/nvidia-board-meeting-jensen-huang-ouster-no-decision"
-    }
-   ],
-   "officialSources": [],
-   "summary": "Nvidia's board met Wednesday evening to address CEO Jensen Huang's future at the company, two sources familiar with the matter told NBC News; CNBC also confirmed the meeting, and Reuters reported it citing a source. As of Thursday morning, no decision had been announced (CNBC, The Next Web citing Reuters). The meeting followed a New York Times report Wednesday, citing five people who worked at Nvidia, that Huang had a relationship with Kimberly Powell, Nvidia's vice president of healthcare, who reported to him. NBC News said it had not confirmed the Times report. On Sunday, Huang told employees he had been \"unfaithful to his wife,\" after reports about his relationship with Alice Huang, a Megaspeed executive whom NBC News reported U.S. intelligence agencies had determined was a Chinese intelligence operative. China's Foreign Ministry called the allegations \"purely unsubstantiated.\" Nvidia shares fell more than 8% in after-hours trading Wednesday (The Guardian) and were down 6.9% in premarket trading at 6:23 a.m. Eastern Thursday (CNBC). The board said Sunday it had confidence in Huang; its independent directors have hired the law firm Wachtell, Lipton, Rosen & Katz to investigate (The Guardian). Under Nvidia's bylaws, a majority of its 11 directors can remove the CEO \"with or without cause.\" Huang co-founded Nvidia in 1993. Late Wednesday, Sens. Elizabeth Warren and Chris Coons asked the Commerce Department, the State Department and the White House to preserve records on Nvidia chip exports to China (NBC News). Nvidia did not respond to requests for comment.",
-   "briefing": {
-    "quickFacts": [
-     "Board meeting: Wednesday evening; no announced outcome as of Thursday morning",
-     "New report: NYT says Huang had a relationship with a direct report, VP of healthcare Kimberly Powell (not independently confirmed by NBC News)",
-     "Shares: down more than 8% after hours Wednesday; down 6.9% premarket Thursday (as of 6:23 a.m. ET)",
-     "Board: 11 directors, all but Huang considered independent; a majority can remove the CEO",
-     "Bernstein cut its share target to $200 from $400 (CNBC)",
-     "This follows Briefed's Nov. 9 and Nov. 10 reports on the first relationship and the board's investigation"
-    ],
-    "notYetConfirmed": [
-     "Whether the board will remove Huang, and who would lead the company if it does",
-     "The Times report about Powell; Huang, Powell and Nvidia did not comment",
-     "Whether Huang knew of any intelligence link; Huang denied knowledge, according to President Trump"
-    ],
-    "whatHappensNext": [
-     "Nvidia is scheduled to report quarterly results Tuesday, November 17. The Wachtell investigation is ongoing."
-    ]
-   }
-  },
-  {
-   "id": "brooklyn-collapse",
-   "region": "us",
-   "location": "Brooklyn, NY",
-   "headline": "Brooklyn building collapse kills eight, injures 17",
-   "status": "sourced",
-   "outlets": [
-    {
-     "name": "ABC7 New York",
-     "url": "https://abc7ny.com/live-updates/brooklyn-building-collapse-live-updates-1-dead-flatbush/20034152/"
-    },
-    {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/newyork/news/brooklyn-building-collapse-bedford-avenue/"
-    },
-    {
-     "name": "NY1",
-     "url": "https://ny1.com/nyc/all-boroughs/news/2026/11/12/death-toll-continues-to-rise-after-building-collapse-in-brooklyn-fdny-"
+     "name": "Christian Science Monitor",
+     "url": "https://www.csmonitor.com/Daily/2026/20261113"
     },
     {
      "name": "Associated Press",
-     "url": "https://apnews.com/article/brooklyn-building-collapse-dead-rubble-digging-292b3ece5d9ba6e375413c9f4671cf00"
+     "url": "https://apnews.com/article/trump-iran-vance-negotiations-d9671cbf66e3c2e337f4fb3485ad07d0"
     }
    ],
    "officialSources": [],
-   "summary": "A three-story building at 1321 Flatbush Avenue, at the corner of Bedford Avenue in Flatbush, Brooklyn, collapsed just after 4 p.m. Wednesday into an excavation site next door at 2625 Bedford Avenue. As of about 7:20 a.m. Thursday, the FDNY says eight people have died and 17 were injured (ABC7 New York). Two of the dead died at the hospital, and four victims found in the rubble early Thursday are believed to be construction workers, ABC7 reported. Earlier Thursday the FDNY reported six dead and 19 injured (CBS News New York, NY1). Seven children were among those treated, and one firefighter had minor injuries. The building had a store at street level and apartments upstairs; the side of the neighboring building at 1323 Flatbush Avenue was torn off (NYPD via CBS News New York). People from both the building and the construction site were trapped. FDNY Commissioner Lillian Bonsignore said officials do not know how many people may still be in the collapse zone, and crews are using drones, buckets, vacuum trucks and dogs to search the rubble. The Buildings Department says the developers of the adjacent site had an active permit for excavation and foundation work and has since issued a full stop-work order (ABC7). City records show the department issued a violation in April to a demolition contractor at that lot for demolishing a building despite a stop-work order; the violation is listed as resolved (CBS News New York). It is not known whether work at the site caused the collapse. The Buildings Department and law enforcement are investigating, and the Brooklyn district attorney's office is examining whether any criminal conduct contributed.",
+   "summary": "President Trump said Thursday he told Vice President JD Vance to turn his attention from Iran negotiations to what Trump called crime and corruption in Democratic-run cities and states. In a Truth Social post, Trump wrote, \"We don't need a deal with Iran. Those days have long since passed. We've got their money, Hundreds of Billions of Dollars, and we've got their Strait!\" referring to the Strait of Hormuz (NBC News). The Christian Science Monitor's Daily for November 13, citing that post, said Vance would instead focus on fighting corruption in cities and states run by Democrats, and that Vance has been a central figure in this year's peace talks. NPR's headline said Trump was redirecting Vance from Iran to combating fraud in Democratic-led states. NBC News noted that Trump had repeatedly suggested before the midterm elections that an Iran agreement could be reached, and that two days earlier he had predicted the war would be \"ending fairly soon.\" Vance, NBC News reported, had said a day after Republican midterm losses that voter anger over the Iran war was the \"real reason\" for the party's defeat.",
    "briefing": {
     "quickFacts": [
-     "Where: 1321 Flatbush Ave., at Bedford Ave., Flatbush, Brooklyn",
-     "When: just after 4 p.m. Wednesday, Nov. 11",
-     "Toll (FDNY, about 7:20 a.m. Thursday, via ABC7): 8 dead, 17 injured; two of the dead died at the hospital",
-     "Seven children were among those treated; one firefighter had minor injuries",
-     "More than 250 firefighters and EMS personnel responded",
-     "Families seeking information: call 311, or 212-639-9675 from outside New York City"
+     "Trump, Thursday on Truth Social: \"We don't need a deal with Iran. Those days have long since passed.\"",
+     "Trump said he told Vance to focus on crime and corruption in Democratic-run cities and states",
+     "Vance had been a central figure in this year's Iran talks (CSM)",
+     "Trump had said before the midterms that an agreement could be reached, and on Tuesday that the war was \"going to be ending fairly soon\" (NBC News)"
     ],
     "notYetConfirmed": [
-     "How many people may still be missing",
-     "How many of the injured remain in critical condition; ABC7's update gives both \"four\" and \"at least two\"",
-     "The cause of the collapse, including any role of the excavation next door",
-     "The names and ages of the victims"
+     "What, if any, Iran diplomacy continues without Vance in the lead",
+     "A full, official transcript of the Truth Social post beyond the excerpts published by NBC News and CSM"
     ],
     "whatHappensNext": [
-     "Officials say the search will continue for several days. A service center for affected residents opens at 9 a.m. Thursday at the Flatbush YMCA (NY1)."
+     "NBC News reported that some of Trump's advisers have told him the window for restarting major combat operations in Iran was closing before Democrats take control of Congress in January, according to two U.S. officials. It was not clear from Thursday's coverage what Vance will do next on either Iran or the domestic assignment."
     ]
    }
   },
   {
-   "id": "ice-record",
+   "id": "van-hollen-schumer",
    "region": "us",
    "location": "Washington, DC",
-   "headline": "DHS says ICE deported a record 483,200 people in FY2026",
-   "status": "claimed",
-   "outlets": [
-    {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/ice-deportations-arrests-hit-record-high/"
-    },
-    {
-     "name": "TRAC",
-     "url": "https://tracreports.org/whatsnew/email.261111.html"
-    }
-   ],
-   "officialSources": [],
-   "summary": "These are the Department of Homeland Security's own figures, obtained by CBS News; they have not been independently audited. DHS says Immigration and Customs Enforcement deported 483,200 people in fiscal year 2026, which ended September 30, above its previous record of 442,640 in fiscal 2025, and made more than 491,000 arrests, including nearly 475,000 administrative (civil) arrests. DHS says the deportation total is about 18% above the 409,849 removals in fiscal 2012 and about 78% above the 271,484 in fiscal 2024. \"Fiscal Year 2026 saw the highest number of ICE deportations and arrests for any year in ICE's history,\" DHS Secretary Markwayne Mullin said in a statement. CBS News noted that ICE's figures exclude actions by Customs and Border Protection, and that broader governmentwide deportation measures were higher in parts of the early 2000s. An analysis published Wednesday by Syracuse University's Transactional Records Access Clearinghouse (TRAC), based on case-by-case DHS records, found formal removals made up 63% of deportations in July and August 2026; voluntary departures were 31% and voluntary returns 6%. TRAC also found monthly removals fell to 26,908 in July 2026 from 30,893 in February 2025. The Migration Policy Institute found about 20% of roughly 980,000 ICE and CBP deportations from January 2025 to July 2026 involved someone with a criminal conviction (via CBS News).",
-   "briefing": {
-    "quickFacts": [
-     "DHS claim: 483,200 ICE deportations in FY2026 (FY2025: 442,640)",
-     "DHS claim: 491,000+ ICE arrests, including about 475,000 administrative arrests; monthly high of 50,925 in August",
-     "TRAC: formal removals were 63% of deportations in July-August 2026",
-     "MPI: about 20% of ICE and CBP deportations since January 2025 involved a criminal conviction",
-     "CBS News exit polling: 58% of midterm voters said enforcement had gone too far"
-    ],
-    "notYetConfirmed": [
-     "The DHS totals; the department's full data release was not posted on dhs.gov when this was written, and the counts include voluntary departures and returns",
-     "How DHS defines and counts a deportation versus a formal removal"
-    ],
-    "whatHappensNext": [
-     "Democrats take control of both chambers of Congress in January; some have said they want more oversight of immigration enforcement. ICE has about $75 billion in additional funding from the July 2025 tax and spending law (CBS News)."
-    ]
-   }
-  },
-  {
-   "id": "snap-rule",
-   "region": "us",
-   "location": "Washington, DC",
-   "headline": "USDA proposes SNAP rule it says would cut 6.3 million people",
-   "status": "sourced",
-   "outlets": [
-    {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/usda-proposes-snap-eligibility-rule-change-food-stamps/"
-    },
-    {
-     "name": "Politico",
-     "url": "https://www.politico.com/news/2026/11/09/usda-food-aid-snap-01156715"
-    }
-   ],
-   "officialSources": [
-    "https://www.federalregister.gov/documents/2026/11/10/2026-22936/supplemental-nutrition-assistance-program-reforming-categorical-eligibility"
-   ],
-   "summary": "The Agriculture Department published a proposed rule in the Federal Register on November 10 that would narrow \"categorical eligibility\" for the Supplemental Nutrition Assistance Program (SNAP). Under current rules, households that receive cash or non-cash benefits from programs funded by Temporary Assistance for Needy Families (TANF) can qualify for SNAP automatically. The proposal would limit that to households that receive TANF \"assistance\" as defined in federal regulation, so non-cash services such as child care or job training would no longer confer SNAP eligibility (Federal Register; CBS News). USDA estimates about 16.9% of participating households, 3.2 million households containing 6.3 million people, would no longer receive SNAP in fiscal 2029, the first year the rule would take full effect, and that federal SNAP benefit spending would fall by about $44.6 billion from fiscal 2027 to 2031. The agency estimates nearly 1.8 million children would lose access to free school meals (CBS News). A USDA spokesperson said broad-based categorical eligibility \"has bloated the welfare rolls for decades.\" The Center on Budget and Policy Priorities and the Food Research and Action Center criticized the proposal, and Rep. Angie Craig of Minnesota, the top Democrat on the House Agriculture Committee, called it \"heartless and cruel\" (CBS News). A similar 2019 proposal was withdrawn in 2021.",
-   "briefing": {
-    "quickFacts": [
-     "Rule: \"Supplemental Nutrition Assistance Program: Reforming Categorical Eligibility,\" FR Doc. 2026-22936",
-     "USDA estimate: 3.2 million households, 6.3 million people off SNAP in FY2029",
-     "USDA estimate: about $44.6 billion less in federal SNAP benefits, FY2027-2031",
-     "More than 40 states use broad-based categorical eligibility (CBS News)",
-     "Comment deadline: December 10, 2026"
-    ],
-    "notYetConfirmed": [
-     "Whether USDA will change the rule after public comments, and when a final rule would be issued",
-     "Advocacy groups say the impact could be larger than USDA's estimate"
-    ],
-    "whatHappensNext": [
-     "Public comments are open through December 10 on Regulations.gov (docket FNA-2026-0661). USDA would then review comments before any final rule."
-    ]
-   }
-  },
-  {
-   "id": "epstein-petition",
-   "region": "us",
-   "location": "Washington, DC",
-   "headline": "Massie petition for second Epstein files bill reaches 218",
+   "headline": "Van Hollen challenges Schumer for Senate Democratic leader",
    "status": "reported-only",
    "outlets": [
     {
-     "name": "ABC News",
-     "url": "https://abcnews.com/US/discharge-petition-2nd-epstein-files-bill-secures-218/story?id=138057235"
+     "name": "NPR",
+     "url": "https://www.npr.org/2026/11/12/nx-s1-6039357/chris-van-hollen-chuck-schumer-senate-majority-leader"
     },
     {
-     "name": "Axios",
-     "url": "https://www.axios.com/2026/11/11/massie-epstein-files-second-vote"
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/politics/congress/sen-chris-van-hollen-says-will-challenge-sen-chuck-schumer-majority-le-rcna609100"
     },
     {
-     "name": "The Hill",
-     "url": "https://thehill.com/homenews/house/6214408-massie-epstein-files-discharge-petition/"
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/van-hollen-schumer-senate-democratic-leader-6d74c189cb6c065c9a810a1cf1a53436"
+    },
+    {
+     "name": "Roll Call",
+     "url": "https://rollcall.com/2026/11/12/van-hollen-announces-bid-for-majority-leader-but-schumer-says-he-has-the-votes/"
     }
    ],
    "officialSources": [],
-   "summary": "A discharge petition from Rep. Thomas Massie, R-Ky., to force a House vote on the Epstein Files Transparency Act II reached the 218 signatures needed on Wednesday, November 11 (ABC News, Axios). All 214 House Democrats signed, along with four Republicans: Massie and Reps. Nancy Mace and Ralph Norman of South Carolina and Brian Fitzpatrick of Pennsylvania. Reps. Adam Smith and John Garamendi were the final signers (The Hill, Axios). The bill would let state attorneys general, Epstein's victims and members of Congress sue the U.S. attorney general over Epstein-related records the Justice Department withholds or redacts without justification (ABC News). Congress passed the first Epstein Files Transparency Act in November 2025 after an earlier Massie discharge petition; the House vote was 427-1, and President Trump signed it. The Justice Department missed that law's December 19, 2025, deadline and said in January it had released nearly 3.5 million pages (Axios). The White House did not answer Axios's questions about the new bill.",
+   "summary": "Sen. Chris Van Hollen of Maryland said Thursday he will run for Senate Democratic leader, challenging Sen. Chuck Schumer of New York. Van Hollen, in a statement, said voters \"called for a change from the status quo that isn't working for working people\" and that \"we need new leadership.\" \"This is not about any one person \u2014 it's about answering the call of the American people. That is why I'm running for Senate Majority Leader\" (NPR, NBC News, Roll Call). Schumer, who has led Senate Democrats since 2017, said he has the votes to continue. \"I'm proud of what we've accomplished together\u201455 seats and counting is an amazing result\u2014and I have the votes to continue serving as Democratic Leader,\" he wrote (NPR, Roll Call). Democratic senators will hold a closed-door, secret-ballot vote in early December, NPR reported; NBC News and Roll Call said the vote is in December and that it requires a simple majority of the caucus. Van Hollen, 67, was elected to the Senate in 2016 after more than a decade in the House. In an interview with MS NOW, he said more than 10 senators had pledged to support him and called himself the underdog (NBC News, Roll Call). NPR reported that Sen. Bernie Sanders has said he would oppose Schumer, and that several incoming Democratic senators, including Peggy Flanagan of Minnesota and Abdul El-Sayed of Michigan, have also expressed opposition to Schumer's bid.",
    "briefing": {
     "quickFacts": [
-     "Signatures: 218 (214 Democrats, 4 Republicans)",
-     "Republican signers: Massie, Mace, Norman, Fitzpatrick",
-     "Bill: lets states, victims and members of Congress sue over withheld or redacted Epstein records",
-     "Discharge petitions have succeeded eight times in the 119th Congress (ABC News)"
+     "Van Hollen announced Thursday he will challenge Schumer for Senate Democratic leader",
+     "Closed-door, secret-ballot vote in early December (NPR); NBC News and Roll Call say December",
+     "Schumer, Democratic leader since 2017, says he has the votes",
+     "Van Hollen told MS NOW that more than 10 senators have pledged support and that he is the underdog",
+     "Schumer pointed to \"55 seats and counting\" in the new Democratic majority"
     ],
     "notYetConfirmed": [
-     "Whether the bill would pass the House, or get a Senate vote before the new Congress begins in January (Axios)"
+     "A precise vote date of December 1, which appeared in some secondary accounts but was not in the fetched NPR, NBC News or Roll Call text",
+     "How many senators will ultimately support Van Hollen; his \"more than 10\" figure is his own",
+     "The outcome of Alaska's Senate race, which NPR noted could grow the Democratic majority from 55 to 56 seats"
     ],
     "whatHappensNext": [
-     "The petition must sit on the House calendar for seven legislative days; a signer can then call it up, and the speaker has two legislative days to schedule it. Floor action would come after the Thanksgiving recess, potentially as early as December 2 or 3 (ABC News)."
+     "Democratic senators vote in early December. The winner will lead the caucus when the new Congress convenes in January."
+    ]
+   }
+  },
+  {
+   "id": "home-sales",
+   "region": "us",
+   "location": "USA",
+   "headline": "Existing-home sales fall to a 3.75 million pace, lowest since 2010",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "National Association of Realtors",
+     "url": "https://www.nar.realtor/newsroom/existing-home-sales-decreased-5-5-percent-october-nar-report"
+    },
+    {
+     "name": "HousingWire",
+     "url": "https://www.housingwire.com/articles/existing-home-sales-october-375m/"
+    },
+    {
+     "name": "Realtor.com",
+     "url": "https://www.realtor.com/news/trends/existing-home-sales-data-nar-october-2026/"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Existing-home sales fell to a seasonally adjusted annual rate of 3.75 million in October, down 5.5% from September and 8.8% from a year earlier, the National Association of Realtors said Thursday. That was the lowest pace since August 2010, NAR Chief Economist Lawrence Yun said. \"Home buying is difficult when mortgage rates have climbed to their highest levels since 2000, aside from a single month in 2023,\" Yun said in NAR's statement, as reported by HousingWire and Realtor.com. The median price was $416,700, up 0.4% from a year earlier, HousingWire reported, citing NAR; Realtor.com said that was the highest median for the month of October and the 40th consecutive month of year-over-year increases, according to NAR. The average 30-year fixed mortgage rate was 7.33% in October, up from 6.86% in September, according to Freddie Mac figures cited by Realtor.com; the rate hit 7.40% on October 8. Inventory rose to 1.59 million existing homes for sale, up 1.3% from September and 4.6% from a year earlier, or 5.1 months of supply (HousingWire, Realtor.com). Month-over-month sales declined in the Midwest, South and West and held steady in the Northeast; year-over-year sales declined in all four regions (NAR). Realtor.com Chief Economist Danielle Hale said sales are likely to remain relatively low for the rest of 2026 as mortgage rates stay high.",
+   "briefing": {
+    "quickFacts": [
+     "October existing-home sales: 3.75 million seasonally adjusted annual rate",
+     "Down 5.5% from September and 8.8% from a year earlier; lowest pace since August 2010",
+     "Median price: $416,700, up 0.4% from a year earlier",
+     "30-year fixed mortgage averaged 7.33% in October (Freddie Mac, via Realtor.com), up from 6.86% in September; hit 7.40% on Oct. 8",
+     "Inventory: 1.59 million homes, 5.1 months of supply"
+    ],
+    "notYetConfirmed": [
+     "NAR's newsroom page as fetched did not include the statistical tables (they load separately); the 3.75 million pace, median price, inventory and mortgage-rate figures used here come from HousingWire and Realtor.com attributing NAR and Freddie Mac",
+     "Whether November sales will remain at this pace"
+    ],
+    "whatHappensNext": [
+     "NAR will release November existing-home sales in December. Yun said there could be pent-up demand if mortgage rates decline; Hale said she expects sales to stay near longtime lows for the next few months."
     ]
    }
   }
  ],
  "audio": {
-  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-12/Briefed-2026-11-12-full-twohost.mp3",
-  "durationSeconds": 116.663,
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-13/Briefed-2026-11-13-full-twohost.mp3",
+  "durationSeconds": 125.571,
   "aiVoices": true,
   "chapters": [
    {
     "storyId": null,
     "title": "Intro",
     "start": 0.0,
-    "end": 9.702
+    "end": 10.016
    },
    {
-    "storyId": "colom-mississippi",
-    "title": "Colom wins Mississippi",
-    "start": 9.702,
-    "end": 27.828
+    "storyId": "dc-logan-circle",
+    "title": "D.C. Logan Circle shooting",
+    "start": 10.016,
+    "end": 26.901
    },
    {
     "storyId": "nvidia-huang",
-    "title": "Nvidia and Huang",
-    "start": 27.828,
-    "end": 44.386
+    "title": "Huang resigns at Nvidia",
+    "start": 26.901,
+    "end": 44.713
    },
    {
-    "storyId": "brooklyn-collapse",
-    "title": "Brooklyn collapse",
-    "start": 44.386,
-    "end": 58.398
+    "storyId": "hhs-ibogaine",
+    "title": "HHS ibogaine research",
+    "start": 44.713,
+    "end": 65.399
    },
    {
-    "storyId": "ice-record",
-    "title": "ICE record",
-    "start": 58.398,
-    "end": 75.897
+    "storyId": "vance-iran",
+    "title": "Trump pulls Vance off Iran talks",
+    "start": 65.399,
+    "end": 80.991
    },
    {
-    "storyId": "snap-rule",
-    "title": "SNAP rule",
-    "start": 75.897,
-    "end": 90.522
+    "storyId": "van-hollen-schumer",
+    "title": "Van Hollen challenges Schumer",
+    "start": 80.991,
+    "end": 95.929
    },
    {
-    "storyId": "epstein-petition",
-    "title": "Epstein petition",
-    "start": 90.522,
-    "end": 108.021
+    "storyId": "home-sales",
+    "title": "Home sales lowest since 2010",
+    "start": 95.929,
+    "end": 116.928
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 108.021,
-    "end": 116.626
+    "start": 116.928,
+    "end": 125.534
    }
   ]
  },
  "video": {
-  "url": "/briefed/media/2026-11-12/Briefed-2026-11-12-web.mp4",
-  "durationSeconds": 108.424,
+  "url": "/briefed/media/2026-11-13/Briefed-2026-11-13-web.mp4",
+  "durationSeconds": 117.018,
   "aiVoices": true,
   "chapters": [
    {
-    "storyId": "colom-mississippi",
-    "title": "Colom wins Mississippi",
+    "storyId": "dc-logan-circle",
+    "title": "D.C. Logan Circle shooting",
     "start": 0.0,
-    "end": 19.626
+    "end": 18.385
    },
    {
     "storyId": "nvidia-huang",
-    "title": "Nvidia and Huang",
-    "start": 19.626,
-    "end": 36.184
+    "title": "Huang resigns at Nvidia",
+    "start": 18.385,
+    "end": 36.197
    },
    {
-    "storyId": "brooklyn-collapse",
-    "title": "Brooklyn collapse",
-    "start": 36.184,
-    "end": 50.196
+    "storyId": "hhs-ibogaine",
+    "title": "HHS ibogaine research",
+    "start": 36.197,
+    "end": 56.883
    },
    {
-    "storyId": "ice-record",
-    "title": "ICE record",
-    "start": 50.196,
-    "end": 67.695
+    "storyId": "vance-iran",
+    "title": "Trump pulls Vance off Iran talks",
+    "start": 56.883,
+    "end": 72.475
    },
    {
-    "storyId": "snap-rule",
-    "title": "SNAP rule",
-    "start": 67.695,
-    "end": 82.32
+    "storyId": "van-hollen-schumer",
+    "title": "Van Hollen challenges Schumer",
+    "start": 72.475,
+    "end": 87.413
    },
    {
-    "storyId": "epstein-petition",
-    "title": "Epstein petition",
-    "start": 82.32,
-    "end": 99.819
+    "storyId": "home-sales",
+    "title": "Home sales lowest since 2010",
+    "start": 87.413,
+    "end": 108.412
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 99.819,
-    "end": 108.424
+    "start": 108.412,
+    "end": 117.018
    }
   ],
-  "poster": "/briefed/media/2026-11-12/Briefed-2026-11-12-poster.jpg"
+  "poster": "/briefed/media/2026-11-13/Briefed-2026-11-13-poster.jpg"
  }
 }
