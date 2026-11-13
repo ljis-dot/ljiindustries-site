@@ -177,6 +177,63 @@ class Analytics(unittest.TestCase):
                 self.assertNotIn("Night update", home2)
 
 
+    def test_archive_lists_headlines_and_follow_links(self):
+        try:
+            import PIL  # noqa: F401
+        except ImportError:
+            self.skipTest("Pillow is required to render share cards during build")
+        with open(os.path.join(ROOT, "editions", "2026-11-09.json"), encoding="utf-8") as f:
+            daily = json.load(f)
+        with open(os.path.join(ROOT, "editions", "2026-11-13.json"), encoding="utf-8") as f:
+            later = json.load(f)
+        night = {
+            "schemaVersion": 1,
+            "kind": "night",
+            "date": "2026-11-09",
+            "slug": "2026-11-09-night",
+            "stories": [{
+                "id": "massie-hegseth",
+                "region": "us",
+                "location": "Washington, DC",
+                "headline": "Massie files 8 impeachment articles against Hegseth; House vote by Wednesday",
+                "status": "reported-only",
+                "outlets": [],
+                "officialSources": [],
+                "summary": "Massie reintroduced eight articles of impeachment against Defense Secretary Pete Hegseth.",
+            }],
+        }
+        with tempfile.TemporaryDirectory() as tmp:
+            with open(os.path.join(tmp, "index.html"), "w", encoding="utf-8") as f:
+                f.write("<style>body{color:#111}</style>")
+            with warnings.catch_warnings():
+                warnings.simplefilter("ignore", ResourceWarning)
+                b.build(tmp, [later, daily], preview=True, addenda=[night])
+            with open(os.path.join(tmp, "briefed", "archive", "index.html"), encoding="utf-8") as f:
+                arch = f.read()
+        self.assertIn("Follow us on:", arch)
+        self.assertIn('href="https://www.tiktok.com/@briefedtoday3" rel="noopener" target="_blank"', arch)
+        self.assertIn('href="https://x.com/briefedtoday" rel="noopener" target="_blank"', arch)
+        self.assertIn('id="b-arch-filters"', arch)
+        self.assertIn('id="b-arch-q"', arch)
+        self.assertIn('id="b-arch-from"', arch)
+        self.assertIn('id="b-arch-to"', arch)
+        self.assertIn("/briefed/2026-11-13/", arch)
+        self.assertIn("/briefed/2026-11-09/", arch)
+        self.assertIn("/briefed/2026-11-09-night/", arch)
+        self.assertIn("Night update", arch)
+        # all headlines, not just the lead
+        for headline in [s["headline"] for s in later["stories"]]:
+            self.assertIn(headline, arch)
+        self.assertIn('data-search=', arch)
+        self.assertIn("ibogaine", arch.lower())
+        self.assertEqual(arch.count(b.analytics_snippet()), 1)
+        self.assertIn("mailto:info@ljiindustries.com", arch)
+        self.assertNotRegex(arch, r"Levi|Schmieg")
+        self.assertIn("The full archive is listed below", arch)  # noscript fallback
+        # from/to bounds come from the edition set
+        self.assertIn('min="2026-11-09"', arch)
+        self.assertIn('max="2026-11-13"', arch)
+
 
 if __name__ == "__main__":
     unittest.main()

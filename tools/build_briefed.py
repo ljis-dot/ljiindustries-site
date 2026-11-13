@@ -559,6 +559,20 @@ a.b-chip:hover{border-color:var(--brand);text-decoration:none;color:var(--brand)
 .b-arch li a{display:block;padding:14px 16px;border:1px solid var(--line);border-radius:12px;background:#fff;color:var(--ink)}
 .b-arch li a:hover{border-color:var(--brand);text-decoration:none}
 .b-arch .d{display:block;font-weight:700;color:var(--brand)}
+.b-follow{margin-top:14px;color:var(--ink2);font-size:.95rem}
+.b-follow a{font-weight:700}
+.b-arch-filters{display:grid;grid-template-columns:1fr 1fr auto;gap:10px 12px;align-items:end;margin:0 0 4px;padding:14px 16px;background:#fff;border:1px solid var(--line);border-radius:12px}
+.b-arch-q{grid-column:1/-1}
+.b-arch-filters label{display:block;font-size:.75rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+.b-arch-filters input{width:100%;min-height:44px;padding:8px 10px;border:1px solid var(--line);border-radius:10px;font:inherit;background:var(--soft);color:var(--ink)}
+.b-arch-filters input:focus{outline:2px solid var(--brand);outline-offset:1px;border-color:var(--brand);background:#fff}
+.b-arch-clear{min-height:44px;padding:8px 14px;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--ink2);font:inherit;font-weight:700;cursor:pointer}
+.b-arch-clear:hover{border-color:var(--brand);color:var(--brand)}
+.b-arch-status{margin:8px 0 0;font-size:.9rem;color:var(--muted)}
+.b-arch-heads{display:grid;gap:2px;margin-top:6px;color:var(--ink2);font-size:.95rem}
+.b-arch-noscript{margin:0 0 12px;color:var(--ink2)}
+.b-arch-empty{margin-top:16px;color:var(--ink2)}
+@media (max-width:640px){.b-arch-filters{grid-template-columns:1fr 1fr}.b-arch-clear{grid-column:1/-1}}
 .b-about p{margin-top:10px;color:var(--ink2);font-size:1.05rem}
 .b-top{padding:14px 0 4px}
 .b-topline{display:flex;align-items:baseline;justify-content:space-between;gap:6px 14px;flex-wrap:wrap}
@@ -773,32 +787,125 @@ def build(root, editions, preview=False, addenda=None):
         index_doc["addenda"] = addenda_idx
     write(os.path.join(out, "index.json"), json.dumps(index_doc, indent=1))
     # archive
-    nights = {}
-    for it in addenda_idx:
-        nights.setdefault(it["date"], []).append(it)
-    if idx:
-        groups, cur = [], None
-        for it in idx:
-            m = date.fromisoformat(it["date"]).strftime("%B %Y")
-            if m != cur: groups.append((m, [])); cur = m
-            groups[-1][1].append(it)
-        def archive_items(items):
-            bits = []
-            for it in items:
-                bits.append(f'<li><a href="{it["url"]}"><span class="d">{e(long_date(it["date"]))}{" · 🎧" if it["hasAudio"] else ""}</span>{e(it["lead"] or "")}</a></li>')
-                for n in nights.get(it["date"], []):
-                    bits.append(f'<li class="b-arch-sub"><a href="{n["url"]}"><span class="d">{e(long_date(n["date"]))} · Night update{" · 🎧" if n.get("hasAudio") else ""}</span>{e(n["lead"] or "")}</a></li>')
-            return "".join(bits)
-        lists = "".join(f'<h2>{m}</h2><ul>' + archive_items(items) + "</ul>" for m, items in groups)
-    else:
-        lists = '<p class="lead">No editions yet. The first edition arrives Sunday, October 25, 2026.</p>'
-    body = f'<section class="b-hero"><div class="wrap b-narrow"><span class="eyebrow">Briefed · Archive</span><h1>Past editions</h1></div></section><section class="b-main"><div class="wrap b-narrow b-arch">{lists}</div></section>'
-    write(os.path.join(out, "archive", "index.html"), page("Briefed archive: past editions | LJI Industries", "Every Briefed daily edition by date.", "/briefed/archive/", body))
+    body = archive_body(editions, addenda)
+    write(os.path.join(out, "archive", "index.html"), page("Briefed archive: past editions | LJI Industries", "Every Briefed daily edition, with headlines and a search for topics and dates.", "/briefed/archive/", body))
     write(os.path.join(out, "about", "index.html"), page("About Briefed | LJI Industries", "Why Briefed exists: the facts on things that really happened, with links to the original reporting and official sources.", "/briefed/about/", ABOUT))
     write(os.path.join(root, "notes", "index.html"), page("Field notes | LJI Industries", "Short, dated lessons from shipping every day at LJI Industries.", "/notes/", notes_body()))
     if not preview:
         sitemap(root, editions, addenda)
     return editions
+
+def archive_search_text(ed):
+    """Headlines, summaries, locations and briefing lines — the client-side topic search haystack."""
+    parts = []
+    for s in ed.get("stories") or []:
+        parts.extend([s.get("headline") or "", s.get("summary") or "", s.get("location") or "", s.get("id") or ""])
+        br = s.get("briefing") or {}
+        for k in ("quickFacts", "notYetConfirmed", "whatHappensNext", "related"):
+            parts.extend(br.get(k) or [])
+    br = ed.get("briefing") or {}
+    for k in ("quickFacts", "notYetConfirmed", "whatHappensNext", "related"):
+        parts.extend(br.get(k) or [])
+    return " ".join(str(x) for x in parts if x)
+
+def archive_item_html(ed, night=False):
+    slug = ed_slug(ed)
+    url = f"/briefed/{slug}/"
+    has_audio = bool((ed.get("audio") or {}).get("url"))
+    heads = "".join(f'<span>{e(s["headline"])}</span>' for s in ed.get("stories") or [] if s.get("headline"))
+    label = e(long_date(ed["date"])) + (" · Night update" if night else "") + (" · 🎧" if has_audio else "")
+    cls = ' class="b-arch-sub"' if night else ""
+    search = e(archive_search_text(ed), quote=True)
+    return (f'<li{cls} data-date="{e(ed["date"])}" data-search="{search}">'
+            f'<a href="{url}"><span class="d"><time datetime="{e(ed["date"])}">{label}</time></span>'
+            f'<span class="b-arch-heads">{heads}</span></a></li>')
+
+ARCHIVE_JS = r"""<script>(function(){
+var form=document.getElementById("b-arch-filters");if(!form)return;
+var q=document.getElementById("b-arch-q"), from=document.getElementById("b-arch-from"), to=document.getElementById("b-arch-to");
+var status=document.getElementById("b-arch-status"), empty=document.getElementById("b-arch-empty");
+var items=[].slice.call(document.querySelectorAll("#b-arch-list li[data-date]"));
+var months=[].slice.call(document.querySelectorAll("#b-arch-list .b-arch-month"));
+function tokens(s){return (s||"").toLowerCase().trim().split(/\s+/).filter(Boolean);}
+function apply(push){
+  var words=tokens(q&&q.value), a=from&&from.value||"", b=to&&to.value||"", shown=0;
+  items.forEach(function(li){
+    var d=li.getAttribute("data-date")||"", hay=(li.getAttribute("data-search")||"").toLowerCase();
+    var ok=words.every(function(w){return hay.indexOf(w)!==-1;});
+    if(a&&d<a)ok=false; if(b&&d>b)ok=false;
+    li.hidden=!ok; if(ok)shown++;
+  });
+  months.forEach(function(sec){
+    sec.hidden=!sec.querySelector("li[data-date]:not([hidden])");
+  });
+  if(empty) empty.hidden=shown!==0;
+  if(status){
+    var total=items.length, filtering=words.length||a||b;
+    status.textContent=filtering?(shown?"Showing "+shown+" of "+total+" editions.":"No editions match those filters."):total+" editions.";
+  }
+  if(push!==false && history.replaceState){
+    var u=new URL(location.href);
+    function set(k,v){ if(v)u.searchParams.set(k,v); else u.searchParams.delete(k); }
+    set("q", q&&q.value.trim()); set("from", a); set("to", b);
+    history.replaceState(null,"",u.pathname+u.search+u.hash);
+  }
+}
+var params=new URLSearchParams(location.search);
+if(q&&params.get("q"))q.value=params.get("q");
+if(from&&params.get("from"))from.value=params.get("from");
+if(to&&params.get("to"))to.value=params.get("to");
+["input","change"].forEach(function(ev){ form.addEventListener(ev,apply); });
+form.addEventListener("submit",function(ev){ev.preventDefault();apply();});
+form.addEventListener("reset",function(){ setTimeout(function(){apply();},0); });
+apply(false);
+})();</script>"""
+
+def archive_body(editions, addenda=None):
+    follow = ('<p class="b-follow">Follow us on: '
+              '<a href="https://www.tiktok.com/@briefedtoday3" rel="noopener" target="_blank">TikTok</a>'
+              ' and '
+              '<a href="https://x.com/briefedtoday" rel="noopener" target="_blank">X</a>.</p>')
+    hero = ('<section class="b-hero"><div class="wrap b-narrow">'
+            '<span class="eyebrow">Briefed · Archive</span><h1>Past editions</h1>'
+            f'{follow}</div></section>')
+    if not editions:
+        return hero + '<section class="b-main"><div class="wrap b-narrow b-arch"><p class="lead">No editions yet. The first edition arrives Sunday, October 25, 2026.</p></div></section>'
+    nights = {}
+    for ad in addenda or []:
+        nights.setdefault(ad["date"], []).append(ad)
+    groups, cur = [], None
+    for ed in editions:
+        m = date.fromisoformat(ed["date"]).strftime("%B %Y")
+        if m != cur:
+            groups.append((m, []))
+            cur = m
+        groups[-1][1].append(ed)
+    months_html = []
+    n_items = 0
+    for month, items in groups:
+        bits = []
+        for ed in items:
+            bits.append(archive_item_html(ed, night=False))
+            n_items += 1
+            for ad in nights.get(ed["date"], []):
+                bits.append(archive_item_html(ad, night=True))
+                n_items += 1
+        months_html.append(f'<section class="b-arch-month"><h2>{e(month)}</h2><ul>{"".join(bits)}</ul></section>')
+    first, last = editions[-1]["date"], editions[0]["date"]
+    filters = (
+        '<form class="b-arch-filters" id="b-arch-filters" role="search" method="get" action="/briefed/archive/">'
+        '<div class="b-arch-q"><label for="b-arch-q">Search topics</label>'
+        '<input type="search" id="b-arch-q" name="q" placeholder="Headlines, topics, or summaries" autocomplete="off" enterkeyhint="search"></div>'
+        f'<div><label for="b-arch-from">From</label><input type="date" id="b-arch-from" name="from" min="{e(first)}" max="{e(last)}"></div>'
+        f'<div><label for="b-arch-to">To</label><input type="date" id="b-arch-to" name="to" min="{e(first)}" max="{e(last)}"></div>'
+        '<button type="reset" class="b-arch-clear" id="b-arch-clear">Clear</button>'
+        f'<p class="b-arch-status" id="b-arch-status" aria-live="polite">{n_items} editions.</p>'
+        '</form>'
+        '<noscript><p class="b-arch-noscript">The full archive is listed below. Search and date filters need JavaScript.</p></noscript>'
+    )
+    lists = f'<div id="b-arch-list">{"".join(months_html)}</div><p class="b-arch-empty" id="b-arch-empty" hidden>No editions match those filters.</p>'
+    return hero + f'<section class="b-main"><div class="wrap b-narrow b-arch">{filters}{lists}</div></section>' + ARCHIVE_JS
+
 
 def sitemap(root, editions, addenda=None):
     p = os.path.join(root, "sitemap.xml")
