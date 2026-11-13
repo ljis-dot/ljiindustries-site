@@ -51,8 +51,10 @@ a.b-chip:hover{border-color:var(--brand);text-decoration:none;color:var(--brand)
 .b-arch .d{display:block;font-weight:700;color:var(--brand)}
 .b-follow{margin-top:14px;color:var(--ink2);font-size:.95rem}
 .b-follow a{font-weight:700}
+.b-arch-month{padding:0}
+.b-arch-month:first-child h2{margin-top:16px}
 .b-arch-filters{display:grid;grid-template-columns:1fr 1fr auto;gap:10px 12px;align-items:end;margin:0 0 4px;padding:14px 16px;background:#fff;border:1px solid var(--line);border-radius:12px}
-.b-arch-q{grid-column:1/-1}
+.b-arch-q,.b-arch-status{grid-column:1/-1}
 .b-arch-filters label{display:block;font-size:.75rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
 .b-arch-filters input{width:100%;min-height:44px;padding:8px 10px;border:1px solid var(--line);border-radius:10px;font:inherit;background:var(--soft);color:var(--ink)}
 .b-arch-filters input:focus{outline:2px solid var(--brand);outline-offset:1px;border-color:var(--brand);background:#fff}

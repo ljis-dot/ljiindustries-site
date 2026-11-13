@@ -208,11 +208,24 @@ class Analytics(unittest.TestCase):
             with warnings.catch_warnings():
                 warnings.simplefilter("ignore", ResourceWarning)
                 b.build(tmp, [later, daily], preview=True, addenda=[night])
-            with open(os.path.join(tmp, "briefed", "archive", "index.html"), encoding="utf-8") as f:
-                arch = f.read()
-        self.assertIn("Follow us on:", arch)
-        self.assertIn('href="https://www.tiktok.com/@briefedtoday3" rel="noopener" target="_blank"', arch)
-        self.assertIn('href="https://x.com/briefedtoday" rel="noopener" target="_blank"', arch)
+            def readp(*parts):
+                with open(os.path.join(tmp, *parts), encoding="utf-8") as f:
+                    return f.read()
+            arch = readp("briefed", "archive", "index.html")
+            home = readp("briefed", "index.html")
+            about = readp("briefed", "about", "index.html")
+            today = readp("briefed", "2026-11-13", "index.html")
+            older = readp("briefed", "2026-11-09", "index.html")
+        def assert_follow(html, label):
+            self.assertIn("Follow us on:", html, label)
+            self.assertIn('href="https://www.tiktok.com/@briefedtoday3" rel="noopener" target="_blank"', html, label)
+            self.assertIn('href="https://x.com/briefedtoday" rel="noopener" target="_blank"', html, label)
+            self.assertEqual(html.count("Follow us on:"), 1, label)
+        assert_follow(arch, "archive")
+        assert_follow(home, "home")
+        assert_follow(about, "about")
+        assert_follow(today, "today")
+        assert_follow(older, "older")
         self.assertIn('id="b-arch-filters"', arch)
         self.assertIn('id="b-arch-q"', arch)
         self.assertIn('id="b-arch-from"', arch)

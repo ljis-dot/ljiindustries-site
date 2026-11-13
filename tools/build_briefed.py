@@ -469,10 +469,10 @@ def edition_body(ed, is_latest, prev_day=None, next_day=None, all_eds=(), addend
       '<div class="b-topline"><h1 class="b-h1"><span class="eyebrow">Briefed &middot; %s</span> <time datetime="%s">%s</time></h1>'
       '<span class="b-links">%s%s<a href="/briefed/archive/">Archive</a><a href="/briefed/about/">About</a></span></div>\n'
       '%s\n</div></div>\n'
-      '<section class="b-main"><div class="wrap b-narrow">\n%s<p class="b-tag" data-edition="%s">Just the facts, with sources. <a href="/briefed/%s.json">JSON</a></p>\n%s%s\n%s\n'
+      '<section class="b-main"><div class="wrap b-narrow">\n%s%s<p class="b-tag" data-edition="%s">Just the facts, with sources. <a href="/briefed/%s.json">JSON</a></p>\n%s%s\n%s\n'
       '<p class="b-fine">Headlines and summaries are written by Briefed. Each story links to the original reporting; we do not republish article text.</p>\n'
       '</div></section>\n<script type="application/json" id="b-data">%s</script>\n%s%s') % (
-      eyebrow, d, time_label, daynav_inline(prev_day, next_day), extra_links, pl, streak, slug, slug, banner, cards, nav, panel_data(ed), js, VOTE_JS)
+      eyebrow, d, time_label, daynav_inline(prev_day, next_day), extra_links, pl, streak, FOLLOW_HTML, slug, slug, banner, cards, nav, panel_data(ed), js, VOTE_JS)
 
 
 def jsonld_ed(ed, url):
@@ -481,6 +481,11 @@ def jsonld_ed(ed, url):
             "publisher": {"@type": "Organization", "name": "LJI Industries LLC", "url": SITE},
             "itemListElement": [{"@type": "ListItem", "position": i + 1, "item": {"@type": "NewsArticle", "headline": s["headline"],
                 "citation": [o["url"] for o in s.get("outlets", []) if o.get("url")] + s.get("officialSources", [])}} for i, s in enumerate(ed["stories"])]}
+
+FOLLOW_HTML = ('<p class="b-follow">Follow us on: '
+               '<a href="https://www.tiktok.com/@briefedtoday3" rel="noopener" target="_blank">TikTok</a>'
+               ' and '
+               '<a href="https://x.com/briefedtoday" rel="noopener" target="_blank">X</a>.</p>')
 
 EMPTY = '''<section class="b-hero"><div class="wrap b-narrow">
   <span class="eyebrow">Briefed · Daily edition</span>
@@ -493,6 +498,7 @@ ABOUT = '''<section class="b-hero"><div class="wrap b-narrow">
   <span class="eyebrow">About Briefed</span>
   <h1>Why Briefed exists</h1>
   <p class="lead">I got tired of partisan news: slanted headlines, endless opinion, and spin on top of every story, when all I wanted was the facts.</p>
+''' + FOLLOW_HTML + '''
 </div></section>
 <section class="b-main"><div class="wrap b-narrow"><div class="card b-about">
   <p>Briefed strips out the extra opinion and gives you the facts on things that really happened.</p>
@@ -561,8 +567,10 @@ a.b-chip:hover{border-color:var(--brand);text-decoration:none;color:var(--brand)
 .b-arch .d{display:block;font-weight:700;color:var(--brand)}
 .b-follow{margin-top:14px;color:var(--ink2);font-size:.95rem}
 .b-follow a{font-weight:700}
+.b-arch-month{padding:0}
+.b-arch-month:first-child h2{margin-top:16px}
 .b-arch-filters{display:grid;grid-template-columns:1fr 1fr auto;gap:10px 12px;align-items:end;margin:0 0 4px;padding:14px 16px;background:#fff;border:1px solid var(--line);border-radius:12px}
-.b-arch-q{grid-column:1/-1}
+.b-arch-q,.b-arch-status{grid-column:1/-1}
 .b-arch-filters label{display:block;font-size:.75rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
 .b-arch-filters input{width:100%;min-height:44px;padding:8px 10px;border:1px solid var(--line);border-radius:10px;font:inherit;background:var(--soft);color:var(--ink)}
 .b-arch-filters input:focus{outline:2px solid var(--brand);outline-offset:1px;border-color:var(--brand);background:#fff}
@@ -861,13 +869,9 @@ apply(false);
 })();</script>"""
 
 def archive_body(editions, addenda=None):
-    follow = ('<p class="b-follow">Follow us on: '
-              '<a href="https://www.tiktok.com/@briefedtoday3" rel="noopener" target="_blank">TikTok</a>'
-              ' and '
-              '<a href="https://x.com/briefedtoday" rel="noopener" target="_blank">X</a>.</p>')
     hero = ('<section class="b-hero"><div class="wrap b-narrow">'
             '<span class="eyebrow">Briefed · Archive</span><h1>Past editions</h1>'
-            f'{follow}</div></section>')
+            + FOLLOW_HTML + '</div></section>')
     if not editions:
         return hero + '<section class="b-main"><div class="wrap b-narrow b-arch"><p class="lead">No editions yet. The first edition arrives Sunday, October 25, 2026.</p></div></section>'
     nights = {}
