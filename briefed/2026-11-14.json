@@ -1,0 +1,355 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-11-14",
+ "generatedAt": "2026-11-14T08:40:00-05:00",
+ "stories": [
+  {
+   "id": "faa-ground-stop",
+   "region": "us",
+   "location": "Washington, DC",
+   "headline": "More than 12,000 flights canceled after the FAA nationwide ground stop",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140"
+    },
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html"
+    },
+    {
+     "name": "Reuters",
+     "url": "https://www.reuters.com/world/us/faa-issues-national-ground-stop-due-extraordinary-circumstance-reasons-safety-2026-11-13/"
+    },
+    {
+     "name": "latimes.com",
+     "url": "https://www.latimes.com/politics/story/2026-11-13/what-caused-national-ground-stop-here-is-what-we-know"
+    },
+    {
+     "name": "Axios",
+     "url": "https://www.axios.com/2026/11/14/faa-ground-stop-saturday"
+    }
+   ],
+   "officialSources": [],
+   "summary": "A nationwide Federal Aviation Administration ground stop on Friday afternoon halted U.S. departures for more than four hours. Transportation Secretary Sean Duffy said airspace reopened at 8:15 p.m. ET and that old switches and routers on the FAA's system had been overloaded with data. Duffy asked Congress for an additional $50 billion to finish air-traffic-control modernization, a figure reported by the Los Angeles Times, ABC News (\"I want $50 billion\") and Axios. Homeland Security Secretary Markwayne Mullin said there was no indication of a cyberattack or a national-security threat.\n\nSaturday-morning FlightAware totals, reported by ABC News and CNBC, superseded Friday-night snapshots. ABC, citing FlightAware, said 9,132 U.S. flights were canceled Friday, with 3,374 already canceled Saturday morning, for a combined 12,506 cancellations that were expected to grow. CNBC, as of 5:45 a.m. ET Saturday, said about 9,000 U.S. flights were canceled Friday and more than 3,000 more Saturday, with close to 1,000 Saturday delays; it noted that some Friday disruptions were also due to weather. Axios, as of 5:15 a.m. ET Saturday, reported nearly 3,300 Saturday cancellations. A Friday-night Reuters/Flightradar24 figure of nearly 10,000 cancellations by 11:30 p.m. was not used as the lead number. An earlier Los Angeles Times FlightAware snapshot of about 5,300 cancellations, and that paper's report that the stop lifted around 5:15\u20135:30 p.m., conflict with Duffy's 8:15 p.m. ET reopen (Reuters, ABC, and Friday night's Briefed special) and were not used.",
+   "briefing": {
+    "quickFacts": [
+     "Stop lasted more than four hours on Friday; Duffy said airspace reopened at 8:15 p.m. ET",
+     "About 9,000 U.S. flights canceled Friday; more than 3,000 more Saturday morning (FlightAware, via ABC and CNBC)",
+     "Combined Friday\u2013Saturday cancellations: more than 12,000 (ABC: 12,506 as of Saturday morning, expected to grow)",
+     "Duffy: old, overloaded routers and switches; asked Congress for $50 billion",
+     "Mullin: no indication of a cyberattack"
+    ],
+    "notYetConfirmed": [
+     "A final, settled cancellation total for the weekend, which was still rising Saturday morning",
+     "How much of Friday's disruption was from the ground stop and how much from weather (CNBC noted both)",
+     "Whether Congress will approve the $50 billion Duffy requested, or on what timetable"
+    ],
+    "whatHappensNext": [
+     "Airlines were still working through Saturday delays and cancellations. Duffy's funding request goes to Congress."
+    ]
+   }
+  },
+  {
+   "id": "trump-xi-putin",
+   "region": "us",
+   "location": "Shenzhen",
+   "headline": "Trump, Xi and Putin to hold first three-way meeting Thursday in Shenzhen",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/trump-putin-xi-jinping-meeting-china-us-russia-talks/"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/trump-xi-putin-summit-china-5fe92253ef38100bae913834a9b74d72"
+    },
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china"
+    }
+   ],
+   "officialSources": [],
+   "summary": "The White House said President Trump, China's Xi Jinping and Russia's Vladimir Putin will hold their first three-way meeting Thursday, November 19, on the sidelines of the Asia-Pacific Economic Cooperation gathering in China. CBS News, citing AFP and a White House confirmation, said the talks would take place in \"the southern Chinese city\" and that officials said the agenda would cover nuclear arms cuts and Iran, and was not expected to include Russia's war in Ukraine. Spokeswoman Olivia Wales was quoted. A senior U.S. official, speaking anonymously, said China is not part of the Ukraine negotiation track. The city was named as Shenzhen by the Associated Press, Al Jazeera and other outlets independently of the CBS/AFP confirmation of the meeting, date, agenda and \"not Ukraine\" line. Officials said no agreement was expected (Reuters, via Al Jazeera).",
+   "briefing": {
+    "quickFacts": [
+     "When: Thursday, Nov. 19, on the sidelines of APEC",
+     "Where: Shenzhen, China (named by AP, Al Jazeera and others; CBS/AFP said \"the southern Chinese city\")",
+     "First three-way meeting of Trump, Xi and Putin",
+     "Officials: nuclear arms cuts and Iran on the agenda; Ukraine not expected to be discussed",
+     "White House confirmed the meeting Friday"
+    ],
+    "notYetConfirmed": [
+     "A detailed public agenda, joint statement, or any agreement (officials said none was expected)",
+     "Whether the \"not Ukraine\" description will hold once the meeting begins"
+    ],
+    "whatHappensNext": [
+     "The meeting is scheduled for Thursday in Shenzhen during APEC."
+    ]
+   }
+  },
+  {
+   "id": "measles-status",
+   "region": "us",
+   "location": "Washington, DC",
+   "headline": "U.S. reported to have lost measles elimination status; official announcement pending",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "Washington Post",
+     "url": "https://www.washingtonpost.com/health/2026/11/13/us-loses-measles-elimination-status-erasing-landmark-achievement/"
+    },
+    {
+     "name": "Axios",
+     "url": "https://www.axios.com/2026/11/14/us-loses-measles-elimination-status"
+    },
+    {
+     "name": "kvia.com",
+     "url": "https://kvia.com/health/cnn-health/2026/11/13/after-26-years-the-us-has-lost-its-measles-elimination-status/"
+    }
+   ],
+   "officialSources": [],
+   "summary": "The Washington Post, Axios and CNN report that the United States has lost its measles-elimination status after more than a year of continuous spread. An official announcement has not been issued. The Washington Post's Lena H. Sun, at 11:20 p.m. ET Friday, attributed the determination to \"a person familiar with the matter who spoke on the condition of anonymity because the official announcement is pending.\" Axios, on Saturday, said an international health organization had determined the U.S. lost the status, \"according to multiple news reports,\" and described a Pan American Health Organization expert panel meeting in Washington after sustained transmission longer than 12 months. CNN's Brenda Goodman, in a report carried by KVIA, said an independent commission of experts that reports to the PAHO director determined that the U.S. no longer qualified, according to a source close to the process. CNN noted the news was first reported by the Wall Street Journal; this edition does not use the Journal as a source. The U.S. had held the status since 2000. Axios cited a CDC tally of 5,412 confirmed cases so far in 2026, versus 2,289 in all of 2025. CNN said more than 5,400 cases this year, the highest since 1991, at least 10 deaths per state reports, and hospitalizations in roughly 1 in 9 reported cases (CDC). Those case, death and hospitalization figures are not in the spoken script.",
+   "briefing": {
+    "quickFacts": [
+     "Reported by the Washington Post, Axios and CNN; official announcement pending",
+     "Basis described as a PAHO expert determination after more than a year of continuous spread",
+     "The U.S. had held measles-elimination status since 2000",
+     "Case counts cited in reporting: Axios, 5,412 confirmed so far in 2026 (CDC tally); CNN, more than 5,400, highest since 1991",
+     "CNN, citing state reports and CDC: at least 10 deaths; hospitalizations in roughly 1 in 9 reported cases"
+    ],
+    "notYetConfirmed": [
+     "An official PAHO or U.S. government announcement of the status change",
+     "Final 2026 case, death and hospitalization totals, which are still accumulating"
+    ],
+    "whatHappensNext": [
+     "An official announcement has been described as pending. Public-health agencies have not issued a formal determination in the accounts reviewed for this edition."
+    ]
+   }
+  },
+  {
+   "id": "october-ppi",
+   "region": "us",
+   "location": "USA",
+   "headline": "October wholesale prices up 6.5% from a year ago, most since November 2022",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/13/ppi-inflation-report-october-2026.html"
+    }
+   ],
+   "officialSources": [
+    "https://www.bls.gov/news.release/ppi.htm",
+    "https://www.bls.gov/news.release/ppi.nr0.htm"
+   ],
+   "summary": "The Bureau of Labor Statistics said the producer price index for final demand rose 0.3% in October, seasonally adjusted (USDL 26-1687, 8:30 a.m. ET Friday, Nov. 13). Unadjusted, the index increased 6.5% for the 12 months ended in October, \"the largest 12-month rise since moving up 7.4 percent in November 2022.\" CNBC's Jeff Cox reported the same 0.3% monthly and 6.5% annual figures and also described the annual rise as the biggest since November 2022. UPI used \"since October 2022,\" which is inconsistent with the BLS release and was not used.",
+   "briefing": {
+    "quickFacts": [
+     "October PPI, final demand: +0.3% month over month, seasonally adjusted (BLS)",
+     "+6.5% for the 12 months ended in October, unadjusted",
+     "Largest 12-month rise since +7.4% in November 2022",
+     "Figures from the official BLS news release, matched by CNBC"
+    ],
+    "notYetConfirmed": [
+     "How the November CPI and later PPI prints will compare; this release covers October only"
+    ],
+    "whatHappensNext": [
+     "The next producer-price release follows the BLS schedule. These October figures are the official ones."
+    ]
+   }
+  },
+  {
+   "id": "iran-strikes",
+   "region": "us",
+   "location": "Bahrain / USA",
+   "headline": "Trump may hold off on new Iran strikes unless provoked, Reuters reports; CENTCOM downs 2 drones",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "al-monitor.com",
+     "url": "https://www.al-monitor.com/originals/2026/11/trump-tells-advisers-he-may-hold-iran-attacks-barring-new-provocations-sources"
+    },
+    {
+     "name": "DW",
+     "url": "https://www.dw.com/en/iran-bahrain-us-radar-attacks/a-79942640"
+    },
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/13/iran-says-it-struck-us-radar-site-in-bahrain"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Reuters reported Saturday, in a dispatch from Washington and Riyadh carried by Al-Monitor, that President Trump has told senior advisers in recent days that he may hold off on attacking Iran if the United States faces no new provocations from Tehran or Iran-backed Houthis, \"according to three people familiar with the matter.\" Reuters said he has not made up his mind, according to current and former officials. A White House official said only the president knows what he will do and when.\n\nSeparately, Iran's Islamic Revolutionary Guard Corps claimed it hit a U.S. early-warning radar in Bahrain. U.S. Central Command denied that the radar was destroyed and said it stopped two \"one-way attack drones\" headed to Bahrain, Deutsche Welle and other outlets reported. Accounts including Al Jazeera and Military.com said there were no injuries or damage. The spoken script attributes the pause to Reuters, citing three people, and the drone shoot-downs and radar denial to U.S. Central Command, as reported by Reuters and DW.",
+   "briefing": {
+    "quickFacts": [
+     "Reuters, citing three people familiar: Trump may hold off on new Iran strikes unless there are new provocations",
+     "He has not made a final decision, current and former officials told Reuters",
+     "CENTCOM: two Iranian one-way attack drones headed to Bahrain were shot down",
+     "CENTCOM denied Iran's claim of a radar hit; other accounts reported no injuries or damage"
+    ],
+    "notYetConfirmed": [
+     "Whether Trump will in fact hold off, and for how long",
+     "Independent confirmation of the IRGC's radar-hit claim, which CENTCOM denied",
+     "A public, on-the-record White House policy statement beyond the official's \"only the president knows\" comment"
+    ],
+    "whatHappensNext": [
+     "The pause, as described to Reuters, depends on whether there are new provocations. CENTCOM's account of the Bahrain incident is the U.S. military's public statement."
+    ]
+   }
+  },
+  {
+   "id": "bessent-trade",
+   "region": "us",
+   "location": "Washington, DC",
+   "headline": "Bessent says he is optimistic on trade deals with Canada and Mexico",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "Reuters",
+     "url": "https://www.reuters.com/world/china/us-treasurys-bessent-says-he-is-optimistic-trade-deals-with-canada-mexico-2026-11-13/"
+    },
+    {
+     "name": "ctvnews.ca",
+     "url": "https://www.ctvnews.ca/northern-ontario/video/2026/11/13/us-treasury-secretary-optimistic-on-canada-mexico-trade-deals/"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Treasury Secretary Scott Bessent said he is optimistic the United States can reach trade deals with Canada and Mexico, Reuters reported Friday. CTV News, at 6:30 p.m. ET Friday, reported the same remarks. No details or timetable were given in the accounts reviewed. CTV noted the comments came a day after President Trump threatened to double tariffs on Mexico over migrants. The original remarks appear to have been made in a Friday CNBC interview; the CNBC excerpts page retrieved for this build did not include the Canada/Mexico lines, so the spoken script is sourced to Reuters and CTV, not CNBC. This is a statement of optimism, not a completed deal.",
+   "briefing": {
+    "quickFacts": [
+     "Bessent: optimistic the United States can reach trade deals with Canada and Mexico",
+     "No details or timetable were given",
+     "Reported by Reuters and CTV News, Nov. 13",
+     "CTV: comments came a day after Trump threatened to double tariffs on Mexico over migrants"
+    ],
+    "notYetConfirmed": [
+     "Whether deals will be reached, on what terms, or when",
+     "Any official text or timetable from Treasury, Canada or Mexico"
+    ],
+    "whatHappensNext": [
+     "No negotiation timetable was announced in the reporting reviewed for this edition."
+    ]
+   }
+  }
+ ],
+ "audio": {
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-14/Briefed-2026-11-14-full-twohost.mp3",
+  "durationSeconds": 128.052,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": null,
+    "title": null,
+    "start": 0.0,
+    "end": 2.623
+   },
+   {
+    "storyId": null,
+    "title": null,
+    "start": 2.623,
+    "end": 12.188
+   },
+   {
+    "storyId": "faa-ground-stop",
+    "title": "FAA ground stop: 12,000+ flights canceled",
+    "start": 12.188,
+    "end": 34.18
+   },
+   {
+    "storyId": "trump-xi-putin",
+    "title": "Trump\u2013Xi\u2013Putin meeting in Shenzhen",
+    "start": 34.18,
+    "end": 53.272
+   },
+   {
+    "storyId": "measles-status",
+    "title": "U.S. measles elimination status",
+    "start": 53.272,
+    "end": 71.084
+   },
+   {
+    "storyId": "october-ppi",
+    "title": "Wholesale prices up 6.5%",
+    "start": 71.084,
+    "end": 85.71
+   },
+   {
+    "storyId": "iran-strikes",
+    "title": "Iran strikes pause and Bahrain drones",
+    "start": 85.71,
+    "end": 105.115
+   },
+   {
+    "storyId": "bessent-trade",
+    "title": "Bessent optimistic on Canada, Mexico deals",
+    "start": 105.115,
+    "end": 117.155
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 117.155,
+    "end": 128.019
+   }
+  ]
+ },
+ "video": {
+  "url": "/briefed/media/2026-11-14/Briefed-2026-11-14-web.mp4",
+  "durationSeconds": 128.019,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": null,
+    "title": "Intro",
+    "start": 0.0,
+    "end": 12.188
+   },
+   {
+    "storyId": "faa-ground-stop",
+    "title": "FAA ground stop: 12,000+ flights canceled",
+    "start": 12.188,
+    "end": 34.18
+   },
+   {
+    "storyId": "trump-xi-putin",
+    "title": "Trump\u2013Xi\u2013Putin meeting in Shenzhen",
+    "start": 34.18,
+    "end": 53.272
+   },
+   {
+    "storyId": "measles-status",
+    "title": "U.S. measles elimination status",
+    "start": 53.272,
+    "end": 71.084
+   },
+   {
+    "storyId": "october-ppi",
+    "title": "Wholesale prices up 6.5%",
+    "start": 71.084,
+    "end": 85.71
+   },
+   {
+    "storyId": "iran-strikes",
+    "title": "Iran strikes pause and Bahrain drones",
+    "start": 85.71,
+    "end": 105.115
+   },
+   {
+    "storyId": "bessent-trade",
+    "title": "Bessent optimistic on Canada, Mexico deals",
+    "start": 105.115,
+    "end": 117.155
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 117.155,
+    "end": 128.019
+   }
+  ],
+  "poster": "/briefed/media/2026-11-14/Briefed-2026-11-14-poster.jpg"
+ }
+}
