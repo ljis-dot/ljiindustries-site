@@ -1,243 +1,218 @@
 {
  "schemaVersion": 1,
- "date": "2026-11-14",
- "generatedAt": "2026-11-14T08:40:00-05:00",
+ "date": "2026-11-15",
+ "generatedAt": "2026-11-15T08:40:00-05:00",
  "stories": [
   {
-   "id": "faa-ground-stop",
+   "id": "anthropic-ipo",
    "region": "us",
-   "location": "Washington, DC",
-   "headline": "More than 12,000 flights canceled after the FAA nationwide ground stop",
+   "location": "New York",
+   "headline": "Anthropic's IPO could value it at up to $1.4 trillion",
    "status": "reported-only",
    "outlets": [
     {
-     "name": "ABC News",
-     "url": "https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140"
-    },
-    {
      "name": "CNBC",
-     "url": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html"
+     "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
     },
     {
-     "name": "Reuters",
-     "url": "https://www.reuters.com/world/us/faa-issues-national-ground-stop-due-extraordinary-circumstance-reasons-safety-2026-11-13/"
+     "name": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/"
     },
     {
-     "name": "latimes.com",
-     "url": "https://www.latimes.com/politics/story/2026-11-13/what-caused-national-ground-stop-here-is-what-we-know"
+     "name": "finance.yahoo.com",
+     "url": "https://finance.yahoo.com/markets/article/nvidias-first-post-jensen-earnings-and-anthropics-ipo-what-to-watch-this-week-110000732.html"
     },
     {
-     "name": "Axios",
-     "url": "https://www.axios.com/2026/11/14/faa-ground-stop-saturday"
+     "name": "anthropic.com",
+     "url": "https://www.anthropic.com/news/roadshow-launch"
+    },
+    {
+     "name": "Investing.com",
+     "url": "https://www.investing.com/news/stock-market-news/nvidia-results-anthropic-ipo-pose-tests-for-tumultuous-ai-trade-5024815"
+    },
+    {
+     "name": "upi.com",
+     "url": "https://www.upi.com/Top_News/US/2026/11/10/anthropic-ipo-stock-range-nasdaq/6651794326745/"
     }
    ],
    "officialSources": [],
-   "summary": "A nationwide Federal Aviation Administration ground stop on Friday afternoon halted U.S. departures for more than four hours. Transportation Secretary Sean Duffy said airspace reopened at 8:15 p.m. ET and that old switches and routers on the FAA's system had been overloaded with data. Duffy asked Congress for an additional $50 billion to finish air-traffic-control modernization, a figure reported by the Los Angeles Times, ABC News (\"I want $50 billion\") and Axios. Homeland Security Secretary Markwayne Mullin said there was no indication of a cyberattack or a national-security threat.\n\nSaturday-morning FlightAware totals, reported by ABC News and CNBC, superseded Friday-night snapshots. ABC, citing FlightAware, said 9,132 U.S. flights were canceled Friday, with 3,374 already canceled Saturday morning, for a combined 12,506 cancellations that were expected to grow. CNBC, as of 5:45 a.m. ET Saturday, said about 9,000 U.S. flights were canceled Friday and more than 3,000 more Saturday, with close to 1,000 Saturday delays; it noted that some Friday disruptions were also due to weather. Axios, as of 5:15 a.m. ET Saturday, reported nearly 3,300 Saturday cancellations. A Friday-night Reuters/Flightradar24 figure of nearly 10,000 cancellations by 11:30 p.m. was not used as the lead number. An earlier Los Angeles Times FlightAware snapshot of about 5,300 cancellations, and that paper's report that the stop lifted around 5:15\u20135:30 p.m., conflict with Duffy's 8:15 p.m. ET reopen (Reuters, ABC, and Friday night's Briefed special) and were not used.",
+   "summary": "Anthropic, the maker of the Claude AI models, plans to price its initial public offering on Wednesday, Nov. 18, and begin trading on the Nasdaq Global Select Market on Thursday, Nov. 19, under the ticker \"ANT.\" Its amended filing sets a range of $70 to $78 a share for 825 million Class A shares (about 801 million from the company and about 24 million from existing holders), which would raise $57.75 billion to $64.35 billion. At the top of the range, the company would be worth about $1.4 trillion on a fully diluted basis (CNBC: up to $1.405 trillion; TechCrunch: $1.404 trillion), up from the $965 billion valuation in its May funding round but below the roughly $2 trillion it was reportedly targeting earlier. CNBC reported that Anthropic is aiming to allocate about 20% of the offering to retail investors. Yahoo Finance reported a $26 billion private placement alongside the IPO, including up to $10 billion each from Nvidia and Alphabet.\n\nThe IPO lands in the same week as Nvidia's quarterly results, due after the close on Tuesday, Nov. 17. Yahoo Finance and Reuters (via Investing.com) framed the two events as the week's big tests for the AI trade.",
    "briefing": {
     "quickFacts": [
-     "Stop lasted more than four hours on Friday; Duffy said airspace reopened at 8:15 p.m. ET",
-     "About 9,000 U.S. flights canceled Friday; more than 3,000 more Saturday morning (FlightAware, via ABC and CNBC)",
-     "Combined Friday\u2013Saturday cancellations: more than 12,000 (ABC: 12,506 as of Saturday morning, expected to grow)",
-     "Duffy: old, overloaded routers and switches; asked Congress for $50 billion",
-     "Mullin: no indication of a cyberattack"
+     "Ticker ANT, Nasdaq; IPO price set Wednesday, Nov. 18; trading expected Thursday, Nov. 19",
+     "825 million shares at $70\u2013$78; up to $64.35 billion raised",
+     "About $1.4 trillion fully diluted at $78 (the value on shares outstanding after the IPO is lower, about $1 trillion)",
+     "Nvidia earnings: Tuesday, Nov. 17, after the close"
     ],
     "notYetConfirmed": [
-     "A final, settled cancellation total for the weekend, which was still rising Saturday morning",
-     "How much of Friday's disruption was from the ground stop and how much from weather (CNBC noted both)",
-     "Whether Congress will approve the $50 billion Duffy requested, or on what timetable"
-    ],
-    "whatHappensNext": [
-     "Airlines were still working through Saturday delays and cancellations. Duffy's funding request goes to Congress."
+     "The final IPO price and first-day trading",
+     "Whether the underwriters exercise their option on 123.75 million more shares"
     ]
    }
   },
   {
-   "id": "trump-xi-putin",
+   "id": "starship-catch",
    "region": "us",
-   "location": "Shenzhen",
-   "headline": "Trump, Xi and Putin to hold first three-way meeting Thursday in Shenzhen",
+   "location": "Starbase, TX",
+   "headline": "SpaceX catches a Starship returning from orbit for the first time",
    "status": "reported-only",
    "outlets": [
-    {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/trump-putin-xi-jinping-meeting-china-us-russia-talks/"
-    },
     {
      "name": "Associated Press",
-     "url": "https://apnews.com/article/trump-xi-putin-summit-china-5fe92253ef38100bae913834a9b74d72"
+     "url": "https://apnews.com/article/spacex-elon-musk-starship-rocket-df394c1b5a0f85e11194f9ff7db9ee6b"
     },
     {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china"
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo"
+    },
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/14/spacex-plans-to-try-first-ever-catch-of-starship-rocket-from-orbit.html"
+    },
+    {
+     "name": "space.com",
+     "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14"
+    },
+    {
+     "name": "spacex.com",
+     "url": "https://www.spacex.com/launches/starship-flight-15/"
     }
    ],
    "officialSources": [],
-   "summary": "The White House said President Trump, China's Xi Jinping and Russia's Vladimir Putin will hold their first three-way meeting Thursday, November 19, on the sidelines of the Asia-Pacific Economic Cooperation gathering in China. CBS News, citing AFP and a White House confirmation, said the talks would take place in \"the southern Chinese city\" and that officials said the agenda would cover nuclear arms cuts and Iran, and was not expected to include Russia's war in Ukraine. Spokeswoman Olivia Wales was quoted. A senior U.S. official, speaking anonymously, said China is not part of the Ukraine negotiation track. The city was named as Shenzhen by the Associated Press, Al Jazeera and other outlets independently of the CBS/AFP confirmation of the meeting, date, agenda and \"not Ukraine\" line. Officials said no agreement was expected (Reuters, via Al Jazeera).",
+   "summary": "SpaceX caught the Starship upper stage, Ship 42, with the \"chopstick\" arms of its Starbase, Texas, launch tower on Saturday at about 4:20 p.m. ET, ending Flight 15. The ship deployed 26 Starlink V3 satellites after reaching orbit (SpaceX, CNBC, Space.com, Xinhua) and circled Earth 14 times (BBC, CNBC, Aerospace America) before returning about 22.5 hours after Friday's liftoff (SpaceX, BBC, Space.com; AP said 22 hours). SpaceX's flight log puts the catch at T+22:32:34; reports of \"about 24 hours\" are not supported by these sources. It was the first time SpaceX has caught the upper stage; it had caught the Super Heavy booster on three earlier flights.\n\nThe booster did not make it back. SpaceX said its boostback burn ended early on low fuel, the booster aborted its catch and diverted itself offshore, hovered over the Gulf after a landing burn, and its flight termination system was then triggered. CNBC, AP and BBC described it as exploding over the water.",
    "briefing": {
     "quickFacts": [
-     "When: Thursday, Nov. 19, on the sidelines of APEC",
-     "Where: Shenzhen, China (named by AP, Al Jazeera and others; CBS/AFP said \"the southern Chinese city\")",
-     "First three-way meeting of Trump, Xi and Putin",
-     "Officials: nuclear arms cuts and Iran on the agenda; Ukraine not expected to be discussed",
-     "White House confirmed the meeting Friday"
+     "Ship 42 caught at Starbase on Saturday, Nov. 14, about 22.5 hours after launch",
+     "26 Starlink V3 satellites deployed; 14 orbits",
+     "First Starship upper-stage catch; booster catch aborted, booster lost over the Gulf"
     ],
     "notYetConfirmed": [
-     "A detailed public agenda, joint statement, or any agreement (officials said none was expected)",
-     "Whether the \"not Ukraine\" description will hold once the meeting begins"
-    ],
-    "whatHappensNext": [
-     "The meeting is scheduled for Thursday in Shenzhen during APEC."
+     "The root cause of the booster's low-fuel abort (SpaceX says it is under investigation)"
     ]
    }
   },
   {
-   "id": "measles-status",
+   "id": "nola-tanker",
    "region": "us",
-   "location": "Washington, DC",
-   "headline": "U.S. reported to have lost measles elimination status; official announcement pending",
+   "location": "New Orleans",
+   "headline": "All 197 survive after a tanker hits a docked river cruise ship in New Orleans",
    "status": "reported-only",
    "outlets": [
     {
-     "name": "Washington Post",
-     "url": "https://www.washingtonpost.com/health/2026/11/13/us-loses-measles-elimination-status-erasing-landmark-achievement/"
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/new-orleans-cruise-ship-tanker-crash-0c1cbee9c9b3f3103d84b8bb17b5073f"
     },
     {
-     "name": "Axios",
-     "url": "https://www.axios.com/2026/11/14/us-loses-measles-elimination-status"
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/news/us-news/rescue-underway-oil-tanker-collides-new-orleans-river-boat-rcna609235"
     },
     {
-     "name": "kvia.com",
-     "url": "https://kvia.com/health/cnn-health/2026/11/13/after-26-years-the-us-has-lost-its-measles-elimination-status/"
-    }
-   ],
-   "officialSources": [],
-   "summary": "The Washington Post, Axios and CNN report that the United States has lost its measles-elimination status after more than a year of continuous spread. An official announcement has not been issued. The Washington Post's Lena H. Sun, at 11:20 p.m. ET Friday, attributed the determination to \"a person familiar with the matter who spoke on the condition of anonymity because the official announcement is pending.\" Axios, on Saturday, said an international health organization had determined the U.S. lost the status, \"according to multiple news reports,\" and described a Pan American Health Organization expert panel meeting in Washington after sustained transmission longer than 12 months. CNN's Brenda Goodman, in a report carried by KVIA, said an independent commission of experts that reports to the PAHO director determined that the U.S. no longer qualified, according to a source close to the process. CNN noted the news was first reported by the Wall Street Journal; this edition does not use the Journal as a source. The U.S. had held the status since 2000. Axios cited a CDC tally of 5,412 confirmed cases so far in 2026, versus 2,289 in all of 2025. CNN said more than 5,400 cases this year, the highest since 1991, at least 10 deaths per state reports, and hospitalizations in roughly 1 in 9 reported cases (CDC). Those case, death and hospitalization figures are not in the spoken script.",
-   "briefing": {
-    "quickFacts": [
-     "Reported by the Washington Post, Axios and CNN; official announcement pending",
-     "Basis described as a PAHO expert determination after more than a year of continuous spread",
-     "The U.S. had held measles-elimination status since 2000",
-     "Case counts cited in reporting: Axios, 5,412 confirmed so far in 2026 (CDC tally); CNN, more than 5,400, highest since 1991",
-     "CNN, citing state reports and CDC: at least 10 deaths; hospitalizations in roughly 1 in 9 reported cases"
-    ],
-    "notYetConfirmed": [
-     "An official PAHO or U.S. government announcement of the status change",
-     "Final 2026 case, death and hospitalization totals, which are still accumulating"
-    ],
-    "whatHappensNext": [
-     "An official announcement has been described as pending. Public-health agencies have not issued a formal determination in the accounts reviewed for this edition."
-    ]
-   }
-  },
-  {
-   "id": "october-ppi",
-   "region": "us",
-   "location": "USA",
-   "headline": "October wholesale prices up 6.5% from a year ago, most since November 2022",
-   "status": "sourced",
-   "outlets": [
+     "name": "nola.com",
+     "url": "https://www.nola.com/news/180-aboard-cruise-ship-rescued-safely-after-mississippi-river-tanker-crash-in-new-orleans/article_48122beb-c425-428a-bdc4-09ec58805650.html"
+    },
     {
-     "name": "CNBC",
-     "url": "https://www.cnbc.com/2026/11/13/ppi-inflation-report-october-2026.html"
+     "name": "Fox News",
+     "url": "https://www.foxnews.com/us/tanker-slams-docked-new-orleans-river-cruiser-carrying-129-passengers-sparking-rescue"
+    },
+    {
+     "name": "wdsu.com",
+     "url": "https://www.wdsu.com/article/mississippi-river-boat-crash-new-orleans/74426309"
     }
    ],
    "officialSources": [
-    "https://www.bls.gov/news.release/ppi.htm",
-    "https://www.bls.gov/news.release/ppi.nr0.htm"
+    "https://www.ntsb.gov/investigations/Pages/DCA27MM003.aspx"
    ],
-   "summary": "The Bureau of Labor Statistics said the producer price index for final demand rose 0.3% in October, seasonally adjusted (USDL 26-1687, 8:30 a.m. ET Friday, Nov. 13). Unadjusted, the index increased 6.5% for the 12 months ended in October, \"the largest 12-month rise since moving up 7.4 percent in November 2022.\" CNBC's Jeff Cox reported the same 0.3% monthly and 6.5% annual figures and also described the annual rise as the biggest since November 2022. UPI used \"since October 2022,\" which is inconsistent with the BLS release and was not used.",
+   "summary": "The tanker Atlantic Asphalt struck American Cruise Lines' American Heritage at about 12:30 p.m. Friday as the riverboat was docked and disembarking passengers on the Mississippi River in New Orleans. The cruise ship rolled onto its side, and about 100 people were pulled from the water. All 197 passengers and crew survived, AP reported. Officials said the rescue was led by Harbor Police, the New Orleans Fire Department, New Orleans police, the U.S. Coast Guard and medical personnel; Coast Guard crews ferried passengers to a dock (NOLA.com), the Coast Guard was among the agencies on scene conducting rescue operations, and American Cruise Lines thanked the Coast Guard (Fox News). Homeland Security Secretary Markwayne Mullin said the Coast Guard was supporting state and local responders. Officials said 32 people were taken to hospitals, including two police officers, and eight remained hospitalized Saturday; NBC reported two of the eight were in serious condition, while AP said none of the injuries were critical. Coast Guard Capt. Melanie Burnham said initial reports pointed to a steering problem on the tanker. The NTSB said it has recovered the tanker's voyage data recorder; a 16-member team expects to spend a week on site, with a preliminary report in about 30 days. The Port of New Orleans sued, and a judge issued a warrant giving federal officials control of the tanker.",
    "briefing": {
     "quickFacts": [
-     "October PPI, final demand: +0.3% month over month, seasonally adjusted (BLS)",
-     "+6.5% for the 12 months ended in October, unadjusted",
-     "Largest 12-month rise since +7.4% in November 2022",
-     "Figures from the official BLS news release, matched by CNBC"
+     "197 aboard the American Heritage; all survived",
+     "Rescue led by Harbor Police, firefighters, NOPD and the Coast Guard (officials, via NOLA.com and Fox News)",
+     "32 hospitalized; 8 still hospitalized Saturday",
+     "NTSB has the tanker's voyage data recorder; preliminary report expected in roughly 30 days"
     ],
     "notYetConfirmed": [
-     "How the November CPI and later PPI prints will compare; this release covers October only"
-    ],
-    "whatHappensNext": [
-     "The next producer-price release follows the BLS schedule. These October figures are the official ones."
+     "The cause of the collision (initial reports point to a steering problem)"
     ]
    }
   },
   {
-   "id": "iran-strikes",
-   "region": "us",
-   "location": "Bahrain / USA",
-   "headline": "Trump may hold off on new Iran strikes unless provoked, Reuters reports; CENTCOM downs 2 drones",
-   "status": "reported-only",
-   "outlets": [
-    {
-     "name": "al-monitor.com",
-     "url": "https://www.al-monitor.com/originals/2026/11/trump-tells-advisers-he-may-hold-iran-attacks-barring-new-provocations-sources"
-    },
-    {
-     "name": "DW",
-     "url": "https://www.dw.com/en/iran-bahrain-us-radar-attacks/a-79942640"
-    },
-    {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/13/iran-says-it-struck-us-radar-site-in-bahrain"
-    }
-   ],
-   "officialSources": [],
-   "summary": "Reuters reported Saturday, in a dispatch from Washington and Riyadh carried by Al-Monitor, that President Trump has told senior advisers in recent days that he may hold off on attacking Iran if the United States faces no new provocations from Tehran or Iran-backed Houthis, \"according to three people familiar with the matter.\" Reuters said he has not made up his mind, according to current and former officials. A White House official said only the president knows what he will do and when.\n\nSeparately, Iran's Islamic Revolutionary Guard Corps claimed it hit a U.S. early-warning radar in Bahrain. U.S. Central Command denied that the radar was destroyed and said it stopped two \"one-way attack drones\" headed to Bahrain, Deutsche Welle and other outlets reported. Accounts including Al Jazeera and Military.com said there were no injuries or damage. The spoken script attributes the pause to Reuters, citing three people, and the drone shoot-downs and radar denial to U.S. Central Command, as reported by Reuters and DW.",
-   "briefing": {
-    "quickFacts": [
-     "Reuters, citing three people familiar: Trump may hold off on new Iran strikes unless there are new provocations",
-     "He has not made a final decision, current and former officials told Reuters",
-     "CENTCOM: two Iranian one-way attack drones headed to Bahrain were shot down",
-     "CENTCOM denied Iran's claim of a radar hit; other accounts reported no injuries or damage"
-    ],
-    "notYetConfirmed": [
-     "Whether Trump will in fact hold off, and for how long",
-     "Independent confirmation of the IRGC's radar-hit claim, which CENTCOM denied",
-     "A public, on-the-record White House policy statement beyond the official's \"only the president knows\" comment"
-    ],
-    "whatHappensNext": [
-     "The pause, as described to Reuters, depends on whether there are new provocations. CENTCOM's account of the Bahrain incident is the U.S. military's public statement."
-    ]
-   }
-  },
-  {
-   "id": "bessent-trade",
+   "id": "east-potomac-golf",
    "region": "us",
    "location": "Washington, DC",
-   "headline": "Bessent says he is optimistic on trade deals with Canada and Mexico",
+   "headline": "Judge keeps East Potomac Park and its golf course open",
    "status": "reported-only",
    "outlets": [
     {
-     "name": "Reuters",
-     "url": "https://www.reuters.com/world/china/us-treasurys-bessent-says-he-is-optimistic-trade-deals-with-canada-mexico-2026-11-13/"
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/trump-washington-golf-course-east-potomac-injunction-df0f89f28f2a216faf09b3d63cdb6f9a"
     },
     {
-     "name": "ctvnews.ca",
-     "url": "https://www.ctvnews.ca/northern-ontario/video/2026/11/13/us-treasury-secretary-optimistic-on-canada-mexico-trade-deals/"
+     "name": "Washington Post",
+     "url": "https://www.washingtonpost.com/sports/2026/11/14/judge-blocks-trump-administration-closing-east-potomac-park/"
+    },
+    {
+     "name": "The Hill",
+     "url": "https://thehill.com/regulation/court-battles/6221069-judge-blocks-east-potomac-park-closure/"
+    },
+    {
+     "name": "storage.courtlistener.com",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.289401/gov.uscourts.dcd.289401.159.0_1.pdf"
     }
    ],
    "officialSources": [],
-   "summary": "Treasury Secretary Scott Bessent said he is optimistic the United States can reach trade deals with Canada and Mexico, Reuters reported Friday. CTV News, at 6:30 p.m. ET Friday, reported the same remarks. No details or timetable were given in the accounts reviewed. CTV noted the comments came a day after President Trump threatened to double tariffs on Mexico over migrants. The original remarks appear to have been made in a Friday CNBC interview; the CNBC excerpts page retrieved for this build did not include the Canada/Mexico lines, so the spoken script is sourced to Reuters and CTV, not CNBC. This is a statement of optimism, not a completed deal.",
+   "summary": "U.S. District Judge Ana Reyes on Saturday issued a temporary restraining order barring the Trump administration from closing East Potomac Park and East Potomac Golf Course during their usual hours, ahead of a closure planned for Sunday tied to the president's planned redevelopment of the public course. The order runs through Nov. 28, or until further order. It does not require the government to operate the course for play or hire an operator, and it allows routine closures and repairs. The Washington Post reported that Reyes found the government's stated reasons for the closure were \"pretextual.\""
+  },
+  {
+   "id": "film-tax-credit",
+   "region": "us",
+   "location": "Washington, DC",
+   "headline": "Trump backs a bipartisan federal film tax credit",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "The Hill",
+     "url": "https://thehill.com/business/6220886-trump-bipartisan-film-industry-bill/"
+    },
+    {
+     "name": "newsweek.com",
+     "url": "https://www.newsweek.com/donald-trump-teams-up-with-adam-schiff-to-save-hollywood-12715678"
+    }
+   ],
+   "officialSources": [
+    "https://www.schiff.senate.gov/news/press-releases/news-sens-scott-schiff-reps-moran-sanchez-jack-friedman-introduce-bipartisan-bill-to-establish-a-federal-film-tax-credit-to-keep-film-and-television-production-in-the-u-s/",
+    "https://www.govinfo.gov/content/pkg/BILLS-119s5552is/xhtml/BILLS-119s5552is.html"
+   ],
+   "summary": "The bill is bipartisan: S. 5552 was introduced by Sen. Tim Scott (R-S.C.) for himself and Sens. Adam Schiff (D-Calif.), John Cornyn (R-Texas) and Raphael Warnock (D-Ga.), per the bill text, and The Hill lists Democratic and Republican senators Trump named as partners. A companion House effort was announced by Reps. Nathaniel Moran (R), Linda Sanchez (D), Brian Jack (R) and Laura Friedman (D) (Schiff release). President Trump said Friday on Truth Social that he is working with Sen. Tim Scott and, \"believe it or not, Senator Adam Schiff,\" plus a bipartisan group of senators and House members, on the Motion Picture, Television, and Entertainment Revitalization Act (S. 5552). The bill, introduced Sept. 24 and referred to the Senate Finance Committee, would create a 20% federal tax credit on qualified U.S. labor costs for film and TV productions that spend more than $1 million and shoot at least 75% of principal photography days in the U.S. Bonus credits of 5 points each, for rural opportunity zones, disaster areas, independent producers, multi-state producers and increased domestic production, can raise it to 30%."
+  },
+  {
+   "id": "hormuz-mines",
+   "region": "world",
+   "location": "Strait of Hormuz",
+   "headline": "Iran says three tankers hit mines in the Strait of Hormuz",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "straitstimes.com",
+     "url": "https://www.straitstimes.com/world/middle-east/irans-navy-says-three-tankers-on-fire-after-hitting-mines-in-hormuz"
+    },
+    {
+     "name": "channelnewsasia.com",
+     "url": "https://www.channelnewsasia.com/world/strait-hormuz-oil-tankers-mines-iran-6551256"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Iran's navy and Revolutionary Guards navy said three oil tankers caught fire Saturday after striking naval mines in and around the Strait of Hormuz, Iranian state media reported. The Guards said two tankers had switched off their radar and tracking systems and were using an unauthorized route; one was described as a supertanker. The regular navy said a third tanker hit a mine in a prohibited zone east of the strait. The ships were not named. Reuters said it could not immediately verify the reports. The U.S. military has said it cleared the main routes through the waterway of mines (CNA).",
    "briefing": {
-    "quickFacts": [
-     "Bessent: optimistic the United States can reach trade deals with Canada and Mexico",
-     "No details or timetable were given",
-     "Reported by Reuters and CTV News, Nov. 13",
-     "CTV: comments came a day after Trump threatened to double tariffs on Mexico over migrants"
-    ],
     "notYetConfirmed": [
-     "Whether deals will be reached, on what terms, or when",
-     "Any official text or timetable from Treasury, Canada or Mexico"
-    ],
-    "whatHappensNext": [
-     "No negotiation timetable was announced in the reporting reviewed for this edition."
+     "Everything above beyond the fact that Iran made the claims: the ships, the damage and the cause"
     ]
-   }
+   },
+   "statusNote": "Iranian state media."
   }
  ],
  "audio": {
-  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-14/Briefed-2026-11-14-full-twohost.mp3",
-  "durationSeconds": 128.052,
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-15/Briefed-2026-11-15-full-twohost.mp3",
+  "durationSeconds": 141.505,
   "aiVoices": true,
   "chapters": [
    {
@@ -253,52 +228,52 @@
     "end": 12.188
    },
    {
-    "storyId": "faa-ground-stop",
-    "title": "FAA ground stop: 12,000+ flights canceled",
+    "storyId": "anthropic-ipo",
+    "title": "Anthropic IPO could hit $1.4 trillion",
     "start": 12.188,
-    "end": 34.18
+    "end": 32.587
    },
    {
-    "storyId": "trump-xi-putin",
-    "title": "Trump\u2013Xi\u2013Putin meeting in Shenzhen",
-    "start": 34.18,
-    "end": 53.272
+    "storyId": "starship-catch",
+    "title": "SpaceX catches a Starship from orbit",
+    "start": 32.587,
+    "end": 57.765
    },
    {
-    "storyId": "measles-status",
-    "title": "U.S. measles elimination status",
-    "start": 53.272,
-    "end": 71.084
+    "storyId": "nola-tanker",
+    "title": "All 197 survive tanker crash in New Orleans",
+    "start": 57.765,
+    "end": 81.351
    },
    {
-    "storyId": "october-ppi",
-    "title": "Wholesale prices up 6.5%",
-    "start": 71.084,
-    "end": 85.71
+    "storyId": "east-potomac-golf",
+    "title": "Judge keeps East Potomac golf course open",
+    "start": 81.351,
+    "end": 96.603
    },
    {
-    "storyId": "iran-strikes",
-    "title": "Iran strikes pause and Bahrain drones",
-    "start": 85.71,
-    "end": 105.115
+    "storyId": "film-tax-credit",
+    "title": "Trump backs bipartisan film tax credit",
+    "start": 96.603,
+    "end": 113.762
    },
    {
-    "storyId": "bessent-trade",
-    "title": "Bessent optimistic on Canada, Mexico deals",
-    "start": 105.115,
-    "end": 117.155
+    "storyId": "hormuz-mines",
+    "title": "Iran says 3 tankers hit mines in Hormuz",
+    "start": 113.762,
+    "end": 130.608
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 117.155,
-    "end": 128.019
+    "start": 130.608,
+    "end": 141.472
    }
   ]
  },
  "video": {
-  "url": "/briefed/media/2026-11-14/Briefed-2026-11-14-web.mp4",
-  "durationSeconds": 128.019,
+  "url": "/briefed/media/2026-11-15/Briefed-2026-11-15-web.mp4",
+  "durationSeconds": 141.472,
   "aiVoices": true,
   "chapters": [
    {
@@ -308,48 +283,48 @@
     "end": 12.188
    },
    {
-    "storyId": "faa-ground-stop",
-    "title": "FAA ground stop: 12,000+ flights canceled",
+    "storyId": "anthropic-ipo",
+    "title": "Anthropic IPO could hit $1.4 trillion",
     "start": 12.188,
-    "end": 34.18
+    "end": 32.587
    },
    {
-    "storyId": "trump-xi-putin",
-    "title": "Trump\u2013Xi\u2013Putin meeting in Shenzhen",
-    "start": 34.18,
-    "end": 53.272
+    "storyId": "starship-catch",
+    "title": "SpaceX catches a Starship from orbit",
+    "start": 32.587,
+    "end": 57.765
    },
    {
-    "storyId": "measles-status",
-    "title": "U.S. measles elimination status",
-    "start": 53.272,
-    "end": 71.084
+    "storyId": "nola-tanker",
+    "title": "All 197 survive tanker crash in New Orleans",
+    "start": 57.765,
+    "end": 81.351
    },
    {
-    "storyId": "october-ppi",
-    "title": "Wholesale prices up 6.5%",
-    "start": 71.084,
-    "end": 85.71
+    "storyId": "east-potomac-golf",
+    "title": "Judge keeps East Potomac golf course open",
+    "start": 81.351,
+    "end": 96.603
    },
    {
-    "storyId": "iran-strikes",
-    "title": "Iran strikes pause and Bahrain drones",
-    "start": 85.71,
-    "end": 105.115
+    "storyId": "film-tax-credit",
+    "title": "Trump backs bipartisan film tax credit",
+    "start": 96.603,
+    "end": 113.762
    },
    {
-    "storyId": "bessent-trade",
-    "title": "Bessent optimistic on Canada, Mexico deals",
-    "start": 105.115,
-    "end": 117.155
+    "storyId": "hormuz-mines",
+    "title": "Iran says 3 tankers hit mines in Hormuz",
+    "start": 113.762,
+    "end": 130.608
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 117.155,
-    "end": 128.019
+    "start": 130.608,
+    "end": 141.472
    }
   ],
-  "poster": "/briefed/media/2026-11-14/Briefed-2026-11-14-poster.jpg"
+  "poster": "/briefed/media/2026-11-15/Briefed-2026-11-15-poster.jpg"
  }
 }
