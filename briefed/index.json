@@ -2,6 +2,13 @@
  "schemaVersion": 1,
  "editions": [
   {
+   "date": "2026-11-16",
+   "lead": "Push grows to bring Jensen Huang back to Nvidia",
+   "url": "/briefed/2026-11-16/",
+   "json": "/briefed/2026-11-16.json",
+   "hasAudio": true
+  },
+  {
    "date": "2026-11-15",
    "lead": "Anthropic's IPO could value it at up to $1.4 trillion",
    "url": "/briefed/2026-11-15/",
