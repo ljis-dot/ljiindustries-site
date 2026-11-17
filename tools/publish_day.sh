@@ -119,6 +119,26 @@ else
   fi
   BRIEFED_AUDIO_DIR="$ESRC" python3 "$WORK/tools/make_edition.py" "$DAY" "$WORK/editions/$DAY.json" --audio-url "$AUDIO_URL" --release-base "/briefed/media/$DAY"
 fi
+
+# Podcast episode (optional): copy when Briefed_Bot has dropped the day's MP3.
+# Hosted at /briefed/<date>/Briefed-<date>.mp3; omitted from the feed if missing.
+# GitHub Pages limits: 100 MB per file, 1 GB site. Log the size so growth is visible.
+if [ $NIGHT = 0 ]; then
+  POD_DIR="${BRIEFED_PODCAST_DIR:-/workspace/briefed-podcast}"
+  POD_SRC="$POD_DIR/$DAY/Briefed-$DAY.mp3"
+  if [ -s "$POD_SRC" ]; then
+    mkdir -p "$WORK/briefed/$DAY"
+    cp "$POD_SRC" "$WORK/briefed/$DAY/Briefed-$DAY.mp3"
+    log "podcast MP3 copied to briefed/$DAY/ ($(wc -c < "$POD_SRC" | tr -d ' ') bytes)"
+  else
+    log "no podcast MP3 at $POD_SRC"
+  fi
+  COVER_SRC="$POD_DIR/cover-3000.jpg"
+  if [ -s "$COVER_SRC" ]; then
+    cp "$COVER_SRC" "$WORK/briefed/podcast-cover.jpg"
+    log "podcast cover copied to briefed/podcast-cover.jpg"
+  fi
+fi
 (cd "$WORK" && python3 tools/build_briefed.py)
 
 if [ $DRY = 1 ]; then

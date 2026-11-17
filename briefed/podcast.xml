@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Briefed</title>
+    <link>https://ljiindustries.com/briefed/</link>
+    <language>en-us</language>
+    <copyright>Briefed News</copyright>
+    <description>The facts on the day's stories, with links to the original reporting. A US-focused daily briefing, AI-voiced from the written edition.</description>
+    <lastBuildDate>Mon, 16 Nov 2026 07:00:00 -0500</lastBuildDate>
+    <atom:link href="https://ljiindustries.com/briefed/podcast.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://ljiindustries.com/briefed/podcast-cover.jpg</url>
+      <title>Briefed</title>
+      <link>https://ljiindustries.com/briefed/</link>
+    </image>
+    <itunes:author>Briefed News</itunes:author>
+    <itunes:summary>The facts on the day's stories, with links to the original reporting. A US-focused daily briefing, AI-voiced from the written edition.</itunes:summary>
+    <itunes:owner>
+      <itunes:name>Briefed News</itunes:name>
+      <itunes:email>info@ljiindustries.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://ljiindustries.com/briefed/podcast-cover.jpg"/>
+    <itunes:category text="News">
+      <itunes:category text="Daily News"/>
+    </itunes:category>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <item>
+      <title>Briefed · Mon, Nov 16: Push grows to bring Jensen Huang back to Nvidia</title>
+      <description>Push grows to bring Jensen Huang back to Nvidia
+Duffy: Friday's ground stop began with a router at an Arkansas FAA radio site
+ULA's Vulcan rocket fails, destroying 40 Amazon Leo satellites
+Federal prosecutor tells Sen. Elizabeth Warren to preserve records
+NTSB: the tanker's rudder stuck about 2 minutes before it hit the New Orleans cruise ship
+
+Read this edition: https://ljiindustries.com/briefed/2026-11-16/</description>
+      <link>https://ljiindustries.com/briefed/2026-11-16/</link>
+      <guid isPermaLink="false">briefed-2026-11-16</guid>
+      <pubDate>Mon, 16 Nov 2026 07:00:00 -0500</pubDate>
+      <enclosure url="https://ljiindustries.com/briefed/2026-11-16/Briefed-2026-11-16.mp3" length="2150964" type="audio/mpeg"/>
+      <itunes:title>Briefed · Mon, Nov 16: Push grows to bring Jensen Huang back to Nvidia</itunes:title>
+      <itunes:author>Briefed News</itunes:author>
+      <itunes:duration>2:14</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>

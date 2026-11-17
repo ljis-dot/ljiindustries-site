@@ -8,10 +8,13 @@ They are listed in the archive and linked from that morning's edition; they neve
 Usage: python3 tools/build_briefed.py [--root .] [--preview EDITION.json]
 --preview builds a local-only preview from one edition (it ignores the launch date and
 does not touch the sitemap). Output always goes under <root>/briefed/.
-No dependencies. Shared look: the CSS is copied from index.html's <style> at build time.
+Also writes /briefed/podcast.xml from any Briefed-<date>.mp3 found next to that day's
+edition page (itunes:duration is read with ffprobe). Shared look: the CSS is copied
+from index.html's <style> at build time.
 """
-import argparse, html, json, os, re, shutil, sys
-from datetime import date, timedelta
+import argparse, html, json, os, re, shutil, subprocess, sys
+from datetime import date, datetime, timedelta
+from zoneinfo import ZoneInfo
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 LAUNCH = "2026-10-24"  # first published day
@@ -175,6 +178,7 @@ def page(title, desc, canonical, body, jsonld=None, extra_head="", og=None, og_u
     icons = BRIEFED_ICONS if is_b else LJI_ICONS
     ld = f'<script type="application/ld+json">{json.dumps(jsonld)}</script>' if jsonld else ""
     beacon = "\n" + analytics_snippet() if is_b else ""
+    rss_link = '\n<link rel="alternate" type="application/rss+xml" href="/briefed/podcast.xml" title="Briefed podcast">' if is_b else ""
     return f'''<!doctype html>
 <html lang="en">
 <head>
@@ -191,7 +195,7 @@ def page(title, desc, canonical, body, jsonld=None, extra_head="", og=None, og_u
 {ogtags}
 <link rel="stylesheet" href="/briefed/site.css">
 <link rel="stylesheet" href="/briefed/briefed.css">
-<link rel="alternate" type="application/json" href="/briefed/latest.json" title="Briefed latest edition (JSON)">
+<link rel="alternate" type="application/json" href="/briefed/latest.json" title="Briefed latest edition (JSON)">{rss_link}
 {ld}{extra_head}
 </head>
 <body>
@@ -488,11 +492,16 @@ FOLLOW_HTML = (
     '<svg class="b-follow-icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false">'
     '<path fill="currentColor" d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/>'
     '</svg><span>TikTok</span></a>'
-    ' and '
+    ', '
     '<a class="b-follow-link" href="https://x.com/briefedtoday" rel="noopener" target="_blank" aria-label="X">'
     '<svg class="b-follow-icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false">'
     '<path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>'
-    '</svg><span>X</span></a>.</p>'
+    '</svg><span>X</span></a>'
+    ', and '
+    '<a class="b-follow-link" href="/briefed/podcast.xml" aria-label="Podcast">'
+    '<svg class="b-follow-icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false">'
+    '<path fill="currentColor" d="M6.18 17.82a2.18 2.18 0 1 1-3.08 3.08 2.18 2.18 0 0 1 3.08-3.08zM1.5 3.75A18.75 18.75 0 0 1 20.25 22.5h-3.5A15.25 15.25 0 0 0 1.5 7.25V3.75zM1.5 10.6A11.9 11.9 0 0 1 13.4 22.5h-3.5A8.4 8.4 0 0 0 1.5 14.1v-3.5z"/>'
+    '</svg><span>Podcast</span></a>.</p>'
 )
 
 
@@ -754,7 +763,16 @@ def build(root, editions, preview=False, addenda=None):
     out = os.path.join(root, "briefed")
     for sub in os.listdir(out) if os.path.isdir(out) else []:
         if re.fullmatch(r"\d{4}-\d{2}-\d{2}(-night)?(\.json)?", sub):
-            p = os.path.join(out, sub); shutil.rmtree(p) if os.path.isdir(p) else os.remove(p)
+            path = os.path.join(out, sub)
+            if os.path.isdir(path):
+                # Keep episode MP3s served at /briefed/<date>/Briefed-<date>.mp3; drop everything else.
+                for name in os.listdir(path):
+                    if re.fullmatch(r"Briefed-\d{4}-\d{2}-\d{2}(-night)?\.mp3", name):
+                        continue
+                    fp = os.path.join(path, name)
+                    shutil.rmtree(fp) if os.path.isdir(fp) else os.remove(fp)
+            else:
+                os.remove(path)
     write(os.path.join(out, "site.css"), "/* generated from /index.html <style>; do not edit */\n" + site_css(root) + "\n")
     write(os.path.join(out, "briefed.css"), BRIEFED_CSS)
     import og_card
@@ -810,6 +828,7 @@ def build(root, editions, preview=False, addenda=None):
     write(os.path.join(out, "archive", "index.html"), page("Briefed archive: past editions | LJI Industries", "Every Briefed daily edition, with headlines and a search for topics and dates.", "/briefed/archive/", body))
     write(os.path.join(out, "about", "index.html"), page("About Briefed | LJI Industries", "Why Briefed exists: the facts on things that really happened, with links to the original reporting and official sources.", "/briefed/about/", ABOUT))
     write(os.path.join(root, "notes", "index.html"), page("Field notes | LJI Industries", "Short, dated lessons from shipping every day at LJI Industries.", "/notes/", notes_body()))
+    write_podcast_feed(root, editions)
     if not preview:
         sitemap(root, editions, addenda)
     return editions
@@ -922,12 +941,154 @@ def archive_body(editions, addenda=None):
     return hero + f'<section class="b-main"><div class="wrap b-narrow b-arch">{filters}{lists}</div></section>' + ARCHIVE_JS
 
 
+
+def episode_mp3_path(root, day):
+    return os.path.join(root, "briefed", day, f"Briefed-{day}.mp3")
+
+def episode_mp3_duration(path):
+    """itunes:duration from ffprobe, rounded to the nearest second."""
+    try:
+        out = subprocess.check_output(
+            ["ffprobe", "-v", "error", "-show_entries", "format=duration",
+             "-of", "default=noprint_wrappers=1:nokey=1", path],
+            text=True, stderr=subprocess.STDOUT)
+    except FileNotFoundError as err:
+        raise SystemExit("ffprobe is required to write itunes:duration in podcast.xml") from err
+    except subprocess.CalledProcessError as err:
+        raise SystemExit(f"ffprobe failed on {path}: {err.output}") from err
+    raw = out.strip()
+    try:
+        secs = int(round(float(raw)))
+    except ValueError as err:
+        raise SystemExit(f"ffprobe returned a non-numeric duration for {path}: {raw!r}") from err
+    if secs < 0:
+        raise SystemExit(f"ffprobe returned a negative duration for {path}: {raw!r}")
+    return secs
+
+def format_itunes_duration(secs):
+    h, rem = divmod(int(secs), 3600)
+    m, s = divmod(rem, 60)
+    return f"{h}:{m:02d}:{s:02d}" if h else f"{m}:{s:02d}"
+
+def episode_pubdate(day):
+    """7:00 AM America/New_York on the edition date, RFC 2822."""
+    y, mo, d = map(int, day.split("-"))
+    dt = datetime(y, mo, d, 7, 0, 0, tzinfo=ZoneInfo("America/New_York"))
+    return dt.strftime("%a, %d %b %Y %H:%M:%S %z")
+
+def episode_title_date(day):
+    y, mo, d = map(int, day.split("-"))
+    return date(y, mo, d).strftime("%a, %b %-d")
+
+def assert_public_text(blob, label):
+    for w in set(re.findall(r"[a-z]+", blob.lower())):
+        assert hashlib.sha256(w.encode()).hexdigest() not in NAME_HASHES, f"{label}: owner name found"
+    for p in FORBIDDEN:
+        assert not p.search(blob), f"{label}: forbidden text matched {p.pattern}"
+
+def write_podcast_feed(root, editions):
+    """Write Apple/Spotify-compatible RSS at briefed/podcast.xml for days that have an MP3."""
+    cover = f"{SITE}/briefed/podcast-cover.jpg"
+    feed_url = f"{SITE}/briefed/podcast.xml"
+    chan_desc = ("The facts on the day's stories, with links to the original reporting. "
+                 "A US-focused daily briefing, AI-voiced from the written edition.")
+    items = []
+    for ed in editions:
+        day = ed["date"]
+        mp3 = episode_mp3_path(root, day)
+        if not os.path.isfile(mp3):
+            continue
+        length = os.path.getsize(mp3)
+        duration = episode_mp3_duration(mp3)
+        headlines = [s["headline"] for s in ed.get("stories") or [] if s.get("headline")]
+        top = headlines[0] if headlines else "Today's edition"
+        title = f"Briefed · {episode_title_date(day)}: {top}"
+        ed_url = f"{SITE}/briefed/{day}/"
+        mp3_url = f"{SITE}/briefed/{day}/Briefed-{day}.mp3"
+        desc_lines = headlines + ["", f"Read this edition: {ed_url}"]
+        desc = "\n".join(desc_lines)
+        items.append({
+            "day": day,
+            "title": title,
+            "desc": desc,
+            "ed_url": ed_url,
+            "mp3_url": mp3_url,
+            "length": length,
+            "duration": format_itunes_duration(duration),
+            "pubDate": episode_pubdate(day),
+            "guid": f"briefed-{day}",
+        })
+    # Newest first (editions is already newest-first, but be explicit)
+    items.sort(key=lambda x: x["day"], reverse=True)
+    last_build = items[0]["pubDate"] if items else datetime.now(ZoneInfo("America/New_York")).strftime("%a, %d %b %Y %H:%M:%S %z")
+
+    def C(text):
+        return e(text, quote=False)
+
+    def QA(text):
+        return e(text, quote=True)
+
+    item_xml = []
+    for it in items:
+        item_xml.append(
+            "    <item>\n"
+            f"      <title>{C(it['title'])}</title>\n"
+            f"      <description>{C(it['desc'])}</description>\n"
+            f"      <link>{QA(it['ed_url'])}</link>\n"
+            f"      <guid isPermaLink=\"false\">{C(it['guid'])}</guid>\n"
+            f"      <pubDate>{C(it['pubDate'])}</pubDate>\n"
+            f"      <enclosure url=\"{QA(it['mp3_url'])}\" length=\"{it['length']}\" type=\"audio/mpeg\"/>\n"
+            f"      <itunes:title>{C(it['title'])}</itunes:title>\n"
+            "      <itunes:author>Briefed News</itunes:author>\n"
+            f"      <itunes:duration>{C(it['duration'])}</itunes:duration>\n"
+            "      <itunes:explicit>false</itunes:explicit>\n"
+            "    </item>"
+        )
+    items_block = "\n".join(item_xml)
+    xml = (
+        "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"
+        "<rss version=\"2.0\" xmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\" xmlns:atom=\"http://www.w3.org/2005/Atom\">\n"
+        "  <channel>\n"
+        "    <title>Briefed</title>\n"
+        f"    <link>{SITE}/briefed/</link>\n"
+        "    <language>en-us</language>\n"
+        "    <copyright>Briefed News</copyright>\n"
+        f"    <description>{C(chan_desc)}</description>\n"
+        f"    <lastBuildDate>{C(last_build)}</lastBuildDate>\n"
+        f"    <atom:link href=\"{feed_url}\" rel=\"self\" type=\"application/rss+xml\"/>\n"
+        "    <image>\n"
+        f"      <url>{cover}</url>\n"
+        "      <title>Briefed</title>\n"
+        f"      <link>{SITE}/briefed/</link>\n"
+        "    </image>\n"
+        "    <itunes:author>Briefed News</itunes:author>\n"
+        f"    <itunes:summary>{C(chan_desc)}</itunes:summary>\n"
+        "    <itunes:owner>\n"
+        "      <itunes:name>Briefed News</itunes:name>\n"
+        "      <itunes:email>info@ljiindustries.com</itunes:email>\n"
+        "    </itunes:owner>\n"
+        f"    <itunes:image href=\"{cover}\"/>\n"
+        "    <itunes:category text=\"News\">\n"
+        "      <itunes:category text=\"Daily News\"/>\n"
+        "    </itunes:category>\n"
+        "    <itunes:explicit>false</itunes:explicit>\n"
+        "    <itunes:type>episodic</itunes:type>\n"
+        f"{items_block}\n"
+        "  </channel>\n"
+        "</rss>\n"
+    )
+    assert_public_text(xml, "podcast.xml")
+    emails = set(re.findall(r"[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}", xml, re.I))
+    assert emails <= {"info@ljiindustries.com"}, f"podcast.xml: unexpected email {emails}"
+    write(os.path.join(root, "briefed", "podcast.xml"), xml)
+    return items
+
 def sitemap(root, editions, addenda=None):
     p = os.path.join(root, "sitemap.xml")
     s = open(p).read()
     s = re.sub(r"\s*<url><loc>https://ljiindustries.com/(?:briefed|notes)/[^<]*</loc>.*?</url>", "", s)
     today = editions[0]["date"] if editions else "2026-10-24"
-    urls = [("/briefed/", today), ("/briefed/archive/", today), ("/briefed/about/", today), ("/notes/", "2026-10-25")] + [(f"/briefed/{x['date']}/", x["date"]) for x in editions]
+    urls = [("/briefed/", today), ("/briefed/archive/", today), ("/briefed/about/", today), ("/briefed/podcast.xml", today), ("/notes/", "2026-10-25")] + [(f"/briefed/{x['date']}/", x["date"]) for x in editions]
     for a in addenda or []:
         urls.append((f"/briefed/{ed_slug(a)}/", a["date"]))
     add = "".join(f"\n  <url><loc>{SITE}{u}</loc><lastmod>{d}</lastmod></url>" for u, d in urls)
