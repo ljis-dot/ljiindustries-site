@@ -990,8 +990,8 @@ def write_podcast_feed(root, editions):
     """Write Apple/Spotify-compatible RSS at briefed/podcast.xml for days that have an MP3."""
     cover = f"{SITE}/briefed/podcast-cover.jpg"
     feed_url = f"{SITE}/briefed/podcast.xml"
-    chan_desc = ("The facts on the day's stories, with links to the original reporting. "
-                 "A US-focused daily briefing, AI-voiced from the written edition.")
+    chan_desc = ("The day's top US news in about two minutes, facts only, every story checked "
+                 "against at least two outlets. Full edition and sources at ljiindustries.com/briefed.")
     items = []
     for ed in editions:
         day = ed["date"]

@@ -5,7 +5,7 @@
     <link>https://ljiindustries.com/briefed/</link>
     <language>en-us</language>
     <copyright>Briefed News</copyright>
-    <description>The facts on the day's stories, with links to the original reporting. A US-focused daily briefing, AI-voiced from the written edition.</description>
+    <description>The day's top US news in about two minutes, facts only, every story checked against at least two outlets. Full edition and sources at ljiindustries.com/briefed.</description>
     <lastBuildDate>Mon, 16 Nov 2026 07:00:00 -0500</lastBuildDate>
     <atom:link href="https://ljiindustries.com/briefed/podcast.xml" rel="self" type="application/rss+xml"/>
     <image>
@@ -14,7 +14,7 @@
       <link>https://ljiindustries.com/briefed/</link>
     </image>
     <itunes:author>Briefed News</itunes:author>
-    <itunes:summary>The facts on the day's stories, with links to the original reporting. A US-focused daily briefing, AI-voiced from the written edition.</itunes:summary>
+    <itunes:summary>The day's top US news in about two minutes, facts only, every story checked against at least two outlets. Full edition and sources at ljiindustries.com/briefed.</itunes:summary>
     <itunes:owner>
       <itunes:name>Briefed News</itunes:name>
       <itunes:email>info@ljiindustries.com</itunes:email>
