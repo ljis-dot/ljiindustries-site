@@ -985,12 +985,22 @@ def assert_public_text(blob, label):
     for p in FORBIDDEN:
         assert not p.search(blob), f"{label}: forbidden text matched {p.pattern}"
 
+def load_podcast_overrides(root):
+    """Optional per-day title/description overrides in editions/podcast-overrides.json."""
+    path = os.path.join(root, "editions", "podcast-overrides.json")
+    if not os.path.isfile(path):
+        return {}
+    with open(path, encoding="utf-8") as f:
+        data = json.load(f)
+    return data if isinstance(data, dict) else {}
+
 def write_podcast_feed(root, editions):
     """Write Apple/Spotify-compatible RSS at briefed/podcast.xml for days that have an MP3."""
     cover = f"{SITE}/briefed/podcast-cover.jpg"
     feed_url = f"{SITE}/briefed/podcast.xml"
     chan_desc = ("The day's top US news in about two minutes, facts only, every story checked "
                  "against at least two outlets. Full edition and sources at ljiindustries.com/briefed.")
+    overrides = load_podcast_overrides(root)
     items = []
     for ed in editions:
         day = ed["date"]
@@ -1001,11 +1011,12 @@ def write_podcast_feed(root, editions):
         duration = episode_mp3_duration(mp3)
         headlines = [s["headline"] for s in ed.get("stories") or [] if s.get("headline")]
         top = headlines[0] if headlines else "Today's edition"
-        title = f"Briefed · {episode_title_date(day)}: {top}"
+        over = overrides.get(day) or {}
+        title = over.get("title") or f"Briefed · {episode_title_date(day)}: {top}"
         ed_url = f"{SITE}/briefed/{day}/"
         mp3_url = f"{SITE}/briefed/{day}/Briefed-{day}.mp3"
         desc_lines = headlines + ["", f"Read this edition: {ed_url}"]
-        desc = "\n".join(desc_lines)
+        desc = over.get("description") or "\n".join(desc_lines)
         items.append({
             "day": day,
             "title": title,

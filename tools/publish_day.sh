@@ -51,6 +51,10 @@ if [ $DRY = 1 ]; then
   WORK="$(mktemp -d)"; (cd "$REPO_DIR" && git archive HEAD) | tar -x -C "$WORK"
   cp "$REPO_DIR/tools/"*.py "$WORK/tools/"   # test uncommitted tool changes too
   cp "$REPO_DIR/tools/publish_day.sh" "$WORK/tools/publish_day.sh"
+  if [ -f "$REPO_DIR/editions/podcast-overrides.json" ]; then
+    mkdir -p "$WORK/editions"
+    cp "$REPO_DIR/editions/podcast-overrides.json" "$WORK/editions/podcast-overrides.json"
+  fi
   log "DRY RUN in $WORK (would create/reuse release $TAG and upload MP3 + chapters; video/poster go to briefed/media/$SLUG)"
 else
   : "${LJI_SITE_GITHUB_TOKEN:?LJI_SITE_GITHUB_TOKEN not set}"
@@ -61,10 +65,10 @@ else
   REL=$(gh_api "$API/releases/tags/$TAG")
   RID=$(printf '%s' "$REL" | python3 -c "import json,sys;print(json.load(sys.stdin).get('id',''))")
   if [ -z "$RID" ]; then
-    BODY="Briefed audio edition for $DAY (AI-voiced). MP3 + chapters."
+    BODY="Briefed audio edition for $DAY. MP3 + chapters."
     NAME="Briefed $DAY"
     if [ $NIGHT = 1 ]; then
-      BODY="Briefed night update for $DAY (AI-voiced). MP3 + chapters."
+      BODY="Briefed night update for $DAY. MP3 + chapters."
       NAME="Briefed $DAY night update"
     fi
     RID=$(gh_api -X POST "$API/releases" -d "{\"tag_name\":\"$TAG\",\"target_commitish\":\"main\",\"name\":\"$NAME\",\"body\":\"$BODY\",\"prerelease\":true}" \
@@ -163,7 +167,7 @@ fi
 if [ $NIGHT = 1 ]; then
   git add "editions/$SLUG.json" briefed sitemap.xml tools/publish_day.sh tools/build_briefed.py tools/make_night_edition.py tools/test_analytics.py editions/README.md
 else
-  git add "editions/$DAY.json" briefed sitemap.xml tools/make_edition.py tools/build_briefed.py tools/publish_day.sh
+  git add "editions/$DAY.json" editions/podcast-overrides.json briefed sitemap.xml tools/make_edition.py tools/build_briefed.py tools/publish_day.sh
 fi
 if git diff --cached --quiet; then log "nothing changed"; else
   MSG="Briefed: publish $DAY"

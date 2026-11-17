@@ -6,7 +6,7 @@
     <language>en-us</language>
     <copyright>Briefed News</copyright>
     <description>The day's top US news in about two minutes, facts only, every story checked against at least two outlets. Full edition and sources at ljiindustries.com/briefed.</description>
-    <lastBuildDate>Mon, 16 Nov 2026 07:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 07:00:00 -0500</lastBuildDate>
     <atom:link href="https://ljiindustries.com/briefed/podcast.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://ljiindustries.com/briefed/podcast-cover.jpg</url>
@@ -25,6 +25,18 @@
     </itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+    <item>
+      <title>Briefed · Tue, Nov 17: Gas hits $3.78, lowest since March</title>
+      <description>Gas falls to $3.78 a gallon, its lowest since March. Plus: a nationwide emergency alert test at 2:20 p.m. ET on TV and radio only (phones won't get it), Nvidia reports earnings tonight after the Nasdaq's slide, Iran fires drones at a U.S. radar site in Bahrain, California sues OpenAI over rogue AI agents, and Trump meets Quad leaders in Manila ahead of talks with Xi and Putin. Full edition and sources: ljiindustries.com/briefed/2026-11-17/</description>
+      <link>https://ljiindustries.com/briefed/2026-11-17/</link>
+      <guid isPermaLink="false">briefed-2026-11-17</guid>
+      <pubDate>Tue, 17 Nov 2026 07:00:00 -0500</pubDate>
+      <enclosure url="https://ljiindustries.com/briefed/2026-11-17/Briefed-2026-11-17.mp3" length="2217922" type="audio/mpeg"/>
+      <itunes:title>Briefed · Tue, Nov 17: Gas hits $3.78, lowest since March</itunes:title>
+      <itunes:author>Briefed News</itunes:author>
+      <itunes:duration>2:19</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Briefed · Mon, Nov 16: Push grows to bring Jensen Huang back to Nvidia</title>
       <description>Push grows to bring Jensen Huang back to Nvidia
