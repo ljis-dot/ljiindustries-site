@@ -393,7 +393,7 @@ def player(ed):
                     % (c["start"], c.get("end") or 0, e(c.get("storyId") or ""), fmt_t(c["start"]), e(c["title"])) for c in chaps)
     dur = (v if has_video else a).get("durationSeconds") or 0
     toggle = ('<details class="b-chap"><summary>Chapters (%d)</summary><ol class="b-chapters">%s</ol></details>' % (len(chaps), items)) if chaps else ""
-    ai = '<span class="b-ai" title="%s">AI-voiced</span>' % e(AI_TITLE)
+    ai = ""  # Levi, Nov 16: no "AI-voiced" badge on the site
     if has_video:
         poster = ' poster="%s"' % e(v["poster"]) if v.get("poster") else ""
         media = ('<div class="b-grid"><div class="b-video-wrap"><video id="b-media" class="b-video" controls playsinline preload="metadata"%s src="%s"></video></div></div>\n'
@@ -508,7 +508,7 @@ FOLLOW_HTML = (
 EMPTY = '''<section class="b-hero"><div class="wrap b-narrow">
   <span class="eyebrow">Briefed · Daily edition</span>
   <h1>First edition arrives tomorrow morning</h1>
-  <p class="lead">Briefed's first US-focused daily edition publishes here on Sunday, October 25, 2026, around 4:45 AM ET: the facts on the day's stories, with links to the original reporting and the official sources, plus an AI-voiced audio edition.</p>
+  <p class="lead">Briefed's first US-focused daily edition publishes here on Sunday, October 25, 2026, around 4:45 AM ET: the facts on the day's stories, with links to the original reporting and the official sources, plus an audio edition.</p>
   <p class="b-sub"><a href="/briefed/about/">About Briefed</a></p>
 </div></section>'''
 
