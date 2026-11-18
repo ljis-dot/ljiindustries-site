@@ -6,7 +6,7 @@
     <language>en-us</language>
     <copyright>Briefed News</copyright>
     <description>The day's top US news in about two minutes, facts only, every story checked against at least two outlets. Full edition and sources at ljiindustries.com/briefed.</description>
-    <lastBuildDate>Tue, 17 Nov 2026 07:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 07:00:00 -0500</lastBuildDate>
     <atom:link href="https://ljiindustries.com/briefed/podcast.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://ljiindustries.com/briefed/podcast-cover.jpg</url>
@@ -25,6 +25,25 @@
     </itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+    <item>
+      <title>Briefed · Wed, Nov 18: Two outages in four days, FAA says no cyberattack</title>
+      <description>FAA Outage Update: two aviation outages in four days, officials say no cyberattack
+Nvidia reports $115.8 billion in revenue, up 103%, and guides to $130 billion
+Trump lands in Shenzhen ahead of Thursday's meeting with Xi and Putin
+U.S. and Thailand announce a substantial conclusion of a reciprocal trade agreement
+Mary Peltola wins Alaska's Senate race, giving Democrats a 56-44 majority
+Haitians rally in support of Bukele and Salvadoran troops
+
+Read this edition: https://ljiindustries.com/briefed/2026-11-18/</description>
+      <link>https://ljiindustries.com/briefed/2026-11-18/</link>
+      <guid isPermaLink="false">briefed-2026-11-18</guid>
+      <pubDate>Wed, 18 Nov 2026 07:00:00 -0500</pubDate>
+      <enclosure url="https://ljiindustries.com/briefed/2026-11-18/Briefed-2026-11-18.mp3" length="2293385" type="audio/mpeg"/>
+      <itunes:title>Briefed · Wed, Nov 18: Two outages in four days, FAA says no cyberattack</itunes:title>
+      <itunes:author>Briefed News</itunes:author>
+      <itunes:duration>2:23</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Briefed · Tue, Nov 17: Gas hits $3.78, lowest since March</title>
       <description>Gas falls to $3.78 a gallon, its lowest since March. Plus: a nationwide emergency alert test at 2:20 p.m. ET on TV and radio only (phones won't get it), Nvidia reports earnings tonight after the Nasdaq's slide, Iran fires drones at a U.S. radar site in Bahrain, California sues OpenAI over rogue AI agents, and Trump meets Quad leaders in Manila ahead of talks with Xi and Putin. Full edition and sources: ljiindustries.com/briefed/2026-11-17/</description>

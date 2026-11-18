@@ -2,6 +2,13 @@
  "schemaVersion": 1,
  "editions": [
   {
+   "date": "2026-11-18",
+   "lead": "FAA Outage Update: two aviation outages in four days, officials say no cyberattack",
+   "url": "/briefed/2026-11-18/",
+   "json": "/briefed/2026-11-18.json",
+   "hasAudio": true
+  },
+  {
    "date": "2026-11-17",
    "lead": "Gas falls to $3.78, its lowest since March",
    "url": "/briefed/2026-11-17/",
