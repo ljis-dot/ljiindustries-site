@@ -6,7 +6,7 @@
     <language>en-us</language>
     <copyright>Briefed News</copyright>
     <description>The day's top US news in about two minutes, facts only, every story checked against at least two outlets. Full edition and sources at ljiindustries.com/briefed.</description>
-    <lastBuildDate>Wed, 18 Nov 2026 07:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 07:00:00 -0500</lastBuildDate>
     <atom:link href="https://ljiindustries.com/briefed/podcast.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://ljiindustries.com/briefed/podcast-cover.jpg</url>
@@ -25,6 +25,18 @@
     </itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+    <item>
+      <title>Briefed · Thu, Nov 19: Four-point peace declaration, no Ukraine ceasefire</title>
+      <description>President Trump, Xi Jinping and Vladimir Putin held their first three-way meeting in Shenzhen and a four-point declaration on peace was published by Chinese and Russian state media; the Associated Press says China and Russia say the United States agreed, and no Ukraine ceasefire was announced. Plus: AAA projects 81.5 million Thanksgiving travelers, with booked domestic fares averaging $800, up 17%; Anthropic set its I.P.O. share price at $83 and raised $81.3 billion, with ANT due to start trading today after 9:30 a.m. Eastern; House Democrats nominated Hakeem Jeffries for speaker, 251-11; Fed Governor Christopher Waller said a half-point December rate increase may be needed; and Target reported sales up 7.1% and is offering a $30 Thanksgiving meal for six. Sources: BBC, The Guardian, AP, AAA, Anthropic, CNBC, NBC, NPR, ABC, Target, Fox Business. Full edition and sources: ljiindustries.com/briefed/2026-11-19/</description>
+      <link>https://ljiindustries.com/briefed/2026-11-19/</link>
+      <guid isPermaLink="false">briefed-2026-11-19</guid>
+      <pubDate>Thu, 19 Nov 2026 07:00:00 -0500</pubDate>
+      <enclosure url="https://ljiindustries.com/briefed/2026-11-19/Briefed-2026-11-19.mp3" length="2249081" type="audio/mpeg"/>
+      <itunes:title>Briefed · Thu, Nov 19: Four-point peace declaration, no Ukraine ceasefire</itunes:title>
+      <itunes:author>Briefed News</itunes:author>
+      <itunes:duration>2:21</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Briefed · Wed, Nov 18: Two outages in four days, FAA says no cyberattack</title>
       <description>FAA Outage Update: two aviation outages in four days, officials say no cyberattack
