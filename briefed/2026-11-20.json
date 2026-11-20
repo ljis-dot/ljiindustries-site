@@ -1,0 +1,325 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-11-20",
+ "generatedAt": "2026-11-20",
+ "stories": [
+  {
+   "id": "ai-selloff-dow",
+   "region": "us",
+   "location": "New York",
+   "headline": "Dow closes under 50,000 for the first time since June as the AI selloff deepens",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+    },
+    {
+     "name": "finance.yahoo.com",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-volatility-092827348.html"
+    },
+    {
+     "name": "euronews.com",
+     "url": "https://www.euronews.com/2026/11/20/stocks-gold-and-silver-fall-after-blockbuster-anthropic-ipo"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-2f178054aea79d282e5ccf8d62f26a28"
+    }
+   ],
+   "officialSources": [],
+   "summary": "The Dow Jones Industrial Average fell 1,101 points, or 2.19%, on Thursday to 49,097.06, its first close below 50,000 since June, CNBC reported. The S&P 500 fell 2.02% to 7,175.83, its sixth straight decline, and the Nasdaq Composite fell 2.25%. Stocks opened higher, with the S&P 500 up as much as 1.3%, then reversed soon after Anthropic began trading on Nasdaq. Anthropic, which raised $81.3 billion at $83 a share in the largest initial public offering on record, opened at $111.50, rose as high as $115.10 and closed at $97.17, up about 17% from its offer price, the Associated Press reported via Euronews. Nvidia fell for a sixth straight session after swinging from a 4.7% gain to a 3.3% loss, and California Attorney General Rob Bonta served the company with an investigative subpoena over whether advanced chips or confidential information reached China and whether investors were misled. Week to date, the Dow is down 6.2%, on pace for its worst week since April 2025, CNBC said. On Friday, South Korea's Kospi closed down 5.2% and Japan's Nikkei 225 fell 5.1%. U.S. gold futures fell about 4%, and investors are betting on a Federal Reserve rate increase in December. As of about 5:45 a.m. Eastern on Friday, CNBC reported Nasdaq-100 futures down about 1.4%, S&P 500 futures down 0.3% and Dow futures near flat.",
+   "briefing": {
+    "quickFacts": [
+     "Dow: down 1,101 points (-2.19%) to 49,097.06; first close under 50,000 since June",
+     "S&P 500: down 2.02% to 7,175.83, a sixth straight loss; Nasdaq down 2.25%",
+     "Anthropic: opened at $111.50, high of $115.10, closed at $97.17, up about 17% from $83",
+     "Nvidia down six days in a row; California's attorney general subpoenaed the company",
+     "Kospi down 5.2% and Nikkei down 5.1% on Friday; gold futures down about 4%",
+     "Nasdaq-100 futures down about 1.4% early Friday (CNBC, about 5:45 a.m. ET)"
+    ],
+    "notYetConfirmed": [
+     "Where U.S. stocks open and close on Friday; early futures moves can change by the bell",
+     "Whether the California investigation leads to any charges or findings",
+     "Reports that bitcoin fell below $62,000 were not independently checked for this briefing"
+    ],
+    "whatHappensNext": [
+     "Friday brings the University of Michigan's final November consumer sentiment reading and remarks from Fed Governor Christopher Waller",
+     "The Fed's preferred inflation gauge, the PCE price index, is due next week",
+     "The Fed's next rate decision is at its December meeting"
+    ]
+   }
+  },
+  {
+   "id": "iran-strikes-on-hold",
+   "region": "us",
+   "location": "USA / Iran",
+   "headline": "Trump says a decision on new Iran strikes can wait until after the new year",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "Axios",
+     "url": "https://www.axios.com/2026/11/19/trump-iran-attacks-israel-new-year"
+    },
+    {
+     "name": "al-monitor.com",
+     "url": "https://www.al-monitor.com/originals/2026/11/trump-says-no-rush-iran-decision-looks-next-year"
+    },
+    {
+     "name": "hindustantimes.com",
+     "url": "https://www.hindustantimes.com/india-news/ht-morning-news-brief-nov-20-cyclone-akvan-landfall-process-underway-trump-puts-fresh-iran-strikes-on-hold-and-more-101795145556636.html"
+    },
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.com/news/articles/cw4gn9jeqjq7o"
+    }
+   ],
+   "officialSources": [],
+   "summary": "President Trump said Thursday that a decision on renewed large-scale strikes against Iran can wait until next year. Asked by Reuters aboard Air Force One on his way back from China, he said, \"Well, I'll talk to you about it after the beginning of the year,\" adding, \"We've got time.\" He told Axios, \"I am not rushing into any decision. We will see what happens after the beginning of the year,\" and told Fox News, \"We'll see what happens after January 1.\" Axios reported, citing two sources, that the White House has asked the Pentagon and intelligence officials to assess how Iran would respond to each strike option the U.S. military has prepared, including whether any option would avoid Iranian retaliation against Gulf oil and gas facilities. Axios also cautioned that Trump could change his mind at any time. The war began in February. Earlier this week, Iran launched drones at Ali Al Salem Air Base in Kuwait and at Bahrain; Kuwaiti and Bahraini officials said they were intercepted and reported no damage or casualties, the BBC reported. The International Energy Agency said in its World Energy Outlook that the disruption to energy flows through the Strait of Hormuz is the largest energy supply shock on record. Democrats take control of both chambers of Congress on Jan. 3.",
+   "briefing": {
+    "quickFacts": [
+     "Trump to Reuters: \"I'll talk to you about it after the beginning of the year ... We've got time\"",
+     "Trump to Axios: \"I am not rushing into any decision\"",
+     "The White House asked the Pentagon and intelligence officials to assess Iran's likely responses (Axios)",
+     "Iranian drones targeted a U.S. air base in Kuwait and sites in Bahrain this week; officials said they were intercepted",
+     "IEA: the Strait of Hormuz disruption is the largest energy supply shock on record"
+    ],
+    "notYetConfirmed": [
+     "Whether any strike decision is actually deferred; Axios noted Trump has denied a decision before when strikes were already ordered",
+     "Which strike options, if any, the White House is leaning toward"
+    ],
+    "whatHappensNext": [
+     "Trump has pointed to early January for his next decision on Iran",
+     "The new Democratic-controlled Congress is seated on Jan. 3"
+    ]
+   }
+  },
+  {
+   "id": "putin-no-ceasefire",
+   "region": "us",
+   "location": "Russia / Ukraine",
+   "headline": "Putin rules out agreements after Ukraine strikes the Crimean Bridge; Russia attacks Kyiv",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "Reuters",
+     "url": "https://www.reuters.com/5f374b32b07b/world/china/third-attack-week-suspends-traffic-over-crimean-bridge-russian-official-says-2026-11-19/"
+    },
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/putin-russia-ukraine-bridge-strike/"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/ukraine-russia-war-kyiv-attacks-putin-crimea-433e18f00cbd37a2a9da94e60fce0e07"
+    },
+    {
+     "name": "afp.com",
+     "url": "https://www.afp.com/en/russia-pummels-ukraine-after-putin-vowed-painful-attack"
+    },
+    {
+     "name": "The Guardian",
+     "url": "https://www.theguardian.com/world/live/2026/nov/19/russia-ukraine-war-coalition-of-the-willing-europe-latest-news-updates"
+    },
+    {
+     "name": "independent.co.uk",
+     "url": "https://www.independent.co.uk/bulletin/news/bulletin-am-briefing-friday-20-november-b3088428.html"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Russian President Vladimir Putin said Thursday in Shenzhen, after meeting President Trump and Chinese President Xi Jinping, that Russia will make no agreements to halt attacks at sea or on energy facilities after Ukraine struck the Kerch Bridge to Crimea three times this week. \"However, we will not make agreements after strikes on the Crimean Bridge. We will respond to these strikes,\" Putin said, according to the Russian state news agency TASS, as reported by CBS News; Reuters reported he said Russia's response would be \"far more painful.\" Overnight, Russia fired dozens of missiles and hundreds of drones at Ukraine. Ukraine's emergency service said six people were killed in Kyiv, AFP reported, and Kyiv's mayor said three bridges over the Dnipro River were hit; earlier AP reporting put the Kyiv toll at three. In Berlin, U.S. envoy Jared Kushner said Russia is \"comfortable\" with NATO-like security guarantees for Ukraine, the AP reported. Trump called into the Berlin meeting of Ukraine's European backers from Air Force One, Kushner said. German Chancellor Friedrich Merz said a \"Yalta format will not bring about peace,\" The Guardian reported. The strikes come a day after the Trump-Xi-Putin meeting in Shenzhen produced a four-point declaration on peace but no Ukraine ceasefire.",
+   "briefing": {
+    "quickFacts": [
+     "Putin: \"We will not make agreements after strikes on the Crimean Bridge\" (TASS via CBS)",
+     "Ukraine struck the bridge three times this week; the road deck was severely damaged",
+     "Overnight Russian attack on Kyiv; Ukraine's emergency service says six killed (AFP)",
+     "Kushner: Russia \"comfortable\" with NATO-like security guarantees for Ukraine (AP)",
+     "Merz: a \"Yalta format will not bring about peace\""
+    ],
+    "notYetConfirmed": [
+     "The final casualty count from the overnight attacks, which officials were still updating",
+     "Whether Russia has formally agreed to any security-guarantee framework",
+     "A date for the next round of talks; Putin said none has been set"
+    ],
+    "whatHappensNext": [
+     "Watch for further Russian strikes after Putin's vow to respond",
+     "U.S. envoys are preparing the agenda and format for the next round of multilateral talks, Kushner said"
+    ]
+   }
+  },
+  {
+   "id": "senate-permitting-bill",
+   "region": "us",
+   "location": "Washington",
+   "headline": "Senate passes bipartisan energy permitting bill, 62-33, sending it to the House",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/energy-permitting-data-center-power-grid-trump-b41c2017e4a9fe2e6de92ec77a4cdd0a"
+    },
+    {
+     "name": "Politico",
+     "url": "https://www.politico.com/news/2026/11/19/senate-passes-landmark-permitting-deal-01177557"
+    },
+    {
+     "name": "NPR",
+     "url": "https://www.npr.org/2026/11/20/g-s1-154579/senate-bipartisan-energy-bill"
+    },
+    {
+     "name": "Roll Call",
+     "url": "https://rollcall.com/2026/11/19/sweeping-permitting-overhaul-passes-senate-on-to-house"
+    }
+   ],
+   "officialSources": [],
+   "summary": "The Senate voted 62-33 on Thursday to pass the Bipartisan American Affordability and Jobs Act, S. 5653, which would speed up federal permit reviews for power plants, transmission lines and other energy infrastructure, the Associated Press reported. The bill would require data centers to pay for the energy and grid upgrades they use, and would give the Federal Energy Regulatory Commission new authority over interstate transmission lines, according to the AP and Roll Call. It is the first major action by Congress since the midterm elections. Senate Majority Leader John Thune said it would \"save the average household hundreds of dollars each year,\" NPR reported, and co-author Sen. Sheldon Whitehouse said Americans would \"quickly begin getting some relief on their energy bills if the House follows suit.\" Electricity prices have risen more than 6% in the past year, NPR said. The Sierra Club, the National Wildlife Federation and many Democrats opposed it, saying it would weaken environmental protections; 31 Democrats and two Republicans voted no, Roll Call reported. Politico called it the most significant energy legislation to clear the Senate since 2022.",
+   "briefing": {
+    "quickFacts": [
+     "Senate vote: 62-33 on S. 5653, the Bipartisan American Affordability and Jobs Act",
+     "Speeds permit reviews for power plants, transmission lines and other energy projects",
+     "Requires data centers to pay for the power and grid upgrades they use",
+     "First major action by Congress since the midterms",
+     "Opposed by the Sierra Club, the National Wildlife Federation and many Democrats"
+    ],
+    "notYetConfirmed": [
+     "Whether the House will pass it during the lame-duck session",
+     "How much household electric bills would actually change"
+    ],
+    "whatHappensNext": [
+     "The House takes it up after the Thanksgiving recess",
+     "If it does not pass both chambers before the new Congress in January, it would have to be reintroduced"
+    ]
+   }
+  },
+  {
+   "id": "fiona-hippo",
+   "region": "us",
+   "location": "Cincinnati",
+   "headline": "Fiona the hippo dies at the Cincinnati Zoo after swallowing a visitor's hat",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "cincinnatizoo.org",
+     "url": "https://cincinnatizoo.org/beloved-hippo-fiona-has-passed-away/"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/fiona-hippo-dead-hat-614e6d03ea8dfd137c55cef7bdb70698"
+    },
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.com/news/articles/cwz0k3172xzko"
+    }
+   ],
+   "officialSources": [],
+   "summary": "The Cincinnati Zoo & Botanical Garden said Thursday that Fiona, the Nile hippo whose premature birth in 2017 and fight to survive made her a global favorite, has died. She swallowed a knit hat on Nov. 8 after a visitor tossed it in the air and a ceiling fan deflected it into her habitat through an opening above the viewing windows, the AP reported. Zoo veterinarians spent days trying to help her pass the hat, and the zoo said surgery was not an option for an adult hippo. \"We are in shock at the moment,\" zoo director Dave Jenike said. \"We did not expect this outcome. She fought until she couldn't anymore.\" Fiona would have turned 10 in January, the zoo said.",
+   "briefing": {
+    "quickFacts": [
+     "Fiona died Thursday, Nov. 19, the Cincinnati Zoo said",
+     "She swallowed a knit hat on Nov. 8 that a ceiling fan deflected into her habitat",
+     "Veterinarians tried for days to help her pass it",
+     "Born premature in 2017; she would have turned 10 in January"
+    ],
+    "notYetConfirmed": [
+     "The exact medical cause of death, pending the zoo's review"
+    ],
+    "whatHappensNext": [
+     "Watch for any update from the zoo on its findings and on remembrances for Fiona"
+    ]
+   }
+  }
+ ],
+ "audio": {
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-20/Briefed-2026-11-20-full-twohost.mp3",
+  "durationSeconds": 184.32,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": null,
+    "title": null,
+    "start": 0.0,
+    "end": 2.282
+   },
+   {
+    "storyId": "ai-selloff-dow",
+    "title": "Dow closes under 50,000 as A.I. selloff deepens",
+    "start": 2.282,
+    "end": 48.16
+   },
+   {
+    "storyId": "iran-strikes-on-hold",
+    "title": "Trump puts new Iran strike decision off until the new year",
+    "start": 48.16,
+    "end": 83.019
+   },
+   {
+    "storyId": "putin-no-ceasefire",
+    "title": "Putin rules out deals after Crimean Bridge strikes",
+    "start": 83.019,
+    "end": 118.217
+   },
+   {
+    "storyId": "senate-permitting-bill",
+    "title": "Senate passes energy permitting bill",
+    "start": 118.217,
+    "end": 148.609
+   },
+   {
+    "storyId": "fiona-hippo",
+    "title": "Fiona the hippo dies after swallowing a hat",
+    "start": 148.609,
+    "end": 173.894
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 173.894,
+    "end": 184.269
+   }
+  ]
+ },
+ "video": {
+  "url": "/briefed/media/2026-11-20/Briefed-2026-11-20-web.mp4",
+  "durationSeconds": 184.269,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": "ai-selloff-dow",
+    "title": "Dow closes under 50,000 as A.I. selloff deepens",
+    "start": 0.0,
+    "end": 48.16
+   },
+   {
+    "storyId": "iran-strikes-on-hold",
+    "title": "Trump puts new Iran strike decision off until the new year",
+    "start": 48.16,
+    "end": 83.019
+   },
+   {
+    "storyId": "putin-no-ceasefire",
+    "title": "Putin rules out deals after Crimean Bridge strikes",
+    "start": 83.019,
+    "end": 118.217
+   },
+   {
+    "storyId": "senate-permitting-bill",
+    "title": "Senate passes energy permitting bill",
+    "start": 118.217,
+    "end": 148.609
+   },
+   {
+    "storyId": "fiona-hippo",
+    "title": "Fiona the hippo dies after swallowing a hat",
+    "start": 148.609,
+    "end": 173.894
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 173.894,
+    "end": 184.269
+   }
+  ],
+  "poster": "/briefed/media/2026-11-20/Briefed-2026-11-20-poster.jpg"
+ }
+}

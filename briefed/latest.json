@@ -1,336 +1,325 @@
 {
  "schemaVersion": 1,
- "date": "2026-11-19",
- "generatedAt": "2026-11-19",
+ "date": "2026-11-20",
+ "generatedAt": "2026-11-20",
  "stories": [
   {
-   "id": "trump-xi-putin-declaration",
+   "id": "ai-selloff-dow",
    "region": "us",
-   "location": "Shenzhen",
-   "headline": "Four-point peace declaration after first Trump-Xi-Putin meeting, no Ukraine ceasefire",
+   "location": "New York",
+   "headline": "Dow closes under 50,000 for the first time since June as the AI selloff deepens",
    "status": "reported-only",
    "outlets": [
     {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+    },
+    {
+     "name": "finance.yahoo.com",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-volatility-092827348.html"
+    },
+    {
+     "name": "euronews.com",
+     "url": "https://www.euronews.com/2026/11/20/stocks-gold-and-silver-fall-after-blockbuster-anthropic-ipo"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-2f178054aea79d282e5ccf8d62f26a28"
+    }
+   ],
+   "officialSources": [],
+   "summary": "The Dow Jones Industrial Average fell 1,101 points, or 2.19%, on Thursday to 49,097.06, its first close below 50,000 since June, CNBC reported. The S&P 500 fell 2.02% to 7,175.83, its sixth straight decline, and the Nasdaq Composite fell 2.25%. Stocks opened higher, with the S&P 500 up as much as 1.3%, then reversed soon after Anthropic began trading on Nasdaq. Anthropic, which raised $81.3 billion at $83 a share in the largest initial public offering on record, opened at $111.50, rose as high as $115.10 and closed at $97.17, up about 17% from its offer price, the Associated Press reported via Euronews. Nvidia fell for a sixth straight session after swinging from a 4.7% gain to a 3.3% loss, and California Attorney General Rob Bonta served the company with an investigative subpoena over whether advanced chips or confidential information reached China and whether investors were misled. Week to date, the Dow is down 6.2%, on pace for its worst week since April 2025, CNBC said. On Friday, South Korea's Kospi closed down 5.2% and Japan's Nikkei 225 fell 5.1%. U.S. gold futures fell about 4%, and investors are betting on a Federal Reserve rate increase in December. As of about 5:45 a.m. Eastern on Friday, CNBC reported Nasdaq-100 futures down about 1.4%, S&P 500 futures down 0.3% and Dow futures near flat.",
+   "briefing": {
+    "quickFacts": [
+     "Dow: down 1,101 points (-2.19%) to 49,097.06; first close under 50,000 since June",
+     "S&P 500: down 2.02% to 7,175.83, a sixth straight loss; Nasdaq down 2.25%",
+     "Anthropic: opened at $111.50, high of $115.10, closed at $97.17, up about 17% from $83",
+     "Nvidia down six days in a row; California's attorney general subpoenaed the company",
+     "Kospi down 5.2% and Nikkei down 5.1% on Friday; gold futures down about 4%",
+     "Nasdaq-100 futures down about 1.4% early Friday (CNBC, about 5:45 a.m. ET)"
+    ],
+    "notYetConfirmed": [
+     "Where U.S. stocks open and close on Friday; early futures moves can change by the bell",
+     "Whether the California investigation leads to any charges or findings",
+     "Reports that bitcoin fell below $62,000 were not independently checked for this briefing"
+    ],
+    "whatHappensNext": [
+     "Friday brings the University of Michigan's final November consumer sentiment reading and remarks from Fed Governor Christopher Waller",
+     "The Fed's preferred inflation gauge, the PCE price index, is due next week",
+     "The Fed's next rate decision is at its December meeting"
+    ]
+   }
+  },
+  {
+   "id": "iran-strikes-on-hold",
+   "region": "us",
+   "location": "USA / Iran",
+   "headline": "Trump says a decision on new Iran strikes can wait until after the new year",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "Axios",
+     "url": "https://www.axios.com/2026/11/19/trump-iran-attacks-israel-new-year"
+    },
+    {
+     "name": "al-monitor.com",
+     "url": "https://www.al-monitor.com/originals/2026/11/trump-says-no-rush-iran-decision-looks-next-year"
+    },
+    {
+     "name": "hindustantimes.com",
+     "url": "https://www.hindustantimes.com/india-news/ht-morning-news-brief-nov-20-cyclone-akvan-landfall-process-underway-trump-puts-fresh-iran-strikes-on-hold-and-more-101795145556636.html"
+    },
+    {
      "name": "BBC",
-     "url": "https://www.bbc.com/news/live/cmlye926e2eet"
+     "url": "https://www.bbc.com/news/articles/cw4gn9jeqjq7o"
+    }
+   ],
+   "officialSources": [],
+   "summary": "President Trump said Thursday that a decision on renewed large-scale strikes against Iran can wait until next year. Asked by Reuters aboard Air Force One on his way back from China, he said, \"Well, I'll talk to you about it after the beginning of the year,\" adding, \"We've got time.\" He told Axios, \"I am not rushing into any decision. We will see what happens after the beginning of the year,\" and told Fox News, \"We'll see what happens after January 1.\" Axios reported, citing two sources, that the White House has asked the Pentagon and intelligence officials to assess how Iran would respond to each strike option the U.S. military has prepared, including whether any option would avoid Iranian retaliation against Gulf oil and gas facilities. Axios also cautioned that Trump could change his mind at any time. The war began in February. Earlier this week, Iran launched drones at Ali Al Salem Air Base in Kuwait and at Bahrain; Kuwaiti and Bahraini officials said they were intercepted and reported no damage or casualties, the BBC reported. The International Energy Agency said in its World Energy Outlook that the disruption to energy flows through the Strait of Hormuz is the largest energy supply shock on record. Democrats take control of both chambers of Congress on Jan. 3.",
+   "briefing": {
+    "quickFacts": [
+     "Trump to Reuters: \"I'll talk to you about it after the beginning of the year ... We've got time\"",
+     "Trump to Axios: \"I am not rushing into any decision\"",
+     "The White House asked the Pentagon and intelligence officials to assess Iran's likely responses (Axios)",
+     "Iranian drones targeted a U.S. air base in Kuwait and sites in Bahrain this week; officials said they were intercepted",
+     "IEA: the Strait of Hormuz disruption is the largest energy supply shock on record"
+    ],
+    "notYetConfirmed": [
+     "Whether any strike decision is actually deferred; Axios noted Trump has denied a decision before when strikes were already ordered",
+     "Which strike options, if any, the White House is leaning toward"
+    ],
+    "whatHappensNext": [
+     "Trump has pointed to early January for his next decision on Iran",
+     "The new Democratic-controlled Congress is seated on Jan. 3"
+    ]
+   }
+  },
+  {
+   "id": "putin-no-ceasefire",
+   "region": "us",
+   "location": "Russia / Ukraine",
+   "headline": "Putin rules out agreements after Ukraine strikes the Crimean Bridge; Russia attacks Kyiv",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "Reuters",
+     "url": "https://www.reuters.com/5f374b32b07b/world/china/third-attack-week-suspends-traffic-over-crimean-bridge-russian-official-says-2026-11-19/"
+    },
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/putin-russia-ukraine-bridge-strike/"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/ukraine-russia-war-kyiv-attacks-putin-crimea-433e18f00cbd37a2a9da94e60fce0e07"
+    },
+    {
+     "name": "afp.com",
+     "url": "https://www.afp.com/en/russia-pummels-ukraine-after-putin-vowed-painful-attack"
     },
     {
      "name": "The Guardian",
-     "url": "https://www.theguardian.com/world/live/2026/nov/19/apec-summit-trump-xi-putin-meeting-shenzhen-china"
+     "url": "https://www.theguardian.com/world/live/2026/nov/19/russia-ukraine-war-coalition-of-the-willing-europe-latest-news-updates"
     },
     {
-     "name": "Associated Press",
-     "url": "https://apnews.com/live/trump-xi-putin-china-politics-news-updates-11-19-2026"
+     "name": "independent.co.uk",
+     "url": "https://www.independent.co.uk/bulletin/news/bulletin-am-briefing-friday-20-november-b3088428.html"
     }
    ],
    "officialSources": [],
-   "summary": "President Trump, Chinese President Xi Jinping and Russian President Vladimir Putin held their first three-way meeting Thursday in Shenzhen, China, on the sidelines of the APEC summit. BBC, the Guardian and the Associated Press reported that the talks lasted about 80 to 90 minutes and that Trump then left China. Chinese and Russian state media published a four-point \"Declaration toward Peace.\" BBC treated the document as a joint U.S.-China-Russia statement. The Guardian noted that the text appeared first from Chinese state media and that Russia then issued the same document, and the Associated Press was more cautious, saying China and Russia say the United States agreed. The text, as carried by those outlets, calls for U.N. reform, an increase in the production and supply of refined petroleum products and stable energy flows, a statement that the International Criminal Court and similar bodies must not \"abuse\" their jurisdiction, and a pledge that \"a nuclear war cannot be won and must never be fought,\" plus dialogue on reducing nuclear risks. No Ukraine ceasefire was announced. BBC reported that Kremlin spokesman Dmitry Peskov said Ukraine was not the main topic. Earlier on Thursday, Trump and Putin met for about 40 minutes; Trump called Putin \"my friend,\" and a Kremlin aide said the talks went well but produced no major statements. The meeting was held at Kylin Villa.",
+   "summary": "Russian President Vladimir Putin said Thursday in Shenzhen, after meeting President Trump and Chinese President Xi Jinping, that Russia will make no agreements to halt attacks at sea or on energy facilities after Ukraine struck the Kerch Bridge to Crimea three times this week. \"However, we will not make agreements after strikes on the Crimean Bridge. We will respond to these strikes,\" Putin said, according to the Russian state news agency TASS, as reported by CBS News; Reuters reported he said Russia's response would be \"far more painful.\" Overnight, Russia fired dozens of missiles and hundreds of drones at Ukraine. Ukraine's emergency service said six people were killed in Kyiv, AFP reported, and Kyiv's mayor said three bridges over the Dnipro River were hit; earlier AP reporting put the Kyiv toll at three. In Berlin, U.S. envoy Jared Kushner said Russia is \"comfortable\" with NATO-like security guarantees for Ukraine, the AP reported. Trump called into the Berlin meeting of Ukraine's European backers from Air Force One, Kushner said. German Chancellor Friedrich Merz said a \"Yalta format will not bring about peace,\" The Guardian reported. The strikes come a day after the Trump-Xi-Putin meeting in Shenzhen produced a four-point declaration on peace but no Ukraine ceasefire.",
    "briefing": {
     "quickFacts": [
-     "First Trump, Xi and Putin meeting, held Thursday in Shenzhen; about 80 to 90 minutes",
-     "Trump has left China",
-     "Chinese and Russian state media published a four-point declaration on peace",
-     "The A.P. says China and Russia say the United States agreed",
-     "No Ukraine ceasefire was announced"
+     "Putin: \"We will not make agreements after strikes on the Crimean Bridge\" (TASS via CBS)",
+     "Ukraine struck the bridge three times this week; the road deck was severely damaged",
+     "Overnight Russian attack on Kyiv; Ukraine's emergency service says six killed (AFP)",
+     "Kushner: Russia \"comfortable\" with NATO-like security guarantees for Ukraine (AP)",
+     "Merz: a \"Yalta format will not bring about peace\""
     ],
     "notYetConfirmed": [
-     "A formal, standalone White House release of the same declaration text",
-     "Whether any unannounced commitments were made in the closed session",
-     "Whether the energy, U.N. or nuclear-talks language leads to concrete follow-up"
+     "The final casualty count from the overnight attacks, which officials were still updating",
+     "Whether Russia has formally agreed to any security-guarantee framework",
+     "A date for the next round of talks; Putin said none has been set"
     ],
     "whatHappensNext": [
-     "Watch for a U.S. readout, or a matching White House text of the declaration",
-     "Watch for any follow-up on Ukraine, energy supplies or nuclear-risk talks"
+     "Watch for further Russian strikes after Putin's vow to respond",
+     "U.S. envoys are preparing the agenda and format for the next round of multilateral talks, Kushner said"
     ]
    }
   },
   {
-   "id": "thanksgiving-travel",
-   "region": "us",
-   "location": "Nationwide",
-   "headline": "AAA projects 81.5 million Thanksgiving travelers, with average airfare $800, up 17%",
-   "status": "reported-only",
-   "outlets": [
-    {
-     "name": "newsroom.aaa.com",
-     "url": "https://newsroom.aaa.com/2026/11/aaa-thanksgiving-holiday-travel-forecast/"
-    },
-    {
-     "name": "Associated Press",
-     "url": "https://apnews.com/article/aaa-thanksgiving-travel-gasoline-prices-flights-e7f3f746bcbaa3edbb6b2b2ff0f519c6"
-    }
-   ],
-   "officialSources": [],
-   "summary": "AAA projects 81.5 million Americans will travel at least 50 miles from home for Thanksgiving between Tuesday, Nov. 24, and Monday, Nov. 30. That is about 121,000 fewer than last year, a 0.1% decline, ending a three-year streak of record Thanksgiving travel, according to a forecast AAA released on Nov. 16. About 72.9 million people are expected to drive and 5.96 million to fly domestically. Booked round-trip domestic flights are averaging $800, up 17% from a year earlier, AAA said. The Associated Press also reported the forecast. This briefing notes a national average around $3.75 a gallon only as context for road-trip costs, not as a new AAA pump-price report.",
-   "briefing": {
-    "quickFacts": [
-     "81.5 million travelers projected Nov. 24\u201330, slightly below last year (AAA)",
-     "Booked domestic round-trip fares average $800, up 17%",
-     "About 72.9 million are expected to drive; 5.96 million to fly",
-     "The forecast was released Nov. 16"
-    ],
-    "notYetConfirmed": [
-     "How close actual volumes and fares will come to the forecast",
-     "How weather, gas prices or airline operations will affect travel next week"
-    ],
-    "whatHappensNext": [
-     "The Thanksgiving travel window opens Tuesday, Nov. 24",
-     "Travelers should check flights, roads and weather before they leave"
-    ]
-   }
-  },
-  {
-   "id": "anthropic-ipo",
-   "region": "us",
-   "location": "New York / San Francisco",
-   "headline": "Anthropic sets I.P.O. share price at $83 and raises $81.3 billion; ANT to start trading today",
-   "status": "reported-only",
-   "outlets": [
-    {
-     "name": "anthropic.com",
-     "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
-    },
-    {
-     "name": "CNBC",
-     "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html"
-    },
-    {
-     "name": "Associated Press",
-     "url": "https://apnews.com/article/anthropic-ipo-nasdaq-ai-b6a74b8949021207dc162fcc876c4649"
-    }
-   ],
-   "officialSources": [],
-   "summary": "Anthropic set the share price of its initial public offering at $83 on Wednesday and sold 980 million shares, raising $81.3 billion, according to the company, CNBC and the Associated Press. That was above the earlier indicated range of $70 to $78, and it implied a fully diluted value of about $1.5 trillion. The company said the shares are expected to begin trading on the Nasdaq Global Select Market on Thursday, Nov. 19, under the ticker ANT, with the offering expected to close on Nov. 20. As of early Thursday morning, trading had not yet begun. This briefing covers the offer size and share price only, not the first trade, which is due after the 9:30 a.m. Eastern open.",
-   "briefing": {
-    "quickFacts": [
-     "Share price set at $83; 980 million shares sold; $81.3 billion raised (Anthropic)",
-     "Fully diluted value of about $1.5 trillion",
-     "Set to begin trading today on Nasdaq as ANT, after the 9:30 a.m. ET open",
-     "This briefing does not cover the first trade"
-    ],
-    "notYetConfirmed": [
-     "The opening print and how the shares trade after the market opens",
-     "Whether underwriters exercise their option to buy additional shares"
-    ],
-    "whatHappensNext": [
-     "Trading is scheduled to start after 9:30 a.m. Eastern",
-     "The offering is expected to close on Nov. 20, Anthropic said"
-    ]
-   }
-  },
-  {
-   "id": "jeffries-speaker",
+   "id": "senate-permitting-bill",
    "region": "us",
    "location": "Washington",
-   "headline": "House Democrats nominate Hakeem Jeffries for speaker, putting him on track to be the first Black speaker",
+   "headline": "Senate passes bipartisan energy permitting bill, 62-33, sending it to the House",
    "status": "reported-only",
    "outlets": [
     {
-     "name": "NBC News",
-     "url": "https://www.nbcnews.com/politics/congress/democrats-formally-nominate-rep-hakeem-jeffries-paving-way-first-black-rcna609619"
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/energy-permitting-data-center-power-grid-trump-b41c2017e4a9fe2e6de92ec77a4cdd0a"
+    },
+    {
+     "name": "Politico",
+     "url": "https://www.politico.com/news/2026/11/19/senate-passes-landmark-permitting-deal-01177557"
     },
     {
      "name": "NPR",
-     "url": "https://www.npr.org/2026/11/18/nx-s1-6043183/hakeem-jeffries-house-democrats-leadership-votes"
+     "url": "https://www.npr.org/2026/11/20/g-s1-154579/senate-bipartisan-energy-bill"
     },
     {
-     "name": "ABC News",
-     "url": "https://abcnews.com/Politics/hakeem-jeffries-poised-become-black-speaker-house/story?id=138119938"
+     "name": "Roll Call",
+     "url": "https://rollcall.com/2026/11/19/sweeping-permitting-overhaul-passes-senate-on-to-house"
     }
    ],
    "officialSources": [],
-   "summary": "House Democrats nominated Rep. Hakeem Jeffries for speaker on Wednesday in a closed-door, secret-ballot vote of 251-11, with no challenger, NBC News, NPR and ABC News reported. He is on track to be the first Black speaker of the House when the full chamber votes on Jan. 3, 2027. NBC projects Democrats will hold 259 seats, enough that Jeffries could absorb a large number of defections and still reach the 218 votes needed. Rep. Katherine Clark of Massachusetts was chosen as majority leader, and Rep. Pete Aguilar of California as whip. Seven of the 11 Democrats who voted no later issued a joint statement saying talks with Jeffries were continuing.",
+   "summary": "The Senate voted 62-33 on Thursday to pass the Bipartisan American Affordability and Jobs Act, S. 5653, which would speed up federal permit reviews for power plants, transmission lines and other energy infrastructure, the Associated Press reported. The bill would require data centers to pay for the energy and grid upgrades they use, and would give the Federal Energy Regulatory Commission new authority over interstate transmission lines, according to the AP and Roll Call. It is the first major action by Congress since the midterm elections. Senate Majority Leader John Thune said it would \"save the average household hundreds of dollars each year,\" NPR reported, and co-author Sen. Sheldon Whitehouse said Americans would \"quickly begin getting some relief on their energy bills if the House follows suit.\" Electricity prices have risen more than 6% in the past year, NPR said. The Sierra Club, the National Wildlife Federation and many Democrats opposed it, saying it would weaken environmental protections; 31 Democrats and two Republicans voted no, Roll Call reported. Politico called it the most significant energy legislation to clear the Senate since 2022.",
    "briefing": {
     "quickFacts": [
-     "Caucus vote Wednesday: 251-11, no challenger",
-     "Full House vote is Jan. 3, 2027; Jeffries would be the first Black speaker",
-     "NBC projects Democrats will hold 259 seats",
-     "Katherine Clark was chosen as majority leader; Pete Aguilar as whip"
+     "Senate vote: 62-33 on S. 5653, the Bipartisan American Affordability and Jobs Act",
+     "Speeds permit reviews for power plants, transmission lines and other energy projects",
+     "Requires data centers to pay for the power and grid upgrades they use",
+     "First major action by Congress since the midterms",
+     "Opposed by the Sierra Club, the National Wildlife Federation and many Democrats"
     ],
     "notYetConfirmed": [
-     "The exact first-ballot tally on Jan. 3",
-     "Whether any additional Democrats will withhold support on the House floor"
+     "Whether the House will pass it during the lame-duck session",
+     "How much household electric bills would actually change"
     ],
     "whatHappensNext": [
-     "The new Congress convenes and elects a speaker on Jan. 3, 2027",
-     "Jeffries has said Democrats will focus on affordability and the cost of living"
+     "The House takes it up after the Thanksgiving recess",
+     "If it does not pass both chambers before the new Congress in January, it would have to be reintroduced"
     ]
    }
   },
   {
-   "id": "waller-rate-hike",
+   "id": "fiona-hippo",
    "region": "us",
-   "location": "Washington",
-   "headline": "Fed Governor Waller says a half-point December rate increase may be needed to \"shock people\"",
-   "status": "reported-only",
+   "location": "Cincinnati",
+   "headline": "Fiona the hippo dies at the Cincinnati Zoo after swallowing a visitor's hat",
+   "status": "sourced",
    "outlets": [
     {
-     "name": "CNBC",
-     "url": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html"
+     "name": "cincinnatizoo.org",
+     "url": "https://cincinnatizoo.org/beloved-hippo-fiona-has-passed-away/"
     },
     {
-     "name": "decrypt.co",
-     "url": "https://decrypt.co/383566/fed-waller-50-basis-point-rate-hike-tokenized-finance-banks"
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/fiona-hippo-dead-hat-614e6d03ea8dfd137c55cef7bdb70698"
+    },
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.com/news/articles/cwz0k3172xzko"
     }
    ],
    "officialSources": [],
-   "summary": "Federal Reserve Governor Christopher Waller said in a CNBC interview on Wednesday that a half-percentage-point increase in the Fed's benchmark rate is probably necessary at the Dec. 8-9 meeting, unless the Fed raises rates by a quarter point and clearly signals another increase in January. \"You might need to, like, shock people,\" Waller said, adding that inflation is \"headed in the wrong direction, and it's spreading out.\" Decrypt also reported the remarks. Waller said Chairman Kevin Warsh has been against that kind of forward guidance. CNBC said futures still pointed to a quarter-point increase in December, with only a small chance of a half-point move. The consumer effect would be higher borrowing costs heading into the holidays and the new year.",
+   "summary": "The Cincinnati Zoo & Botanical Garden said Thursday that Fiona, the Nile hippo whose premature birth in 2017 and fight to survive made her a global favorite, has died. She swallowed a knit hat on Nov. 8 after a visitor tossed it in the air and a ceiling fan deflected it into her habitat through an opening above the viewing windows, the AP reported. Zoo veterinarians spent days trying to help her pass the hat, and the zoo said surgery was not an option for an adult hippo. \"We are in shock at the moment,\" zoo director Dave Jenike said. \"We did not expect this outcome. She fought until she couldn't anymore.\" Fiona would have turned 10 in January, the zoo said.",
    "briefing": {
     "quickFacts": [
-     "Waller: a 50-basis-point increase may be needed at the Dec. 8-9 meeting",
-     "Alternative: a quarter-point increase plus a clear signal of another hike in January",
-     "Waller said inflation is headed in the wrong direction and spreading out",
-     "Markets were still treating a quarter-point move as much more likely (CNBC)"
+     "Fiona died Thursday, Nov. 19, the Cincinnati Zoo said",
+     "She swallowed a knit hat on Nov. 8 that a ceiling fan deflected into her habitat",
+     "Veterinarians tried for days to help her pass it",
+     "Born premature in 2017; she would have turned 10 in January"
     ],
     "notYetConfirmed": [
-     "What the Federal Open Market Committee will actually decide in December",
-     "Whether Chair Warsh or a majority would support a half-point increase"
+     "The exact medical cause of death, pending the zoo's review"
     ],
     "whatHappensNext": [
-     "The FOMC meets Dec. 8-9",
-     "Other Fed officials will keep speaking before that meeting"
-    ]
-   }
-  },
-  {
-   "id": "target-sales",
-   "region": "us",
-   "location": "Minneapolis",
-   "headline": "Target sales rose 7.1%; the company is offering a $30 Thanksgiving meal for six",
-   "status": "reported-only",
-   "outlets": [
-    {
-     "name": "corporate.target.com",
-     "url": "https://corporate.target.com/press/release/2026/11/target-corporation-reports-third-quarter-earnings"
-    },
-    {
-     "name": "foxbusiness.com",
-     "url": "https://www.foxbusiness.com/retail/target-price-cuts-help-retailer-post-strongest-sales-growth-years-heading-holidays"
-    }
-   ],
-   "officialSources": [],
-   "summary": "Target reported third-quarter net sales of $27.1 billion, up 7.1% from a year earlier, with comparable sales up 5.6% and comparable traffic up 5.0%, according to the company's earnings release. Fox Business also reported the results and said Target raised its full-year sales outlook to around 6% growth. GAAP and adjusted earnings were $2.65 a share, including $0.50 a share from tariff refund benefits. Target said it is offering a $30 Thanksgiving meal for six, along with more than 8,000 new gift items, thousands of them priced at $5 or under. November net sales were in line with the company's guidance and accelerating from October, Target said.",
-   "briefing": {
-    "quickFacts": [
-     "Third-quarter net sales $27.1 billion, up 7.1%; comparable sales up 5.6%",
-     "Comparable traffic up 5.0%",
-     "Full-year sales outlook raised to around 6% growth",
-     "Offering a $30 Thanksgiving meal for six"
-    ],
-    "notYetConfirmed": [
-     "How strong holiday sales will be in the fourth quarter",
-     "How much of the earnings figure, excluding tariff refunds, will carry into next year"
-    ],
-    "whatHappensNext": [
-     "The Thanksgiving meal offer is part of Target's holiday period",
-     "Walmart's results, due this morning, will offer another read on holiday demand"
+     "Watch for any update from the zoo on its findings and on remembrances for Fiona"
     ]
    }
   }
  ],
  "audio": {
-  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-19/Briefed-2026-11-19-full-twohost.mp3",
-  "durationSeconds": 140.539,
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-20/Briefed-2026-11-20-full-twohost.mp3",
+  "durationSeconds": 184.32,
   "aiVoices": true,
   "chapters": [
    {
     "storyId": null,
     "title": null,
     "start": 0.0,
-    "end": 1.182
+    "end": 2.282
    },
    {
-    "storyId": "trump-xi-putin-declaration",
-    "title": "Four-point peace declaration",
-    "start": 1.182,
-    "end": 24.987
+    "storyId": "ai-selloff-dow",
+    "title": "Dow closes under 50,000 as A.I. selloff deepens",
+    "start": 2.282,
+    "end": 48.16
    },
    {
-    "storyId": "thanksgiving-travel",
-    "title": "Thanksgiving travel near last year's mark",
-    "start": 24.987,
-    "end": 48.953
+    "storyId": "iran-strikes-on-hold",
+    "title": "Trump puts new Iran strike decision off until the new year",
+    "start": 48.16,
+    "end": 83.019
    },
    {
-    "storyId": "anthropic-ipo",
-    "title": "Anthropic I.P.O.: $83 a share, $81.3B raised",
-    "start": 48.953,
-    "end": 69.418
+    "storyId": "putin-no-ceasefire",
+    "title": "Putin rules out deals after Crimean Bridge strikes",
+    "start": 83.019,
+    "end": 118.217
    },
    {
-    "storyId": "jeffries-speaker",
-    "title": "Democrats nominate Jeffries for speaker",
-    "start": 69.418,
-    "end": 91.477
+    "storyId": "senate-permitting-bill",
+    "title": "Senate passes energy permitting bill",
+    "start": 118.217,
+    "end": 148.609
    },
    {
-    "storyId": "waller-rate-hike",
-    "title": "Waller: a half-point December hike may be needed",
-    "start": 91.477,
-    "end": 110.976
-   },
-   {
-    "storyId": "target-sales",
-    "title": "Target sales up 7.1%; $30 Thanksgiving meal",
-    "start": 110.976,
-    "end": 130.135
+    "storyId": "fiona-hippo",
+    "title": "Fiona the hippo dies after swallowing a hat",
+    "start": 148.609,
+    "end": 173.894
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 130.135,
-    "end": 140.51
+    "start": 173.894,
+    "end": 184.269
    }
   ]
  },
  "video": {
-  "url": "/briefed/media/2026-11-19/Briefed-2026-11-19-web.mp4",
-  "durationSeconds": 140.51,
+  "url": "/briefed/media/2026-11-20/Briefed-2026-11-20-web.mp4",
+  "durationSeconds": 184.269,
   "aiVoices": true,
   "chapters": [
    {
-    "storyId": "trump-xi-putin-declaration",
-    "title": "Four-point peace declaration",
+    "storyId": "ai-selloff-dow",
+    "title": "Dow closes under 50,000 as A.I. selloff deepens",
     "start": 0.0,
-    "end": 24.987
+    "end": 48.16
    },
    {
-    "storyId": "thanksgiving-travel",
-    "title": "Thanksgiving travel near last year's mark",
-    "start": 24.987,
-    "end": 48.953
+    "storyId": "iran-strikes-on-hold",
+    "title": "Trump puts new Iran strike decision off until the new year",
+    "start": 48.16,
+    "end": 83.019
    },
    {
-    "storyId": "anthropic-ipo",
-    "title": "Anthropic I.P.O.: $83 a share, $81.3B raised",
-    "start": 48.953,
-    "end": 69.418
+    "storyId": "putin-no-ceasefire",
+    "title": "Putin rules out deals after Crimean Bridge strikes",
+    "start": 83.019,
+    "end": 118.217
    },
    {
-    "storyId": "jeffries-speaker",
-    "title": "Democrats nominate Jeffries for speaker",
-    "start": 69.418,
-    "end": 91.477
+    "storyId": "senate-permitting-bill",
+    "title": "Senate passes energy permitting bill",
+    "start": 118.217,
+    "end": 148.609
    },
    {
-    "storyId": "waller-rate-hike",
-    "title": "Waller: a half-point December hike may be needed",
-    "start": 91.477,
-    "end": 110.976
-   },
-   {
-    "storyId": "target-sales",
-    "title": "Target sales up 7.1%; $30 Thanksgiving meal",
-    "start": 110.976,
-    "end": 130.135
+    "storyId": "fiona-hippo",
+    "title": "Fiona the hippo dies after swallowing a hat",
+    "start": 148.609,
+    "end": 173.894
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 130.135,
-    "end": 140.51
+    "start": 173.894,
+    "end": 184.269
    }
   ],
-  "poster": "/briefed/media/2026-11-19/Briefed-2026-11-19-poster.jpg"
+  "poster": "/briefed/media/2026-11-20/Briefed-2026-11-20-poster.jpg"
  }
 }
