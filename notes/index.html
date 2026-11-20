@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://github.com https://*.githubusercontent.com; media-src 'self' https://github.com https://*.githubusercontent.com; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"><meta name="referrer" content="strict-origin-when-cross-origin">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://github.com https://*.githubusercontent.com; media-src 'self' https://github.com https://*.githubusercontent.com; font-src 'self'; connect-src 'self' https://cloudflareinsights.com; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"><meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Field notes | LJI Industries</title>
 <meta name="description" content="Short, dated lessons from shipping every day at LJI Industries.">
@@ -25,13 +25,14 @@
 <header class="nav">
   <div class="wrap">
     <a href="/" class="logo" aria-label="LJI Industries home">
-      <img class="logo-lockup" src="/logo-lockup.svg" alt="LJI Industries, practical AI for small business" width="218" height="46">
+      <img class="logo-lockup" src="/logo-lockup.svg" alt="LJI Industries" width="218" height="46">
     </a>
     <button class="menu-btn" aria-label="Open menu" aria-expanded="false" onclick="var n=document.getElementById('nav');n.classList.toggle('open');this.setAttribute('aria-expanded',n.classList.contains('open'))">&#9776;</button>
     <ul class="nav-links" id="nav">
-      <li><a href="/#services">Services</a></li>
+      <li><a href="/#work">What we publish</a></li>
       <li><a href="/briefed/">Today's Briefed</a></li>
       <li><a href="/briefed/archive/">Archive</a></li>
+      <li><a href="/briefed/podcast.xml">Podcast</a></li>
       <li><a href="/briefed/about/">About Briefed</a></li>
       <li><a href="/notes/">Field notes</a></li>
     </ul>
@@ -45,10 +46,10 @@
     <div class="foot-grid">
       <div>
         <a href="/" class="logo"><img class="logo-icon" src="/favicon.svg" alt="" width="34" height="34"><span>LJI Industries LLC</span></a>
-        <p style="margin-top:12px;max-width:320px">Practical AI consulting for small businesses. Makers of Briefed.</p>
+        <p style="margin-top:12px;max-width:320px">A digital content studio. Publisher of Briefed.</p>
       </div>
       <div><h4>Briefed</h4><ul><li><a href="/briefed/">Today's edition</a></li><li><a href="/briefed/archive/">Archive</a></li><li><a href="/briefed/about/">About</a></li></ul></div>
-      <div><h4>Company</h4><ul><li><a href="/#services">Services</a></li><li><a href="/notes/">Field notes</a></li><li><a href="/#faq">FAQ</a></li></ul></div>
+      <div><h4>Company</h4><ul><li><a href="/#work">What we publish</a></li><li><a href="/notes/">Field notes</a></li><li><a href="/#faq">FAQ</a></li></ul></div>
       <div><h4>Contact</h4><ul><li><a href="mailto:info@ljiindustries.com">info@ljiindustries.com</a></li><li>ljiindustries.com</li></ul></div>
     </div>
     <div class="foot-bottom"><span>&copy; <span id="yr">2026</span> LJI Industries LLC. All rights reserved.</span></div>
@@ -56,5 +57,6 @@
 </footer>
 <!-- slot:subscribe (follow/subscribe is OFF for now; render here later) -->
 <script>document.getElementById('yr').textContent=new Date().getFullYear();document.querySelectorAll('#nav a').forEach(function(a){a.addEventListener('click',function(){document.getElementById('nav').classList.remove('open');});});</script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "72d001bbabb842c482d7888f61492a53"}'></script>
 </body>
 </html>
