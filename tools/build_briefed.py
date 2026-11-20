@@ -81,7 +81,7 @@ def header(root_rel="/"):
     return f'''<header class="nav">
   <div class="wrap">
     <a href="/" class="logo" aria-label="LJI Industries home">
-      <img class="logo-lockup" src="/logo-lockup.svg" alt="LJI Industries" width="218" height="46">
+      <img class="logo-lockup" src="/logo-lockup.svg?v=2" alt="LJI Industries" width="218" height="46">
     </a>
     <button class="menu-btn" aria-label="Open menu" aria-expanded="false" onclick="var n=document.getElementById('nav');n.classList.toggle('open');this.setAttribute('aria-expanded',n.classList.contains('open'))">&#9776;</button>
     <ul class="nav-links" id="nav">
@@ -214,7 +214,7 @@ def og_meta(title, desc, url, og, is_b):
     if not is_b:
         return (f'<meta property="og:type" content="website"><meta property="og:site_name" content="LJI Industries">\n'
                 f'<meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}">\n'
-                f'<meta property="og:url" content="{SITE}{url}"><meta property="og:image" content="{SITE}/og-image.png">')
+                f'<meta property="og:url" content="{SITE}{url}"><meta property="og:image" content="{SITE}/og-image.png?v=2">')
     og = {**OG_GENERIC, "type": "website", "title": title, "desc": desc, **(og or {})}
     img = SITE + og["image"]
     return "\n".join([
