@@ -1,0 +1,18 @@
+# Source only. Do not deploy until the admin hostname is approved.
+# workers.dev is off. Preview hostnames still exist; the worker rejects them.
+name = "lji-admin"
+main = "worker.mjs"
+compatibility_date = "2026-11-07"
+workers_dev = false
+
+# Add only after the zone and Access application exist. Do not commit a KV id.
+# [[kv_namespaces]]
+# binding = "SNAPSHOTS"
+# id = ""
+
+# [[routes]]
+# pattern = "admin.ljiindustries.com"
+# custom_domain = true
+
+# Set in the Cloudflare dashboard or with wrangler secret. Never commit values:
+# ADMIN_HOST, ADMIN_EMAIL, TEAM_DOMAIN, ACCESS_AUD
