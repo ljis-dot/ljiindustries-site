@@ -146,3 +146,16 @@ footer .logo{color:#fff}
   .menu-btn{display:block}
   .g3,.g4,.steps,.foot-grid{grid-template-columns:1fr}
 }
+
+/* Formats / follow */
+.hero-card .mini{align-items:flex-start}
+.fmt-list{list-style:none;display:grid;gap:16px;margin:0}
+.fmt-list li{display:grid;gap:2px}
+.fmt-list a{font-weight:700}
+.fmt-list span{display:block;color:var(--ink2);font-size:.92rem;font-weight:500}
+.follow-row{display:flex;flex-wrap:wrap;gap:14px 20px;margin-top:18px}
+.follow-row a{font-weight:700;font-size:.94rem}
+.briefed .follow-row a{color:#7dd3fc}
+.briefed .btn-ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.35)}
+.briefed .btn-ghost:hover{border-color:#fff}
+.hero-ctas{margin-top:4px}

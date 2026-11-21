@@ -2,6 +2,13 @@
  "schemaVersion": 1,
  "editions": [
   {
+   "date": "2026-11-21",
+   "lead": "St. Johns River near Cocoa hits a 73-year flood record of 18.8 feet",
+   "url": "/briefed/2026-11-21/",
+   "json": "/briefed/2026-11-21.json",
+   "hasAudio": true
+  },
+  {
    "date": "2026-11-20",
    "lead": "Dow closes under 50,000 for the first time since June as the AI selloff deepens",
    "url": "/briefed/2026-11-20/",

@@ -6,7 +6,7 @@
     <language>en-us</language>
     <copyright>Briefed News</copyright>
     <description>The day's top US news in about two minutes, facts only, every story checked against at least two outlets. Full edition and sources at ljiindustries.com/briefed.</description>
-    <lastBuildDate>Fri, 20 Nov 2026 07:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 07:00:00 -0500</lastBuildDate>
     <atom:link href="https://ljiindustries.com/briefed/podcast.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://ljiindustries.com/briefed/podcast-cover.jpg</url>
@@ -25,6 +25,18 @@
     </itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+    <item>
+      <title>Briefed · Sat, Nov 21: St. Johns River hits a 73-year flood record</title>
+      <description>The St. Johns River near Cocoa, Florida, was forecast to crest at 18.8 feet on Saturday, a 73-year record, after rain that topped 28 inches in some areas; Rockledge still has a voluntary evacuation, and officials say flooding could last two to three months, through Thanksgiving. Plus: the Farm Bureau says a Thanksgiving dinner for 10 now costs $58.63, or $5.86 a person, up 6%, the first increase since 2022, with a 16-pound turkey averaging $23.68, up 10%; the Dow fell 950 points Friday to 48,147 and the S&amp;P 500 fell 3.7%, both closing more than 10% below their records, while Nvidia fell 14% after Reuters, citing sources, said SEC staff are examining possible accounting issues; Polish officials say a Russian cruise missile entered Polish airspace Friday, and a strike on Zelenskyy's hometown, Kryvyi Rih, killed a 7-year-old boy and a 20-year-old woman and wounded 60 people; President Trump said U.S. companies that build AI data centers abroad will face a "tremendous tax," with no rate given, and a second federal judge blocked his planned 250-foot memorial arch; and NASA says Voyager 1 has reached one light-day from Earth, about 16.1 billion miles. Sources: AP, National Weather Service, AccuWeather, Farm Bureau, Axios, Washington Post, CNBC, Reuters, Yahoo Finance, BBC, Courthouse News, NASA, Space.com. Full edition and sources: ljiindustries.com/briefed/2026-11-21/</description>
+      <link>https://ljiindustries.com/briefed/2026-11-21/</link>
+      <guid isPermaLink="false">briefed-2026-11-21</guid>
+      <pubDate>Sat, 21 Nov 2026 07:00:00 -0500</pubDate>
+      <enclosure url="https://ljiindustries.com/briefed/2026-11-21/Briefed-2026-11-21.mp3" length="2467674" type="audio/mpeg"/>
+      <itunes:title>Briefed · Sat, Nov 21: St. Johns River hits a 73-year flood record</itunes:title>
+      <itunes:author>Briefed News</itunes:author>
+      <itunes:duration>2:34</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Briefed · Fri, Nov 20: Dow closes under 50,000 as AI selloff deepens</title>
       <description>The Dow fell 1,101 points to 49,097, its first close under 50,000 since June, as the AI selloff deepened; the S&amp;P 500 fell for a sixth straight day, and Anthropic closed its first day of trading at $97.17, up 17% from its $83 offer price. Plus: President Trump says a decision on new large-scale strikes on Iran can wait until after the new year ("We've got time"); Vladimir Putin says Russia will make no agreements after Ukraine's strikes on the Crimean Bridge, as Russia attacks Kyiv; the Senate passes a bipartisan energy permitting bill, 62-33, that would make data centers pay for the power they use; and the Cincinnati Zoo says Fiona the hippo has died. Sources: CNBC, AP, Yahoo Finance, Reuters, Axios, CBS News, AFP, The Guardian, Politico, NPR, Roll Call, Cincinnati Zoo, BBC. Full edition and sources: ljiindustries.com/briefed/2026-11-20/</description>
