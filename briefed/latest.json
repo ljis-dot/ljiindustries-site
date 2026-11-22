@@ -1,381 +1,403 @@
 {
  "schemaVersion": 1,
- "date": "2026-11-21",
- "generatedAt": "2026-11-21",
+ "date": "2026-11-22",
+ "generatedAt": "2026-11-22",
  "stories": [
   {
-   "id": "st-johns-flood",
-   "region": "us",
-   "location": "Florida",
-   "headline": "St. Johns River near Cocoa hits a 73-year flood record of 18.8 feet",
+   "id": "el-chapo-isidro",
+   "region": "world",
+   "location": "Sinaloa",
+   "headline": "'El Chapo Isidro,' an FBI Ten Most Wanted fugitive, is captured in Mexico with U.S. help",
    "status": "sourced",
    "outlets": [
     {
-     "name": "Associated Press",
-     "url": "https://apnews.com/article/extreme-weather-flooding-florida-california-storms-46b14622b3ad77c32eb0182bfe8bc9f4"
+     "name": "NPR",
+     "url": "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained"
     },
     {
-     "name": "wesh.com",
-     "url": "https://www.wesh.com/article/st-johns-river-flooding-cocoa-astor/74494860"
-    },
-    {
-     "name": "accuweather.com",
-     "url": "https://www.accuweather.com/en/severe-weather/st-johns-river-smashes-73-year-record-in-florida-with-flooding-that-could-last-into-2027/1961124"
-    },
-    {
-     "name": "clickorlando.com",
-     "url": "https://www.clickorlando.com/news/local/2026/11/21/streets-remain-flooded-closed-in-rockledge-voluntary-evacuation-in-place/"
-    }
-   ],
-   "officialSources": [],
-   "summary": "The St. Johns River near Cocoa, Florida, was at about 18.75 feet on Friday and was forecast to crest around 18.8 feet on Saturday, above the 1953 record of about 17.6 feet, according to the St. Johns River Water Management District, as reported by WESH, and National Weather Service gauge data. WESH said rain totals surpassed 28 inches in some areas of the watershed. The city of Rockledge still had a voluntary evacuation in effect on Saturday, and the National Guard was using high-water vehicles to reach flooded neighborhoods, ClickOrlando reported. The water-management district said the river near Cocoa could remain at or above moderate flood stage for two to three months, through Thanksgiving and into winter. AccuWeather said major flooding near Cocoa could linger through December and that at least minor flooding is likely into January 2027. The rain had already ended in Brevard County; the remaining threat is the slow-rising river, not further downpours. The Associated Press reported historic flooding along Florida's Atlantic coast, with officials urging residents in vulnerable neighborhoods to be ready to leave, and dozens of rescues earlier in the week.",
-   "briefing": {
-    "quickFacts": [
-     "Forecast crest near Cocoa: about 18.8 feet on Saturday, Nov. 21",
-     "Previous record: about 17.6 feet in 1953 (WESH; AccuWeather cited 17.55 feet on Oct. 11, 1953)",
-     "Rain totals surpassed 28 inches in some areas (WESH)",
-     "Rockledge: voluntary evacuation still in effect; National Guard high-water vehicles",
-     "Time at or above moderate flood stage near Cocoa: two to three months (SJRWMD)",
-     "The district said it was storing about 60 billion gallons that would otherwise flow downstream",
-     "Pet-friendly shelter: Walter Butler Community Center, Cocoa"
-    ],
-    "notYetConfirmed": [
-     "How high the river ultimately crests at gauges downstream, including Lake Harney, Sanford, DeLand and Astor",
-     "How long individual homes will remain flooded; AccuWeather's \"into 2027\" line is a forecast of lingering minor flooding, not of homes staying underwater until then",
-     "Whether any additional rain later this week changes the outlook"
-    ],
-    "whatHappensNext": [
-     "The river near Cocoa was expected to hold near 18.8 feet this weekend",
-     "Downstream crests are forecast over the coming week to 10 days",
-     "Thanksgiving travel in east Central Florida may still face flooded roads"
-    ]
-   }
-  },
-  {
-   "id": "thanksgiving-dinner-cost",
-   "region": "us",
-   "location": "USA",
-   "headline": "Thanksgiving dinner for 10 rises 6%, to $58.63, the first increase since 2022",
-   "status": "reported-only",
-   "outlets": [
-    {
-     "name": "fb.org",
-     "url": "https://www.fb.org/intel/markets/thanksgiving-dinner-cost-ticks-upward-in-2026"
-    },
-    {
-     "name": "Axios",
-     "url": "https://www.axios.com/2026/11/20/thanksgiving-meal-cost-increases-2026"
-    },
-    {
-     "name": "Associated Press",
-     "url": "https://apnews.com/article/thanksgiving-prices-turkey-costs-diesel-dinner-5c5f6f4fd28ce2ff3cbfb1398cf28fd0"
-    },
-    {
-     "name": "Washington Post",
-     "url": "https://www.washingtonpost.com/business/2026/11/19/cost-thanksgiving-dinner-rises-first-time-since-2022/"
-    }
-   ],
-   "officialSources": [],
-   "summary": "The American Farm Bureau Federation's 41st annual Thanksgiving dinner survey found that a classic dinner for 10 now costs $58.63, or $5.86 a person, up 6% from $55.18 last year, the first increase since 2022, the Farm Bureau, the Associated Press, Axios and The Washington Post reported. A 16-pound frozen turkey averaged $23.68, up $2.38, or 10%. The meal is still about 8% below the 2022 peak of $64.05, and above the 2019 pre-pandemic cost of $48.91. Regional averages for 10 people were $61.57 in the Northeast, $58.74 in the West, $56.89 in the Midwest and $54.33 in the South. Cranberries were up about 9%. Volunteer shoppers checked prices in the first week of November, possibly before later promotions; some found turkey as low as 69 cents a pound. A separate Wells Fargo Agri-Food Institute report, using different menus and 52-week retail data through September, found Thanksgiving foods 0.4% cheaper than a year earlier.",
-   "briefing": {
-    "quickFacts": [
-     "$58.63 for 10 people ($5.86 each), up 6% from $55.18",
-     "16-pound frozen turkey: $23.68, up 10%",
-     "Still about 8% below the 2022 record of $64.05",
-     "Northeast $61.57; West $58.74; Midwest $56.89; South $54.33",
-     "Related, not the hook: AAA's national average for regular gasoline was $3.6594 as of Saturday, Nov. 21, down from $3.78 earlier this week, still above the 2022 Thanksgiving-Day record of $3.58"
-    ],
-    "notYetConfirmed": [
-     "What shoppers will actually pay after last-week promotions, coupons and store meal baskets (Axios noted Walmart's about-$35 basket for 10 and an Aldi meal tested at $37.38)",
-     "Whether the Wells Fargo and Farm Bureau figures can be directly compared; they use different methods"
-    ],
-    "whatHappensNext": [
-     "Thanksgiving is Thursday, Nov. 26",
-     "Many grocery promotions run through the holiday week"
-    ]
-   }
-  },
-  {
-   "id": "markets-correction",
-   "region": "us",
-   "location": "New York",
-   "headline": "Dow and S&P 500 close in correction; Nasdaq finishes lower for the year",
-   "status": "reported-only",
-   "outlets": [
-    {
-     "name": "CNBC",
-     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
-    },
-    {
-     "name": "Associated Press",
-     "url": "https://apnews.com/article/stock-markets-anthropic-ai-chips-boom-c4c3f4878b12989347f8a930ed813dad"
-    },
-    {
-     "name": "finance.yahoo.com",
-     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html"
-    },
-    {
-     "name": "Reuters",
-     "url": "https://www.reuters.com/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/"
-    }
-   ],
-   "officialSources": [],
-   "summary": "U.S. stocks sold off again Friday as the AI trade unwound. The Dow Jones Industrial Average fell 949.73 points, or 1.93%, to 48,147.33, the S&P 500 fell 3.7% to 6,910.39, and both closed more than 10% below their record closes, entering correction territory, CNBC, the Associated Press and Yahoo Finance reported. The Nasdaq Composite dropped 5.28% to 22,617.73 and finished 2.7% lower for 2026. CNBC said the Nasdaq-100 fell 5.6% and entered a bear market on an intraday basis, 20% below its recent high. Nvidia fell about 14%, AMD more than 13% and Micron almost 14%. Anthropic fell 8.5% in its second session, after a 17% jump on Thursday's debut, but remained above its $83 offer price. Reuters, citing sources, reported that SEC staff are examining possible accounting issues at Nvidia; CNBC said that report added to Friday's selling. The SEC has not announced a formal public action in the coverage reviewed for this briefing. For the week, the Dow fell 8%, its worst week since March 2020; the Nasdaq was down about 10%, its largest one-week drop in more than six years; and the S&P 500 fell 8.6%, its worst week since April 2025. Yahoo Finance said gold futures dropped nearly 4% and bitcoin fell below $59,000, its lowest since July.",
-   "briefing": {
-    "quickFacts": [
-     "Dow: 48,147.33, down 949.73 points (\u22121.93%)",
-     "S&P 500: 6,910.39 (\u22123.7%); Nasdaq: 22,617.73 (\u22125.28%), down 2.7% year to date",
-     "Both the Dow and S&P 500 closed more than 10% below their record closes",
-     "Nvidia about \u221214%; Anthropic \u22128.5% in session two, still above $83",
-     "Week: Dow \u22128% (worst since March 2020); Nasdaq about \u221210%; S&P 500 \u22128.6%"
-    ],
-    "notYetConfirmed": [
-     "Whether the SEC inquiry becomes a formal public enforcement action; Reuters attributed the accounting review to sources",
-     "Where markets open on Monday",
-     "Reports on gold and bitcoin were not the focus of this briefing and were not independently rechecked beyond Yahoo Finance"
-    ],
-    "whatHappensNext": [
-     "U.S. markets are closed Saturday and Sunday; the next regular session is Monday",
-     "The Federal Reserve's preferred inflation gauge, the PCE price index, is due next week",
-     "The Fed's next rate decision is at its December meeting"
-    ]
-   }
-  },
-  {
-   "id": "poland-kryvyi-rih",
-   "region": "world",
-   "location": "Poland / Ukraine",
-   "headline": "Russia violates Polish airspace; a strike on Kryvyi Rih kills 2 and wounds 60",
-   "status": "reported-only",
-   "outlets": [
-    {
-     "name": "Associated Press",
-     "url": "https://apnews.com/article/russia-ukraine-war-missile-zelenskyy-trump-bfdee2ffadc2693e7338d6822e5356ef"
-    },
-    {
-     "name": "BBC",
-     "url": "https://www.bbc.com/news/articles/cqx2x9dklxnro"
-    },
-    {
-     "name": "Reuters",
-     "url": "https://www.reuters.com/business/aerospace-defense/polish-army-investigates-report-unknown-objects-near-ukraine-border-2026-11-20/"
-    }
-   ],
-   "officialSources": [],
-   "summary": "Polish officials said a Russian Kh-101 cruise missile and two other objects entered Polish airspace early Friday. Defence Minister W\u0142adys\u0142aw Kosiniak-Kamysz said the missile hit a rural area at Nowy Lipowiec, about 31 miles (50 kilometers) from the Ukrainian border, around 6:30 a.m. local time, with no injuries reported. Another suspected missile went down near Rudnik nad Sanem, and a jet-powered drone crashed near Mo\u0142odycz, he said. Prime Minister Donald Tusk said the incursion did not appear to be an accident and noted nearby Koalicja 2026 military exercises. NATO Secretary General Mark Rutte condemned \"grave violations of Polish airspace,\" said NATO jets were scrambled, and was due in Warsaw on Saturday. Russia had made no comment on the Poland incursion in BBC and Reuters coverage. Overnight, a Russian strike on the center of President Volodymyr Zelenskyy's hometown, Kryvyi Rih, killed a 7-year-old boy and a 20-year-old woman and wounded 60 people, including six children, local officials told the Associated Press on Saturday.",
-   "briefing": {
-    "quickFacts": [
-     "Poland: three objects, probably two missiles and a drone, officials said; no injuries",
-     "Kh-101 struck Nowy Lipowiec, about 31 miles from the Ukrainian border",
-     "NATO condemned the violations and said jets were scrambled",
-     "Kryvyi Rih: 2 killed (a 7-year-old boy and a 20-year-old woman) and 60 wounded, including six children (AP, Saturday)",
-     "Earlier BBC injury counts were lower; later local tallies moved as officials updated figures"
-    ],
-    "notYetConfirmed": [
-     "Russia's account of the Poland incursion; Moscow had not commented in the coverage reviewed",
-     "Tusk's statement that the objects' landing near the exercises was \"no coincidence\" is his claim",
-     "Final casualty figures in Kryvyi Rih may still change"
-    ],
-    "whatHappensNext": [
-     "Rutte was due in Warsaw on Saturday",
-     "Poland said it would ask NATO for additional support",
-     "The war in Ukraine continues, with further Russian strikes reported overnight"
-    ]
-   }
-  },
-  {
-   "id": "datacenter-tax-arch",
-   "region": "us",
-   "location": "Washington",
-   "headline": "Trump threatens a tax on overseas AI data centers; a second judge blocks his arch",
-   "status": "claimed",
-   "outlets": [
-    {
-     "name": "Associated Press",
-     "url": "https://apnews.com/article/trump-artificial-intelligence-data-centers-f1ac03b73d13445400eeed8631d9d879"
-    },
-    {
-     "name": "Axios",
-     "url": "https://www.axios.com/2026/11/20/us-ai-trump-data-centers-overseas"
-    },
-    {
-     "name": "CNBC",
-     "url": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html"
-    },
-    {
-     "name": "Associated Press",
-     "url": "https://apnews.com/article/trump-arch-virginia-judge-brinkema-f7b9b0a0480481505038d007bf270cd9"
-    },
-    {
-     "name": "Courthouse News",
-     "url": "https://www.courthousenews.com/judge-deals-new-setback-to-trump-arch-plans/"
-    }
-   ],
-   "officialSources": [],
-   "summary": "President Trump said Friday that U.S. companies that build artificial intelligence data centers abroad will face \"a tremendous tax.\" He gave no rate, start date or legal basis, and told reporters he had not yet informed his own officials, the Associated Press, Axios and CNBC reported. Axios and other coverage noted that Congress, not the president, has the constitutional power to impose a federal tax, so the remarks describe a threat, not an enacted policy. Also on Friday, U.S. District Judge Leonie Brinkema in Alexandria, Virginia, issued a preliminary injunction blocking the administration from starting construction of a proposed 250-foot memorial arch at Memorial Circle, the second federal court order against the project this week after Judge Tanya Chutkan in Washington extended a temporary block through Dec. 3. Brinkema, ruling from the bench, called the plans \"such a rushed job\" and said the project lacked congressional approval, Courthouse News reported. A Justice Department spokesman said the government will appeal.",
-   "briefing": {
-    "quickFacts": [
-     "Trump: companies \"can\" build data centers abroad, \"but we're going to put a tremendous tax on them\"",
-     "He said he had not yet told \"his people\"",
-     "No rate, statute or start date was named",
-     "Planned arch: 250 feet at Memorial Circle; second injunction this week",
-     "Brinkema: \"this is a project without congressional approval\"",
-     "DOJ said it will appeal"
-    ],
-    "notYetConfirmed": [
-     "Whether any tax or penalty is actually proposed to Congress or imposed by executive action",
-     "The outcome of the government's planned appeal",
-     "County filings include additional allegations about the arch's design and use; those are the county's claims, not findings of the court, except as the judge addressed them"
-    ],
-    "whatHappensNext": [
-     "The injunctions keep construction on hold while the lawsuits proceed",
-     "Chutkan's order runs through Dec. 3; Brinkema's preliminary injunction extends the halt further",
-     "No tax legislation had been introduced as of Saturday morning"
-    ]
-   }
-  },
-  {
-   "id": "voyager-light-day",
-   "region": "world",
-   "location": "Interstellar space",
-   "headline": "Voyager 1 reaches one light-day from Earth, about 16.1 billion miles",
-   "status": "sourced",
-   "outlets": [
-    {
-     "name": "Associated Press",
-     "url": "https://apnews.com/article/voyager-nasa-light-day-interstellar-space-db9f5f8d9ec3a40f1f434446baf326b5"
-    },
-    {
-     "name": "space.com",
-     "url": "https://www.space.com/space-exploration/voyager/1-light-day-from-earth-nasas-voyager-1-probe-hits-huge-milestone-in-interstellar-space"
+     "name": "ABC News",
+     "url": "https://abcnews.com/International/mexican-cartel-leader-fbis-10-wanted-fugitive-list/story?id=138346100"
     }
    ],
    "officialSources": [
-    "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+    "https://www.justice.gov/opa/pr/senior-leader-sinaloa-cartel-and-one-fbis-ten-most-wanted-fugitives-arrested-mexico"
    ],
-   "summary": "NASA said Voyager 1, launched in 1977, reached one light-day from Earth \u2014 about 16.1 billion miles, or 25.9 billion kilometers \u2014 at 5:16 a.m. Eastern on Wednesday, Nov. 18, becoming the first human-made object to travel so far that a radio signal now takes 24 hours to arrive. The mission confirmed the milestone when the spacecraft's carrier signal reached Earth 24 hours later, on Thursday, NASA said in a Nov. 19 release, also reported by the Associated Press and Space.com. Voyager 1 entered interstellar space in 2012 and is traveling about 38,000 mph. Its twin, Voyager 2, is not expected to reach one light-day until 2035. NASA said the team has not received science and engineering data from Voyager 1 since Nov. 14. The spacecraft is still sending a carrier signal, which engineers used with trajectory calculations to confirm the milestone, and they continue to analyze the data problem. NASA said recent power-saving changes are expected to keep the current science instruments running until at least the 50th launch anniversary next summer.",
+   "summary": "Mexican special forces captured Fausto Isidro Meza Flores, known as \"El Chapo Isidro,\" a Sinaloa Cartel leader and one of the FBI's Ten Most Wanted fugitives, in Guasave, Sinaloa, on Friday, Nov. 20, the U.S. Department of Justice, NPR (from the Associated Press), and ABC News reported. The Justice Department said a U.S. Homeland Security Task Force investigation and U.S. intelligence supported the operation. Meza Flores faced a $5 million U.S. reward and is under indictment in Washington, D.C., on narco-terrorism and fentanyl-trafficking charges. Mexico's Defense Ministry said a firefight during the operation left at least 11 dead, including 4 Mexican soldiers and 7 alleged gunmen. FBI Director Kash Patel said he is the 11th Ten Most Wanted fugitive captured under the Trump administration, the Justice Department relayed. Extradition has not been announced; the United States wants him extradited. If convicted in the U.S., he would face the death penalty or mandatory life, the Justice Department said.",
    "briefing": {
     "quickFacts": [
-     "Milestone: 5:16 a.m. ET, Wednesday, Nov. 18, 2026",
-     "Distance: about 16.1 billion miles (25.9 billion kilometers)",
-     "One-way radio time: 24 hours; a command-and-response cycle is two days",
-     "Science and engineering data have not come in since Nov. 14; the carrier signal continues",
-     "Voyager 2 is expected to reach one light-day in 2035"
+     "Captured Friday, Nov. 20, in Guasave, Sinaloa, with U.S. help (DOJ)",
+     "One of the FBI's Ten Most Wanted; $5 million U.S. reward",
+     "At least 11 dead in the firefight, including 4 Mexican soldiers (Mexico's Defense Ministry)",
+     "FBI Director Kash Patel: the 11th Ten Most Wanted capture under this administration (via DOJ)",
+     "Under indictment in Washington, D.C., on narco-terrorism and fentanyl-trafficking charges"
     ],
     "notYetConfirmed": [
-     "When, or whether, the science and engineering data stream will be restored",
-     "How long the 1977 probes will keep communicating as their power supply declines"
+     "Extradition has not been announced",
+     "A full official accounting of everyone killed or wounded in the firefight, beyond the Defense Ministry's at-least-11 figure",
+     "Who will take over Meza Flores's faction, if anyone"
     ],
     "whatHappensNext": [
-     "Engineers continue to diagnose the data issue",
-     "The mission's 50th launch anniversary is next summer (2027)"
+     "The United States wants him extradited to face the D.C. indictment",
+     "Mexican authorities continue to hold him pending any formal extradition request"
+    ]
+   }
+  },
+  {
+   "id": "thanksgiving-storms-sf-tide",
+   "region": "us",
+   "location": "both coasts",
+   "headline": "San Francisco's tide is forecast at 8.8 feet Wednesday, above the 1983 record, as storms threaten Thanksgiving travel",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "weather.com",
+     "url": "https://weather.com/2026/11/21/holiday/thanksgiving/thanksgiving-travel-weather-forecast-us-storms"
+    },
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/US/wireStory/san-francisco-braces-massive-tides-mayor-urges-residents-138349973"
+    },
+    {
+     "name": "nbcbayarea.com",
+     "url": "https://www.nbcbayarea.com/news/local/san-francisco-residents-prepare-for-storms-king-tides/4179915/"
+    }
+   ],
+   "officialSources": [
+    "https://www.nyc.gov/site/em/about/pr_20261120_NYCEM-Issues-Weather-Alert-Windy-Soaking-Rain-Sunday-To-Monday.page",
+    "https://tidesandcurrents.noaa.gov/stationhome.html?id=9414290"
+   ],
+   "summary": "Forecasters expect king tides plus storm surge in San Francisco to peak around 8.8 feet at 10:49 a.m. PT on Wednesday, Nov. 25, above the 8.66-foot record of Jan. 27, 1983, according to coverage from Weather.com, the Associated Press via ABC News, and NBC Bay Area. That 8.8-foot figure is a forecast, including storm surge. NOAA's astronomical-only tide prediction for that tide at station 9414290 is 7.03 feet, so the rest is forecast storm surge. Mayor Daniel Lurie urged residents to stock up over the weekend and avoid nonessential travel from Monday afternoon through Wednesday. A National Weather Service coastal flood warning covers the Bay Area from 6 a.m. Monday to 4 p.m. Thursday; the AP said up to 2 feet of flooding is likely in low-lying shoreline areas. Separately, a coastal storm is bringing rain and gusty winds up the East Coast today, Sunday, with possible afternoon flight delays at Northeast hubs. Weather.com said Monday looks calmer, then storms return to both coasts from Tuesday night, including a potential major Northeast storm on Thanksgiving Day and an atmospheric river on the West Coast Thursday\u2013Friday. These are forecasts several days out; a Thanksgiving Day Northeast storm is possible, not certain.",
+   "briefing": {
+    "quickFacts": [
+     "Forecast SF peak: about 8.8 feet (MLLW) Wednesday, Nov. 25, at 10:49 a.m. PT",
+     "Prior record: 8.66 feet on Jan. 27, 1983",
+     "NOAA astronomical-only prediction for that tide: 7.03 feet (the rest is forecast storm surge)",
+     "Mayor Lurie: skip nonessential travel Monday afternoon through Wednesday",
+     "East Coast storm is hitting today, Sunday; a major Northeast storm is possible on Thanksgiving"
+    ],
+    "notYetConfirmed": [
+     "Whether Wednesday's tide actually tops the 1983 record (this is a forecast)",
+     "Whether a major Northeast storm materializes on Thanksgiving Day",
+     "How many flights, if any, are delayed or canceled; delays are possible, not promised",
+     "How high water gets in any given neighborhood"
+    ],
+    "whatHappensNext": [
+     "Bay Area coastal flood warning: 6 a.m. Monday through 4 p.m. Thursday",
+     "Thanksgiving is Thursday, Nov. 26",
+     "The St. Johns River near Cocoa, Florida, covered in Saturday's briefing, remains high after its record crest"
+    ]
+   }
+  },
+  {
+   "id": "fbi-ncic-hack",
+   "region": "us",
+   "location": "USA",
+   "headline": "FBI is investigating an apparent hack of the National Crime Information Center",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/politics/justice-department/fbi-investigating-potential-breach-crime-database-rcna610536"
+    },
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.com/news/articles/cvze7de86pk3o"
+    },
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/21/fbis-criminal-information-database-hacked-cnn-reports.html"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/fbi-database-ncic-hack-d066cff87a64a564db0a00172c124972"
+    }
+   ],
+   "officialSources": [],
+   "summary": "The FBI is investigating an apparent breach of the National Crime Information Center, the nationwide database federal, state and local police use for warrants, criminal histories and background checks, according to two people briefed on the matter, NBC News, the BBC, and Reuters (via CNBC) reported, following a CNN report Friday evening. It is not known who did it or whether data was stolen or changed. The FBI has not commented in the coverage reviewed for this briefing. Asked about it on Fox News Saturday, President Trump said he had \"just heard\" and \"it's not good. I don't like that.\" This would be the second intrusion into an FBI system in recent months; in September, the ShinyHunters group claimed to have taken data on about 38,000 FBI staff through a jobs portal, the BBC reported. Separately, NBC reported that hackers breached a USDA system used to pay farmers this week, and that White House National Cyber Director Sean Cairncross is leaving; the BBC said President Trump fired him. Those side developments were not the focus of this briefing.",
+   "briefing": {
+    "quickFacts": [
+     "Target: the National Crime Information Center (NCIC), used for warrants, criminal histories and background checks",
+     "Reporting rests on people briefed on the matter; the FBI has not commented",
+     "Unknown: who did it, and whether data was taken or changed",
+     "President Trump, Saturday: he had \"just heard\" and \"it's not good\""
+    ],
+    "notYetConfirmed": [
+     "The FBI has not confirmed the investigation or any loss or alteration of data",
+     "Who is responsible",
+     "Whether any warrants, records or background-check data were actually accessed or changed",
+     "How the USDA farm-payment and Cairncross personnel reports relate, if at all, to the NCIC incident"
+    ],
+    "whatHappensNext": [
+     "Further official comment from the FBI or the Justice Department, if it comes",
+     "Police departments that rely on NCIC may look for guidance on whether to treat records as reliable"
+    ]
+   }
+  },
+  {
+   "id": "contractor-congress-order",
+   "region": "us",
+   "location": "Washington",
+   "headline": "Trump order requires federal contractors to clear congressional requests with the White House",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/21/trump-orders-federal-contractors-to-notify-white-house-before-giving-congress-information.html"
+    },
+    {
+     "name": "Politico",
+     "url": "https://www.politico.com/news/2026/11/21/trump-executive-order-01179540"
+    }
+   ],
+   "officialSources": [
+    "https://www.whitehouse.gov/presidential-actions/2026/11/protecting-the-executives-privileges-and-enhancing-efficiencies-in-federal-contracting/"
+   ],
+   "summary": "President Trump signed Executive Order 14438 late Friday, Nov. 20. It requires every federal contractor and subcontractor to notify the White House and its contracting agency right away of any congressional request about its work with the executive branch, and to follow White House instructions to withhold anything deemed covered by executive privilege, according to the White House text of the order and coverage from CNBC and Reuters. Companies that do not comply could have contracts terminated or be suspended or debarred. The White House says the order protects confidential and national-security information and avoids duplicative litigation. Reuters has noted it could face legal challenges if contractors are told to withhold subpoenaed material; no lawsuit had been filed in the coverage reviewed for this briefing. The order comes weeks before Democrats take control of both chambers in January, and follows a White House Counsel directive requiring approval before agency employees testify. Incoming Oversight chair Rep. Robert Garcia has asked 12 Trump allies and relatives, including Stephen Miller and JD Vance, to preserve documents, Politico reported.",
+   "briefing": {
+    "quickFacts": [
+     "Executive Order 14438, dated Nov. 20, 2026",
+     "Contractors and subcontractors must notify the White House of congressional requests about executive-branch work",
+     "They must follow White House instructions to withhold material it deems covered by executive privilege",
+     "Enforcement can include contract termination, suspension or debarment",
+     "White House rationale: protect confidential and national-security information and avoid duplicative litigation"
+    ],
+    "notYetConfirmed": [
+     "Whether, and how, the order will be challenged in court; legal challenges have been discussed, not filed in the coverage reviewed",
+     "How agencies and contractors will apply \"executive privilege\" in practice",
+     "Whether Congress will change its oversight requests in response"
+    ],
+    "whatHappensNext": [
+     "Democrats are set to take both chambers in January",
+     "Contractors must decide how to handle incoming congressional requests under the new order"
+    ]
+   }
+  },
+  {
+   "id": "virginia-measles-death",
+   "region": "us",
+   "location": "Virginia",
+   "headline": "A Virginia child dies with measles, the state's first measles-associated death since 1978",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "wjla.com",
+     "url": "https://wjla.com/news/local/virginia-first-measles-death-since-1978-child-dies-measle-cases-health-sickness-outbreak-deaths-virginians-fever-rash-symptoms"
+    },
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/Health/child-measles-dies-virginia-marking-states-1st-measles/story?id=138330916"
+    },
+    {
+     "name": "kff.org",
+     "url": "https://www.kff.org/other-health/how-is-the-federal-government-counting-measles-deaths/"
+    },
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/health/health-news/pennsylvania-measles-infant-coroner-says-ruptured-spleen-rcna594793"
+    },
+    {
+     "name": "lancasteronline.com",
+     "url": "https://lancasteronline.com/news/health/lancaster-county-coroner-shares-details-says-measles-didnt-contribute-to-newborns-death/article_74d23fb1-13ac-4306-a697-659ae57e96c2.html"
+    },
+    {
+     "name": "wgal.com",
+     "url": "https://www.wgal.com/article/lancaster-coroner-disputes-measles-connection/73561484"
+    },
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/health/health-news/pennsylvania-measles-woman-death-risk-unvaccinated-cdc-rcna597702"
+    },
+    {
+     "name": "inquirer.com",
+     "url": "https://www.inquirer.com/health/pennsylvania-measles-outbreak-deaths-2026-20261118.html"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/measles-deaths-pennsylvania-infants-e8dc53eb687801720187a6cefb2ca392"
+    },
+    {
+     "name": "Washington Post",
+     "url": "https://www.washingtonpost.com/health/2026/11/21/virginia-reports-young-child-has-died-measles-first-since-1978/"
+    }
+   ],
+   "officialSources": [
+    "https://www.vdh.virginia.gov/news/public-relations-contacts/2026-news-releases/vdh-1st-measles-death-2026/",
+    "https://www.cdc.gov/measles/data-research/",
+    "https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/diseases-and-conditions/FAQ%20-%20Measles%20Outbreak.pdf"
+   ],
+   "summary": "The Virginia Department of Health said Friday, Nov. 20, that a young child, age 0 to 4, who tested positive for measles has died. VDH called this Virginia's first measles-associated death in 2026. A VDH spokesperson, Brookie Crawford, told WJLA it is the state's first recorded measles-associated death since 1978. To protect the family's privacy, VDH said it will not provide any further information regarding the death. Officials have not released whether the child had other health conditions, or the child's vaccination status, so this briefing does not infer a cause beyond what VDH stated: a child who tested positive for measles has died, in a death the department classified as measles-associated. Virginia has 220 measles cases in 2026, the highest since 1988 and more than the previous 34 years combined, WJLA reported from VDH; all 41 cases since Oct. 17 were in people who were unvaccinated or whose status was unknown. Nationally, CDC listed 5,838 confirmed cases as of Nov. 19 and 6 measles deaths, a figure it says is subject to change. ABC News, citing state health departments, said the Virginia death was the 12th measles-associated death reported by states this year, with other deaths reported in Pennsylvania, New York and Wisconsin.\n\n**Context: 2026 measles death reports**\n\nThe gap between CDC's 6 and the states' at least 12 is a difference in how deaths are counted, not a finding that any one official total is fabricated. In September, a CDC spokesperson said the agency would \"report measles deaths if and when the National Center for Health Statistics reports measles as the underlying cause of death,\" a change from historically accepting state health-department reports, the KFF Health News Policy Watch (updated Oct. 15) and a Reuters explainer (Oct. 14, Nancy Lapid) documented. CDC's dashboard, updated Nov. 20, still lists 6 deaths for 2026 with a note that the number is subject to change, and says CDC is working with the Council of State and Territorial Epidemiologists on a standardized definition for deaths due to measles. Pennsylvania uses a \"measles-associated death\" definition: a death within 30 days of symptom onset, with clinical evidence and a positive lab test, that is not due to an unrelated cause such as a car crash (Pennsylvania Department of Health FAQ). The Philadelphia Inquirer reported on Nov. 18 that Pennsylvania had confirmed 8 measles-associated deaths, and that a Franklin County coroner's reported death had not been counted by the state because it did not meet that definition. Some deaths that states have counted involved people who also had other serious conditions; that does not, by itself, mean measles played no role. The Jefferson County, Pennsylvania, coroner's office told NBC News (Sept. 14) that an unvaccinated 40-year-old woman who died had asthma and COPD, was on oxygen around the clock, and tested positive for an active measles infection at the time of death. The Inquirer, citing local coroners and news reports, also described a Lancaster County woman in her 20s who had received cancer treatment. In one case, the official cause was later disputed. After Pennsylvania announced two \"measles-associated\" deaths in August, Lancaster County Coroner Dr. Stephen Diamantoni said a newborn who tested positive for measles died of a traumatic rupture of the spleen; he and the forensic pathologist said the spleen was not enlarged or inflamed and that the laceration was not related to measles (NBC News, Aug. 27; Lancaster Online, Aug. 27; WGAL, Aug. 30). The state health secretary at the time, Dr. Debra Bogen, still described the death as measles-associated, a term the department said applied when laboratory or epidemiologic evidence of measles is present. This briefing did not find an official state, CDC, or medical-examiner revision that withdrew a 2026 U.S. measles death as false. Claims that some 2025 Texas measles deaths were later \"not measles\" come from private reviews by Children's Health Defense, not from a state or CDC revision; CDC has continued to list those 2025 deaths, and they are outside this year's count.",
+   "briefing": {
+    "quickFacts": [
+     "VDH: a child age 0\u20134 who tested positive for measles has died; first measles-associated death in Virginia since 1978 (spokesperson to WJLA)",
+     "Officials have not released other health conditions or vaccination status",
+     "Virginia: 220 cases in 2026, highest since 1988 (VDH via WJLA)",
+     "U.S.: 5,838 confirmed cases as of Nov. 19 (CDC)",
+     "CDC lists 6 deaths for 2026 (subject to change); state health departments have reported at least 12 measles-associated deaths (ABC News, Washington Post)"
+    ],
+    "notYetConfirmed": [
+     "Whether this Virginia child had other health conditions, and the child's vaccination status (not released)",
+     "Whether CDC will add this death to its official count, and when",
+     "A complete, official national list reconciling every state-reported death with NCHS vital records",
+     "A final official cause-of-death determination in cases still under investigation, including any remaining questions in Pennsylvania"
+    ],
+    "whatHappensNext": [
+     "VDH said its measles dashboard will next be updated Tuesday, Nov. 24, to reflect the death",
+     "CDC says it will update its death count as additional information becomes available and reviews are completed",
+     "CDC and CSTE are still developing a standardized case definition for deaths due to measles"
+    ]
+   }
+  },
+  {
+   "id": "hormuz-tanker-strikes",
+   "region": "world",
+   "location": "Strait of Hormuz",
+   "headline": "Three tankers are struck near the Strait of Hormuz",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/21/two-tanker-attacks-reported-near-omans-khasab-ukmto-says.html"
+    },
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/mideast-iran-gaza-israel-november-21-2026-29159a6f3365ff447c0ccbd1d7260f75"
+    }
+   ],
+   "officialSources": [],
+   "summary": "The United Kingdom's maritime security center, UKMTO, reported two tankers hit by unidentified projectiles early Saturday while leaving the Gulf near Khasab, Oman, after a Friday attack that set another tanker on fire, CNBC (from Reuters), Al Jazeera (with AFP and Reuters), and the Associated Press reported. No casualties were reported. TradeWinds said the three tanker incidents came in about 15 hours. Attribution to Iran is suspected, not confirmed. Iran's navy said a tanker caught fire after hitting a naval mine in a restricted zone, accusing it of ignoring warnings with its transponder off; it is not clear whether that is one of the UKMTO incidents. Al Jazeera's Tehran correspondent counted about 25 incidents in the past week. Before the war that began with U.S.\u2013Israeli strikes in February, the strait carried nearly a fifth of the world's crude. The U.S. has been escorting tankers and blockading Iranian ports; those operations are the U.S. link in this briefing, not a confirmed role in Saturday's strikes.",
+   "briefing": {
+    "quickFacts": [
+     "Three tankers struck in about 15 hours near the Strait of Hormuz, off Khasab, Oman",
+     "UKMTO: two ships hit by unidentified projectiles Saturday after a Friday fire",
+     "No casualties were reported in the coverage reviewed",
+     "Attribution is suspected / apparent Iranian; Iran says one ship hit a mine",
+     "Before the war, the strait carried nearly a fifth of the world's crude"
+    ],
+    "notYetConfirmed": [
+     "Who fired, if anyone did; \"suspected\" and \"apparent\" are the terms used in the coverage reviewed",
+     "Whether Iran's mine claim describes one of the three UKMTO incidents, or a separate event",
+     "Any damage to oil flows or a confirmed move in crude prices from these specific strikes, beyond the general risk"
+    ],
+    "whatHappensNext": [
+     "Further UKMTO or shipping-industry updates on the three ships",
+     "The U.S. escort and blockade posture in the Gulf remains in place"
     ]
    }
   }
  ],
  "audio": {
-  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-21/Briefed-2026-11-21-full-twohost.mp3",
-  "durationSeconds": 154.201,
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-22/Briefed-2026-11-22-full-twohost.mp3",
+  "durationSeconds": 157.492,
   "aiVoices": true,
   "chapters": [
    {
     "storyId": null,
     "title": null,
     "start": 0.0,
-    "end": 3.631
+    "end": 4.26
    },
    {
-    "storyId": "st-johns-flood",
-    "title": "St. Johns River hits a 73-year flood record",
-    "start": 3.631,
-    "end": 26.156
+    "storyId": "el-chapo-isidro",
+    "title": "'El Chapo Isidro,' an FBI Ten Most Wanted fugitive, is captured",
+    "start": 4.26,
+    "end": 32.7
    },
    {
-    "storyId": "thanksgiving-dinner-cost",
-    "title": "Thanksgiving dinner for 10 is up 6%, to $58.63",
-    "start": 26.156,
-    "end": 47.875
+    "storyId": "thanksgiving-storms-sf-tide",
+    "title": "San Francisco's tide is forecast to top the 1983 record",
+    "start": 32.7,
+    "end": 59.732
    },
    {
-    "storyId": "markets-correction",
-    "title": "Dow and S&P 500 close in a correction",
-    "start": 47.875,
-    "end": 76.021
+    "storyId": "fbi-ncic-hack",
+    "title": "FBI is investigating an apparent hack of its crime database",
+    "start": 59.732,
+    "end": 78.772
    },
    {
-    "storyId": "poland-kryvyi-rih",
-    "title": "Russian missile enters Poland; strike hits Kryvyi Rih",
-    "start": 76.021,
-    "end": 100.953
+    "storyId": "contractor-congress-order",
+    "title": "Trump order: contractors must clear Congress requests with the White House",
+    "start": 78.772,
+    "end": 97.811
    },
    {
-    "storyId": "datacenter-tax-arch",
-    "title": "Trump threatens a data-center tax; a judge blocks his arch",
-    "start": 100.953,
-    "end": 121.732
+    "storyId": "virginia-measles-death",
+    "title": "A Virginia child dies with measles, the state's first such death since 1978",
+    "start": 97.811,
+    "end": 132.223
    },
    {
-    "storyId": "voyager-light-day",
-    "title": "Voyager 1 reaches one light-day from Earth",
-    "start": 121.732,
-    "end": 143.79
+    "storyId": "hormuz-tanker-strikes",
+    "title": "Three tankers are struck near the Strait of Hormuz",
+    "start": 132.223,
+    "end": 147.083
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 143.79,
-    "end": 154.165
+    "start": 147.083,
+    "end": 157.458
    }
   ]
  },
  "video": {
-  "url": "/briefed/media/2026-11-21/Briefed-2026-11-21-web.mp4",
-  "durationSeconds": 154.165,
+  "url": "/briefed/media/2026-11-22/Briefed-2026-11-22-web.mp4",
+  "durationSeconds": 157.458,
   "aiVoices": true,
   "chapters": [
    {
-    "storyId": "st-johns-flood",
-    "title": "St. Johns River hits a 73-year flood record",
+    "storyId": null,
+    "title": "Intro",
     "start": 0.0,
-    "end": 26.156
+    "end": 4.26
    },
    {
-    "storyId": "thanksgiving-dinner-cost",
-    "title": "Thanksgiving dinner for 10 is up 6%, to $58.63",
-    "start": 26.156,
-    "end": 47.875
+    "storyId": "el-chapo-isidro",
+    "title": "'El Chapo Isidro,' an FBI Ten Most Wanted fugitive, is captured",
+    "start": 4.26,
+    "end": 32.7
    },
    {
-    "storyId": "markets-correction",
-    "title": "Dow and S&P 500 close in a correction",
-    "start": 47.875,
-    "end": 76.021
+    "storyId": "thanksgiving-storms-sf-tide",
+    "title": "San Francisco's tide is forecast to top the 1983 record",
+    "start": 32.7,
+    "end": 59.732
    },
    {
-    "storyId": "poland-kryvyi-rih",
-    "title": "Russian missile enters Poland; strike hits Kryvyi Rih",
-    "start": 76.021,
-    "end": 100.953
+    "storyId": "fbi-ncic-hack",
+    "title": "FBI is investigating an apparent hack of its crime database",
+    "start": 59.732,
+    "end": 78.772
    },
    {
-    "storyId": "datacenter-tax-arch",
-    "title": "Trump threatens a data-center tax; a judge blocks his arch",
-    "start": 100.953,
-    "end": 121.732
+    "storyId": "contractor-congress-order",
+    "title": "Trump order: contractors must clear Congress requests with the White House",
+    "start": 78.772,
+    "end": 97.811
    },
    {
-    "storyId": "voyager-light-day",
-    "title": "Voyager 1 reaches one light-day from Earth",
-    "start": 121.732,
-    "end": 143.79
+    "storyId": "virginia-measles-death",
+    "title": "A Virginia child dies with measles, the state's first such death since 1978",
+    "start": 97.811,
+    "end": 132.223
+   },
+   {
+    "storyId": "hormuz-tanker-strikes",
+    "title": "Three tankers are struck near the Strait of Hormuz",
+    "start": 132.223,
+    "end": 147.083
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 143.79,
-    "end": 154.165
+    "start": 147.083,
+    "end": 157.458
    }
   ],
-  "poster": "/briefed/media/2026-11-21/Briefed-2026-11-21-poster.jpg"
+  "poster": "/briefed/media/2026-11-22/Briefed-2026-11-22-poster.jpg"
  }
 }

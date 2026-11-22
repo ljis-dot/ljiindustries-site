@@ -2,6 +2,13 @@
  "schemaVersion": 1,
  "editions": [
   {
+   "date": "2026-11-22",
+   "lead": "'El Chapo Isidro,' an FBI Ten Most Wanted fugitive, is captured in Mexico with U.S. help",
+   "url": "/briefed/2026-11-22/",
+   "json": "/briefed/2026-11-22.json",
+   "hasAudio": true
+  },
+  {
    "date": "2026-11-21",
    "lead": "St. Johns River near Cocoa hits a 73-year flood record of 18.8 feet",
    "url": "/briefed/2026-11-21/",

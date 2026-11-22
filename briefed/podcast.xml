@@ -6,7 +6,7 @@
     <language>en-us</language>
     <copyright>Briefed News</copyright>
     <description>The day's top US news in about two minutes, facts only, every story checked against at least two outlets. Full edition and sources at ljiindustries.com/briefed.</description>
-    <lastBuildDate>Sat, 21 Nov 2026 07:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 07:00:00 -0500</lastBuildDate>
     <atom:link href="https://ljiindustries.com/briefed/podcast.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://ljiindustries.com/briefed/podcast-cover.jpg</url>
@@ -25,6 +25,18 @@
     </itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+    <item>
+      <title>Briefed · Sun, Nov 22: 'El Chapo Isidro,' an FBI Ten Most Wanted fugitive, is captured</title>
+      <description>One of the FBI's Ten Most Wanted, Fausto Isidro Meza Flores, known as "El Chapo Isidro," was captured Friday in Guasave, Sinaloa, with U.S. help; he faced a $5 million American reward, a firefight left at least 11 dead, including 4 Mexican soldiers, and FBI Director Kash Patel said he is the 11th Ten Most Wanted fugitive taken under this administration. The United States wants him extradited. Plus: forecasters say San Francisco's tide is expected to reach 8.8 feet Wednesday, above the 8.66-foot record from 1983, a figure that includes storm surge, and Mayor Daniel Lurie says skip nonessential travel Monday afternoon through Wednesday, with a storm hitting the East Coast today and a major Northeast storm possible on Thanksgiving; the FBI is investigating an apparent hack of the National Crime Information Center, the database police use for warrants and background checks, according to people briefed on the matter, and it is not known who did it or whether data was taken or changed; President Trump signed an order Friday requiring federal contractors to notify the White House of congressional requests about their executive-branch work and to follow instructions to withhold anything it deems covered by executive privilege, with the White House saying the order protects confidential and national-security information; a child in Virginia, age 4 or younger, has died with measles, the state's first measles-associated death since 1978, officials said, without saying whether the child had other health conditions, while states have reported at least 12 measles-associated deaths this year and the CDC lists 6; and three tankers were struck near the Strait of Hormuz over about 15 hours, a British maritime agency reported, with no casualties reported, in attacks suspected to be Iranian. Sources: Department of Justice, NPR, Associated Press, ABC News, Weather.com, NOAA, NBC Bay Area, NBC News, BBC, Reuters, CNBC, the White House, Politico, Virginia Department of Health, WJLA, CDC, KFF, Al Jazeera. Full edition and sources: ljiindustries.com/briefed/2026-11-22/</description>
+      <link>https://ljiindustries.com/briefed/2026-11-22/</link>
+      <guid isPermaLink="false">briefed-2026-11-22</guid>
+      <pubDate>Sun, 22 Nov 2026 07:00:00 -0500</pubDate>
+      <enclosure url="https://ljiindustries.com/briefed/2026-11-22/Briefed-2026-11-22.mp3" length="2520336" type="audio/mpeg"/>
+      <itunes:title>Briefed · Sun, Nov 22: 'El Chapo Isidro,' an FBI Ten Most Wanted fugitive, is captured</itunes:title>
+      <itunes:author>Briefed News</itunes:author>
+      <itunes:duration>2:37</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Briefed · Sat, Nov 21: St. Johns River hits a 73-year flood record</title>
       <description>The St. Johns River near Cocoa, Florida, was forecast to crest at 18.8 feet on Saturday, a 73-year record, after rain that topped 28 inches in some areas; Rockledge still has a voluntary evacuation, and officials say flooding could last two to three months, through Thanksgiving. Plus: the Farm Bureau says a Thanksgiving dinner for 10 now costs $58.63, or $5.86 a person, up 6%, the first increase since 2022, with a 16-pound turkey averaging $23.68, up 10%; the Dow fell 950 points Friday to 48,147 and the S&amp;P 500 fell 3.7%, both closing more than 10% below their records, while Nvidia fell 14% after Reuters, citing sources, said SEC staff are examining possible accounting issues; Polish officials say a Russian cruise missile entered Polish airspace Friday, and a strike on Zelenskyy's hometown, Kryvyi Rih, killed a 7-year-old boy and a 20-year-old woman and wounded 60 people; President Trump said U.S. companies that build AI data centers abroad will face a "tremendous tax," with no rate given, and a second federal judge blocked his planned 250-foot memorial arch; and NASA says Voyager 1 has reached one light-day from Earth, about 16.1 billion miles. Sources: AP, National Weather Service, AccuWeather, Farm Bureau, Axios, Washington Post, CNBC, Reuters, Yahoo Finance, BBC, Courthouse News, NASA, Space.com. Full edition and sources: ljiindustries.com/briefed/2026-11-21/</description>
