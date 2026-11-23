@@ -1,0 +1,312 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-11-23",
+ "generatedAt": "2026-11-23",
+ "stories": [
+  {
+   "id": "delta-delays",
+   "region": "us",
+   "location": "Atlanta",
+   "headline": "More than 1,600 Delta flights delayed Sunday before Thanksgiving travel",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/US/equipment-outage-atlanta-causes-1300-delta-flight-delays/story?id=138360900"
+    },
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/delta-air-lines-nationwide-delays-amid-baggage-network-system-issue/"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/delta-atlanta-flight-delays-d4bdb732da930205ec3453d35c28daa2"
+    }
+   ],
+   "officialSources": [],
+   "summary": "More than 1,600 Delta Air Lines flights were delayed on Sunday after an outage in the airline's automated weight-and-balance system, ABC News reported, citing Delta. Forty-nine percent of Delta flights were delayed by more than 15 minutes, and most of the delayed flights were at Hartsfield-Jackson Atlanta International Airport, the airline's hub, though flights to Atlanta from other airports were also affected. CBS News, citing Delta and FlightAware on Sunday evening, reported 202 U.S. departures canceled, or 4% of the day's total, 50% on-time arrivals, and more than 1,900 delayed flights as of 6:00 p.m. ET; Delta said about 70% of those delays were tied to the automation, with the rest attributed to weather and Northeast air-traffic programs. A temporary FAA ground-delay program at Atlanta applied only to Delta flights and was later lifted. Delta said the system was restored Sunday afternoon and that the outage was not a computer hack. The FAA said, \"These delays are not related to any FAA air traffic systems.\" Delta said it was rebooking customers, providing meals and hotel rooms where necessary, and issuing refunds to customers who no longer wished to travel. The Sunday disruption came as Thanksgiving travel got underway; the system outage itself was not reported as still ongoing on Monday morning.",
+   "briefing": {
+    "quickFacts": [
+     "Delta, via ABC: more than 1,600 flights delayed Sunday; 49% delayed more than 15 minutes",
+     "CBS: 202 U.S. departures canceled (4%); FlightAware showed more than 1,900 delayed flights as of 6:00 p.m. ET",
+     "Delta: the weight-and-balance system was later restored; the outage was not a hack",
+     "FAA: the delays were not related to FAA air-traffic systems"
+    ],
+    "notYetConfirmed": [
+     "A public technical explanation of what caused the outage, beyond Delta's account of a system failure",
+     "How many travelers were still waiting to be rebooked on Monday",
+     "Whether residual delays continued after the system was restored"
+    ],
+    "whatHappensNext": [
+     "Customers on canceled flights can be rebooked or receive refunds, Delta said",
+     "Holiday travelers should check flight status as the Thanksgiving week continues"
+    ]
+   }
+  },
+  {
+   "id": "iowa-lead-azide",
+   "region": "us",
+   "location": "Iowa",
+   "headline": "Army to detonate nearly 5 tons of lead azide in Iowa on Wednesday",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/US/army-moves-detonation-10000-pounds-lead-azide-wedneday/story?id=138330909"
+    },
+    {
+     "name": "iowapublicradio.org",
+     "url": "https://www.iowapublicradio.org/ipr-news/2026-11-22/southeast-iowa-lead-azide-explosion-wednesday-army"
+    }
+   ],
+   "officialSources": [
+    "https://www.army.mil/article/296990/army_update_on_iowa_army_ammunition_plant"
+   ],
+   "summary": "The U.S. Army has scheduled a controlled detonation of nearly 10,000 pounds, or about 5 tons, of deteriorating lead azide at the Iowa Army Ammunition Plant in Middletown for Wednesday, Nov. 25, the Army said Sunday night. The operation was originally set for Friday, Nov. 20, then delayed; the Army said the move to Wednesday would allow for more favorable weather and for safety measures to be put in place. No start time was announced. Lead azide is a primary explosive used to initiate munitions; the Army says the stored material has become more sensitive and that destroying it in place is the only responsible option. The U.S. Court of Appeals for the Eighth Circuit has paused the environmental permit while it considers a challenge from the Iowa Environmental Council and the Sierra Club's Iowa chapter. The Justice Department told the court that the Army can proceed under an emergency exemption, citing an immediate risk of an uncontrolled explosion as temperatures drop and because blast doors on the storage bunkers had already been removed. Environmental groups warn that a detonation could spread lead dust; earlier Army modeling and the groups' filings have given different estimates of how far a plume could travel. The Army has said it still intends to follow mitigation measures in the permit.",
+   "briefing": {
+    "quickFacts": [
+     "About 68 drums / nearly 5 tons / nearly 10,000 pounds of deteriorating lead azide",
+     "Scheduled for Wednesday, Nov. 25, at the Iowa Army Ammunition Plant in Middletown; no start time announced",
+     "Eighth Circuit has paused the environmental permit; DOJ says the Army can use an emergency exemption",
+     "Environmental groups warn of lead-dust exposure; the Army cites a risk of an uncontrolled explosion in freezing weather"
+    ],
+    "notYetConfirmed": [
+     "The start time on Wednesday",
+     "How far lead dust would travel under Wednesday's weather",
+     "Whether the appeals court will act again before the scheduled blasts",
+     "Whether the Army will ultimately proceed under the exemption if the permit remains paused"
+    ],
+    "whatHappensNext": [
+     "The Army has said the controlled detonations are scheduled for Wednesday, Nov. 25",
+     "The Eighth Circuit's review of the permit challenge continues"
+    ]
+   }
+  },
+  {
+   "id": "seatac-ice-detention",
+   "region": "us",
+   "location": "Seattle",
+   "headline": "ICE detains a father and daughter boarding a Seattle flight, videos spark protests",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/news/us-news/father-daughter-detained-ice-seattle-airport-traveling-family-baptism-rcna610824"
+    },
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.com/news/articles/cmwy479wz91no"
+    },
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/US/washington-state-officials-condemn-ice-after-2-arrested/story?id=138349974"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Immigration and Customs Enforcement officers detained a father and daughter on a jet bridge at Seattle-Tacoma International Airport on Saturday, Nov. 21, as they boarded an Alaska Airlines flight to Los Angeles, according to the Associated Press, NBC News, the BBC, and ABC News. Their lawyer, Olia Catala, said they were traveling to a family baptism in California, have lived in the United States since 2015, are seeking asylum or a status adjustment, and have no criminal record. ICE identified the man as Ricardo Larrondo Mendoza, a Mexican national it said had overstayed a visa. The woman is his daughter, Sofia Hernandez Mejia; ICE said she \"hurled hot coffee on the officers\" and could be charged with assaulting a federal officer. Catala said coffee spilled when officers moved in. John Gaedeke, a passenger who recorded part of the confrontation, told Reuters, as reported by the BBC, that he did not see anyone throw coffee and that the officers did not identify themselves. The officers were described as masked, in unmarked jackets and khaki pants. The flight was delayed. Alaska Airlines said it was not given advance notice. Both detainees were being held at the Northwest ICE Processing Center in Tacoma; Mejia's husband, a U.S. citizen who was with them, was not detained. The Port of Seattle said it was \"outraged\" and that it was checking whether agreed protocols were followed. Washington Gov. Bob Ferguson condemned the tactics. Small protests followed at the airport.",
+   "briefing": {
+    "quickFacts": [
+     "Saturday arrest on a Sea-Tac jet bridge as an Alaska Airlines flight to Los Angeles boarded; the flight was delayed",
+     "ICE: Ricardo Larrondo Mendoza and Sofia Hernandez Mejia, described as visa overstays",
+     "Dispute over coffee: ICE says it was thrown; the lawyer and a passenger say it spilled",
+     "Alaska Airlines said it got no advance notice; the Port of Seattle said it was outraged"
+    ],
+    "notYetConfirmed": [
+     "Whether Mejia will be charged with assaulting a federal officer",
+     "Whether ICE followed the port's agreed airport protocols",
+     "The current custody and immigration-court status of the two detainees"
+    ],
+    "whatHappensNext": [
+     "Any assault charge, if filed, and immigration proceedings",
+     "The airline and the Port of Seattle said they were reviewing whether protocols were followed"
+    ]
+   }
+  },
+  {
+   "id": "house-258-seats",
+   "region": "us",
+   "location": "North Carolina",
+   "headline": "Democrats reach at least 258 House seats, their largest majority since 1992",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/politics/congress/house-democrats-win-largest-house-majority-hubbard-north-carolina-rcna610708"
+    },
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/democrat-chuck-hubbard-defeats-gop-rep-virginia-foxx-north-carolina/"
+    },
+    {
+     "name": "Roll Call",
+     "url": "https://www.rollcall.com/2026/11/22/gop-rep-virginia-foxx-ousted-in-rematch"
+    },
+    {
+     "name": "Christian Science Monitor",
+     "url": "https://www.csmonitor.com/USA/2026/1122/With-258-seats-Democrats-clinch-largest-House-majority-since-1992"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Democrat Chuck Hubbard defeated longtime Republican Rep. Virginia Foxx in North Carolina's 5th Congressional District after a recount, giving Democrats at least 258 House seats, their largest majority since 1992, NBC News, CBS News, Roll Call, and an Associated Press dispatch published by the Christian Science Monitor reported. Roll Call, citing the Associated Press call on Sunday, said Hubbard led by about 0.1 percentage point, or 330 votes out of nearly 300,000 ballots. Foxx, first elected in 2004 and chair of the House Rules Committee, conceded Sunday; Hubbard thanked her for the concession and for a smooth transition. NBC News said it was also the largest House majority for either party this century, and that President Trump won the district by almost 18 points in 2024. The AP/CSM account said Democrats have gained 44 House seats so far, and that four races remain outstanding: one each in Minnesota and Tennessee, and two in Louisiana heading to a December runoff. Republicans will hold at least 173 seats. Use \"at least 258\"; some earlier counts of 259 were not used, because those outstanding races have not been called.",
+   "briefing": {
+    "quickFacts": [
+     "At least 258 Democratic House seats, the party's largest majority since 1992",
+     "Hubbard defeated Foxx in North Carolina after a recount; she conceded Sunday",
+     "Margin: about 330 votes of nearly 300,000 ballots, per Roll Call citing AP",
+     "Four races outstanding: Minnesota, Tennessee, and two Louisiana December runoffs"
+    ],
+    "notYetConfirmed": [
+     "The final House split after the remaining races and the Louisiana runoffs",
+     "Committee assignments and the Jan. 3, 2027, speaker vote"
+    ],
+    "whatHappensNext": [
+     "Outstanding races and the December Louisiana runoffs will set the final majority",
+     "House Democrats are expected to elect a speaker when the new Congress convenes in January"
+    ]
+   }
+  },
+  {
+   "id": "rural-colleges",
+   "region": "us",
+   "location": "Pennsylvania",
+   "headline": "Rural colleges are shrinking as fewer kids go to college",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "inquirer.com",
+     "url": "https://www.inquirer.com/education/mansfield-university-close-passhe-state-system-20261117.html"
+    },
+    {
+     "name": "passhe.edu",
+     "url": "https://www.passhe.edu/offices/public-affairs/Appropriation_Books/2026-27%20STATE%20SYSTEM%20APPROP%20REQUEST.pdf"
+    },
+    {
+     "name": "wiche.edu",
+     "url": "https://www.wiche.edu/wp-content/uploads/2024/12/2024-Knocking-at-the-College-Door-final.pdf"
+    },
+    {
+     "name": "firstnewsnowpa.com",
+     "url": "https://www.firstnewsnowpa.com/letter-from-chancellor-christopher-m-fiorentino-ph-d-to-dr-jeffery-osgood-jr-president-of-commonwealth-university/"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Rural and regional campuses are shrinking as two pressures land at once: fewer high-school graduates, and a smaller share of those graduates going to college. Pennsylvania's state-owned system (PASSHE) reports the college-going rate fell from 70% in 2009 to 58% in 2024, in its 2026-27 appropriations request. The Western Interstate Commission for Higher Education (WICHE) projects U.S. high-school graduates will peak around 2025 at about 3.9 million, then fall about 13% to 3.4 million by 2041. Pennsylvania's graduating class is projected to decline about 17% over that window; New York's, about 27%. The Philadelphia Inquirer, citing a slightly different window, reported Pennsylvania's college-going rate at 62% in 2017 and 55% in 2022.\n\nInside PASSHE, the pattern tracks geography. The system peaked at 119,512 students in fall 2010 and was about 31% smaller in fall 2025 (83,005). Suburban West Chester has grown, while rural and western campuses have taken the steepest losses. PennWest, the 2022 merger of California, Clarion and Edinboro, is down about 58% from the three schools' combined 2010 enrollment. Lock Haven's enrollment has fallen about 56% from its earlier peak. On Nov. 17, 2026, PASSHE Chancellor Christopher Fiorentino directed Commonwealth University President Jeffery Osgood to submit, by Dec. 8, a plan to wind down the Mansfield campus by June 30, 2028, subject to a Board of Governors vote. Official enrollment at Mansfield fell from a peak of 3,569 in fall 2009 to 1,013 this fall. Students would be offered a path to finish at Commonwealth's Bloomsburg or Lock Haven campuses. This would be the first closure of one of PASSHE's original 14 universities. The faculty union has said it will fight the plan.",
+   "briefing": {
+    "quickFacts": [
+     "PASSHE: Pennsylvania college-going rate fell from 70% in 2009 to 58% in 2024",
+     "WICHE: U.S. high-school graduates peak around 2025, then fall about 13% by 2041; Pennsylvania about 17%",
+     "Suburban West Chester grew; rural campuses, including PennWest and Lock Haven, shrank",
+     "Mansfield: 3,569 students in 2009 to 1,013 this fall; wind-down plan due Dec. 8, campus close by June 30, 2028, pending a board vote"
+    ],
+    "notYetConfirmed": [
+     "The Board of Governors has not voted; the next listed meeting was in February 2027, dates subject to change",
+     "Whether the faculty union or local officials succeed in blocking or altering the plan",
+     "Final student, faculty and community-impact arrangements in the Dec. 8 framework"
+    ],
+    "whatHappensNext": [
+     "Commonwealth University is to deliver the wind-down framework by Dec. 8, 2026",
+     "A Board of Governors vote is required before Mansfield can be closed"
+    ]
+   }
+  }
+ ],
+ "audio": {
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-23/Briefed-2026-11-23-full-twohost.mp3",
+  "durationSeconds": 161.567,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": null,
+    "title": null,
+    "start": 0.0,
+    "end": 4.35
+   },
+   {
+    "storyId": "delta-delays",
+    "title": "1,600+ Delta flights delayed Sunday before Thanksgiving travel",
+    "start": 4.35,
+    "end": 28.323
+   },
+   {
+    "storyId": "iowa-lead-azide",
+    "title": "Army to detonate nearly 5 tons of lead azide in Iowa on Wednesday",
+    "start": 28.323,
+    "end": 55.356
+   },
+   {
+    "storyId": "seatac-ice-detention",
+    "title": "ICE detains a father and daughter boarding a Seattle flight",
+    "start": 55.356,
+    "end": 86.542
+   },
+   {
+    "storyId": "house-258-seats",
+    "title": "Democrats reach at least 258 House seats, largest majority since 1992",
+    "start": 86.542,
+    "end": 111.981
+   },
+   {
+    "storyId": "rural-colleges",
+    "title": "Rural colleges are shrinking as fewer kids go to college",
+    "start": 111.981,
+    "end": 151.161
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 151.161,
+    "end": 161.535
+   }
+  ]
+ },
+ "video": {
+  "url": "/briefed/media/2026-11-23/Briefed-2026-11-23-web.mp4",
+  "durationSeconds": 161.535,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": null,
+    "title": "Intro",
+    "start": 0.0,
+    "end": 4.35
+   },
+   {
+    "storyId": "delta-delays",
+    "title": "1,600+ Delta flights delayed Sunday before Thanksgiving travel",
+    "start": 4.35,
+    "end": 28.323
+   },
+   {
+    "storyId": "iowa-lead-azide",
+    "title": "Army to detonate nearly 5 tons of lead azide in Iowa on Wednesday",
+    "start": 28.323,
+    "end": 55.356
+   },
+   {
+    "storyId": "seatac-ice-detention",
+    "title": "ICE detains a father and daughter boarding a Seattle flight",
+    "start": 55.356,
+    "end": 86.542
+   },
+   {
+    "storyId": "house-258-seats",
+    "title": "Democrats reach at least 258 House seats, largest majority since 1992",
+    "start": 86.542,
+    "end": 111.981
+   },
+   {
+    "storyId": "rural-colleges",
+    "title": "Rural colleges are shrinking as fewer kids go to college",
+    "start": 111.981,
+    "end": 151.161
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 151.161,
+    "end": 161.535
+   }
+  ],
+  "poster": "/briefed/media/2026-11-23/Briefed-2026-11-23-poster.jpg"
+ }
+}

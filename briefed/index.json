@@ -2,6 +2,13 @@
  "schemaVersion": 1,
  "editions": [
   {
+   "date": "2026-11-23",
+   "lead": "More than 1,600 Delta flights delayed Sunday before Thanksgiving travel",
+   "url": "/briefed/2026-11-23/",
+   "json": "/briefed/2026-11-23.json",
+   "hasAudio": true
+  },
+  {
    "date": "2026-11-22",
    "lead": "'El Chapo Isidro,' an FBI Ten Most Wanted fugitive, is captured in Mexico with U.S. help",
    "url": "/briefed/2026-11-22/",
