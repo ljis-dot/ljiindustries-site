@@ -1,0 +1,354 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-11-24",
+ "generatedAt": "2026-11-24",
+ "stories": [
+  {
+   "id": "huang-reinstated",
+   "region": "us",
+   "location": "Santa Clara",
+   "headline": "Jensen Huang is back as Nvidia CEO; stock closed up 31.5%",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "Nvidia",
+     "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+    },
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html"
+    },
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/24/nvidia-stock-jensen-huang-return.html"
+    },
+    {
+     "name": "fool.com",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-nvidia-surges-31-adding-nearly-usd1-trillion-in-market-value-as-jensen-huang-reclaims-ceo-role/"
+    },
+    {
+     "name": "Investing.com",
+     "url": "https://www.investing.com/news/stock-market-news/nvidia-bears-face-122-billion-hit-on-huangs-surprise-return-5046083"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Nvidia's board unanimously reinstated Jensen Huang as president, chief executive, and a director on Monday, Nov. 23, effective immediately, the company said. Shares closed at $165.05, up 31.48%, or $39.52, according to market close figures reported by The Motley Fool and Investing.com. The S&P 500 rose 4.74% and the Nasdaq Composite rose 6.51%. President Trump told CNBC he had been speaking to Nvidia's board \"directly and indirectly,\" later saying, \"I made the deal,\" and that Huang \"did nothing wrong.\" The board said it received input from senior levels of the U.S. government and, based on that input, is confident Huang's reinstatement \"poses no national security risk.\" It also said an independent-director investigation, opened after reporting that Huang had been the target of a foreign intelligence effort, \"will proceed to conclusion,\" and that Huang is committed to cooperating. Colette Kress remains chief financial officer. An ORTEX estimate, reported by Reuters, put short sellers' paper losses on Monday at about $12.2 billion when the stock was at $168.50, an intraday level, not the close; ORTEX said that was the shorts' worst day since at least 2019, and that they remained up about $14 billion since Oct. 29. In premarket trading Tuesday, CNBC reported Nvidia shares were down 5.4% as of 5:44 a.m. ET. Congressional scrutiny and government investigations continue.",
+   "briefing": {
+    "quickFacts": [
+     "Monday close: $165.05, up 31.48%; S&P 500 +4.74%, Nasdaq +6.51%",
+     "Trump told CNBC he was involved in the decision",
+     "Board: senior U.S. government input; says the return poses no national security risk",
+     "The board said its own investigation will continue; Huang says he will cooperate",
+     "ORTEX, via Reuters: about $12.2 billion in paper losses for shorts at an intraday $168.50, not the close"
+    ],
+    "notYetConfirmed": [
+     "The findings of Nvidia's continuing investigation",
+     "Whether upcoming congressional testimony dates will change after the reinstatement",
+     "How Tuesday's regular session will trade after the premarket decline"
+    ],
+    "whatHappensNext": [
+     "Huang is scheduled to appear before congressional committees next week, including a Dec. 3 Senate Banking hearing",
+     "Nvidia said it will continue to cooperate with government investigations"
+    ]
+   }
+  },
+  {
+   "id": "gas-prices",
+   "region": "us",
+   "location": "USA",
+   "headline": "Gas falls to $3.61 a gallon, down 17 cents in a week",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "gasprices.aaa.com",
+     "url": "https://gasprices.aaa.com/"
+    },
+    {
+     "name": "fortune.com",
+     "url": "https://fortune.com/2026/11/24/five-factors-forcing-fuel-prices-lower-thanksgiving-travel/"
+    }
+   ],
+   "officialSources": [],
+   "summary": "The AAA daily national average for a gallon of regular gasoline was $3.6149 as of Tuesday, Nov. 24, down from $3.7818 a week earlier, or about 17 cents, and down from $4.2957 a month earlier, or about 68 cents. The average a year earlier was $3.0689, so the current price is still about 55 cents higher than last year. Diesel averaged $5.7982. The decline comes as AAA has projected about 72.9 million people will travel by car over the Thanksgiving period. A Fortune analysis published Tuesday, using Monday's AAA average of about $3.64, described the drop as the lowest national average since the early days of the Iran war and listed contributing factors including increased oil exports from the Middle East, the absence of a new U.S. military escalation since the midterms, seasonal winter-grade gasoline, and the easing of some refinery outages. Briefed last reported the AAA average on air as $3.78 on Nov. 17; the library logged $3.6448 on the evening of Nov. 22.",
+   "briefing": {
+    "quickFacts": [
+     "AAA, Nov. 24: regular $3.6149, down about 17 cents in a week and about 68 cents in a month",
+     "Still about 55 cents higher than a year ago ($3.0689)",
+     "Diesel $5.7982",
+     "The drop comes as Thanksgiving road travel gets underway"
+    ],
+    "notYetConfirmed": [
+     "Whether the national average will fall to the 2022 Thanksgiving mark of $3.58",
+     "How much of the decline will last if Middle East oil flows are disrupted again"
+    ],
+    "whatHappensNext": [
+     "AAA will keep publishing a daily national average; there will be no Fuel Report on Thanksgiving Day, Nov. 26",
+     "Travelers should check local pump prices, which vary widely by state"
+    ]
+   }
+  },
+  {
+   "id": "pa-measles-death",
+   "region": "us",
+   "location": "Pennsylvania",
+   "headline": "Pennsylvania reports a ninth measles death; states now tally 13",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "inquirer.com",
+     "url": "https://www.inquirer.com/health/pennsylvania-measles-outbreak-death-centre-county-20261123.html"
+    },
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/pennsylvania-measles-outbreak-death/"
+    }
+   ],
+   "officialSources": [
+    "https://www.pa.gov/agencies/health/newsroom/pennsylvania-department-of-health-confirms-ninth-measles-associa"
+   ],
+   "summary": "The Pennsylvania Department of Health said Monday, Nov. 23, that an unvaccinated resident of Centre County who tested positive for measles has died, the state's ninth confirmed measles-associated death in 2026. Officials released no other identifying details, citing state privacy laws and the family's dignity. The state has recorded 1,638 confirmed cases in 46 counties and 330 hospitalizations; 49 cases have been confirmed since Nov. 18. All nine of Pennsylvania's confirmed deaths were in people who were not vaccinated or were too young to be vaccinated, the Inquirer reported, citing state officials. Earlier deaths described by local coroners and news reports have included people who had received cancer treatment and a person with severe respiratory conditions; those details were not released for the Centre County death and should not be read as describing this person. The state also said it had concluded that a measles-associated death reported by Franklin County's coroner did not meet Pennsylvania's criteria. State health departments have now reported at least 13 measles-associated deaths this year: nine in Pennsylvania, two in Wisconsin, and one each in New York and Virginia. As of Monday, the CDC measles dashboard still listed 6 deaths, without naming states; Briefed has previously noted that the gap is a difference in counting rules, not a finding that any official total was fabricated. Pennsylvania defines a measles-associated death as a death within 30 days of symptom onset, with clinical evidence of measles and a positive laboratory test, that is not due to an unrelated cause.",
+   "briefing": {
+    "quickFacts": [
+     "Ninth Pennsylvania measles-associated death: unvaccinated Centre County resident; no other details released",
+     "Pennsylvania: 1,638 cases, 330 hospitalizations, 46 counties",
+     "State-reported U.S. total now at least 13; the CDC dashboard still listed 6 as of Monday",
+     "The state ruled a Franklin County coroner-reported death did not meet its criteria"
+    ],
+    "notYetConfirmed": [
+     "Age and other medical details of the Centre County resident, which officials withheld",
+     "When the CDC dashboard will be updated, and which of the state-reported deaths it will count",
+     "Whether additional deaths will be announced this week"
+    ],
+    "whatHappensNext": [
+     "Pennsylvania is continuing outbreak response and vaccination clinics",
+     "CDC said it is working with states on a standardized definition for measles deaths"
+    ]
+   }
+  },
+  {
+   "id": "medicare-cola",
+   "region": "us",
+   "location": "USA",
+   "headline": "Medicare premium hike eats up to 18% of next year's Social Security raise",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "fortune.com",
+     "url": "https://fortune.com/2026/11/24/social-security-cola-2027-medicare-part-b-premium/"
+    }
+   ],
+   "officialSources": [
+    "https://www.ssa.gov/news/en/press/releases/2026-10-14.html",
+    "https://www.cms.gov/newsroom/fact-sheets/2027-medicare-parts-b-premiums-deductibles",
+    "https://www.bls.gov/opub/ted/2026/prices-for-gasoline-increased-34-2-percent-over-the-year-ended-september-2026.htm"
+   ],
+   "summary": "The Social Security Administration announced a 3.6 percent cost-of-living adjustment for 2027, beginning with benefits paid in January 2027. SSA said retirement benefits will increase by $75 monthly on average. Fortune, citing the SSA announcement, said that would lift the average retired worker's monthly check to about $2,170 from a 2026 average of $2,095. Separately, a CMS fact sheet dated Nov. 17 said the standard Medicare Part B premium will be $209.40 in 2027, up $6.50 from $202.90 in 2026. For most retirees, that premium is deducted from the Social Security benefit. Because the premium increase is a flat dollar amount, it takes a larger share of a smaller raise: on a $1,000 monthly benefit, a 3.6% COLA is $36, and after the $6.50 premium hike $29.50 remains, so 18% of the raise is absorbed. On the $2,095 average check, the raise is about $75 and the premium takes about 9%. The Bureau of Labor Statistics reported that consumer prices were up 3.7% over the 12 months ended September 2026, slightly above the 3.6% COLA. Higher-income enrollees pay additional income-related amounts; some low-income enrollees have the Part B premium paid by their state.",
+   "briefing": {
+    "quickFacts": [
+     "SSA: 3.6% COLA for 2027; average retirement increase of $75 monthly, to about $2,170",
+     "CMS, Nov. 17: standard Part B premium $209.40, up $6.50",
+     "On a $1,000 check, the $36 raise nets $29.50, so 18% of the raise is absorbed",
+     "BLS: September 2026 inflation was 3.7% over the year"
+    ],
+    "notYetConfirmed": [
+     "Each person's exact net increase, which depends on their benefit and whether they pay the standard premium",
+     "Whether later inflation readings will move further above or below the COLA"
+    ],
+    "whatHappensNext": [
+     "The higher Social Security payments begin in January 2027 (SSI increases start Dec. 31, 2026)",
+     "The new Part B premium also takes effect in January 2027"
+    ]
+   }
+  },
+  {
+   "id": "gaza-board-of-peace",
+   "region": "world",
+   "location": "Gaza / U.N.",
+   "headline": "US-led Gaza board warns ceasefire could collapse",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/board-of-peace-us-israel-gaza-hamas-189d58d05fa984cc9573f98ec7d638be"
+    },
+    {
+     "name": "timesofisrael.com",
+     "url": "https://www.timesofisrael.com/board-of-peace-delivers-bleak-update-to-security-council-on-progress-with-gaza-rebuild/"
+    },
+    {
+     "name": "ynetnews.com",
+     "url": "https://www.ynetnews.com/article/hjdcnsfjmg"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/mideast-iran-gaza-israel-houthis-libya-november-24-2026-ba01cb036a849ba69873da5000ee08d5"
+    },
+    {
+     "name": "al-monitor.com",
+     "url": "https://www.al-monitor.com/originals/2026/11/trumps-board-peace-faults-israel-and-hamas-failure-end-gaza-war"
+    }
+   ],
+   "officialSources": [],
+   "summary": "The Board of Peace, the U.S.-led body overseeing implementation of President Trump's 20-point Gaza plan, delivered a report to the U.N. Security Council warning that the ceasefire could collapse if the agreement is not fully implemented. The Associated Press and The Times of Israel, which obtained a copy of the report, quoted it as saying the gap between what has been agreed and what is happening on the ground is \"the principal risk to the process,\" and that \"a ceasefire that delivers nothing visible cannot be sustained indefinitely.\" Reuters, in an account published by Al-Monitor, said the report accused both Israel and Hamas of failing to meet commitments. In a later interview with Ynet, senior adviser Josh Gruenbaum said Israel was stalling and that if it did not honor commitments, the board could hand responsibility for Gaza back to the United Nations. Sen. Dave McCormick, a Republican who chairs the Senate Foreign Relations Committee's Middle East subcommittee, said Hamas must disarm and Israel must fulfill its commitments. Israel's Prime Minister's Office said Hamas \"has not handed over a single weapon\" and that Israel remains committed to the 20-point plan. Hospital officials in Gaza told the Associated Press that at least eight people were killed in three strikes Monday night and Tuesday morning; Reuters, citing medics, reported at least six killed in Tuesday strikes, and the Israeli military told Reuters it had struck militants. The Security Council report itself was submitted last week; related interviews and the overnight casualty reports are more recent. Why it matters to the U.S.: this is President Trump's 20-point plan, run by a U.S.-led board, and a collapse would test American credibility in the region.",
+   "briefing": {
+    "quickFacts": [
+     "U.S.-led Board of Peace report to the U.N. Security Council warns of collapse without full implementation",
+     "Adviser Josh Gruenbaum: Israel is stalling; the board could hand Gaza back to the U.N.",
+     "Sen. McCormick: Hamas must disarm, and Israel must fulfill its commitments",
+     "Israel: Hamas has not handed over a single weapon",
+     "Hospital officials, via AP: at least eight people killed in overnight and early-Tuesday strikes"
+    ],
+    "notYetConfirmed": [
+     "Whether the board will actually return its mandate to the U.N.",
+     "An Israeli government response to the latest casualty reports beyond the military's comment to Reuters that it struck militants",
+     "A single agreed death toll; wire services gave figures of at least six, seven, or eight depending on the time window"
+    ],
+    "whatHappensNext": [
+     "The Board of Peace has asked the Security Council to press both sides to implement the plan",
+     "Hamas disarmament, deployment of a stabilization force, and aid approvals remain stalled"
+    ]
+   }
+  },
+  {
+   "id": "zelenskyy-congress",
+   "region": "world",
+   "location": "Kyiv / Washington",
+   "headline": "Zelenskyy says he'll turn to new Congress if no peace deal by year-end",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "news.bgov.com",
+     "url": "https://news.bgov.com/bloomberg-government-news/zelenskyy-eyes-new-congress-if-trump-cant-push-putin-to-peace"
+    }
+   ],
+   "officialSources": [],
+   "summary": "In an interview with Bloomberg late Monday, President Volodymyr Zelenskyy said that if there is no peace deal acceptable to Kyiv by the end of the year, Ukraine will turn to the new Democratic-controlled U.S. Congress for a robust package of U.S. military aid and tougher sanctions on Russia. \"There must be such a level of support for Ukraine and such sanctions that they send a clear signal to the Russians,\" he said, according to Bloomberg. \"It's time to sit down at the negotiating table and end the war.\" Democrats take control of both chambers in January after the midterms. A planned or upcoming Witkoff-Kushner meeting with Putin was not independently confirmed with a date and is not included here; the envoys already met Putin in Moscow earlier this month. This account of the Monday interview has not been independently matched in a second major outlet this morning, so the item is labeled As reported. Why it matters to the U.S.: next year's decisions on military aid and sanctions would go through the new Congress.",
+   "briefing": {
+    "quickFacts": [
+     "Zelenskyy, to Bloomberg late Monday: if no acceptable deal by year-end, he will go to the new Congress",
+     "He said Ukraine would seek a robust U.S. military-aid package and tougher sanctions",
+     "Democrats take control of the House and Senate in January"
+    ],
+    "notYetConfirmed": [
+     "The same interview in a second major independent outlet",
+     "Any scheduled date for a further U.S. envoy meeting with Putin"
+    ],
+    "whatHappensNext": [
+     "The new Congress convenes in January",
+     "Diplomacy over a year-end settlement is continuing"
+    ]
+   }
+  }
+ ],
+ "audio": {
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-24/Briefed-2026-11-24-full-twohost.mp3",
+  "durationSeconds": 150.152,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": null,
+    "title": null,
+    "start": 0.0,
+    "end": 4.261
+   },
+   {
+    "storyId": "huang-reinstated",
+    "title": "Jensen Huang is back as Nvidia CEO; stock closed up 31.5%",
+    "start": 4.261,
+    "end": 24.393
+   },
+   {
+    "storyId": "gas-prices",
+    "title": "Gas falls to $3.61 a gallon, down 17 cents in a week",
+    "start": 24.393,
+    "end": 41.186
+   },
+   {
+    "storyId": "pa-measles-death",
+    "title": "Pennsylvania reports a ninth measles death; states now tally 13",
+    "start": 41.186,
+    "end": 65.672
+   },
+   {
+    "storyId": "medicare-cola",
+    "title": "Medicare premium hike eats up to 18% of next year's Social Security raise",
+    "start": 65.672,
+    "end": 93.671
+   },
+   {
+    "storyId": "gaza-board-of-peace",
+    "title": "US-led Gaza board warns ceasefire could collapse",
+    "start": 93.671,
+    "end": 121.984
+   },
+   {
+    "storyId": "zelenskyy-congress",
+    "title": "Zelenskyy says he'll turn to new Congress if no peace deal by year-end",
+    "start": 121.984,
+    "end": 139.743
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 139.743,
+    "end": 150.118
+   }
+  ]
+ },
+ "video": {
+  "url": "/briefed/media/2026-11-24/Briefed-2026-11-24-web.mp4",
+  "durationSeconds": 150.118,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": null,
+    "title": "Intro",
+    "start": 0.0,
+    "end": 4.261
+   },
+   {
+    "storyId": "huang-reinstated",
+    "title": "Jensen Huang is back as Nvidia CEO; stock closed up 31.5%",
+    "start": 4.261,
+    "end": 24.393
+   },
+   {
+    "storyId": "gas-prices",
+    "title": "Gas falls to $3.61 a gallon, down 17 cents in a week",
+    "start": 24.393,
+    "end": 41.186
+   },
+   {
+    "storyId": "pa-measles-death",
+    "title": "Pennsylvania reports a ninth measles death; states now tally 13",
+    "start": 41.186,
+    "end": 65.672
+   },
+   {
+    "storyId": "medicare-cola",
+    "title": "Medicare premium hike eats up to 18% of next year's Social Security raise",
+    "start": 65.672,
+    "end": 93.671
+   },
+   {
+    "storyId": "gaza-board-of-peace",
+    "title": "US-led Gaza board warns ceasefire could collapse",
+    "start": 93.671,
+    "end": 121.984
+   },
+   {
+    "storyId": "zelenskyy-congress",
+    "title": "Zelenskyy says he'll turn to new Congress if no peace deal by year-end",
+    "start": 121.984,
+    "end": 139.743
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 139.743,
+    "end": 150.118
+   }
+  ],
+  "poster": "/briefed/media/2026-11-24/Briefed-2026-11-24-poster.jpg"
+ }
+}
