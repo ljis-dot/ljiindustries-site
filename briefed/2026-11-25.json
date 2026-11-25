@@ -1,0 +1,376 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-11-25",
+ "generatedAt": "2026-11-25",
+ "stories": [
+  {
+   "id": "usaid-files",
+   "region": "us",
+   "location": "Washington",
+   "headline": "U.S. foreign-aid agency posts 248 files on Google, YouTube, and Meta",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "thebostonreport.com",
+     "url": "https://thebostonreport.com/2026/11/24/usaid-files-disinformation-meta-youtube-google/"
+    }
+   ],
+   "officialSources": [
+    "https://www.usaid.gov/"
+   ],
+   "summary": "On Tuesday, Nov. 24, the U.S. Agency for International Development homepage opened on a page titled \"USAID Files,\" a public listing of internal memos, emails, briefings, and videos about the agency's work on disinformation and its contacts with technology companies, including Google, YouTube, and Meta. An independent count of the official listing found 248 files (the listing also shows three videos). The current administration says the files were posted for transparency and accountability. The page also includes partisan language about previous administrations; that framing is the administration's, not an established finding. A 2022 concept note prepared for the agency by GDI, as described in a same-day write-up by The Boston Report, said an exclusion list of more than 2,500 websites was already built into the systems of 13 advertising-technology companies so clients could steer ad spending away from those sites. The official listing includes a four-page \"GDI Concept Note for USAID,\" but this edition did not open the PDF, so the 2,500-site and 13-company figures are As reported. Several files in the set are drafts or marked predecisional, and they do not, on the available descriptions, say whether the companies adopted every plan.",
+   "briefing": {
+    "quickFacts": [
+     "Official homepage listing titled \"USAID Files,\" posted Nov. 24, 2026",
+     "248 files counted from the official listing, including work with Google, YouTube, and Meta",
+     "Administration says it posted the files for accountability",
+     "As reported: a 2022 GDI note described 2,500+ sites in 13 ad-tech systems (PDF not independently read)"
+    ],
+    "notYetConfirmed": [
+     "The exact wording of the GDI concept note, pending a direct read of the PDF",
+     "Whether the companies put every proposal into practice",
+     "Any grant-level dollar totals in the program-review files, which were not opened for this edition"
+    ],
+    "whatHappensNext": [
+     "The files remain posted on the agency homepage",
+     "Mainstream wire coverage may still catch up; as of early Wednesday, the dump had circulated mainly on X and in a few smaller write-ups"
+    ]
+   }
+  },
+  {
+   "id": "rikers-closure",
+   "region": "us",
+   "location": "New York",
+   "headline": "NYC plan would push Rikers closure from 2027 to 2032",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "silive.com",
+     "url": "https://www.silive.com/crime-safety/2026/11/should-staten-island-have-its-own-jail-staten-island-lawmakers-split-on-rikers-plan.html"
+    }
+   ],
+   "officialSources": [
+    "https://www.nyc.gov/mayors-office/news/2026/11/mayor-mamdani-releases-city-s-first-comprehensive-plan-to-close-",
+    "https://closerikers.nyc.gov/the-strategic-plan/",
+    "https://closerikers.nyc.gov/wp-content/uploads/The-Close-Rikers-Strategic-Plan.pdf",
+    "https://council.nyc.gov/budget/wp-content/uploads/sites/54/2026/03/Department-of-Correction.pdf"
+   ],
+   "summary": "New York's mayor on Nov. 20 released a plan to move the legal deadline to close Rikers Island from Aug. 31, 2027, to Dec. 31, 2032. The City Council still has to change the law; the next stated meetings are Dec. 3 and Dec. 17, and until the law changes, 2027 remains the statutory deadline. The official Fiscal 2026\u201330 capital commitment for four borough jails is $11.47 billion (Brooklyn $1.72 billion, Bronx $2.54 billion, Queens $3.34 billion, Manhattan $3.75 billion), up from an original figure of about $8 billion. The plan says the jail population has to fall from about 6,600 people to no more than 4,100 (with an interim cap of 5,500 at Brooklyn in 2029, and no more than 220 women). The Correctional Officers Benevolent Association has opposed the plan. Staten Island's three Council members say the borough is left without a jail, with detainees slated to go to Brooklyn; they do not all agree on the remedy (SILive, 5:50 a.m. ET Nov. 25). A $16 billion all-in figure used by some critics remains As reported, not the official committed capital total.",
+   "briefing": {
+    "quickFacts": [
+     "Proposed deadline: Aug. 31, 2027 \u2192 Dec. 31, 2032; Council must change the law",
+     "Official capital cost for four borough jails: $11.47 billion",
+     "Plan: population from about 6,600 to no more than 4,100",
+     "Officers' union opposes the plan; Staten Island members say their borough is left without a jail"
+    ],
+    "notYetConfirmed": [
+     "Whether the Council will change the 2027 law, and on what timeline",
+     "A $16 billion all-in cost cited by critics"
+    ],
+    "whatHappensNext": [
+     "The next stated Council meetings are Dec. 3 and Dec. 17",
+     "Until the law changes, the 2027 deadline stands"
+    ]
+   }
+  },
+  {
+   "id": "iowa-lead-azide",
+   "region": "us",
+   "location": "Iowa",
+   "headline": "Army set to detonate 9,700+ lbs of lead azide in Iowa this morning",
+   "status": "sourced",
+   "outlets": [],
+   "officialSources": [
+    "https://www.army.mil/article/297069/army_announces_controlled_detonation_of_degraded_explosive_material_at_iowa_army_ammunition_plant",
+    "https://www.army.mil/article/297039",
+    "https://homelandsecurity.iowa.gov/disaster-proclamation/2026-11-24/gov-reynolds-issues-disaster-emergency-proclamation-provides-pre-detonation-update"
+   ],
+   "summary": "The Army announced a controlled, in-place detonation of more than 9,700 pounds of degraded lead azide, in 68 drums, at the Iowa Army Ammunition Plant in Middletown, planned for about 9 a.m. Central Time (10 a.m. ET) on Wednesday, Nov. 25. Officials say the explosive has crystallized and is too sensitive to move or neutralize. FEMA asked residents in a five-mile area southwest of the plant to relocate for the blast, with short-term lodging offered. As of this write-up, about 6:57 a.m. ET, the detonation had not yet happened; this edition describes it as set for this morning, not as completed. The Army's announcement described one controlled detonation of the stockpile; some state pages have referred to detonations in the plural.",
+   "briefing": {
+    "quickFacts": [
+     "More than 9,700 pounds of degraded lead azide in 68 drums",
+     "Planned about 10 a.m. ET / 9 a.m. CT, Nov. 25, at the Iowa Army Ammunition Plant in Middletown",
+     "Officials: too sensitive to move or neutralize",
+     "FEMA asked some nearby residents in a five-mile area southwest of the plant to relocate"
+    ],
+    "notYetConfirmed": [
+     "Whether the blast proceeded on schedule, and any after-action or air-monitoring results",
+     "Whether officials carried out one detonation or more than one"
+    ],
+    "whatHappensNext": [
+     "Officials are expected to report after the planned blast",
+     "Health or environmental claims after the fact should be checked against official monitoring"
+    ]
+   }
+  },
+  {
+   "id": "thanksgiving-travel",
+   "region": "us",
+   "location": "USA",
+   "headline": "TSA expects 17.6M Thanksgiving-week air travelers",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "Investing.com",
+     "url": "https://www.investing.com/news/stock-market-news/us-agency-expects-to-screen-176-million-air-travelers-over-thanksgiving-holiday-5048646"
+    }
+   ],
+   "officialSources": [
+    "https://www.tsa.gov/news/press/releases/2026/11/24/tsa-ready-for-thanksgiving-passenger-volumes-urges-travelers-plan",
+    "https://www.faa.gov/newsroom/trumps-transportation-department-announces-record-breaking-thanksgiving-air-travel-2026"
+   ],
+   "summary": "The Transportation Security Administration said Tuesday it expects to screen approximately 17.6 million air travelers nationwide from Tuesday, Nov. 24, through Monday, Nov. 30, a bit below the 18.1 million it screened in the same seven-day holiday week in 2025. The agency projects more than 3 million screenings on Sunday, Nov. 29, the busiest day of its holiday window. The Federal Aviation Administration, in a separate forecast, projected more than 417,000 flights over a nine-day holiday period, the most in 16 years; Reuters described that figure as nearly 418,000. Tuesday was expected to be the FAA's busiest day, with 52,345 flights. The FAA also warned that weather could affect flights through the week. Storms and king tides are a risk on both coasts.",
+   "briefing": {
+    "quickFacts": [
+     "TSA: about 17.6 million screenings, Nov. 24\u201330, below 18.1 million last year",
+     "FAA: more than 417,000 flights over nine days (nearly 418,000, as reported); Tuesday the busiest at 52,345",
+     "Storms and king tides are a risk on both coasts"
+    ],
+    "notYetConfirmed": [
+     "How actual screenings and flight totals will compare with the forecasts once the week is over",
+     "How severely weather will disrupt specific hubs"
+    ],
+    "whatHappensNext": [
+     "Sunday, Nov. 29, is TSA's projected peak screening day",
+     "Weather remains a risk through the holiday"
+    ]
+   }
+  },
+  {
+   "id": "hasan-execution",
+   "region": "us",
+   "location": "Kansas",
+   "headline": "Nidal Hasan asks court to delay firing-squad execution",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "courtlistener.com",
+     "url": "https://www.courtlistener.com/docket/75170891/hasan-v-sergent/"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/fort-hood-nidal-hasan-execution-survivors-4b02f8c4545e5e7e3ee4a06b703d9780"
+    },
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/Politics/fort-hood-shooter-nidal-hasan-expected-file-habeas/story?id=138417493"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Nidal Hasan, convicted of killing 13 people and wounding more than 30 at Fort Hood, Texas, in 2009, asked a federal court to stay an execution by firing squad so he can challenge the sentence. If it goes forward, it would be the first U.S. military execution since 1961. The execution had been scheduled for Dec. 3. A status conference in Hasan v. Sergent, 5:26-cv-03460 (U.S. District Court for the District of Kansas, Judge Anthony Mattivi), was rescheduled to 2:30 p.m. ET on Wednesday, Nov. 25, via Zoom. As of this write-up, about 6:57 a.m. ET, the docket showed no stay ruling. This story is solemn; the edition uses a file photo of the U.S. Disciplinary Barracks at Fort Leavenworth, not images of the 2009 attack.",
+   "briefing": {
+    "quickFacts": [
+     "13 killed at Fort Hood in 2009; more than 30 wounded",
+     "Would be the first U.S. military execution since 1961",
+     "Execution had been scheduled for Dec. 3; a hearing is set for this afternoon",
+     "No stay ruling as of early Wednesday morning"
+    ],
+    "notYetConfirmed": [
+     "The outcome of this afternoon's hearing",
+     "Whether the Dec. 3 date will hold"
+    ],
+    "whatHappensNext": [
+     "A status conference is set for 2:30 p.m. ET today",
+     "Any stay, or a decision to let the date stand, should be checked against the docket"
+    ]
+   }
+  },
+  {
+   "id": "cia-hack",
+   "region": "us",
+   "location": "USA",
+   "headline": "Officials: unclassified CIA system hacked; classified networks untouched",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/cia-cyberattack-unclassified-system-bfa6d3b02e3b0e2779dfb613c900bd77"
+    },
+    {
+     "name": "Washington Post",
+     "url": "https://www.washingtonpost.com/national-security/2026/11/24/hackers-breach-cia-unclassified-computer-system/"
+    },
+    {
+     "name": "nextgov.com",
+     "url": "https://www.nextgov.com/cybersecurity/2026/11/cia-odni-unclassified-intelligence-system-hacked/417438/"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Officials say hackers broke into an unclassified CIA system used to analyze open-source intelligence. They say no classified networks were touched, that some unclassified information was exposed, and that the issue has been resolved. The Office of the Director of National Intelligence was also affected, according to accounts of the same incident. A possible link to China has been suggested in some coverage; that has not been confirmed. The New York Times was cited by later accounts as having first reported the breach; this write-up relies on Associated Press and The Washington Post, whose stories were reviewed directly.",
+   "briefing": {
+    "quickFacts": [
+     "Officials: an unclassified CIA system used for open-source intelligence was breached",
+     "Officials say classified networks were not touched and the issue has been resolved",
+     "A possible China link has not been confirmed"
+    ],
+    "notYetConfirmed": [
+     "Who was responsible, including any China link",
+     "What unclassified information was exposed, and whether other agencies were affected"
+    ],
+    "whatHappensNext": [
+     "Officials may provide a fuller account of the breach and of any attribution",
+     "Congressional oversight is likely if more details become public"
+    ]
+   }
+  },
+  {
+   "id": "rutledge-manhunt",
+   "region": "us",
+   "location": "Washington",
+   "headline": "U.S. Marshals search for Ronald Rutledge after shots at deputies",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "spokesman.com",
+     "url": "https://www.spokesman.com/stories/2026/nov/24/feds-join-search-for-stevens-county-shooter-suspec/"
+    },
+    {
+     "name": "kiro7.com",
+     "url": "https://www.kiro7.com/news/local/3500-reward-offered-search-armed-fugitive-accused-shooting-deputies/SF22ZX3JYFHTBKSQCBGFG327Y4/"
+    }
+   ],
+   "officialSources": [
+    "https://prod.usmarshals.gov/news/press-release/stevens-county-sheriffs-office-and-us-marshals-seek-armed-and-dangerous-fugitive"
+   ],
+   "summary": "The U.S. Marshals Service and the Stevens County, Washington, Sheriff's Office are seeking Ronald Alan Rutledge, 45, who is accused of firing a high-powered semiautomatic rifle at deputies on Sunday and then fleeing. No deputies were injured, the Marshals said. He is considered armed and dangerous. The Marshals are offering up to $3,500 for information leading to his arrest. Officials say he has escaped custody before, in 2010 and 2015. As of this write-up, early Wednesday morning, he was still listed as wanted, and no arrest report had been found.",
+   "briefing": {
+    "quickFacts": [
+     "Ronald Rutledge, 45, Stevens County, Washington",
+     "Accused of firing a rifle at deputies; no deputies injured",
+     "Reward of up to $3,500; still at large this morning"
+    ],
+    "notYetConfirmed": [
+     "His whereabouts",
+     "Whether additional charges will be filed"
+    ],
+    "whatHappensNext": [
+     "The Marshals asked anyone with information to call 1-877-926-8332 or email usmstips@usdoj.gov",
+     "Recheck whether he has been taken into custody before repeating that he is at large"
+    ]
+   }
+  }
+ ],
+ "audio": {
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-25/Briefed-2026-11-25-full-twohost.mp3",
+  "durationSeconds": 151.51,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": null,
+    "title": null,
+    "start": 0.0,
+    "end": 4.197
+   },
+   {
+    "storyId": "usaid-files",
+    "title": "U.S. foreign-aid agency posts 248 files on Google, YouTube, and Meta",
+    "start": 4.197,
+    "end": 27.203
+   },
+   {
+    "storyId": "rikers-closure",
+    "title": "NYC plan would push Rikers closure from 2027 to 2032",
+    "start": 27.203,
+    "end": 52.642
+   },
+   {
+    "storyId": "iowa-lead-azide",
+    "title": "Army set to detonate 9,700+ lbs of lead azide in Iowa this morning",
+    "start": 52.642,
+    "end": 72.622
+   },
+   {
+    "storyId": "thanksgiving-travel",
+    "title": "TSA expects 17.6M Thanksgiving-week air travelers",
+    "start": 72.622,
+    "end": 89.101
+   },
+   {
+    "storyId": "hasan-execution",
+    "title": "Nidal Hasan asks court to delay firing-squad execution",
+    "start": 89.101,
+    "end": 108.467
+   },
+   {
+    "storyId": "cia-hack",
+    "title": "Officials: unclassified CIA system hacked; classified networks untouched",
+    "start": 108.467,
+    "end": 124.293
+   },
+   {
+    "storyId": "rutledge-manhunt",
+    "title": "U.S. Marshals search for Ronald Rutledge after shots at deputies",
+    "start": 124.293,
+    "end": 141.086
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 141.086,
+    "end": 151.46
+   }
+  ]
+ },
+ "video": {
+  "url": "/briefed/media/2026-11-25/Briefed-2026-11-25-web.mp4",
+  "durationSeconds": 151.46,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": null,
+    "title": "Intro",
+    "start": 0.0,
+    "end": 4.197
+   },
+   {
+    "storyId": "usaid-files",
+    "title": "U.S. foreign-aid agency posts 248 files on Google, YouTube, and Meta",
+    "start": 4.197,
+    "end": 27.203
+   },
+   {
+    "storyId": "rikers-closure",
+    "title": "NYC plan would push Rikers closure from 2027 to 2032",
+    "start": 27.203,
+    "end": 52.642
+   },
+   {
+    "storyId": "iowa-lead-azide",
+    "title": "Army set to detonate 9,700+ lbs of lead azide in Iowa this morning",
+    "start": 52.642,
+    "end": 72.622
+   },
+   {
+    "storyId": "thanksgiving-travel",
+    "title": "TSA expects 17.6M Thanksgiving-week air travelers",
+    "start": 72.622,
+    "end": 89.101
+   },
+   {
+    "storyId": "hasan-execution",
+    "title": "Nidal Hasan asks court to delay firing-squad execution",
+    "start": 89.101,
+    "end": 108.467
+   },
+   {
+    "storyId": "cia-hack",
+    "title": "Officials: unclassified CIA system hacked; classified networks untouched",
+    "start": 108.467,
+    "end": 124.293
+   },
+   {
+    "storyId": "rutledge-manhunt",
+    "title": "U.S. Marshals search for Ronald Rutledge after shots at deputies",
+    "start": 124.293,
+    "end": 141.086
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 141.086,
+    "end": 151.46
+   }
+  ],
+  "poster": "/briefed/media/2026-11-25/Briefed-2026-11-25-poster.jpg"
+ }
+}
