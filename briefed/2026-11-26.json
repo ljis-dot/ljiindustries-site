@@ -1,0 +1,254 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-11-26",
+ "generatedAt": "2026-11-26",
+ "stories": [
+  {
+   "id": "thanksgiving-noreaster",
+   "region": "us",
+   "location": "NY / NJ",
+   "headline": "Nor'easter pushes Macy's parade to Saturday for the first time ever",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/weather/winter-weather/live-blog/live-updates-thanksgiving-travel-weather-storms-forecast-rcna611376"
+    },
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/US/macys-thanksgiving-day-parade-postponed-sources/story?id=138452401"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/macys-thanksgiving-parade-postponed-weather-cdc870899c8dc2d32a0ac3d86119b3ba"
+    }
+   ],
+   "officialSources": [
+    "https://www.nyc.gov/mayors-office/news/2026/11/mayor-mamdani-issues-travel-advisory-for-thanksgiving-day-as-coa",
+    "https://www.nj.gov/governor/news/2026/20261125a.shtml"
+   ],
+   "summary": "Macy's 100th Thanksgiving Day Parade was moved from Thursday, Nov. 26, to Saturday, Nov. 28, at 8:30 a.m. ET because of a nor'easter. Macy's, New York City officials and the NYPD announced the change on Wednesday afternoon. It is the first time weather has ever postponed the parade; it was canceled only in 1942, 1943 and 1944 during World War II, and high winds grounded the balloons in 1971. The NYC Mayor's Office issued a travel advisory with a High Wind Warning from 10 a.m. Thursday to 1 a.m. Friday and a Coastal Flood Warning from 7 a.m. Thursday. The strongest winds, with gusts of 60 to 65 mph possible, are expected from about 1 or 2 p.m. to 9 or 10 p.m., when the heaviest rain and the evening high tide overlap. New Jersey's governor declared a statewide state of emergency, and New York's governor declared one for the five boroughs, Nassau, Suffolk, Westchester and contiguous counties. NBC News reported at 8:32 a.m. ET that more than 360 U.S. flights had been canceled and more than 460 delayed so far on Thursday, after more than 6,000 delays on Wednesday. Forecasters at NBC New York and Fox 5 expect a dry, breezy Saturday, with temperatures in the 40s and winds of 12 to 15 mph, well under the city's limits for flying the balloons (sustained winds of 23 mph or gusts of 34 mph). NBC News described the Saturday forecast as a \"best case scenario.\" Balloons were deflated Wednesday night and will be re-inflated Friday afternoon, with no public viewing of the second inflation.",
+   "briefing": {
+    "quickFacts": [
+     "100th Macy's Thanksgiving Day Parade moves to Saturday, Nov. 28, at 8:30 a.m. ET",
+     "First weather postponement; balloons last grounded in 1971",
+     "NYC gusts of 60 to 65 mph possible Thursday afternoon and evening; coastal flood warnings",
+     "States of emergency in New Jersey and parts of New York",
+     "More than 360 U.S. flights canceled by 8:32 a.m. ET (NBC News, citing flight data)"
+    ],
+    "notYetConfirmed": [
+     "Final storm totals, outages and flood levels, which were still unfolding Thursday",
+     "Saturday's weather, which is a forecast, not a certainty"
+    ],
+    "whatHappensNext": [
+     "The worst of the storm is expected Thursday afternoon into the evening",
+     "Macy's has said the parade details will be shared as they are finalized (macys.com/parade)"
+    ]
+   }
+  },
+  {
+   "id": "section-301-tariffs",
+   "region": "us",
+   "location": "Washington",
+   "headline": "U.S. proposes new tariffs on 14 economies including China, the EU, and Japan",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "Reuters",
+     "url": "https://www.reuters.com/3fec1b0a85a0/world/china/us-proposes-new-tariffs-14-trading-partners-fight-excess-factory-capacity-2026-11-25/"
+    },
+    {
+     "name": "NPR",
+     "url": "https://www.npr.org/2026/11/26/nx-s1-6054761/storm-postpones-thanksgiving-day-parade-trumps-new-tariffs-iowa-post-detonation"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/trump-tariffs-china-european-union-367083ea32f71fd7f70029ba7df66bf0"
+    }
+   ],
+   "officialSources": [
+    "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural"
+   ],
+   "summary": "On Nov. 25, U.S. Trade Representative Jamieson Greer determined under Section 301 that the \"structural excess capacity\" practices of 14 economies are unreasonable and burden U.S. commerce: China, the European Union, Singapore, Switzerland, Indonesia, Malaysia, Cambodia, Thailand, South Korea, Vietnam, Taiwan, Bangladesh, Japan and India. No determination was made yet for Mexico or Norway. The trade office proposed tariffs for public comment, country by country. Its numbers: Vietnam up to 35% (20% if it reaches a trade agreement); India up to 25% (17% with an agreement); China up to 20%, net of the existing forced-labor tariff, plus up to 10% on goods in an annex; Singapore up to 20% (10% with an agreement); Bangladesh, Cambodia, Indonesia, Malaysia and Thailand up to 18%; the EU 15%, net of existing rates; and Japan, South Korea, Taiwan and Switzerland up to 15%. Many goods would be exempt. The proposals are not in effect: written comments and requests to appear are due Jan. 5, 2027, and hearings begin Jan. 25, 2027. Outlets describe the ranges differently. Reuters reported that maximum potential rates run higher but that the trade office intends to cap them at levels agreed in completed or pending trade deals, and the Associated Press reported ranges of 15% to 35%; this edition uses the trade office's own per-country figures. China has called it unilateral action, according to AP video.",
+   "briefing": {
+    "quickFacts": [
+     "14 economies found to have actionable \"structural excess capacity\" practices",
+     "Proposed: Vietnam up to 35%, India up to 25%, China up to 20%, EU 15%, Japan up to 15%",
+     "Proposals only; comments due Jan. 5, 2027; hearings begin Jan. 25, 2027",
+     "No determination yet for Mexico or Norway"
+    ],
+    "notYetConfirmed": [
+     "Final rates, which may be adjusted for trade deals",
+     "Which goods will be exempt in each country's annex",
+     "Whether the actions face legal challenges"
+    ],
+    "whatHappensNext": [
+     "Public comment and hearings come before any action",
+     "Trading partners may negotiate agreements that lower the proposed rates"
+    ]
+   }
+  },
+  {
+   "id": "pce-inflation",
+   "region": "us",
+   "location": "USA",
+   "headline": "Fed's preferred inflation gauge rises to 3.8% in October",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html"
+    }
+   ],
+   "officialSources": [
+    "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026"
+   ],
+   "summary": "The Commerce Department's Bureau of Economic Analysis reported on Nov. 25 that the personal consumption expenditures (PCE) price index rose 0.3% in October and 3.8% from a year earlier. Excluding food and energy, core PCE rose 0.3% on the month and 3.3% on the year. CNBC reported that the headline figure was in line with economists' expectations, up 0.1 percentage point from September, and nearly twice the Federal Reserve's 2% goal, and that core came in 0.1 point above forecasts. Personal income rose 0.7%, spending rose 0.3%, inflation-adjusted spending was little changed, and the saving rate was 4.1%. CNBC reported that the data reinforced expectations of another rate hike and that the market has fully priced in a quarter-point increase when the Fed meets Dec. 8-9. That market expectation is attributed to CNBC and is As reported; it is not a Fed decision or announcement.",
+   "briefing": {
+    "quickFacts": [
+     "October PCE inflation: 3.8% from a year earlier (September: 3.7%); core 3.3%",
+     "Monthly: PCE prices up 0.3%; core up 0.3%",
+     "Personal income up 0.7%; saving rate 4.1%",
+     "As reported by CNBC: a quarter-point Fed hike is fully priced in for Dec. 8-9"
+    ],
+    "notYetConfirmed": [
+     "Whether the Fed will raise rates at its Dec. 8-9 meeting"
+    ],
+    "whatHappensNext": [
+     "The Fed meets Dec. 8-9",
+     "The next PCE release is scheduled for Dec. 23"
+    ]
+   }
+  },
+  {
+   "id": "birthright-citizenship",
+   "region": "us",
+   "location": "Washington",
+   "headline": "Judge blocks Trump's second birthright-citizenship order for certified class",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "storage.courtlistener.com",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.297026/gov.uscourts.dcd.297026.51.0.pdf"
+    },
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/Politics/judge-blocks-latest-trump-effort-restrict-birthright-citizenship/story?id=138451919"
+    },
+    {
+     "name": "news.bloomberglaw.com",
+     "url": "https://news.bloomberglaw.com/daily-labor-report/trumps-latest-birthright-citizenship-limits-blocked-by-judge"
+    },
+    {
+     "name": "Fox News",
+     "url": "https://www.foxnews.com/politics/trumps-birthright-citizenship-restrictions-struck-down-dc-federal-judge-called-hater"
+    }
+   ],
+   "officialSources": [],
+   "summary": "On Nov. 25, U.S. District Judge Christopher Cooper of the District of Columbia granted a preliminary injunction in Nathan v. Trump, blocking enforcement of President Trump's August order against a certified class of plaintiffs. The ruling applies to the certified class; this edition does not describe it as nationwide. The August order directed agencies not to treat as citizens certain children born in the U.S.: children of parents who work for foreign governments or international organizations without diplomatic immunity, children born through commercial surrogacy, and children with a parent who is a suspected gang member or potential terrorist, according to ABC News. Cooper wrote that Trump \"cannot carve out new exceptions to birthright citizenship,\" and that \"the Citizenship Clause promises citizenship to practically all children born in the United States.\" He noted that the Supreme Court struck down the first order earlier this year. A White House spokesperson called it \"another ruling from an activist judge appointed by Obama\" and said the order is consistent with the Supreme Court's holdings. A federal judge in Maryland partly blocked the order on Sept. 2, according to Fox News and The Hill. The order is appealable, and a joint status report is due Dec. 4.",
+   "briefing": {
+    "quickFacts": [
+     "Judge Christopher Cooper, U.S. District Court for D.C., Nov. 25",
+     "Preliminary injunction covers a certified class, not everyone",
+     "Second order targeted some children of foreign-government workers, surrogacy births, and children of suspected gang members",
+     "White House: \"activist judge\"; says the order is consistent with the Supreme Court's holdings"
+    ],
+    "notYetConfirmed": [
+     "Whether the administration will appeal",
+     "How many people the certified class covers"
+    ],
+    "whatHappensNext": [
+     "A joint status report is due Dec. 4",
+     "The administration can appeal"
+    ]
+   }
+  }
+ ],
+ "audio": {
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-26/Briefed-2026-11-26-full-twohost.mp3",
+  "durationSeconds": 117.864,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": null,
+    "title": null,
+    "start": 0.0,
+    "end": 4.277
+   },
+   {
+    "storyId": "thanksgiving-noreaster",
+    "title": "Macy's parade moves to Saturday",
+    "start": 4.277,
+    "end": 29.843
+   },
+   {
+    "storyId": "section-301-tariffs",
+    "title": "Tariffs proposed on 14 economies",
+    "start": 29.843,
+    "end": 58.469
+   },
+   {
+    "storyId": "pce-inflation",
+    "title": "Fed's inflation gauge hits 3.8%",
+    "start": 58.469,
+    "end": 79.415
+   },
+   {
+    "storyId": "birthright-citizenship",
+    "title": "Judge blocks 2nd birthright order",
+    "start": 79.415,
+    "end": 105.795
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 105.795,
+    "end": 117.826
+   }
+  ]
+ },
+ "video": {
+  "url": "/briefed/media/2026-11-26/Briefed-2026-11-26-web.mp4",
+  "durationSeconds": 117.826,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": null,
+    "title": "Intro",
+    "start": 0.0,
+    "end": 4.277
+   },
+   {
+    "storyId": "thanksgiving-noreaster",
+    "title": "Macy's parade moves to Saturday",
+    "start": 4.277,
+    "end": 29.843
+   },
+   {
+    "storyId": "section-301-tariffs",
+    "title": "Tariffs proposed on 14 economies",
+    "start": 29.843,
+    "end": 58.469
+   },
+   {
+    "storyId": "pce-inflation",
+    "title": "Fed's inflation gauge hits 3.8%",
+    "start": 58.469,
+    "end": 79.415
+   },
+   {
+    "storyId": "birthright-citizenship",
+    "title": "Judge blocks 2nd birthright order",
+    "start": 79.415,
+    "end": 105.795
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 105.795,
+    "end": 117.826
+   }
+  ],
+  "poster": "/briefed/media/2026-11-26/Briefed-2026-11-26-poster.jpg"
+ }
+}
