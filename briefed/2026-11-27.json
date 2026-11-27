@@ -1,0 +1,255 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-11-27",
+ "generatedAt": "2026-11-27",
+ "stories": [
+  {
+   "id": "black-friday-shoppers",
+   "region": "us",
+   "location": "National",
+   "headline": "NRF: 182.7M expected to shop Thanksgiving weekend, down from last year",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "nrf.com",
+     "url": "https://nrf.com/media-center/press-releases/183-million-consumers-expected-to-shop-during-thanksgiving-weekend"
+    },
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/27/black-friday-2026-inflation-value-deals.html"
+    }
+   ],
+   "officialSources": [],
+   "summary": "The National Retail Federation's annual survey, conducted by Prosper Insights & Analytics and released Nov. 19, estimates that 182.7 million consumers plan to shop over Thanksgiving weekend, down slightly from 186.9 million last year. Black Friday remains the most popular day: 69% of holiday shoppers, about 126 million people, plan to shop it, and 36% (66.1 million) plan to shop Cyber Monday. Sixty percent of shoppers had started by early November. NRF says 82% are taking steps to manage holiday costs, such as buying less expensive gifts or cutting back elsewhere. The survey asked 7,956 adults between Oct. 30 and Nov. 9 (margin of error plus or minus 1.1 points). Separately, CNBC reports that Deloitte's Black Friday survey expects participation to be the highest since 2016, with 87% of shoppers planning to buy during Black Friday and Cyber Monday sales, up from 82% in 2025, and average planned spending of $624. CNBC notes that inflation has squeezed budgets: October's PCE price index was up 3.8% from a year earlier. The Deloitte figures are As reported via CNBC; the Deloitte report itself was not opened for this edition.",
+   "briefing": {
+    "quickFacts": [
+     "NRF: 182.7 million expected to shop Thanksgiving weekend, down from 186.9 million last year",
+     "About 126 million plan to shop on Black Friday; 66.1 million on Cyber Monday",
+     "Deloitte, via CNBC: Black Friday participation at its highest since 2016 (87% of shoppers)"
+    ],
+    "notYetConfirmed": [
+     "Actual turnout and spending, which will be reported after the weekend"
+    ],
+    "whatHappensNext": [
+     "Cyber Monday is Nov. 30"
+    ]
+   }
+  },
+  {
+   "id": "storm-power-outages",
+   "region": "us",
+   "location": "East Coast",
+   "headline": "Hundreds of thousands still without power after Thanksgiving storm",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "Washington Post",
+     "url": "https://www.washingtonpost.com/nation/2026/11/27/power-outages-heavy-rain-continue-east-coast-after-thanksgiving-day-storm/"
+    },
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.com/news/articles/cre3dj5n7dpwo"
+    },
+    {
+     "name": "poweroutage.us",
+     "url": "https://poweroutage.us/"
+    },
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/thanksgiving-day-storm-northeast-midwest-flooding-power-outages/"
+    },
+    {
+     "name": "wmar2news.com",
+     "url": "https://www.wmar2news.com/local/a-few-days-for-restoration-thanksgiving-storm-knocks-out-power-for-over-100-000-in-maryland"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Hundreds of thousands of customers remained without power Friday morning after Thursday's storm. The Washington Post reported more than 700,000 out, mainly across the East Coast, at about 6 a.m. ET; CBS News reported more than 500,000 across the Midwest and Northeast; and PowerOutage.us showed 667,099 customers out nationwide when checked at about 6:58 a.m. ET (its national total includes outages unrelated to the storm). Outages peaked near 1 million Thursday evening (Reuters, BBC). Pennsylvania, New Jersey, Maryland and Virginia were among the hardest hit, and the BBC reported Pennsylvania was the worst-hit state early Friday. The National Weather Service said the storm was still bringing wet snow as far south as the Tennessee Valley and freezing rain across northern New England on Friday morning (Washington Post). In Maryland, BGE said more than 100,000 customers lost power on Thanksgiving; spokesperson Jane Ballentine told WMAR crews will work \"around the clock\" Friday and through the weekend and that restoration looks like \"a couple days.\"",
+   "briefing": {
+    "quickFacts": [
+     "667,099 customers out nationwide at about 6:58 a.m. ET Friday (PowerOutage.us); WaPo reported 700,000+ about an hour earlier",
+     "Peak near 1 million Thursday evening",
+     "Hardest hit: Pennsylvania, New Jersey, Maryland, Virginia",
+     "BGE: crews working around the clock through the weekend"
+    ],
+    "notYetConfirmed": [
+     "When all customers will have power back; counts change hourly"
+    ],
+    "whatHappensNext": [
+     "Conditions are forecast to improve through Friday, with gusty winds in parts of the East"
+    ]
+   }
+  },
+  {
+   "id": "florida-flood-declaration",
+   "region": "us",
+   "location": "Florida",
+   "headline": "Trump approves major disaster declaration for Florida's fall floods",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "floridadisaster.org",
+     "url": "https://www.floridadisaster.org/news-media/news/icymi-president-donald-j.-trump-approves-major-disaster-declaration-for-florida"
+    },
+    {
+     "name": "floridaphoenix.com",
+     "url": "https://floridaphoenix.com/2026/11/25/disaster-declared-trump-approves-assistance-for-florida-floods/"
+    },
+    {
+     "name": "Washington Times",
+     "url": "https://www.washingtontimes.com/news/2026/nov/26/trump-announces-disaster-aid-florida-severe-storms-flooding/"
+    },
+    {
+     "name": "palmbeachpost.com",
+     "url": "https://www.palmbeachpost.com/story/news/trump/2026/11/26/trump-hosts-lois-frankel-county-officials-at-mar-a-lago-on-thanksgiving/92974284007/"
+    }
+   ],
+   "officialSources": [],
+   "summary": "FEMA announced on Nov. 25 that President Trump approved a major disaster declaration for Florida for severe storms and flooding that began Oct. 31. On Thanksgiving, Trump held a signing event at Mar-a-Lago with Palm Beach County officials and Rep. Lois Frankel, a Democrat, and said he was expediting about $100 million in FEMA funding (Washington Times, Palm Beach Post); that dollar figure is the president's own statement. Federal aid for individuals is available in Brevard, Indian River, Martin, Okeechobee, Palm Beach and St. Lucie counties, and can include grants for temporary housing and home repairs and low-cost loans for uninsured property losses. FEMA says people should file insurance claims first, then apply at DisasterAssistance.gov, by calling 1-800-621-3362, or through the FEMA app. Separately, aid for debris removal and emergency protective measures is available to local governments in Brevard, Hardee, Indian River, Martin, Okeechobee and Palm Beach counties. The Florida Phoenix reports that, according to a Monday update from Gov. Ron DeSantis, the state had completed nearly 500 rescues.",
+   "briefing": {
+    "quickFacts": [
+     "Individual aid: Brevard, Indian River, Martin, Okeechobee, Palm Beach, St. Lucie",
+     "Grants for temporary housing and repairs; low-cost loans",
+     "Apply: DisasterAssistance.gov or 1-800-621-3362",
+     "Federal coordinating officer: Brett H. Howard",
+     "Trump, at a Thanksgiving signing at Mar-a-Lago: about $100 million in FEMA funding expedited (his figure)"
+    ],
+    "notYetConfirmed": [
+     "Whether more counties will be added; FEMA says more may be designated after damage assessments"
+    ],
+    "whatHappensNext": [
+     "FEMA may add counties as damage assessments are completed"
+    ]
+   }
+  },
+  {
+   "id": "kuwait-drone-strike",
+   "region": "world",
+   "location": "Kuwait",
+   "headline": "Drone strike in Kuwait kills two Italian technicians; Iran denies role",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "esteri.it",
+     "url": "https://www.esteri.it/en/sala_stampa/archivionotizie/comunicati/2026/11/attacco-con-droni-in-kuwait-due-cittadini-italiani-deceduti/"
+    },
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.com/news/articles/c39w9y5dx4k5o"
+    },
+    {
+     "name": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-26/iran-attack-on-kuwait-kills-two-italian-rheinmetall-workers"
+    },
+    {
+     "name": "ansa.it",
+     "url": "https://www.ansa.it/english/news/2026/11/26/tajani-speaks-with-araghchi-iran-denies-involvement-ready-for-joint_6c5271d0-2164-4b80-b925-e7363a2e3892.html"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Two Italian technicians working for Rheinmetall Italia were killed Thursday in a drone attack in Kuwait, Italy's foreign ministry said. The ministry said they were working on maintenance of the detection antennas of the Skyguard air-defense system used by Kuwait's armed forces. Kuwait's military blamed Iran, calling it \"heinous Iranian aggression,\" and Italy's foreign minister, Antonio Tajani, said investigations showed the drone was made in Iran. Those attributions are Claimed. Iran denies involvement: Foreign Minister Abbas Araghchi called the incident \"suspicious\" and said Iran is ready to cooperate with Kuwait and Italy to determine the cause, and Tajani said Araghchi offered to join a joint investigative commission. Kuwait's defense ministry said a Kuwaiti and a Pakistani national were also injured. The attack came just over a week after Kuwait said it repelled Iranian drone attacks on an air base that hosts U.S. forces (BBC). Rheinmetall said it is \"in deep mourning.\"\n\nWhy it matters to the U.S.: U.S. forces are based in Kuwait, and the U.S. has been at war with Iran since the U.S. and Israel attacked Iran in late February (BBC).",
+   "briefing": {
+    "quickFacts": [
+     "Two Italian Rheinmetall technicians killed in Kuwait on Nov. 26 (Italy's foreign ministry)",
+     "Kuwait and Italy blame Iran; Iran denies it and offers a joint investigation",
+     "A Kuwaiti and a Pakistani national were injured (Kuwait's defense ministry, via BBC)",
+     "Came a week after drones targeted a Kuwaiti air base hosting U.S. forces"
+    ],
+    "notYetConfirmed": [
+     "Who launched the drone; Iran denies it, and no joint investigation has reported"
+    ],
+    "whatHappensNext": [
+     "Italy says it will lodge a complaint with Iran's embassy (Reuters, citing AGI, via The Statesman)"
+    ]
+   },
+   "whyItMattersToUS": "U.S. forces are based in Kuwait, and the U.S. has been at war with Iran since February."
+  }
+ ],
+ "audio": {
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-27/Briefed-2026-11-27-full-twohost.mp3",
+  "durationSeconds": 126.145,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": null,
+    "title": null,
+    "start": 0.0,
+    "end": 4.269
+   },
+   {
+    "storyId": "black-friday-shoppers",
+    "title": "NRF: 182.7M expected to shop Thanksgiving weekend, down from last year",
+    "start": 4.269,
+    "end": 33.675
+   },
+   {
+    "storyId": "storm-power-outages",
+    "title": "Hundreds of thousands still without power after Thanksgiving storm",
+    "start": 33.675,
+    "end": 58.461
+   },
+   {
+    "storyId": "florida-flood-declaration",
+    "title": "Trump approves major disaster declaration for Florida's fall floods",
+    "start": 58.461,
+    "end": 84.527
+   },
+   {
+    "storyId": "kuwait-drone-strike",
+    "title": "Drone strike in Kuwait kills two Italian technicians; Iran denies role",
+    "start": 84.527,
+    "end": 115.726
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 115.726,
+    "end": 126.101
+   }
+  ]
+ },
+ "video": {
+  "url": "/briefed/media/2026-11-27/Briefed-2026-11-27-web.mp4",
+  "durationSeconds": 126.101,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": null,
+    "title": "Intro",
+    "start": 0.0,
+    "end": 4.269
+   },
+   {
+    "storyId": "black-friday-shoppers",
+    "title": "NRF: 182.7M expected to shop Thanksgiving weekend, down from last year",
+    "start": 4.269,
+    "end": 33.675
+   },
+   {
+    "storyId": "storm-power-outages",
+    "title": "Hundreds of thousands still without power after Thanksgiving storm",
+    "start": 33.675,
+    "end": 58.461
+   },
+   {
+    "storyId": "florida-flood-declaration",
+    "title": "Trump approves major disaster declaration for Florida's fall floods",
+    "start": 58.461,
+    "end": 84.527
+   },
+   {
+    "storyId": "kuwait-drone-strike",
+    "title": "Drone strike in Kuwait kills two Italian technicians; Iran denies role",
+    "start": 84.527,
+    "end": 115.726
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 115.726,
+    "end": 126.101
+   }
+  ],
+  "poster": "/briefed/media/2026-11-27/Briefed-2026-11-27-poster.jpg"
+ }
+}
