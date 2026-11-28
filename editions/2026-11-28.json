@@ -1,0 +1,305 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-11-28",
+ "generatedAt": "2026-11-28",
+ "stories": [
+  {
+   "id": "indiana-bank-failure",
+   "region": "us",
+   "location": "Indiana",
+   "headline": "Regulators close $5.9 billion Indiana bank, biggest U.S. failure since 2024",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "newsroom.firstcitizens.com",
+     "url": "https://newsroom.firstcitizens.com/2026-11-27-First-Citizens-Bank-Enters-into-Whole-Bank-Purchase-of-United-Fidelity-Bank,-fsb"
+    },
+    {
+     "name": "Investing.com",
+     "url": "https://www.investing.com/news/company-news/united-fidelity-shut-by-regulators-in-biggest-us-bank-failure-in-two-years-5054218"
+    },
+    {
+     "name": "courierpress.com",
+     "url": "https://www.courierpress.com/story/news/local/2026/11/27/federal-government-closes-evansville-based-united-fidelity-bank/92987083007/"
+    }
+   ],
+   "officialSources": [
+    "https://www.fdic.gov/news/press-releases/2026/first-citizens-bank-trust-company-raleigh-north-carolina-assumes",
+    "https://occ.gov/news-issuances/news-releases/2026/nr-occ-2026-106.html",
+    "https://www.fdic.gov/bank-failures/failed-bank-list/united-fidelity-bank-fsb"
+   ],
+   "summary": "The Office of the Comptroller of the Currency closed United Fidelity Bank, fsb, of Evansville, Indiana, on Friday, Nov. 27, finding it \"in an unsafe or unsound condition\" and \"likely to be unable to pay its obligations or meet its depositors' demands.\" The Federal Deposit Insurance Corporation was named receiver. As of Sept. 30 the bank had about $5.9 billion in total assets and $5.4 billion in deposits, and the deposit insurance agency estimates the failure will cost its Deposit Insurance Fund $1.83 billion. First Citizens Bank & Trust Company, of Raleigh, North Carolina, is taking over substantially all deposits and assets, so depositors keep their funds and their insurance coverage. Branches reopen as First Citizens on Saturday (locations with Saturday hours) and Monday. First Citizens says its bid included an asset discount of about $2.6 billion and no deposit premium, and that it is assuming $4.5 billion of deposits, which excludes certain brokered deposits. Reuters says it is the largest U.S. bank failure since Republic First in April 2024. The Evansville Courier & Press reports that neither the regulator nor the bank has said what caused the failure.",
+   "briefing": {
+    "quickFacts": [
+     "About $5.9 billion in assets and $5.4 billion in deposits (as of Sept. 30)",
+     "First Citizens Bank takes substantially all deposits and assets; customers keep all funds and insurance coverage",
+     "Estimated cost to the Deposit Insurance Fund: $1.83 billion",
+     "22 branches in Indiana, Illinois, Florida, Colorado and the U.S. Virgin Islands"
+    ],
+    "notYetConfirmed": [
+     "What caused the failure; neither the regulator nor the bank has said"
+    ],
+    "whatHappensNext": [
+     "Branches reopen as First Citizens on Saturday (Saturday-hours locations) and Monday"
+    ]
+   }
+  },
+  {
+   "id": "air-force-cloud-hack",
+   "region": "us",
+   "location": "National",
+   "headline": "Hackers breach Air Force cloud platform; who did it is unknown",
+   "status": "reported-only",
+   "outlets": [
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/27/hackers-breach-us-air-force-flagship-cloud-one-computing-platform.html"
+    },
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/news/us-news/hackers-attack-penetrate-air-forces-computing-platform-rcna611559"
+    },
+    {
+     "name": "afp.com",
+     "url": "https://www.afp.com/en/us-military-says-cyber-systems-secure-after-reports-air-force-hack"
+    },
+    {
+     "name": "Stars and Stripes",
+     "url": "https://www.stripes.com/branches/air_force/2026-11-27/air-force-cloud-computing-hack-23594344.html"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Reuters, citing three people familiar with the matter, reports that hackers breached Cloud One, the Air Force's main cloud computing platform. The intrusion was found within the past month or so, during upgrade work, and has disrupted the platform. Reuters could not establish who was responsible, the full scope, or whether any data was stolen. NBC News reports that a U.S. official confirmed the hack but had no details on timing or impact. The Air Force said it \"does not comment on the security posture, vulnerabilities, or operational status of specific networks and systems.\" The Pentagon told AFP late Friday that its \"systems are safe, secure, and managed 24-7\"; AFP notes this did not specifically deny the breach. Cloud One launched in 2017 and supports applications for aircraft maintenance, logistics and personnel records (Stars and Stripes). NBC says it is unclear whether this is related to other recent government hacks, so Briefed does not link them.",
+   "briefing": {
+    "quickFacts": [
+     "Reuters (three people familiar): Cloud One breached, found within the past month during upgrade work",
+     "NBC News: a U.S. official confirmed the hack",
+     "Air Force: does not comment on specific networks; Pentagon: systems \"safe, secure,\" without a specific denial"
+    ],
+    "notYetConfirmed": [
+     "Who did it, how far it went, and whether any data was taken"
+    ],
+    "whatHappensNext": [
+     "Further official statements or technical details have not been announced"
+    ]
+   }
+  },
+  {
+   "id": "iran-blockade",
+   "region": "world",
+   "location": "Iran",
+   "headline": "U.S. disables another ship running Iran blockade; Iran says tanker hit a mine",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "dvidshub.net",
+     "url": "https://www.dvidshub.net/news/580348/us-forces-disable-commercial-vessel-during-blockade-enforcement-against-iran"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/iran-naval-blockade-us-military-disabled-ship-800620518a351282f098faa9381b3375"
+    },
+    {
+     "name": "DW",
+     "url": "https://www.dw.com/en/us-disables-ship-in-gulf-of-oman-under-iran-blockade/a-80082950"
+    },
+    {
+     "name": "tasnimnews.ir",
+     "url": "https://www.tasnimnews.ir/en/news/2026/11/27/3759387/irgc-navy-sea-mine-blows-up-tanker-in-hormuz"
+    },
+    {
+     "name": "thestar.com.my",
+     "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/27/iran-says-oil-tanker-explodes-after-hitting-naval-mine-in-strait-of-hormuz-oil-price-continues-to-rise"
+    }
+   ],
+   "officialSources": [],
+   "summary": "Central Command says a U.S. military aircraft hit the stern of the Palau-flagged cargo ship Pacific Archer with precision munitions in the Gulf of Oman on Thursday, after it left Bandar Abbas. Propulsion was disabled and the civilian crew was unharmed. Central Command says 158 ships have been redirected and six disabled in total. Separately, Iran's Revolutionary Guard navy says one of two tankers using an \"unauthorized\" route north of Ghanam Island exploded after hitting naval mines, and the other turned back. It did not name the ships or give casualty details. That is Iran's claim, carried by Iranian state media, and has not been independently confirmed (As reported). Reuters reports Brent crude was about $96.60 on Friday. The U.S. has been at war with Iran since February.",
+   "briefing": {
+    "quickFacts": [
+     "Central Command: Pacific Archer disabled Thursday in the Gulf of Oman; crew unharmed",
+     "Six ships disabled and 158 redirected, per Central Command",
+     "Iran's Revolutionary Guard navy: a tanker hit a naval mine in the Strait of Hormuz (not independently confirmed)",
+     "Brent crude about $96.60 Friday (Reuters)"
+    ],
+    "notYetConfirmed": [
+     "Iran's mine claim: the ships, any casualties, and the cause"
+    ],
+    "whatHappensNext": [
+     "Iranian officials say the strait will not reopen while the blockade stands (Reuters)"
+    ]
+   },
+   "whyItMattersToUS": "The U.S. has been at war with Iran since February, and oil was near $97 a barrel on Friday."
+  },
+  {
+   "id": "executions-memo",
+   "region": "us",
+   "location": "National",
+   "headline": "Trump memo orders Justice Department to speed federal executions",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "rte.ie",
+     "url": "https://www.rte.ie/news/us/2026/1124/1600395-us-federal-executions-order/"
+    }
+   ],
+   "officialSources": [
+    "https://www.whitehouse.gov/presidential-actions/2026/11/expeditious-enforcement-of-capital-sentences-and-the-pursuit-of-justice-for-victims-of-heinous-crimes/",
+    "https://www.whitehouse.gov/fact-sheets/2026/11/fact-sheet-president-donald-j-trump-ensures-expeditious-enforcements-of-capital-sentences-and-the-pursuit-of-justice-for-victims-of-heinous-crimes/",
+    "https://www.federalregister.gov/documents/2026/11/27/2026-24236/expeditious-enforcement-of-capital-sentences-and-the-pursuit-of-justice-for-victims-of-heinous"
+   ],
+   "summary": "A presidential memorandum signed Nov. 23 and published in the Federal Register on Nov. 27 directs the attorney general to carry out federal death sentences \"as expeditiously as possible,\" including prioritizing appeals and habeas cases and \"opposing dilatory litigation tactics.\" It also directs federal prosecutors to pursue federal jurisdiction and seek the death penalty for first-degree murder of a minor, and for murder committed during rape, child sexual exploitation, sex trafficking, kidnapping or human trafficking. That widens the list in the Jan. 20, 2025 order. The memo covers federal cases only, must be carried out consistent with existing law, and creates no enforceable rights. Coverage so far is limited to the White House, the Federal Register, RTÉ and small aggregators; Briefed found no AP, Reuters or major network story as of Saturday morning.",
+   "briefing": {
+    "quickFacts": [
+     "Signed Nov. 23; published in the Federal Register Nov. 27",
+     "Directs the Justice Department to seek death for murder of a minor and listed crimes",
+     "Federal cases only; creates no enforceable rights"
+    ],
+    "notYetConfirmed": [
+     "How the memo will change the pace of federal executions in practice"
+    ],
+    "whatHappensNext": [
+     "Federal prosecutors and courts would apply it to individual cases"
+    ]
+   }
+  },
+  {
+   "id": "abc-license-ruling",
+   "region": "us",
+   "location": "Washington",
+   "headline": "Judge blocks early license review of eight ABC stations",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "storage.courtlistener.com",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295648/gov.uscourts.dcd.295648.73.0.pdf"
+    },
+    {
+     "name": "Courthouse News",
+     "url": "https://www.courthousenews.com/wp-content/uploads/2026/11/alikhan-abc-v-fcc-retaliation-licenses-opinion.pdf"
+    },
+    {
+     "name": "The Guardian",
+     "url": "https://www.theguardian.com/us-news/2026/nov/25/brendan-carr-fcc-abc-licenses"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/fcc-abc-ruling-editorial-content-f04f6b2b1a17fc10f2da11e4fd83a9df"
+    }
+   ],
+   "officialSources": [],
+   "summary": "A federal judge in Washington has blocked the Federal Communications Commission from moving ahead with early license reviews for eight ABC-owned television stations. In a Wednesday, Nov. 25 order in ABC's lawsuit against the commission (Civil Action 26-2902), Judge Loren AliKhan found ABC likely to succeed on its claim that the early reviews were retaliation for its speech, in violation of the First Amendment. The commission denies retaliating and says it expects to prevail. The court denied part of ABC's request and granted the rest; the ruling is preliminary, and the order does not stop the commission's broader investigations. An FCC spokesperson called the decision \"wrong on the facts and wrong on the law\" and said the agency \"looks forward to prevailing in full.\"",
+   "briefing": {
+    "quickFacts": [
+     "Eight ABC-owned stations covered by the order",
+     "Judge AliKhan: ABC likely to succeed on its First Amendment retaliation claim",
+     "Preliminary order; the commission's other investigations are not blocked"
+    ],
+    "notYetConfirmed": [
+     "Whether the commission will appeal"
+    ],
+    "whatHappensNext": [
+     "The case continues in federal court"
+    ]
+   }
+  }
+ ],
+ "audio": {
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-28/Briefed-2026-11-28-full-twohost.mp3",
+  "durationSeconds": 163.448,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": null,
+    "title": null,
+    "start": 0.0,
+    "end": 4.269
+   },
+   {
+    "storyId": "indiana-bank-failure",
+    "title": "Regulators close $5.9 billion Indiana bank, biggest U.S. failure since 2024",
+    "start": 4.269,
+    "end": 35.608
+   },
+   {
+    "storyId": "air-force-cloud-hack",
+    "title": "Hackers breach Air Force cloud platform; who did it is unknown",
+    "start": 35.608,
+    "end": 63.607
+   },
+   {
+    "storyId": "iran-blockade",
+    "title": "U.S. disables another ship running Iran blockade; Iran says tanker hit a mine",
+    "start": 63.607,
+    "end": 97.353
+   },
+   {
+    "storyId": "executions-memo",
+    "title": "Trump memo orders Justice Department to speed federal executions",
+    "start": 97.353,
+    "end": 127.926
+   },
+   {
+    "storyId": "abc-license-ruling",
+    "title": "Judge blocks early license review of eight ABC stations",
+    "start": 127.926,
+    "end": 153.025
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 153.025,
+    "end": 163.4
+   }
+  ]
+ },
+ "video": {
+  "url": "/briefed/media/2026-11-28/Briefed-2026-11-28-web.mp4",
+  "durationSeconds": 163.4,
+  "aiVoices": true,
+  "chapters": [
+   {
+    "storyId": null,
+    "title": "Intro",
+    "start": 0.0,
+    "end": 4.269
+   },
+   {
+    "storyId": "indiana-bank-failure",
+    "title": "Regulators close $5.9 billion Indiana bank, biggest U.S. failure since 2024",
+    "start": 4.269,
+    "end": 35.608
+   },
+   {
+    "storyId": "air-force-cloud-hack",
+    "title": "Hackers breach Air Force cloud platform; who did it is unknown",
+    "start": 35.608,
+    "end": 63.607
+   },
+   {
+    "storyId": "iran-blockade",
+    "title": "U.S. disables another ship running Iran blockade; Iran says tanker hit a mine",
+    "start": 63.607,
+    "end": 97.353
+   },
+   {
+    "storyId": "executions-memo",
+    "title": "Trump memo orders Justice Department to speed federal executions",
+    "start": 97.353,
+    "end": 127.926
+   },
+   {
+    "storyId": "abc-license-ruling",
+    "title": "Judge blocks early license review of eight ABC stations",
+    "start": 127.926,
+    "end": 153.025
+   },
+   {
+    "storyId": null,
+    "title": "Close",
+    "start": 153.025,
+    "end": 163.4
+   }
+  ],
+  "poster": "/briefed/media/2026-11-28/Briefed-2026-11-28-poster.jpg"
+ }
+}

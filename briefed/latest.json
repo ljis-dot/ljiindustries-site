@@ -1,173 +1,211 @@
 {
  "schemaVersion": 1,
- "date": "2026-11-27",
- "generatedAt": "2026-11-27",
+ "date": "2026-11-28",
+ "generatedAt": "2026-11-28",
  "stories": [
   {
-   "id": "black-friday-shoppers",
+   "id": "indiana-bank-failure",
    "region": "us",
-   "location": "National",
-   "headline": "NRF: 182.7M expected to shop Thanksgiving weekend, down from last year",
+   "location": "Indiana",
+   "headline": "Regulators close $5.9 billion Indiana bank, biggest U.S. failure since 2024",
    "status": "sourced",
    "outlets": [
     {
-     "name": "nrf.com",
-     "url": "https://nrf.com/media-center/press-releases/183-million-consumers-expected-to-shop-during-thanksgiving-weekend"
+     "name": "newsroom.firstcitizens.com",
+     "url": "https://newsroom.firstcitizens.com/2026-11-27-First-Citizens-Bank-Enters-into-Whole-Bank-Purchase-of-United-Fidelity-Bank,-fsb"
     },
     {
-     "name": "CNBC",
-     "url": "https://www.cnbc.com/2026/11/27/black-friday-2026-inflation-value-deals.html"
+     "name": "Investing.com",
+     "url": "https://www.investing.com/news/company-news/united-fidelity-shut-by-regulators-in-biggest-us-bank-failure-in-two-years-5054218"
+    },
+    {
+     "name": "courierpress.com",
+     "url": "https://www.courierpress.com/story/news/local/2026/11/27/federal-government-closes-evansville-based-united-fidelity-bank/92987083007/"
     }
    ],
-   "officialSources": [],
-   "summary": "The National Retail Federation's annual survey, conducted by Prosper Insights & Analytics and released Nov. 19, estimates that 182.7 million consumers plan to shop over Thanksgiving weekend, down slightly from 186.9 million last year. Black Friday remains the most popular day: 69% of holiday shoppers, about 126 million people, plan to shop it, and 36% (66.1 million) plan to shop Cyber Monday. Sixty percent of shoppers had started by early November. NRF says 82% are taking steps to manage holiday costs, such as buying less expensive gifts or cutting back elsewhere. The survey asked 7,956 adults between Oct. 30 and Nov. 9 (margin of error plus or minus 1.1 points). Separately, CNBC reports that Deloitte's Black Friday survey expects participation to be the highest since 2016, with 87% of shoppers planning to buy during Black Friday and Cyber Monday sales, up from 82% in 2025, and average planned spending of $624. CNBC notes that inflation has squeezed budgets: October's PCE price index was up 3.8% from a year earlier. The Deloitte figures are As reported via CNBC; the Deloitte report itself was not opened for this edition.",
+   "officialSources": [
+    "https://www.fdic.gov/news/press-releases/2026/first-citizens-bank-trust-company-raleigh-north-carolina-assumes",
+    "https://occ.gov/news-issuances/news-releases/2026/nr-occ-2026-106.html",
+    "https://www.fdic.gov/bank-failures/failed-bank-list/united-fidelity-bank-fsb"
+   ],
+   "summary": "The Office of the Comptroller of the Currency closed United Fidelity Bank, fsb, of Evansville, Indiana, on Friday, Nov. 27, finding it \"in an unsafe or unsound condition\" and \"likely to be unable to pay its obligations or meet its depositors' demands.\" The Federal Deposit Insurance Corporation was named receiver. As of Sept. 30 the bank had about $5.9 billion in total assets and $5.4 billion in deposits, and the deposit insurance agency estimates the failure will cost its Deposit Insurance Fund $1.83 billion. First Citizens Bank & Trust Company, of Raleigh, North Carolina, is taking over substantially all deposits and assets, so depositors keep their funds and their insurance coverage. Branches reopen as First Citizens on Saturday (locations with Saturday hours) and Monday. First Citizens says its bid included an asset discount of about $2.6 billion and no deposit premium, and that it is assuming $4.5 billion of deposits, which excludes certain brokered deposits. Reuters says it is the largest U.S. bank failure since Republic First in April 2024. The Evansville Courier & Press reports that neither the regulator nor the bank has said what caused the failure.",
    "briefing": {
     "quickFacts": [
-     "NRF: 182.7 million expected to shop Thanksgiving weekend, down from 186.9 million last year",
-     "About 126 million plan to shop on Black Friday; 66.1 million on Cyber Monday",
-     "Deloitte, via CNBC: Black Friday participation at its highest since 2016 (87% of shoppers)"
+     "About $5.9 billion in assets and $5.4 billion in deposits (as of Sept. 30)",
+     "First Citizens Bank takes substantially all deposits and assets; customers keep all funds and insurance coverage",
+     "Estimated cost to the Deposit Insurance Fund: $1.83 billion",
+     "22 branches in Indiana, Illinois, Florida, Colorado and the U.S. Virgin Islands"
     ],
     "notYetConfirmed": [
-     "Actual turnout and spending, which will be reported after the weekend"
+     "What caused the failure; neither the regulator nor the bank has said"
     ],
     "whatHappensNext": [
-     "Cyber Monday is Nov. 30"
+     "Branches reopen as First Citizens on Saturday (Saturday-hours locations) and Monday"
     ]
    }
   },
   {
-   "id": "storm-power-outages",
+   "id": "air-force-cloud-hack",
    "region": "us",
-   "location": "East Coast",
-   "headline": "Hundreds of thousands still without power after Thanksgiving storm",
+   "location": "National",
+   "headline": "Hackers breach Air Force cloud platform; who did it is unknown",
    "status": "reported-only",
    "outlets": [
     {
-     "name": "Washington Post",
-     "url": "https://www.washingtonpost.com/nation/2026/11/27/power-outages-heavy-rain-continue-east-coast-after-thanksgiving-day-storm/"
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/27/hackers-breach-us-air-force-flagship-cloud-one-computing-platform.html"
     },
     {
-     "name": "BBC",
-     "url": "https://www.bbc.com/news/articles/cre3dj5n7dpwo"
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/news/us-news/hackers-attack-penetrate-air-forces-computing-platform-rcna611559"
     },
     {
-     "name": "poweroutage.us",
-     "url": "https://poweroutage.us/"
+     "name": "afp.com",
+     "url": "https://www.afp.com/en/us-military-says-cyber-systems-secure-after-reports-air-force-hack"
     },
     {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/thanksgiving-day-storm-northeast-midwest-flooding-power-outages/"
-    },
-    {
-     "name": "wmar2news.com",
-     "url": "https://www.wmar2news.com/local/a-few-days-for-restoration-thanksgiving-storm-knocks-out-power-for-over-100-000-in-maryland"
+     "name": "Stars and Stripes",
+     "url": "https://www.stripes.com/branches/air_force/2026-11-27/air-force-cloud-computing-hack-23594344.html"
     }
    ],
    "officialSources": [],
-   "summary": "Hundreds of thousands of customers remained without power Friday morning after Thursday's storm. The Washington Post reported more than 700,000 out, mainly across the East Coast, at about 6 a.m. ET; CBS News reported more than 500,000 across the Midwest and Northeast; and PowerOutage.us showed 667,099 customers out nationwide when checked at about 6:58 a.m. ET (its national total includes outages unrelated to the storm). Outages peaked near 1 million Thursday evening (Reuters, BBC). Pennsylvania, New Jersey, Maryland and Virginia were among the hardest hit, and the BBC reported Pennsylvania was the worst-hit state early Friday. The National Weather Service said the storm was still bringing wet snow as far south as the Tennessee Valley and freezing rain across northern New England on Friday morning (Washington Post). In Maryland, BGE said more than 100,000 customers lost power on Thanksgiving; spokesperson Jane Ballentine told WMAR crews will work \"around the clock\" Friday and through the weekend and that restoration looks like \"a couple days.\"",
+   "summary": "Reuters, citing three people familiar with the matter, reports that hackers breached Cloud One, the Air Force's main cloud computing platform. The intrusion was found within the past month or so, during upgrade work, and has disrupted the platform. Reuters could not establish who was responsible, the full scope, or whether any data was stolen. NBC News reports that a U.S. official confirmed the hack but had no details on timing or impact. The Air Force said it \"does not comment on the security posture, vulnerabilities, or operational status of specific networks and systems.\" The Pentagon told AFP late Friday that its \"systems are safe, secure, and managed 24-7\"; AFP notes this did not specifically deny the breach. Cloud One launched in 2017 and supports applications for aircraft maintenance, logistics and personnel records (Stars and Stripes). NBC says it is unclear whether this is related to other recent government hacks, so Briefed does not link them.",
    "briefing": {
     "quickFacts": [
-     "667,099 customers out nationwide at about 6:58 a.m. ET Friday (PowerOutage.us); WaPo reported 700,000+ about an hour earlier",
-     "Peak near 1 million Thursday evening",
-     "Hardest hit: Pennsylvania, New Jersey, Maryland, Virginia",
-     "BGE: crews working around the clock through the weekend"
+     "Reuters (three people familiar): Cloud One breached, found within the past month during upgrade work",
+     "NBC News: a U.S. official confirmed the hack",
+     "Air Force: does not comment on specific networks; Pentagon: systems \"safe, secure,\" without a specific denial"
     ],
     "notYetConfirmed": [
-     "When all customers will have power back; counts change hourly"
+     "Who did it, how far it went, and whether any data was taken"
     ],
     "whatHappensNext": [
-     "Conditions are forecast to improve through Friday, with gusty winds in parts of the East"
+     "Further official statements or technical details have not been announced"
     ]
    }
   },
   {
-   "id": "florida-flood-declaration",
-   "region": "us",
-   "location": "Florida",
-   "headline": "Trump approves major disaster declaration for Florida's fall floods",
-   "status": "sourced",
-   "outlets": [
-    {
-     "name": "floridadisaster.org",
-     "url": "https://www.floridadisaster.org/news-media/news/icymi-president-donald-j.-trump-approves-major-disaster-declaration-for-florida"
-    },
-    {
-     "name": "floridaphoenix.com",
-     "url": "https://floridaphoenix.com/2026/11/25/disaster-declared-trump-approves-assistance-for-florida-floods/"
-    },
-    {
-     "name": "Washington Times",
-     "url": "https://www.washingtontimes.com/news/2026/nov/26/trump-announces-disaster-aid-florida-severe-storms-flooding/"
-    },
-    {
-     "name": "palmbeachpost.com",
-     "url": "https://www.palmbeachpost.com/story/news/trump/2026/11/26/trump-hosts-lois-frankel-county-officials-at-mar-a-lago-on-thanksgiving/92974284007/"
-    }
-   ],
-   "officialSources": [],
-   "summary": "FEMA announced on Nov. 25 that President Trump approved a major disaster declaration for Florida for severe storms and flooding that began Oct. 31. On Thanksgiving, Trump held a signing event at Mar-a-Lago with Palm Beach County officials and Rep. Lois Frankel, a Democrat, and said he was expediting about $100 million in FEMA funding (Washington Times, Palm Beach Post); that dollar figure is the president's own statement. Federal aid for individuals is available in Brevard, Indian River, Martin, Okeechobee, Palm Beach and St. Lucie counties, and can include grants for temporary housing and home repairs and low-cost loans for uninsured property losses. FEMA says people should file insurance claims first, then apply at DisasterAssistance.gov, by calling 1-800-621-3362, or through the FEMA app. Separately, aid for debris removal and emergency protective measures is available to local governments in Brevard, Hardee, Indian River, Martin, Okeechobee and Palm Beach counties. The Florida Phoenix reports that, according to a Monday update from Gov. Ron DeSantis, the state had completed nearly 500 rescues.",
-   "briefing": {
-    "quickFacts": [
-     "Individual aid: Brevard, Indian River, Martin, Okeechobee, Palm Beach, St. Lucie",
-     "Grants for temporary housing and repairs; low-cost loans",
-     "Apply: DisasterAssistance.gov or 1-800-621-3362",
-     "Federal coordinating officer: Brett H. Howard",
-     "Trump, at a Thanksgiving signing at Mar-a-Lago: about $100 million in FEMA funding expedited (his figure)"
-    ],
-    "notYetConfirmed": [
-     "Whether more counties will be added; FEMA says more may be designated after damage assessments"
-    ],
-    "whatHappensNext": [
-     "FEMA may add counties as damage assessments are completed"
-    ]
-   }
-  },
-  {
-   "id": "kuwait-drone-strike",
+   "id": "iran-blockade",
    "region": "world",
-   "location": "Kuwait",
-   "headline": "Drone strike in Kuwait kills two Italian technicians; Iran denies role",
+   "location": "Iran",
+   "headline": "U.S. disables another ship running Iran blockade; Iran says tanker hit a mine",
    "status": "sourced",
    "outlets": [
     {
-     "name": "esteri.it",
-     "url": "https://www.esteri.it/en/sala_stampa/archivionotizie/comunicati/2026/11/attacco-con-droni-in-kuwait-due-cittadini-italiani-deceduti/"
+     "name": "dvidshub.net",
+     "url": "https://www.dvidshub.net/news/580348/us-forces-disable-commercial-vessel-during-blockade-enforcement-against-iran"
     },
     {
-     "name": "BBC",
-     "url": "https://www.bbc.com/news/articles/c39w9y5dx4k5o"
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/iran-naval-blockade-us-military-disabled-ship-800620518a351282f098faa9381b3375"
     },
     {
-     "name": "Bloomberg",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-26/iran-attack-on-kuwait-kills-two-italian-rheinmetall-workers"
+     "name": "DW",
+     "url": "https://www.dw.com/en/us-disables-ship-in-gulf-of-oman-under-iran-blockade/a-80082950"
     },
     {
-     "name": "ansa.it",
-     "url": "https://www.ansa.it/english/news/2026/11/26/tajani-speaks-with-araghchi-iran-denies-involvement-ready-for-joint_6c5271d0-2164-4b80-b925-e7363a2e3892.html"
+     "name": "tasnimnews.ir",
+     "url": "https://www.tasnimnews.ir/en/news/2026/11/27/3759387/irgc-navy-sea-mine-blows-up-tanker-in-hormuz"
+    },
+    {
+     "name": "thestar.com.my",
+     "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/27/iran-says-oil-tanker-explodes-after-hitting-naval-mine-in-strait-of-hormuz-oil-price-continues-to-rise"
     }
    ],
    "officialSources": [],
-   "summary": "Two Italian technicians working for Rheinmetall Italia were killed Thursday in a drone attack in Kuwait, Italy's foreign ministry said. The ministry said they were working on maintenance of the detection antennas of the Skyguard air-defense system used by Kuwait's armed forces. Kuwait's military blamed Iran, calling it \"heinous Iranian aggression,\" and Italy's foreign minister, Antonio Tajani, said investigations showed the drone was made in Iran. Those attributions are Claimed. Iran denies involvement: Foreign Minister Abbas Araghchi called the incident \"suspicious\" and said Iran is ready to cooperate with Kuwait and Italy to determine the cause, and Tajani said Araghchi offered to join a joint investigative commission. Kuwait's defense ministry said a Kuwaiti and a Pakistani national were also injured. The attack came just over a week after Kuwait said it repelled Iranian drone attacks on an air base that hosts U.S. forces (BBC). Rheinmetall said it is \"in deep mourning.\"\n\nWhy it matters to the U.S.: U.S. forces are based in Kuwait, and the U.S. has been at war with Iran since the U.S. and Israel attacked Iran in late February (BBC).",
+   "summary": "Central Command says a U.S. military aircraft hit the stern of the Palau-flagged cargo ship Pacific Archer with precision munitions in the Gulf of Oman on Thursday, after it left Bandar Abbas. Propulsion was disabled and the civilian crew was unharmed. Central Command says 158 ships have been redirected and six disabled in total. Separately, Iran's Revolutionary Guard navy says one of two tankers using an \"unauthorized\" route north of Ghanam Island exploded after hitting naval mines, and the other turned back. It did not name the ships or give casualty details. That is Iran's claim, carried by Iranian state media, and has not been independently confirmed (As reported). Reuters reports Brent crude was about $96.60 on Friday. The U.S. has been at war with Iran since February.",
    "briefing": {
     "quickFacts": [
-     "Two Italian Rheinmetall technicians killed in Kuwait on Nov. 26 (Italy's foreign ministry)",
-     "Kuwait and Italy blame Iran; Iran denies it and offers a joint investigation",
-     "A Kuwaiti and a Pakistani national were injured (Kuwait's defense ministry, via BBC)",
-     "Came a week after drones targeted a Kuwaiti air base hosting U.S. forces"
+     "Central Command: Pacific Archer disabled Thursday in the Gulf of Oman; crew unharmed",
+     "Six ships disabled and 158 redirected, per Central Command",
+     "Iran's Revolutionary Guard navy: a tanker hit a naval mine in the Strait of Hormuz (not independently confirmed)",
+     "Brent crude about $96.60 Friday (Reuters)"
     ],
     "notYetConfirmed": [
-     "Who launched the drone; Iran denies it, and no joint investigation has reported"
+     "Iran's mine claim: the ships, any casualties, and the cause"
     ],
     "whatHappensNext": [
-     "Italy says it will lodge a complaint with Iran's embassy (Reuters, citing AGI, via The Statesman)"
+     "Iranian officials say the strait will not reopen while the blockade stands (Reuters)"
     ]
    },
-   "whyItMattersToUS": "U.S. forces are based in Kuwait, and the U.S. has been at war with Iran since February."
+   "whyItMattersToUS": "The U.S. has been at war with Iran since February, and oil was near $97 a barrel on Friday."
+  },
+  {
+   "id": "executions-memo",
+   "region": "us",
+   "location": "National",
+   "headline": "Trump memo orders Justice Department to speed federal executions",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "rte.ie",
+     "url": "https://www.rte.ie/news/us/2026/1124/1600395-us-federal-executions-order/"
+    }
+   ],
+   "officialSources": [
+    "https://www.whitehouse.gov/presidential-actions/2026/11/expeditious-enforcement-of-capital-sentences-and-the-pursuit-of-justice-for-victims-of-heinous-crimes/",
+    "https://www.whitehouse.gov/fact-sheets/2026/11/fact-sheet-president-donald-j-trump-ensures-expeditious-enforcements-of-capital-sentences-and-the-pursuit-of-justice-for-victims-of-heinous-crimes/",
+    "https://www.federalregister.gov/documents/2026/11/27/2026-24236/expeditious-enforcement-of-capital-sentences-and-the-pursuit-of-justice-for-victims-of-heinous"
+   ],
+   "summary": "A presidential memorandum signed Nov. 23 and published in the Federal Register on Nov. 27 directs the attorney general to carry out federal death sentences \"as expeditiously as possible,\" including prioritizing appeals and habeas cases and \"opposing dilatory litigation tactics.\" It also directs federal prosecutors to pursue federal jurisdiction and seek the death penalty for first-degree murder of a minor, and for murder committed during rape, child sexual exploitation, sex trafficking, kidnapping or human trafficking. That widens the list in the Jan. 20, 2025 order. The memo covers federal cases only, must be carried out consistent with existing law, and creates no enforceable rights. Coverage so far is limited to the White House, the Federal Register, RT\u00c9 and small aggregators; Briefed found no AP, Reuters or major network story as of Saturday morning.",
+   "briefing": {
+    "quickFacts": [
+     "Signed Nov. 23; published in the Federal Register Nov. 27",
+     "Directs the Justice Department to seek death for murder of a minor and listed crimes",
+     "Federal cases only; creates no enforceable rights"
+    ],
+    "notYetConfirmed": [
+     "How the memo will change the pace of federal executions in practice"
+    ],
+    "whatHappensNext": [
+     "Federal prosecutors and courts would apply it to individual cases"
+    ]
+   }
+  },
+  {
+   "id": "abc-license-ruling",
+   "region": "us",
+   "location": "Washington",
+   "headline": "Judge blocks early license review of eight ABC stations",
+   "status": "sourced",
+   "outlets": [
+    {
+     "name": "storage.courtlistener.com",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.295648/gov.uscourts.dcd.295648.73.0.pdf"
+    },
+    {
+     "name": "Courthouse News",
+     "url": "https://www.courthousenews.com/wp-content/uploads/2026/11/alikhan-abc-v-fcc-retaliation-licenses-opinion.pdf"
+    },
+    {
+     "name": "The Guardian",
+     "url": "https://www.theguardian.com/us-news/2026/nov/25/brendan-carr-fcc-abc-licenses"
+    },
+    {
+     "name": "Associated Press",
+     "url": "https://apnews.com/article/fcc-abc-ruling-editorial-content-f04f6b2b1a17fc10f2da11e4fd83a9df"
+    }
+   ],
+   "officialSources": [],
+   "summary": "A federal judge in Washington has blocked the Federal Communications Commission from moving ahead with early license reviews for eight ABC-owned television stations. In a Wednesday, Nov. 25 order in ABC's lawsuit against the commission (Civil Action 26-2902), Judge Loren AliKhan found ABC likely to succeed on its claim that the early reviews were retaliation for its speech, in violation of the First Amendment. The commission denies retaliating and says it expects to prevail. The court denied part of ABC's request and granted the rest; the ruling is preliminary, and the order does not stop the commission's broader investigations. An FCC spokesperson called the decision \"wrong on the facts and wrong on the law\" and said the agency \"looks forward to prevailing in full.\"",
+   "briefing": {
+    "quickFacts": [
+     "Eight ABC-owned stations covered by the order",
+     "Judge AliKhan: ABC likely to succeed on its First Amendment retaliation claim",
+     "Preliminary order; the commission's other investigations are not blocked"
+    ],
+    "notYetConfirmed": [
+     "Whether the commission will appeal"
+    ],
+    "whatHappensNext": [
+     "The case continues in federal court"
+    ]
+   }
   }
  ],
  "audio": {
-  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-27/Briefed-2026-11-27-full-twohost.mp3",
-  "durationSeconds": 126.145,
+  "url": "https://github.com/ljis-dot/ljiindustries-site/releases/download/briefed-2026-11-28/Briefed-2026-11-28-full-twohost.mp3",
+  "durationSeconds": 163.448,
   "aiVoices": true,
   "chapters": [
    {
@@ -177,40 +215,46 @@
     "end": 4.269
    },
    {
-    "storyId": "black-friday-shoppers",
-    "title": "NRF: 182.7M expected to shop Thanksgiving weekend, down from last year",
+    "storyId": "indiana-bank-failure",
+    "title": "Regulators close $5.9 billion Indiana bank, biggest U.S. failure since 2024",
     "start": 4.269,
-    "end": 33.675
+    "end": 35.608
    },
    {
-    "storyId": "storm-power-outages",
-    "title": "Hundreds of thousands still without power after Thanksgiving storm",
-    "start": 33.675,
-    "end": 58.461
+    "storyId": "air-force-cloud-hack",
+    "title": "Hackers breach Air Force cloud platform; who did it is unknown",
+    "start": 35.608,
+    "end": 63.607
    },
    {
-    "storyId": "florida-flood-declaration",
-    "title": "Trump approves major disaster declaration for Florida's fall floods",
-    "start": 58.461,
-    "end": 84.527
+    "storyId": "iran-blockade",
+    "title": "U.S. disables another ship running Iran blockade; Iran says tanker hit a mine",
+    "start": 63.607,
+    "end": 97.353
    },
    {
-    "storyId": "kuwait-drone-strike",
-    "title": "Drone strike in Kuwait kills two Italian technicians; Iran denies role",
-    "start": 84.527,
-    "end": 115.726
+    "storyId": "executions-memo",
+    "title": "Trump memo orders Justice Department to speed federal executions",
+    "start": 97.353,
+    "end": 127.926
+   },
+   {
+    "storyId": "abc-license-ruling",
+    "title": "Judge blocks early license review of eight ABC stations",
+    "start": 127.926,
+    "end": 153.025
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 115.726,
-    "end": 126.101
+    "start": 153.025,
+    "end": 163.4
    }
   ]
  },
  "video": {
-  "url": "/briefed/media/2026-11-27/Briefed-2026-11-27-web.mp4",
-  "durationSeconds": 126.101,
+  "url": "/briefed/media/2026-11-28/Briefed-2026-11-28-web.mp4",
+  "durationSeconds": 163.4,
   "aiVoices": true,
   "chapters": [
    {
@@ -220,36 +264,42 @@
     "end": 4.269
    },
    {
-    "storyId": "black-friday-shoppers",
-    "title": "NRF: 182.7M expected to shop Thanksgiving weekend, down from last year",
+    "storyId": "indiana-bank-failure",
+    "title": "Regulators close $5.9 billion Indiana bank, biggest U.S. failure since 2024",
     "start": 4.269,
-    "end": 33.675
+    "end": 35.608
    },
    {
-    "storyId": "storm-power-outages",
-    "title": "Hundreds of thousands still without power after Thanksgiving storm",
-    "start": 33.675,
-    "end": 58.461
+    "storyId": "air-force-cloud-hack",
+    "title": "Hackers breach Air Force cloud platform; who did it is unknown",
+    "start": 35.608,
+    "end": 63.607
    },
    {
-    "storyId": "florida-flood-declaration",
-    "title": "Trump approves major disaster declaration for Florida's fall floods",
-    "start": 58.461,
-    "end": 84.527
+    "storyId": "iran-blockade",
+    "title": "U.S. disables another ship running Iran blockade; Iran says tanker hit a mine",
+    "start": 63.607,
+    "end": 97.353
    },
    {
-    "storyId": "kuwait-drone-strike",
-    "title": "Drone strike in Kuwait kills two Italian technicians; Iran denies role",
-    "start": 84.527,
-    "end": 115.726
+    "storyId": "executions-memo",
+    "title": "Trump memo orders Justice Department to speed federal executions",
+    "start": 97.353,
+    "end": 127.926
+   },
+   {
+    "storyId": "abc-license-ruling",
+    "title": "Judge blocks early license review of eight ABC stations",
+    "start": 127.926,
+    "end": 153.025
    },
    {
     "storyId": null,
     "title": "Close",
-    "start": 115.726,
-    "end": 126.101
+    "start": 153.025,
+    "end": 163.4
    }
   ],
-  "poster": "/briefed/media/2026-11-27/Briefed-2026-11-27-poster.jpg"
+  "poster": "/briefed/media/2026-11-28/Briefed-2026-11-28-poster.jpg"
  }
 }
